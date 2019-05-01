@@ -1,0 +1,15 @@
+Title|id|Professor|Audit|Year|Course|Pass|Fail|Avg|Subject|Section
+int adult educ|6704|walter, pierre|0|2010|535|13|0|88.38|edst|021
+int adult educ|6705||0|2010|535|13|0|88.38|edst|overall
+int adult educ|36436|walter, pierre|1|2011|535|14|0|88.71|edst|021
+int adult educ|36437||1|2011|535|14|0|88.71|edst|overall
+comp&intl ad ed|60742|walter, pierre|0|2013|535|16|0|88.94|edst|021
+comp&intl ad ed|60743||0|2013|535|16|0|88.94|edst|overall
+comp&intl ad ed|68631|walter, pierre|1|2012|535|9|0|89|edst|021
+comp&intl ad ed|68632||1|2012|535|9|0|89|edst|overall
+comp&intl ad ed|76424|walker, judith|1|2014|535|9|0|87.67|edst|021
+comp&intl ad ed|76425||1|2014|535|9|0|87.67|edst|overall
+int adult educ|93174|mayo, peter|2|2010|535|2|0|86.5|edst|971
+int adult educ|93175||2|2010|535|2|0|86.5|edst|overall
+comp&intl ad ed|95010|chan, jennifer|2|2015|535|8|0|82.5|edst|021
+comp&intl ad ed|95011||2|2015|535|8|0|82.5|edst|overall

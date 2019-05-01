@@ -1,0 +1,11 @@
+Title|id|Professor|Audit|Year|Course|Pass|Fail|Avg|Subject|Section
+env phil & educ|3686|walter, pierre|0|2012|588|10|0|88.7|edst|941
+env phil & educ|3687||0|2012|588|10|0|88.7|edst|overall
+env phil & educ|21850|walter, pierre|1|2011|588|6|0|87.67|edst|941
+env phil & educ|21851||1|2011|588|6|0|87.67|edst|overall
+env phil & educ|50739||0|2008|588|6|0|92.83|edst|081
+env phil & educ|50740||0|2008|588|6|0|92.83|edst|overall
+env phil & educ|60779|walter, pierre|0|2013|588|12|0|87.67|edst|081
+env phil & educ|60780||0|2013|588|12|0|87.67|edst|overall
+env phil & educ|95049|walter, pierre|0|2015|588|13|0|87.38|edst|022
+env phil & educ|95050||0|2015|588|13|0|87.38|edst|overall

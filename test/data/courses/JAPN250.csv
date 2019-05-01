@@ -1,0 +1,27 @@
+Title|id|Professor|Audit|Year|Course|Pass|Fail|Avg|Subject|Section
+intns int japn 1|87|choi, rebecca fuk hing chau|0|2009|250|25|0|73.08|japn|001
+intns int japn 1|88|nakata, masahiko|0|2009|250|26|1|75.37|japn|002
+intns int japn 1|89||0|2009|250|51|1|74.27|japn|overall
+intns int japn 1|12329|watai, fumiko|2|2012|250|12|3|64.2|japn|001
+intns int japn 1|12330|fan, belen|2|2012|250|14|0|69.36|japn|002
+intns int japn 1|12331||4|2012|250|26|3|66.69|japn|overall
+intns int japn 1|26886|watai, fumiko|0|2013|250|13|0|71.62|japn|001
+intns int japn 1|26887|fan, belen|0|2013|250|11|1|69.42|japn|002
+intns int japn 1|26888||0|2013|250|24|1|70.56|japn|overall
+intns int japn 1|42003|nakata, masahiko|2|2007|250|19|0|75.84|japn|001
+intns int japn 1|42004|choi, rebecca fuk hing chau|1|2007|250|28|0|76.04|japn|002
+intns int japn 1|42005||3|2007|250|47|0|75.96|japn|overall
+intns int japn 1|60871||0|2008|250|21|0|77.76|japn|001
+intns int japn 1|60872||1|2008|250|21|1|74.95|japn|002
+intns int japn 1|60873||1|2008|250|42|1|76.33|japn|overall
+intns int japn 1|66940|fan, belen|0|2010|250|20|0|69.45|japn|001
+intns int japn 1|66941|watai, fumiko|0|2010|250|17|2|70.32|japn|002
+intns int japn 1|66942||0|2010|250|37|2|69.87|japn|overall
+intns int japn 1|82525|watai, fumiko|2|2011|250|17|0|69.06|japn|001
+intns int japn 1|82526|fan, belen|0|2011|250|21|1|70.5|japn|002
+intns int japn 1|82527||2|2011|250|38|1|69.87|japn|overall
+intns int japn 1|93565|fan, belen|0|2015|250|18|1|70.84|japn|001
+intns int japn 1|93566||0|2015|250|18|1|70.84|japn|overall
+intns int japn 1|98159||0|2014|250|14|1|71.07|japn|001
+intns int japn 1|98160||0|2014|250|6|0|70.5|japn|002
+intns int japn 1|98161||0|2014|250|20|1|70.9|japn|overall

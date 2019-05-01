@@ -1,0 +1,13 @@
+Title|id|Professor|Audit|Year|Course|Pass|Fail|Avg|Subject|Section
+int cell bio lab|20621|zeiler, kathryn|0|2012|340|55|0|83.42|biol|101
+int cell bio lab|20622|zeiler, kathryn|0|2012|340|32|0|79.81|biol|201
+int cell bio lab|20623||0|2012|340|87|0|82.09|biol|overall
+int cell bio lab|42199|graves, marcia;zeiler, kathryn|0|2014|340|65|1|80.35|biol|101
+int cell bio lab|42200|zeiler, kathryn|0|2014|340|48|0|77.29|biol|201
+int cell bio lab|42201||0|2014|340|113|1|79.06|biol|overall
+int cell bio lab|55134|zeiler, kathryn|0|2015|340|63|0|77.95|biol|101
+int cell bio lab|55135|zeiler, kathryn|0|2015|340|52|0|73.88|biol|201
+int cell bio lab|55136||0|2015|340|115|0|76.11|biol|overall
+int cell bio lab|72135|zeiler, kathryn|0|2013|340|68|2|76.33|biol|101
+int cell bio lab|72136|zeiler, kathryn|0|2013|340|58|0|76.79|biol|201
+int cell bio lab|72137||0|2013|340|126|2|76.54|biol|overall

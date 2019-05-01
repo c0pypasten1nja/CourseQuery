@@ -1,0 +1,24 @@
+Title|id|Professor|Audit|Year|Course|Pass|Fail|Avg|Subject|Section
+app part diff eq|3946|seymour, brian|0|2011|400|65|4|67.77|math|101
+app part diff eq|3947|li, dong|0|2011|400|66|4|69.87|math|201
+app part diff eq|3948||0|2011|400|131|8|68.83|math|overall
+app part diff eq|5317|seymour, brian|1|2009|400|84|8|65.82|math|101
+app part diff eq|5318||1|2009|400|84|8|65.82|math|overall
+app part diff eq|13889|schotzau, dominik|0|2007|400|81|12|66.66|math|101
+app part diff eq|13890||0|2007|400|81|12|66.66|math|overall
+app part diff eq|27411|wetton, brian thomas|0|2012|400|54|2|76.46|math|101
+app part diff eq|27412|balmforth, neil|1|2012|400|50|13|69.14|math|201
+app part diff eq|27413||1|2012|400|104|15|72.59|math|overall
+app part diff eq|29923||0|2008|400|71|7|65.68|math|101
+app part diff eq|29924||0|2008|400|71|7|65.68|math|overall
+app part diff eq|34149|ward, michael jeffrey|0|2013|400|39|2|68.61|math|101
+app part diff eq|34150|wei, juncheng|0|2013|400|62|3|65.78|math|201
+app part diff eq|34151||0|2013|400|101|5|66.88|math|overall
+app part diff eq|47199|li, dong|0|2014|400|33|5|62.84|math|101
+app part diff eq|47200|nagata, k wayne|0|2014|400|64|4|70.34|math|201
+app part diff eq|47201||0|2014|400|97|9|67.65|math|overall
+app part diff eq|73097|seymour, brian|1|2010|400|74|8|69.01|math|101
+app part diff eq|73098||1|2010|400|74|8|69.01|math|overall
+app part diff eq|90161|ward, michael jeffrey|0|2015|400|30|2|68.41|math|101
+app part diff eq|90162|wei, juncheng|0|2015|400|56|0|74.71|math|201
+app part diff eq|90163||0|2015|400|86|2|72.42|math|overall

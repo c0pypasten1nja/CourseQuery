@@ -1,0 +1,13 @@
+Title|id|Professor|Audit|Year|Course|Pass|Fail|Avg|Subject|Section
+env prc dsgn prj|12970|lim, choon jim|0|2011|452|20|0|85.8|chbe|001
+env prc dsgn prj|12971||0|2011|452|20|0|85.8|chbe|overall
+env prc dsgn prj|30171|grace, john ross|0|2007|452|13|0|81.31|chbe|001
+env prc dsgn prj|30172||0|2007|452|13|0|81.31|chbe|overall
+env prc dsgn prj|56465|lim, choon jim;posarac, dusko|0|2012|452|4|0|83.25|chbe|001
+env prc dsgn prj|56466||0|2012|452|4|0|83.25|chbe|overall
+env prc dsgn prj|58571|lim, choon jim|0|2009|452|17|0|84.88|chbe|001
+env prc dsgn prj|58572||0|2009|452|17|0|84.88|chbe|overall
+env prc dsgn prj|63621||0|2008|452|12|0|82|chbe|001
+env prc dsgn prj|63622||0|2008|452|12|0|82|chbe|overall
+env prc dsgn prj|76868|lim, choon jim|0|2010|452|12|0|87.5|chbe|001
+env prc dsgn prj|76869||0|2010|452|12|0|87.5|chbe|overall

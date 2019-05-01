@@ -1,0 +1,25 @@
+{
+    "title": "SELECT title, uuid, avg, pass, fail, WHERE Instructor includes 'barbic'  ORDER BY avg",
+    "query": "In courses dataset courses, find entries whose Instructor includes \"barbic\"; show Title and UUID and Average and Pass and Fail; sort in descending order by Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                  "courses_title": "assess plan eval",
+                  "courses_uuid": "60931",
+                  "courses_avg": 91.36,
+                  "courses_pass": 11,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "assess plan eval",
+                  "courses_uuid": "87118",
+                  "courses_avg": 87.23,
+                  "courses_pass": 13,
+                  "courses_fail": 0
+                }
+              ]
+        }
+    }
+}

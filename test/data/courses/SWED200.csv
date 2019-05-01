@@ -1,0 +1,7 @@
+Title|id|Professor|Audit|Year|Course|Pass|Fail|Avg|Subject|Section
+int swedish 1|30836|karlstrom, lena|0|2013|200|15|1|77.88|swed|001
+int swedish 1|30837||0|2013|200|15|1|77.88|swed|overall
+int swedish 1|33334|karlstrom, lena|0|2014|200|16|0|81.31|swed|001
+int swedish 1|33335||0|2014|200|16|0|81.31|swed|overall
+int swedish 1|46646|karlstrom, lena|1|2015|200|19|0|80.89|swed|001
+int swedish 1|46647||1|2015|200|19|0|80.89|swed|overall

@@ -1,0 +1,10 @@
+{
+    "title": "A query containing upper case \"FIND\" instead of \"find\"",
+    "query": "In rooms dataset rooms, FIND entries whose Seats is greater than 80; show Seats.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}

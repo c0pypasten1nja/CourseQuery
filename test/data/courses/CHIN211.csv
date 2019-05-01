@@ -1,0 +1,21 @@
+Title|id|Professor|Audit|Year|Course|Pass|Fail|Avg|Subject|Section
+int chinese i: 1|2071|zheng, ming fang|0|2009|211|27|0|79.56|chin|001
+int chinese i: 1|2072||0|2009|211|27|0|79.56|chin|overall
+int chinese i: 1|9445|zheng, ming fang|0|2012|211|27|0|75.93|chin|001
+int chinese i: 1|9446|liu, xue shun|0|2012|211|24|1|73.6|chin|002
+int chinese i: 1|9447||0|2012|211|51|1|74.81|chin|overall
+int chinese i: 1|23244|zheng, ming fang|0|2014|211|22|0|76.77|chin|001
+int chinese i: 1|23245||0|2014|211|22|0|76.77|chin|overall
+int chinese i: 1|30758|zheng, ming fang|0|2010|211|19|0|77.26|chin|001
+int chinese i: 1|30759|liu, xue shun|0|2010|211|18|0|77.39|chin|002
+int chinese i: 1|30760||0|2010|211|37|0|77.32|chin|overall
+int chinese i: 1|35747||0|2008|211|27|0|80.19|chin|001
+int chinese i: 1|35748||0|2008|211|27|0|80.19|chin|overall
+int chinese i: 1|66319|zheng, ming fang|0|2015|211|25|0|81|chin|001
+int chinese i: 1|66320||0|2015|211|25|0|81|chin|overall
+int chinese i: 1|73379|zheng, ming fang|0|2011|211|15|0|80.53|chin|001
+int chinese i: 1|73380|liu, xue shun|0|2011|211|21|1|75.36|chin|002
+int chinese i: 1|73381||0|2011|211|36|1|77.46|chin|overall
+int chinese i: 1|83184|zheng, ming fang|0|2013|211|12|0|74.92|chin|001
+int chinese i: 1|83185|liu, xue shun|0|2013|211|19|0|76.79|chin|002
+int chinese i: 1|83186||0|2013|211|31|0|76.06|chin|overall

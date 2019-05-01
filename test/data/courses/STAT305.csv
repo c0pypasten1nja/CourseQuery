@@ -1,0 +1,21 @@
+Title|id|Professor|Audit|Year|Course|Pass|Fail|Avg|Subject|Section
+int stat infernc|2935|welch, william|0|2011|305|59|1|76.8|stat|101
+int stat infernc|2936|welch, william|1|2011|305|37|5|68.17|stat|201
+int stat infernc|2937||1|2011|305|96|6|73.25|stat|overall
+int stat infernc|43523|welch, william|1|2015|305|130|10|72.24|stat|201
+int stat infernc|43524||1|2015|305|130|10|72.24|stat|overall
+int stat infernc|52145|welch, william|0|2009|305|52|6|68.9|stat|101
+int stat infernc|52146|salibian-barrera, matias|0|2009|305|22|2|72.54|stat|201
+int stat infernc|52147||0|2009|305|74|8|69.96|stat|overall
+int stat infernc|69600||0|2008|305|41|5|72.63|stat|101
+int stat infernc|69601||0|2008|305|37|1|72.08|stat|201
+int stat infernc|69602||0|2008|305|78|6|72.38|stat|overall
+int stat infernc|73760|welch, william|0|2014|305|114|10|69.23|stat|201
+int stat infernc|73761||0|2014|305|114|10|69.23|stat|overall
+int stat infernc|81958|petkau, a john|0|2013|305|83|26|61.67|stat|201
+int stat infernc|81959||0|2013|305|83|26|61.67|stat|overall
+int stat infernc|85813|welch, william|1|2010|305|47|2|75.12|stat|101
+int stat infernc|85814|welch, william|0|2010|305|54|3|76.54|stat|201
+int stat infernc|85815||1|2010|305|101|5|75.89|stat|overall
+int stat infernc|98869|welch, william|0|2012|305|109|2|74.17|stat|201
+int stat infernc|98870||0|2012|305|109|2|74.17|stat|overall

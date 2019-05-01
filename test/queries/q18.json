@@ -1,0 +1,1691 @@
+{
+    "title": "SELECT dept, id, pass, audit WHERE audit > 15",
+    "query": "In courses dataset courses, find entries whose Department is \"rhsc\"; show Title and UUID and Instructor and Average and Pass and Fail; sort in descending order by Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                  "courses_title": "eval src evidenc",
+                  "courses_uuid": "10582",
+                  "courses_instructor": "",
+                  "courses_avg": 95,
+                  "courses_pass": 6,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab learning",
+                  "courses_uuid": "76508",
+                  "courses_instructor": "",
+                  "courses_avg": 94,
+                  "courses_pass": 1,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab learning",
+                  "courses_uuid": "66169",
+                  "courses_instructor": "",
+                  "courses_avg": 91.92,
+                  "courses_pass": 13,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab learning",
+                  "courses_uuid": "66168",
+                  "courses_instructor": "tba",
+                  "courses_avg": 91.92,
+                  "courses_pass": 13,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "meas in practice",
+                  "courses_uuid": "21800",
+                  "courses_instructor": "tba",
+                  "courses_avg": 91.5,
+                  "courses_pass": 6,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "major proj prt 1",
+                  "courses_uuid": "87136",
+                  "courses_instructor": "",
+                  "courses_avg": 91.5,
+                  "courses_pass": 4,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "adv conc rehb rs",
+                  "courses_uuid": "76484",
+                  "courses_instructor": "",
+                  "courses_avg": 91.44,
+                  "courses_pass": 9,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "adv conc rehb rs",
+                  "courses_uuid": "76485",
+                  "courses_instructor": "",
+                  "courses_avg": 91.44,
+                  "courses_pass": 9,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "eval src evidenc",
+                  "courses_uuid": "21787",
+                  "courses_instructor": "tba",
+                  "courses_avg": 91.4,
+                  "courses_pass": 5,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "assess plan eval",
+                  "courses_uuid": "60931",
+                  "courses_instructor": "barbic, skye",
+                  "courses_avg": 91.36,
+                  "courses_pass": 11,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "reas & dec-mking",
+                  "courses_uuid": "66161",
+                  "courses_instructor": "",
+                  "courses_avg": 91.27,
+                  "courses_pass": 11,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "reas & dec-mking",
+                  "courses_uuid": "66160",
+                  "courses_instructor": "tba",
+                  "courses_avg": 91.27,
+                  "courses_pass": 11,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab learning",
+                  "courses_uuid": "71610",
+                  "courses_instructor": "tba",
+                  "courses_avg": 91,
+                  "courses_pass": 1,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "major proj prt 1",
+                  "courses_uuid": "60944",
+                  "courses_instructor": "",
+                  "courses_avg": 91,
+                  "courses_pass": 5,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "meas in practice",
+                  "courses_uuid": "71603",
+                  "courses_instructor": "tba",
+                  "courses_avg": 91,
+                  "courses_pass": 2,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "major proj prt 1",
+                  "courses_uuid": "60945",
+                  "courses_instructor": "",
+                  "courses_avg": 90.83,
+                  "courses_pass": 6,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "major proj prt 1",
+                  "courses_uuid": "76519",
+                  "courses_instructor": "",
+                  "courses_avg": 90.67,
+                  "courses_pass": 9,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab theory",
+                  "courses_uuid": "21791",
+                  "courses_instructor": "",
+                  "courses_avg": 90.67,
+                  "courses_pass": 9,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab theory",
+                  "courses_uuid": "21790",
+                  "courses_instructor": "jongbloed, lyn",
+                  "courses_avg": 90.67,
+                  "courses_pass": 9,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "assess plan eval",
+                  "courses_uuid": "60932",
+                  "courses_instructor": "",
+                  "courses_avg": 90.5,
+                  "courses_pass": 24,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "dev rehab prog",
+                  "courses_uuid": "71605",
+                  "courses_instructor": "tba",
+                  "courses_avg": 90,
+                  "courses_pass": 9,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "reas & dec-mking",
+                  "courses_uuid": "25832",
+                  "courses_instructor": "tba",
+                  "courses_avg": 89.86,
+                  "courses_pass": 7,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "assess plan eval",
+                  "courses_uuid": "60930",
+                  "courses_instructor": "duran, leslie",
+                  "courses_avg": 89.77,
+                  "courses_pass": 13,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "dev rehab prog",
+                  "courses_uuid": "76503",
+                  "courses_instructor": "",
+                  "courses_avg": 89.71,
+                  "courses_pass": 7,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "eval src evidenc",
+                  "courses_uuid": "21786",
+                  "courses_instructor": "tba",
+                  "courses_avg": 89.67,
+                  "courses_pass": 6,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "adv conc rehb rs",
+                  "courses_uuid": "10580",
+                  "courses_instructor": "",
+                  "courses_avg": 89.63,
+                  "courses_pass": 8,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "adv conc rehb rs",
+                  "courses_uuid": "10579",
+                  "courses_instructor": "reid, darlene",
+                  "courses_avg": 89.63,
+                  "courses_pass": 8,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "eval src evidenc",
+                  "courses_uuid": "71592",
+                  "courses_instructor": "tba",
+                  "courses_avg": 89.5,
+                  "courses_pass": 4,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "major proj prt 1",
+                  "courses_uuid": "76520",
+                  "courses_instructor": "",
+                  "courses_avg": 89.42,
+                  "courses_pass": 12,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "major proj prt 1",
+                  "courses_uuid": "87138",
+                  "courses_instructor": "",
+                  "courses_avg": 89.38,
+                  "courses_pass": 8,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab theory",
+                  "courses_uuid": "25831",
+                  "courses_instructor": "",
+                  "courses_avg": 89.33,
+                  "courses_pass": 12,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab theory",
+                  "courses_uuid": "25830",
+                  "courses_instructor": "jongbloed, lyn",
+                  "courses_avg": 89.33,
+                  "courses_pass": 12,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "assess plan eval",
+                  "courses_uuid": "66164",
+                  "courses_instructor": "",
+                  "courses_avg": 89,
+                  "courses_pass": 16,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "assess plan eval",
+                  "courses_uuid": "66163",
+                  "courses_instructor": "tba",
+                  "courses_avg": 89,
+                  "courses_pass": 16,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "evidnc for pract",
+                  "courses_uuid": "60921",
+                  "courses_instructor": "davidson, katherine",
+                  "courses_avg": 88.88,
+                  "courses_pass": 8,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "eval src evidenc",
+                  "courses_uuid": "21789",
+                  "courses_instructor": "",
+                  "courses_avg": 88.79,
+                  "courses_pass": 14,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "dev rehab prog",
+                  "courses_uuid": "66165",
+                  "courses_instructor": "tba",
+                  "courses_avg": 88.71,
+                  "courses_pass": 7,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "assess plan eval",
+                  "courses_uuid": "25835",
+                  "courses_instructor": "tba",
+                  "courses_avg": 88.67,
+                  "courses_pass": 12,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "assess plan eval",
+                  "courses_uuid": "25836",
+                  "courses_instructor": "",
+                  "courses_avg": 88.67,
+                  "courses_pass": 12,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab theory",
+                  "courses_uuid": "87113",
+                  "courses_instructor": "",
+                  "courses_avg": 88.67,
+                  "courses_pass": 15,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab theory",
+                  "courses_uuid": "87112",
+                  "courses_instructor": "holsti, liisa;virji-babul, naznin",
+                  "courses_avg": 88.67,
+                  "courses_pass": 15,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "reas & dec-mking",
+                  "courses_uuid": "76492",
+                  "courses_instructor": "",
+                  "courses_avg": 88.57,
+                  "courses_pass": 7,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "adv conc rehb rs",
+                  "courses_uuid": "87108",
+                  "courses_instructor": "",
+                  "courses_avg": 88.5,
+                  "courses_pass": 14,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "eval src evidenc",
+                  "courses_uuid": "76486",
+                  "courses_instructor": "",
+                  "courses_avg": 88.5,
+                  "courses_pass": 6,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "adv conc rehb rs",
+                  "courses_uuid": "87107",
+                  "courses_instructor": "campbell, kristin;nimmon, laura",
+                  "courses_avg": 88.5,
+                  "courses_pass": 14,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab learning",
+                  "courses_uuid": "71611",
+                  "courses_instructor": "",
+                  "courses_avg": 88.25,
+                  "courses_pass": 8,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "dev rehab prog",
+                  "courses_uuid": "71608",
+                  "courses_instructor": "",
+                  "courses_avg": 88.2,
+                  "courses_pass": 15,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab learning",
+                  "courses_uuid": "76506",
+                  "courses_instructor": "",
+                  "courses_avg": 88.2,
+                  "courses_pass": 5,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "evidnc for pract",
+                  "courses_uuid": "66155",
+                  "courses_instructor": "tba",
+                  "courses_avg": 88.17,
+                  "courses_pass": 12,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab learning",
+                  "courses_uuid": "76509",
+                  "courses_instructor": "",
+                  "courses_avg": 88,
+                  "courses_pass": 9,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "meas in practice",
+                  "courses_uuid": "21799",
+                  "courses_instructor": "",
+                  "courses_avg": 88,
+                  "courses_pass": 5,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "neuroantmy/phys",
+                  "courses_uuid": "21783",
+                  "courses_instructor": "",
+                  "courses_avg": 87.92,
+                  "courses_pass": 78,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "neuroantmy/phys",
+                  "courses_uuid": "21782",
+                  "courses_instructor": "",
+                  "courses_avg": 87.92,
+                  "courses_pass": 78,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab learning",
+                  "courses_uuid": "71609",
+                  "courses_instructor": "tba",
+                  "courses_avg": 87.86,
+                  "courses_pass": 7,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "adv conc rehb rs",
+                  "courses_uuid": "60917",
+                  "courses_instructor": "",
+                  "courses_avg": 87.82,
+                  "courses_pass": 17,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "adv conc rehb rs",
+                  "courses_uuid": "60918",
+                  "courses_instructor": "",
+                  "courses_avg": 87.82,
+                  "courses_pass": 17,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "assess plan eval",
+                  "courses_uuid": "87119",
+                  "courses_instructor": "beach, cheryl;duran, leslie",
+                  "courses_avg": 87.73,
+                  "courses_pass": 11,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "dev rehab prog",
+                  "courses_uuid": "87121",
+                  "courses_instructor": "hurtubise, karen",
+                  "courses_avg": 87.6,
+                  "courses_pass": 10,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "directed studies",
+                  "courses_uuid": "25851",
+                  "courses_instructor": "",
+                  "courses_avg": 87.5,
+                  "courses_pass": 4,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "assess plan eval",
+                  "courses_uuid": "87120",
+                  "courses_instructor": "",
+                  "courses_avg": 87.46,
+                  "courses_pass": 24,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "major proj prt 1",
+                  "courses_uuid": "25853",
+                  "courses_instructor": "tba",
+                  "courses_avg": 87.44,
+                  "courses_pass": 9,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab theory",
+                  "courses_uuid": "10587",
+                  "courses_instructor": "",
+                  "courses_avg": 87.44,
+                  "courses_pass": 9,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab theory",
+                  "courses_uuid": "10586",
+                  "courses_instructor": "jongbloed, lyn",
+                  "courses_avg": 87.44,
+                  "courses_pass": 9,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "eval src evidenc",
+                  "courses_uuid": "76487",
+                  "courses_instructor": "",
+                  "courses_avg": 87.4,
+                  "courses_pass": 5,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "neuroantmy/phys",
+                  "courses_uuid": "25824",
+                  "courses_instructor": "",
+                  "courses_avg": 87.35,
+                  "courses_pass": 81,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "neuroantmy/phys",
+                  "courses_uuid": "25823",
+                  "courses_instructor": "",
+                  "courses_avg": 87.35,
+                  "courses_pass": 81,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "evidnc for pract",
+                  "courses_uuid": "66157",
+                  "courses_instructor": "",
+                  "courses_avg": 87.33,
+                  "courses_pass": 21,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab learning",
+                  "courses_uuid": "87124",
+                  "courses_instructor": "toal-sullivan, darene",
+                  "courses_avg": 87.33,
+                  "courses_pass": 15,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "meas in practice",
+                  "courses_uuid": "71602",
+                  "courses_instructor": "tba",
+                  "courses_avg": 87.29,
+                  "courses_pass": 7,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "dev rehab prog",
+                  "courses_uuid": "76505",
+                  "courses_instructor": "",
+                  "courses_avg": 87.26,
+                  "courses_pass": 23,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "major proj prt 1",
+                  "courses_uuid": "87137",
+                  "courses_instructor": "",
+                  "courses_avg": 87.25,
+                  "courses_pass": 4,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "assess plan eval",
+                  "courses_uuid": "87118",
+                  "courses_instructor": "barbic, skye",
+                  "courses_avg": 87.23,
+                  "courses_pass": 13,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab theory",
+                  "courses_uuid": "71596",
+                  "courses_instructor": "",
+                  "courses_avg": 87.2,
+                  "courses_pass": 10,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab theory",
+                  "courses_uuid": "71595",
+                  "courses_instructor": "jongbloed, lyn",
+                  "courses_avg": 87.2,
+                  "courses_pass": 10,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab learning",
+                  "courses_uuid": "21807",
+                  "courses_instructor": "",
+                  "courses_avg": 87.2,
+                  "courses_pass": 5,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "neuroantmy/phys",
+                  "courses_uuid": "16637",
+                  "courses_instructor": "gaertner, tara",
+                  "courses_avg": 87.14,
+                  "courses_pass": 49,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "neuroantmy/phys",
+                  "courses_uuid": "16638",
+                  "courses_instructor": "",
+                  "courses_avg": 87.14,
+                  "courses_pass": 49,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "meas in practice",
+                  "courses_uuid": "21801",
+                  "courses_instructor": "",
+                  "courses_avg": 87.14,
+                  "courses_pass": 14,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "neuroantmy/phys",
+                  "courses_uuid": "76482",
+                  "courses_instructor": "",
+                  "courses_avg": 87.11,
+                  "courses_pass": 54,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "neuroantmy/phys",
+                  "courses_uuid": "76483",
+                  "courses_instructor": "",
+                  "courses_avg": 87.11,
+                  "courses_pass": 54,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "eval src evidenc",
+                  "courses_uuid": "10585",
+                  "courses_instructor": "",
+                  "courses_avg": 87.03,
+                  "courses_pass": 29,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "meas in practice",
+                  "courses_uuid": "71604",
+                  "courses_instructor": "",
+                  "courses_avg": 87,
+                  "courses_pass": 13,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "adv conc rehb rs",
+                  "courses_uuid": "21785",
+                  "courses_instructor": "",
+                  "courses_avg": 87,
+                  "courses_pass": 8,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "adv conc rehb rs",
+                  "courses_uuid": "21784",
+                  "courses_instructor": "reid, darlene",
+                  "courses_avg": 87,
+                  "courses_pass": 8,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "dev rehab prog",
+                  "courses_uuid": "21802",
+                  "courses_instructor": "",
+                  "courses_avg": 87,
+                  "courses_pass": 4,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "dev rehab prog",
+                  "courses_uuid": "71607",
+                  "courses_instructor": "tba",
+                  "courses_avg": 87,
+                  "courses_pass": 1,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "meas in practice",
+                  "courses_uuid": "10591",
+                  "courses_instructor": "",
+                  "courses_avg": 86.9,
+                  "courses_pass": 10,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "eval src evidenc",
+                  "courses_uuid": "76489",
+                  "courses_instructor": "",
+                  "courses_avg": 86.89,
+                  "courses_pass": 18,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "dev rehab prog",
+                  "courses_uuid": "76501",
+                  "courses_instructor": "",
+                  "courses_avg": 86.86,
+                  "courses_pass": 7,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "dev rehab prog",
+                  "courses_uuid": "66167",
+                  "courses_instructor": "",
+                  "courses_avg": 86.81,
+                  "courses_pass": 21,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "adv conc rehb rs",
+                  "courses_uuid": "66153",
+                  "courses_instructor": "",
+                  "courses_avg": 86.81,
+                  "courses_pass": 16,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "adv conc rehb rs",
+                  "courses_uuid": "66154",
+                  "courses_instructor": "",
+                  "courses_avg": 86.81,
+                  "courses_pass": 16,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab learning",
+                  "courses_uuid": "10598",
+                  "courses_instructor": "",
+                  "courses_avg": 86.78,
+                  "courses_pass": 9,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "major proj prt 1",
+                  "courses_uuid": "25854",
+                  "courses_instructor": "",
+                  "courses_avg": 86.72,
+                  "courses_pass": 18,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "adv conc rehb rs",
+                  "courses_uuid": "25825",
+                  "courses_instructor": "",
+                  "courses_avg": 86.7,
+                  "courses_pass": 10,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "adv conc rehb rs",
+                  "courses_uuid": "25826",
+                  "courses_instructor": "",
+                  "courses_avg": 86.7,
+                  "courses_pass": 10,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "neuroantmy/phys",
+                  "courses_uuid": "87106",
+                  "courses_instructor": "",
+                  "courses_avg": 86.6,
+                  "courses_pass": 78,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "neuroantmy/phys",
+                  "courses_uuid": "87105",
+                  "courses_instructor": "klassen, tara",
+                  "courses_avg": 86.6,
+                  "courses_pass": 78,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "evidnc for pract",
+                  "courses_uuid": "87109",
+                  "courses_instructor": "mortenson, william",
+                  "courses_avg": 86.54,
+                  "courses_pass": 13,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "neuroantmy/phys",
+                  "courses_uuid": "97045",
+                  "courses_instructor": "",
+                  "courses_avg": 86.45,
+                  "courses_pass": 47,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "dev rehab prog",
+                  "courses_uuid": "21804",
+                  "courses_instructor": "",
+                  "courses_avg": 86.45,
+                  "courses_pass": 11,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "neuroantmy/phys",
+                  "courses_uuid": "97046",
+                  "courses_instructor": "",
+                  "courses_avg": 86.45,
+                  "courses_pass": 47,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab learning",
+                  "courses_uuid": "25840",
+                  "courses_instructor": "",
+                  "courses_avg": 86.4,
+                  "courses_pass": 10,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab learning",
+                  "courses_uuid": "25839",
+                  "courses_instructor": "tba",
+                  "courses_avg": 86.4,
+                  "courses_pass": 10,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "neuroantmy/phys",
+                  "courses_uuid": "71588",
+                  "courses_instructor": "",
+                  "courses_avg": 86.29,
+                  "courses_pass": 78,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "neuroantmy/phys",
+                  "courses_uuid": "71587",
+                  "courses_instructor": "",
+                  "courses_avg": 86.29,
+                  "courses_pass": 78,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "dev rehab prog",
+                  "courses_uuid": "60933",
+                  "courses_instructor": "",
+                  "courses_avg": 86.25,
+                  "courses_pass": 8,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "evidnc for pract",
+                  "courses_uuid": "66156",
+                  "courses_instructor": "tba",
+                  "courses_avg": 86.22,
+                  "courses_pass": 9,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "major proj prt 1",
+                  "courses_uuid": "10609",
+                  "courses_instructor": "",
+                  "courses_avg": 86.2,
+                  "courses_pass": 5,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "major proj prt 1",
+                  "courses_uuid": "10610",
+                  "courses_instructor": "",
+                  "courses_avg": 86.2,
+                  "courses_pass": 5,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab learning",
+                  "courses_uuid": "21808",
+                  "courses_instructor": "",
+                  "courses_avg": 86.19,
+                  "courses_pass": 21,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "dev rehab prog",
+                  "courses_uuid": "21803",
+                  "courses_instructor": "",
+                  "courses_avg": 86.14,
+                  "courses_pass": 7,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "reas & dec-mking",
+                  "courses_uuid": "60925",
+                  "courses_instructor": "faulkner, clare",
+                  "courses_avg": 86.11,
+                  "courses_pass": 9,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab learning",
+                  "courses_uuid": "21806",
+                  "courses_instructor": "",
+                  "courses_avg": 86,
+                  "courses_pass": 7,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "reas & dec-mking",
+                  "courses_uuid": "76495",
+                  "courses_instructor": "",
+                  "courses_avg": 86,
+                  "courses_pass": 16,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "meas in practice",
+                  "courses_uuid": "10593",
+                  "courses_instructor": "",
+                  "courses_avg": 86,
+                  "courses_pass": 19,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "major proj prt 1",
+                  "courses_uuid": "25852",
+                  "courses_instructor": "tba",
+                  "courses_avg": 86,
+                  "courses_pass": 9,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "neuroantmy/phys",
+                  "courses_uuid": "47718",
+                  "courses_instructor": "",
+                  "courses_avg": 85.96,
+                  "courses_pass": 48,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "neuroantmy/phys",
+                  "courses_uuid": "47717",
+                  "courses_instructor": "",
+                  "courses_avg": 85.96,
+                  "courses_pass": 48,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab learning",
+                  "courses_uuid": "87126",
+                  "courses_instructor": "",
+                  "courses_avg": 85.88,
+                  "courses_pass": 26,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "neuroantmy/phys",
+                  "courses_uuid": "10577",
+                  "courses_instructor": "",
+                  "courses_avg": 85.88,
+                  "courses_pass": 69,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "neuroantmy/phys",
+                  "courses_uuid": "10578",
+                  "courses_instructor": "",
+                  "courses_avg": 85.88,
+                  "courses_pass": 69,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "dev rehab prog",
+                  "courses_uuid": "66166",
+                  "courses_instructor": "tba",
+                  "courses_avg": 85.86,
+                  "courses_pass": 14,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "evidnc for pract",
+                  "courses_uuid": "25827",
+                  "courses_instructor": "tba",
+                  "courses_avg": 85.82,
+                  "courses_pass": 11,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "dev rehab prog",
+                  "courses_uuid": "76502",
+                  "courses_instructor": "",
+                  "courses_avg": 85.8,
+                  "courses_pass": 5,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "dev rehab prog",
+                  "courses_uuid": "87123",
+                  "courses_instructor": "",
+                  "courses_avg": 85.79,
+                  "courses_pass": 19,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab learning",
+                  "courses_uuid": "21805",
+                  "courses_instructor": "",
+                  "courses_avg": 85.78,
+                  "courses_pass": 9,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "evidnc for pract",
+                  "courses_uuid": "87111",
+                  "courses_instructor": "",
+                  "courses_avg": 85.76,
+                  "courses_pass": 21,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "eval src evidenc",
+                  "courses_uuid": "10583",
+                  "courses_instructor": "tba",
+                  "courses_avg": 85.75,
+                  "courses_pass": 4,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab learning",
+                  "courses_uuid": "10600",
+                  "courses_instructor": "",
+                  "courses_avg": 85.73,
+                  "courses_pass": 15,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "meas in practice",
+                  "courses_uuid": "76499",
+                  "courses_instructor": "",
+                  "courses_avg": 85.67,
+                  "courses_pass": 9,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab learning",
+                  "courses_uuid": "76507",
+                  "courses_instructor": "",
+                  "courses_avg": 85.67,
+                  "courses_pass": 3,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "neuroantmy/phys",
+                  "courses_uuid": "8062",
+                  "courses_instructor": "",
+                  "courses_avg": 85.63,
+                  "courses_pass": 52,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "neuroantmy/phys",
+                  "courses_uuid": "8061",
+                  "courses_instructor": "gaertner, tara",
+                  "courses_avg": 85.63,
+                  "courses_pass": 52,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "evidnc for pract",
+                  "courses_uuid": "25829",
+                  "courses_instructor": "",
+                  "courses_avg": 85.6,
+                  "courses_pass": 15,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "meas in practice",
+                  "courses_uuid": "76500",
+                  "courses_instructor": "",
+                  "courses_avg": 85.58,
+                  "courses_pass": 19,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "meas in practice",
+                  "courses_uuid": "76498",
+                  "courses_instructor": "",
+                  "courses_avg": 85.5,
+                  "courses_pass": 10,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "dev rehab prog",
+                  "courses_uuid": "76504",
+                  "courses_instructor": "",
+                  "courses_avg": 85.5,
+                  "courses_pass": 4,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "eval src evidenc",
+                  "courses_uuid": "10584",
+                  "courses_instructor": "",
+                  "courses_avg": 85.5,
+                  "courses_pass": 8,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "dev rehab prog",
+                  "courses_uuid": "71606",
+                  "courses_instructor": "tba",
+                  "courses_avg": 85.2,
+                  "courses_pass": 5,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "neuroantmy/phys",
+                  "courses_uuid": "8327",
+                  "courses_instructor": "",
+                  "courses_avg": 85.18,
+                  "courses_pass": 39,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "neuroantmy/phys",
+                  "courses_uuid": "8328",
+                  "courses_instructor": "",
+                  "courses_avg": 85.18,
+                  "courses_pass": 39,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "eval src evidenc",
+                  "courses_uuid": "76488",
+                  "courses_instructor": "",
+                  "courses_avg": 85.14,
+                  "courses_pass": 7,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "reas & dec-mking",
+                  "courses_uuid": "10589",
+                  "courses_instructor": "",
+                  "courses_avg": 85.13,
+                  "courses_pass": 8,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "neuroantmy/phys",
+                  "courses_uuid": "60916",
+                  "courses_instructor": "",
+                  "courses_avg": 85.09,
+                  "courses_pass": 81,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "neuroantmy/phys",
+                  "courses_uuid": "60915",
+                  "courses_instructor": "",
+                  "courses_avg": 85.09,
+                  "courses_pass": 81,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "dev rehab prog",
+                  "courses_uuid": "10596",
+                  "courses_instructor": "",
+                  "courses_avg": 85,
+                  "courses_pass": 8,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "evidnc for pract",
+                  "courses_uuid": "25828",
+                  "courses_instructor": "tba",
+                  "courses_avg": 85,
+                  "courses_pass": 4,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "meas in practice",
+                  "courses_uuid": "10592",
+                  "courses_instructor": "",
+                  "courses_avg": 85,
+                  "courses_pass": 9,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "major proj prt 1",
+                  "courses_uuid": "66177",
+                  "courses_instructor": "",
+                  "courses_avg": 85,
+                  "courses_pass": 5,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "reas & dec-mking",
+                  "courses_uuid": "76493",
+                  "courses_instructor": "",
+                  "courses_avg": 84.83,
+                  "courses_pass": 6,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "dev rehab prog",
+                  "courses_uuid": "25837",
+                  "courses_instructor": "",
+                  "courses_avg": 84.82,
+                  "courses_pass": 11,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "dev rehab prog",
+                  "courses_uuid": "25838",
+                  "courses_instructor": "",
+                  "courses_avg": 84.82,
+                  "courses_pass": 11,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "reas & dec-mking",
+                  "courses_uuid": "25834",
+                  "courses_instructor": "",
+                  "courses_avg": 84.76,
+                  "courses_pass": 17,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "evidnc for pract",
+                  "courses_uuid": "60920",
+                  "courses_instructor": "mortenson, patricia",
+                  "courses_avg": 84.71,
+                  "courses_pass": 7,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "reas & dec-mking",
+                  "courses_uuid": "10590",
+                  "courses_instructor": "",
+                  "courses_avg": 84.71,
+                  "courses_pass": 17,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "reas & dec-mking",
+                  "courses_uuid": "60927",
+                  "courses_instructor": "",
+                  "courses_avg": 84.63,
+                  "courses_pass": 16,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "evidnc for pract",
+                  "courses_uuid": "87110",
+                  "courses_instructor": "davidson, katherine;mortenson, patricia",
+                  "courses_avg": 84.5,
+                  "courses_pass": 8,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "reas & dec-mking",
+                  "courses_uuid": "71597",
+                  "courses_instructor": "tba",
+                  "courses_avg": 84.5,
+                  "courses_pass": 4,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "meas in practice",
+                  "courses_uuid": "71601",
+                  "courses_instructor": "tba",
+                  "courses_avg": 84.5,
+                  "courses_pass": 4,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "neuroantmy/phys",
+                  "courses_uuid": "16340",
+                  "courses_instructor": "",
+                  "courses_avg": 84.42,
+                  "courses_pass": 48,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "neuroantmy/phys",
+                  "courses_uuid": "16339",
+                  "courses_instructor": "",
+                  "courses_avg": 84.42,
+                  "courses_pass": 48,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "evidnc for pract",
+                  "courses_uuid": "60922",
+                  "courses_instructor": "",
+                  "courses_avg": 84.36,
+                  "courses_pass": 27,
+                  "courses_fail": 1
+                },
+                {
+                  "courses_title": "reas & dec-mking",
+                  "courses_uuid": "10588",
+                  "courses_instructor": "",
+                  "courses_avg": 84.33,
+                  "courses_pass": 9,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "eval src evidenc",
+                  "courses_uuid": "10581",
+                  "courses_instructor": "",
+                  "courses_avg": 84.27,
+                  "courses_pass": 11,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "major proj prt 1",
+                  "courses_uuid": "21818",
+                  "courses_instructor": "",
+                  "courses_avg": 84.2,
+                  "courses_pass": 5,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab learning",
+                  "courses_uuid": "10599",
+                  "courses_instructor": "",
+                  "courses_avg": 84.17,
+                  "courses_pass": 6,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab theory",
+                  "courses_uuid": "76491",
+                  "courses_instructor": "",
+                  "courses_avg": 84,
+                  "courses_pass": 10,
+                  "courses_fail": 1
+                },
+                {
+                  "courses_title": "rehab theory",
+                  "courses_uuid": "76490",
+                  "courses_instructor": "",
+                  "courses_avg": 84,
+                  "courses_pass": 10,
+                  "courses_fail": 1
+                },
+                {
+                  "courses_title": "rehab learning",
+                  "courses_uuid": "87125",
+                  "courses_instructor": "",
+                  "courses_avg": 83.91,
+                  "courses_pass": 11,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "dev rehab prog",
+                  "courses_uuid": "10595",
+                  "courses_instructor": "",
+                  "courses_avg": 83.89,
+                  "courses_pass": 9,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "reas & dec-mking",
+                  "courses_uuid": "21792",
+                  "courses_instructor": "",
+                  "courses_avg": 83.86,
+                  "courses_pass": 7,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "dev rehab prog",
+                  "courses_uuid": "60935",
+                  "courses_instructor": "",
+                  "courses_avg": 83.86,
+                  "courses_pass": 27,
+                  "courses_fail": 1
+                },
+                {
+                  "courses_title": "dev rehab prog",
+                  "courses_uuid": "87122",
+                  "courses_instructor": "erlendson, patricia",
+                  "courses_avg": 83.78,
+                  "courses_pass": 9,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab learning",
+                  "courses_uuid": "60936",
+                  "courses_instructor": "",
+                  "courses_avg": 83.63,
+                  "courses_pass": 19,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab learning",
+                  "courses_uuid": "60937",
+                  "courses_instructor": "",
+                  "courses_avg": 83.63,
+                  "courses_pass": 19,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "major proj prt 1",
+                  "courses_uuid": "21819",
+                  "courses_instructor": "",
+                  "courses_avg": 83.38,
+                  "courses_pass": 8,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab theory",
+                  "courses_uuid": "66158",
+                  "courses_instructor": "jongbloed, lyn",
+                  "courses_avg": 83.07,
+                  "courses_pass": 14,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab theory",
+                  "courses_uuid": "66159",
+                  "courses_instructor": "",
+                  "courses_avg": 83.07,
+                  "courses_pass": 14,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "dev rehab prog",
+                  "courses_uuid": "60934",
+                  "courses_instructor": "erlendson, patricia",
+                  "courses_avg": 82.9,
+                  "courses_pass": 19,
+                  "courses_fail": 1
+                },
+                {
+                  "courses_title": "reas & dec-mking",
+                  "courses_uuid": "60926",
+                  "courses_instructor": "wray, eleanor",
+                  "courses_avg": 82.71,
+                  "courses_pass": 7,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "eval src evidenc",
+                  "courses_uuid": "21788",
+                  "courses_instructor": "tba",
+                  "courses_avg": 82.67,
+                  "courses_pass": 3,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "dev rehab prog",
+                  "courses_uuid": "10597",
+                  "courses_instructor": "",
+                  "courses_avg": 82.56,
+                  "courses_pass": 25,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "reas & dec-mking",
+                  "courses_uuid": "76494",
+                  "courses_instructor": "",
+                  "courses_avg": 82.33,
+                  "courses_pass": 3,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "neuroantmy/phys",
+                  "courses_uuid": "78984",
+                  "courses_instructor": "",
+                  "courses_avg": 82.04,
+                  "courses_pass": 46,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "neuroantmy/phys",
+                  "courses_uuid": "78985",
+                  "courses_instructor": "",
+                  "courses_avg": 82.04,
+                  "courses_pass": 46,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "reas & dec-mking",
+                  "courses_uuid": "71598",
+                  "courses_instructor": "tba",
+                  "courses_avg": 81.57,
+                  "courses_pass": 7,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "reas & dec-mking",
+                  "courses_uuid": "87114",
+                  "courses_instructor": "jelley, wilma",
+                  "courses_avg": 81.54,
+                  "courses_pass": 13,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "reas & dec-mking",
+                  "courses_uuid": "87115",
+                  "courses_instructor": "",
+                  "courses_avg": 81.54,
+                  "courses_pass": 13,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "reas & dec-mking",
+                  "courses_uuid": "21793",
+                  "courses_instructor": "tba",
+                  "courses_avg": 81.4,
+                  "courses_pass": 10,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "evidnc for pract",
+                  "courses_uuid": "60919",
+                  "courses_instructor": "",
+                  "courses_avg": 81.38,
+                  "courses_pass": 12,
+                  "courses_fail": 1
+                },
+                {
+                  "courses_title": "reas & dec-mking",
+                  "courses_uuid": "25833",
+                  "courses_instructor": "tba",
+                  "courses_avg": 81.2,
+                  "courses_pass": 10,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "adv conc rehb rs",
+                  "courses_uuid": "71589",
+                  "courses_instructor": "dawes, diana;suto, melinda",
+                  "courses_avg": 81.2,
+                  "courses_pass": 10,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "adv conc rehb rs",
+                  "courses_uuid": "71590",
+                  "courses_instructor": "",
+                  "courses_avg": 81.2,
+                  "courses_pass": 10,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "reas & dec-mking",
+                  "courses_uuid": "21795",
+                  "courses_instructor": "",
+                  "courses_avg": 81.09,
+                  "courses_pass": 23,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "neuroantmy/phys",
+                  "courses_uuid": "66152",
+                  "courses_instructor": "",
+                  "courses_avg": 81.08,
+                  "courses_pass": 79,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "neuroantmy/phys",
+                  "courses_uuid": "66151",
+                  "courses_instructor": "",
+                  "courses_avg": 81.08,
+                  "courses_pass": 79,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab theory",
+                  "courses_uuid": "60924",
+                  "courses_instructor": "",
+                  "courses_avg": 80.8,
+                  "courses_pass": 20,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "rehab theory",
+                  "courses_uuid": "60923",
+                  "courses_instructor": "holsti, liisa;virji-babul, naznin",
+                  "courses_avg": 80.8,
+                  "courses_pass": 20,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "major proj prt 1",
+                  "courses_uuid": "71621",
+                  "courses_instructor": "tba",
+                  "courses_avg": 79.25,
+                  "courses_pass": 7,
+                  "courses_fail": 1
+                },
+                {
+                  "courses_title": "major proj prt 1",
+                  "courses_uuid": "71623",
+                  "courses_instructor": "",
+                  "courses_avg": 79.11,
+                  "courses_pass": 17,
+                  "courses_fail": 2
+                },
+                {
+                  "courses_title": "major proj prt 1",
+                  "courses_uuid": "71622",
+                  "courses_instructor": "tba",
+                  "courses_avg": 79,
+                  "courses_pass": 10,
+                  "courses_fail": 1
+                },
+                {
+                  "courses_title": "dev rehab prog",
+                  "courses_uuid": "10594",
+                  "courses_instructor": "",
+                  "courses_avg": 78.63,
+                  "courses_pass": 8,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "reas & dec-mking",
+                  "courses_uuid": "71600",
+                  "courses_instructor": "",
+                  "courses_avg": 77.65,
+                  "courses_pass": 16,
+                  "courses_fail": 1
+                },
+                {
+                  "courses_title": "reas & dec-mking",
+                  "courses_uuid": "21794",
+                  "courses_instructor": "",
+                  "courses_avg": 77.33,
+                  "courses_pass": 6,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "meas in practice",
+                  "courses_uuid": "21798",
+                  "courses_instructor": "tba",
+                  "courses_avg": 77,
+                  "courses_pass": 3,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_title": "eval src evidenc",
+                  "courses_uuid": "71594",
+                  "courses_instructor": "",
+                  "courses_avg": 76,
+                  "courses_pass": 17,
+                  "courses_fail": 2
+                },
+                {
+                  "courses_title": "eval src evidenc",
+                  "courses_uuid": "71593",
+                  "courses_instructor": "tba",
+                  "courses_avg": 73.44,
+                  "courses_pass": 8,
+                  "courses_fail": 1
+                },
+                {
+                  "courses_title": "eval src evidenc",
+                  "courses_uuid": "71591",
+                  "courses_instructor": "tba",
+                  "courses_avg": 70.83,
+                  "courses_pass": 5,
+                  "courses_fail": 1
+                },
+                {
+                  "courses_title": "reas & dec-mking",
+                  "courses_uuid": "71599",
+                  "courses_instructor": "tba",
+                  "courses_avg": 68.5,
+                  "courses_pass": 5,
+                  "courses_fail": 1
+                }
+              ]
+        }
+    }
+}

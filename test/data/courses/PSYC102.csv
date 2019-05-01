@@ -1,0 +1,83 @@
+Title|id|Professor|Audit|Year|Course|Pass|Fail|Avg|Subject|Section
+dev soc cli psy|1989|souza, michael|1|2011|102|122|9|69.91|psyc|921
+dev soc cli psy|1990||1|2011|102|122|9|69.91|psyc|overall
+dev soc cli psy|25563|paulhus, delroy|0|2007|102|325|14|68.6|psyc|001
+dev soc cli psy|25564|paulhus, delroy|0|2007|102|304|11|70|psyc|002
+dev soc cli psy|25565|hamilton, kevin|0|2007|102|131|13|67.04|psyc|902
+dev soc cli psy|25566||0|2007|102|760|38|68.87|psyc|overall
+dev soc cli psy|27808|schmader, tanya|0|2011|102|239|30|67.46|psyc|001
+dev soc cli psy|27809|christie, stella|0|2011|102|114|19|65.66|psyc|002
+dev soc cli psy|27810|christie, stella|0|2011|102|236|20|66.37|psyc|003
+dev soc cli psy|27811|paulhus, delroy|0|2011|102|321|10|68.67|psyc|004
+dev soc cli psy|27812|paulhus, delroy|0|2011|102|124|10|68.46|psyc|005
+dev soc cli psy|27813|klonsky, elisha|0|2011|102|295|18|69.46|psyc|006
+dev soc cli psy|27814|christie, stella|0|2011|102|62|6|66.35|psyc|902
+dev soc cli psy|27815||0|2011|102|1391|113|67.84|psyc|overall
+dev soc cli psy|31395|schmader, tanya|0|2009|102|163|24|67.37|psyc|001
+dev soc cli psy|31396|paulhus, delroy|0|2009|102|284|13|68.38|psyc|002
+dev soc cli psy|31397|paulhus, delroy|0|2009|102|344|23|66.8|psyc|003
+dev soc cli psy|31398|klonsky, elisha|0|2009|102|247|9|72.26|psyc|004
+dev soc cli psy|31399|hamilton, kevin|0|2009|102|150|12|66.02|psyc|902
+dev soc cli psy|31400||0|2009|102|1188|81|68.26|psyc|overall
+dev soc cli psy|46504|souza, michael|0|2013|102|178|20|68.27|psyc|921
+dev soc cli psy|46505||0|2013|102|178|20|68.27|psyc|overall
+dev soc cli psy|54660|schmader, tanya|0|2012|102|292|23|69.81|psyc|002
+dev soc cli psy|54661|schmader, tanya|0|2012|102|297|23|68.09|psyc|003
+dev soc cli psy|54662|paulhus, delroy|0|2012|102|290|12|70.19|psyc|004
+dev soc cli psy|54663|paulhus, delroy|1|2012|102|191|15|66.93|psyc|005
+dev soc cli psy|54664|klonsky, elisha|0|2012|102|298|21|68.8|psyc|006
+dev soc cli psy|54665|hamilton, kevin|0|2012|102|74|8|63.82|psyc|902
+dev soc cli psy|54666||1|2012|102|1442|102|68.62|psyc|overall
+dev soc cli psy|66476|barnes, steven|0|2010|102|134|6|69.89|psyc|921
+dev soc cli psy|66477||0|2010|102|134|6|69.89|psyc|overall
+dev soc cli psy|67896|hewitt, paul|0|2014|102|195|12|69.97|psyc|921
+dev soc cli psy|67897||0|2014|102|195|12|69.97|psyc|overall
+dev soc cli psy|78072|lolliot, simon|0|2015|102|314|19|69.29|psyc|001
+dev soc cli psy|78073|lolliot, simon|0|2015|102|328|25|67.96|psyc|002
+dev soc cli psy|78074|lam, mark|0|2015|102|110|10|65.95|psyc|003
+dev soc cli psy|78075|rawn, catherine|0|2015|102|251|26|68.66|psyc|004
+dev soc cli psy|78076|odic, darko|0|2015|102|346|14|71.91|psyc|005
+dev soc cli psy|78077|odic, darko|1|2015|102|345|9|71.6|psyc|006
+dev soc cli psy|78078|klonsky, elisha|0|2015|102|300|18|69.94|psyc|007
+dev soc cli psy|78079|paulhus, delroy|0|2015|102|75|3|69.95|psyc|008
+dev soc cli psy|78080|paulhus, delroy|0|2015|102|33|0|71.33|psyc|009
+dev soc cli psy|78081|hamilton, kevin|0|2015|102|67|3|67.39|psyc|902
+dev soc cli psy|78082|barnes, steven;lam, mark|0|2015|102|120|8|66.27|psyc|v02
+dev soc cli psy|78083||1|2015|102|2289|135|69.51|psyc|overall
+dev soc cli psy|78587||2|2008|102|80|7|66.06|psyc|921
+dev soc cli psy|78588||2|2008|102|80|7|66.06|psyc|overall
+dev soc cli psy|78909|barnes, steven|0|2009|102|129|10|69.65|psyc|921
+dev soc cli psy|78910||0|2009|102|129|10|69.65|psyc|overall
+dev soc cli psy|80341||0|2008|102|411|31|67.41|psyc|001
+dev soc cli psy|80342||0|2008|102|305|11|70.42|psyc|002
+dev soc cli psy|80343||0|2008|102|147|18|66.19|psyc|902
+dev soc cli psy|80344||0|2008|102|863|60|68.22|psyc|overall
+dev soc cli psy|80824|schmader, tanya|0|2014|102|310|24|69.87|psyc|001
+dev soc cli psy|80825|schmader, tanya|0|2014|102|328|27|68.89|psyc|002
+dev soc cli psy|80826|lam, mark|0|2014|102|114|4|68.58|psyc|003
+dev soc cli psy|80827|rawn, catherine|0|2014|102|245|17|71.06|psyc|004
+dev soc cli psy|80828|paulhus, delroy|0|2014|102|283|18|69.38|psyc|005
+dev soc cli psy|80829|paulhus, delroy|1|2014|102|152|5|68.79|psyc|006
+dev soc cli psy|80830|klonsky, elisha|0|2014|102|303|18|70.17|psyc|007
+dev soc cli psy|80831|odic, darko|0|2014|102|172|6|71.94|psyc|008
+dev soc cli psy|80832|hamilton, kevin|0|2014|102|120|13|66.79|psyc|902
+dev soc cli psy|80833|barnes, steven;lam, mark|0|2014|102|38|4|66.64|psyc|v01
+dev soc cli psy|80834|barnes, steven;lam, mark|0|2014|102|30|8|60.79|psyc|v02
+dev soc cli psy|80835||1|2014|102|2095|144|69.45|psyc|overall
+dev soc cli psy|89668|schmader, tanya|0|2013|102|219|15|70.71|psyc|001
+dev soc cli psy|89669|schmader, tanya|0|2013|102|287|42|67.19|psyc|002
+dev soc cli psy|89670|wehr, paul|0|2013|102|92|4|68.21|psyc|003
+dev soc cli psy|89671|rawn, catherine|0|2013|102|250|18|70.93|psyc|004
+dev soc cli psy|89672|paulhus, delroy|0|2013|102|259|20|67.91|psyc|005
+dev soc cli psy|89673|paulhus, delroy|0|2013|102|239|11|68.65|psyc|006
+dev soc cli psy|89674|klonsky, elisha|0|2013|102|320|26|68.35|psyc|007
+dev soc cli psy|89675|hamilton, kevin|1|2013|102|119|10|67.67|psyc|902
+dev soc cli psy|89676||1|2013|102|1785|146|68.72|psyc|overall
+dev soc cli psy|94729|schmader, tanya|0|2010|102|233|23|69.77|psyc|001
+dev soc cli psy|94730|paulhus, delroy|0|2010|102|237|9|68.86|psyc|002
+dev soc cli psy|94731|paulhus, delroy|0|2010|102|252|12|67.95|psyc|003
+dev soc cli psy|94732|klonsky, elisha|0|2010|102|213|17|69.12|psyc|004
+dev soc cli psy|94733|hamilton, kevin|0|2010|102|132|14|66.45|psyc|902
+dev soc cli psy|94734||0|2010|102|1067|75|68.6|psyc|overall
+dev soc cli psy|98231|souza, michael|0|2012|102|135|17|68.48|psyc|921
+dev soc cli psy|98232||0|2012|102|135|17|68.48|psyc|overall

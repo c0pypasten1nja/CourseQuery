@@ -1,0 +1,10 @@
+{
+    "title": "SELECT dept, id, avg WHERE avg < 50 && dept == 'adhe' || avg == 45 ORDER BY avg",
+    "query": "In courses dataset courses, find entries whose Average is less than 50 and Department is \"adhe\" or Average is equal to 45; show Department, ID and Average; sort in ascending order by Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": []
+        }
+    }
+}

@@ -4,6 +4,7 @@ import { InsightResponse, InsightResponseSuccessBody, InsightDatasetKind } from 
 import InsightFacade from "../src/controller/InsightFacade";
 import Log from "../src/Util";
 import TestUtil from "./TestUtil";
+import * as fs from "fs";
 
 // This should match the JSON schema described in test/query.schema.json
 // except 'filename' which is injected when the file is read.
@@ -14,11 +15,16 @@ export interface ITestQuery {
     filename: string;  // This is injected when reading the file
 }
 
-describe("InsightFacade Add/Remove Dataset", function () {
+describe("InsightFacade Add/Remove List Dataset", function () {
     // Reference any datasets you've added to test/data here and they will
     // automatically be loaded in the Before All hook.
     const datasetsToLoad: { [id: string]: string } = {
         courses: "./test/data/courses.zip",
+        notZip: "./test/data/notZip.tar",
+        notCalledCourses: "./test/data/notCalledCourses.zip",
+        woFiles: "./test/data/woFiles.zip",
+        coursesNotCSV: "./test/data/coursesNotCSV.zip",
+        coursesD1: "./test/data/coursesD1.zip",
     };
 
     let insightFacade: InsightFacade;
@@ -76,8 +82,231 @@ describe("InsightFacade Add/Remove Dataset", function () {
         }
     });
 
-    // This is an example of a pending test. Add a callback function to make the test run.
-    it("Should remove the courses dataset");
+    it("Should not add non zip dataset", async () => {
+        const id: string = "notZip";
+        const expectedCode: number = 400;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+            expect(response.body).to.contain({error: "Should not add non zip dataset"});
+        }
+    });
+
+    it("Should not add folder not called courses", async () => {
+        const id: string = "notCalledCourses";
+        const expectedCode: number = 400;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+            expect(response.body).to.contain({error: "Should not add folder not called courses"});
+        }
+    });
+
+    it("Should not add zip without files", async () => {
+        const id: string = "woFiles";
+        const expectedCode: number = 400;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+            expect(response.body).to.contain({error: "Should not add zip without files"});
+        }
+    });
+
+    it("Should not add courses not in CSV format", async () => {
+        const id: string = "coursesNotCSV";
+        const expectedCode: number = 400;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+            expect(response.body).to.contain({error: "Should not add courses not in CSV format"});
+        }
+    });
+
+    it("Should add a second valid dataset", async () => {
+        const id1: string = "courses";
+        const id2: string = "coursesD1";
+        const expectedCode: number = 204;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.addDataset(id1, datasets[id1], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+        }
+
+        try {
+            response = await insightFacade.addDataset(id2, datasets[id2], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+        }
+    });
+
+    it("Should not add first invalid dataset", async () => {
+        const id1: string = "coursesNotCSV";
+        const id2: string = "coursesD1";
+        const expectedCode1: number = 400;
+        const expectedCode2: number = 204;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.addDataset(id1, datasets[id1], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode1);
+            expect(response.body).to.contain({error: "Should not add courses not in CSV format"});
+        }
+
+        try {
+            response = await insightFacade.addDataset(id2, datasets[id2], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode2);
+        }
+    });
+
+    it("Should not add second invalid dataset", async () => {
+        const id1: string = "courses";
+        const id2: string = "notZip";
+        const expectedCode1: number = 204;
+        const expectedCode2: number = 400;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.addDataset(id1, datasets[id1], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode1);
+            expect(response.body).to.contain({error: "Should not add non zip dataset"});
+        }
+
+        try {
+            response = await insightFacade.addDataset(id2, datasets[id2], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode2);
+        }
+    });
+
+    it("Should remove the courses dataset", async () => {
+        const id: string = "courses";
+        const expectedCode: number = 204;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.removeDataset(id);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+        }
+    });
+
+    it("Should not remove dataset if id undefined", async () => {
+        const id: string = undefined;
+        const expectedCode: number = 404;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.removeDataset(id);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+        }
+    });
+
+    it("Should not remove dataset if id empty", async () => {
+        const id: string = "";
+        const expectedCode: number = 404;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.removeDataset(id);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+        }
+    });
+
+    it("Should not remove dataset if not found", async () => {
+        const id: string = "notFound";
+        const expectedCode: number = 404;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.removeDataset(id);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+        }
+    });
+
+    it("Should remove selected datasets", async () => {
+        const id1: string = "courses";
+        const id2: string = "coursesD1";
+        const expectedCode: number = 204;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.removeDataset(id1);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+        }
+
+        try {
+            response = await insightFacade.removeDataset(id2);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+        }
+    });
+
+    it("Should list added datasets and its type", async () => {
+        const expectedCode: number = 200;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.listDatasets();
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+        }
+    });
+
 });
 
 // This test suite dynamically generates tests from the JSON files in test/queries.

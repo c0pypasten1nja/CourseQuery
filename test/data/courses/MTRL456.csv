@@ -1,0 +1,11 @@
+Title|id|Professor|Audit|Year|Course|Pass|Fail|Avg|Subject|Section
+env degrad mtrls|1892|padilla perez, victor|0|2015|456|38|1|72.31|mtrl|201
+env degrad mtrls|1893||0|2015|456|38|1|72.31|mtrl|overall
+corrosion engrng|24233|alfantazi, akram;kish, joseph|0|2007|456|28|1|72.31|mtrl|101
+corrosion engrng|24234||0|2007|456|28|1|72.31|mtrl|overall
+env degrad mtrls|40091|alfantazi, akram|1|2013|456|40|1|70.12|mtrl|201
+env degrad mtrls|40092||2|2013|456|40|1|70.12|mtrl|overall
+env degrad mtrls|44916|alfantazi, akram|0|2012|456|34|0|75.18|mtrl|201
+env degrad mtrls|44917||0|2012|456|34|0|75.18|mtrl|overall
+env degrad mtrls|62681|padilla perez, victor eduardo|0|2014|456|72|0|78.11|mtrl|201
+env degrad mtrls|62682||0|2014|456|72|0|78.11|mtrl|overall

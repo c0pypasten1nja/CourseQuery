@@ -1,0 +1,7 @@
+Title|id|Professor|Audit|Year|Course|Pass|Fail|Avg|Subject|Section
+int anc grek prs|6880|reid, shelley|0|2014|351|9|0|79.67|grek|001
+int anc grek prs|6881||0|2014|351|9|0|79.67|grek|overall
+int anc grek prs|80323|williams, arden|0|2016|351|7|0|80.71|grek|001
+int anc grek prs|80324||0|2016|351|7|0|80.71|grek|overall
+int anc grek prs|87555|marshall, christopher warren|0|2015|351|4|0|81.25|grek|001
+int anc grek prs|87556||0|2015|351|4|0|81.25|grek|overall

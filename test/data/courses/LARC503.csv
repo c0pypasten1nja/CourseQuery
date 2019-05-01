@@ -1,0 +1,19 @@
+Title|id|Professor|Audit|Year|Course|Pass|Fail|Avg|Subject|Section
+dsn std iii:dev|23035|fox, mikus;lokman, kees|0|2014|503|18|0|82.44|larc|001
+dsn std iii:dev|23036||0|2014|503|18|0|82.44|larc|overall
+dsgn std 3: dev|23764|clarke, steven|0|2007|503|14|0|81.43|larc|001
+dsgn std 3: dev|23765||0|2007|503|14|0|81.43|larc|overall
+dsgn std 3: dev|24294|fox, mikus|1|2010|503|14|0|80.29|larc|001
+dsgn std 3: dev|24295||1|2010|503|14|0|80.29|larc|overall
+dsgn std 3: dev|24601|fox, mikus|0|2012|503|17|0|81.71|larc|001
+dsgn std 3: dev|24602||0|2012|503|17|0|81.71|larc|overall
+la dsn std iii|24802|fox, mikus;man-bourdon, alexandre|0|2015|503|18|0|83.06|larc|001
+la dsn std iii|24803||0|2015|503|18|0|83.06|larc|overall
+dsgn std 3: dev|54429|fox, mikus|1|2013|503|16|0|84.63|larc|001
+dsgn std 3: dev|54430||1|2013|503|16|0|84.63|larc|overall
+dsgn std 3: dev|59603|tuer, james|0|2011|503|17|0|82.82|larc|001
+dsgn std 3: dev|59604||0|2011|503|17|0|82.82|larc|overall
+dsgn std 3: dev|86081||0|2008|503|13|0|86.69|larc|001
+dsgn std 3: dev|86082||0|2008|503|13|0|86.69|larc|overall
+dsgn std 3: dev|97214|fox, mikus|0|2009|503|12|0|81.33|larc|001
+dsgn std 3: dev|97215||0|2009|503|12|0|81.33|larc|overall

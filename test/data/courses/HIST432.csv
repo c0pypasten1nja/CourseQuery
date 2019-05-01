@@ -1,0 +1,46 @@
+Title|id|Professor|Audit|Year|Course|Pass|Fail|Avg|Subject|Section
+int rel grt pwrs|6852|timofiiv, vitaliy|0|2012|432|40|1|75.2|hist|951
+int rel grt pwrs|6853|egerton, george w;gossen, david|0|2012|432|7|3|53.9|hist|gis
+int rel grt pwrs|6854||0|2012|432|47|4|71.02|hist|overall
+int rel grt pwrs|13581||0|2008|432|57|1|75.19|hist|001
+int rel grt pwrs|13582||0|2008|432|35|0|76.83|hist|002
+int rel grt pwrs|13583||0|2008|432|17|2|67.74|hist|99a
+int rel grt pwrs|13584||0|2008|432|7|1|67.5|hist|gis
+int rel grt pwrs|13585||0|2008|432|116|4|73.98|hist|overall
+int rel grt pwrs|14292|timofiiv, vitaliy|0|2014|432|43|1|76.7|hist|921
+int rel grt pwrs|14293||0|2014|432|43|1|76.7|hist|overall
+int rel grt pwrs|14390|timofiiv, vitaliy|0|2009|432|50|0|76.5|hist|921
+int rel grt pwrs|14391|egerton, george w;gossen, david|0|2009|432|9|2|60.45|hist|gis
+int rel grt pwrs|14392||0|2009|432|59|2|73.61|hist|overall
+int rel grt pwrs|17618|timofiiv, vitaliy|0|2013|432|43|0|76.88|hist|921
+int rel grt pwrs|17619|egerton, george w;gossen, david|0|2013|432|14|2|65.44|hist|gis
+int rel grt pwrs|17620||0|2013|432|57|2|73.78|hist|overall
+int rel grt pwrs|19015|gossen, david|0|2007|432|29|1|70.83|hist|001
+int rel grt pwrs|19016|timofiiv, vitaliy|0|2007|432|40|1|75.32|hist|002
+int rel grt pwrs|19017|egerton, george w|0|2007|432|16|3|64.32|hist|99a
+int rel grt pwrs|19018|egerton, george w;gossen, david|0|2007|432|27|2|64.1|hist|gis
+int rel grt pwrs|19019||0|2007|432|112|7|69.7|hist|overall
+int rel grt pwrs|29613|evans, heidi|0|2015|432|65|0|79.02|hist|001
+int rel grt pwrs|29614||0|2015|432|65|0|79.02|hist|overall
+int rel grt pwrs|38392|timofiiv, vitaliy|1|2012|432|64|4|71.99|hist|001
+int rel grt pwrs|38393|egerton, george w|0|2012|432|26|2|69.93|hist|99a
+int rel grt pwrs|38394||2|2012|432|90|6|71.39|hist|overall
+int rel grt pwrs|48822|gossen, david|0|2011|432|53|1|75.43|hist|001
+int rel grt pwrs|48823|egerton, george w|0|2011|432|26|1|73.22|hist|99a
+int rel grt pwrs|48824||0|2011|432|79|2|74.69|hist|overall
+int rel grt pwrs|61812|gossen, david|1|2010|432|51|3|70.89|hist|001
+int rel grt pwrs|61813|egerton, george w|0|2010|432|25|1|76|hist|99a
+int rel grt pwrs|61814||2|2010|432|76|4|72.55|hist|overall
+int rel grt pwrs|67646|timofiiv, vitaliy|0|2010|432|38|0|76.11|hist|921
+int rel grt pwrs|67647|egerton, george w;gossen, david|0|2010|432|8|2|60.7|hist|gis
+int rel grt pwrs|67648||0|2010|432|46|2|72.9|hist|overall
+int rel grt pwrs|79385|gossen, david|0|2009|432|66|0|73.94|hist|001
+int rel grt pwrs|79386|egerton, george w|0|2009|432|22|1|72.7|hist|99a
+int rel grt pwrs|79387||0|2009|432|88|1|73.62|hist|overall
+int rel grt pwrs|79751||0|2008|432|38|0|78.84|hist|951
+int rel grt pwrs|79752||0|2008|432|7|1|60|hist|gis
+int rel grt pwrs|79753||0|2008|432|45|1|75.57|hist|overall
+int rel grt pwrs|85532|silver, lara|1|2014|432|71|0|77.07|hist|001
+int rel grt pwrs|85533||2|2014|432|71|0|77.07|hist|overall
+int rel grt pwrs|96094|lee, steven hugh|0|2013|432|68|0|75.24|hist|001
+int rel grt pwrs|96095||0|2013|432|68|0|75.24|hist|overall

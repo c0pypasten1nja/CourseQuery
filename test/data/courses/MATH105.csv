@@ -1,0 +1,112 @@
+Title|id|Professor|Audit|Year|Course|Pass|Fail|Avg|Subject|Section
+int calc ap c&ss|3781|kroc, edward|0|2011|105|64|9|68.67|math|201
+int calc ap c&ss|3782|nguyen, athena|0|2011|105|59|10|69.59|math|202
+int calc ap c&ss|3783|liu, keqin|0|2011|105|210|8|74|math|203
+int calc ap c&ss|3784|pramanik, malabika|0|2011|105|99|15|65.93|math|204
+int calc ap c&ss|3785|pollack, paul|0|2011|105|85|9|68.89|math|205
+int calc ap c&ss|3786|liu, keqin|0|2011|105|83|18|64.5|math|206
+int calc ap c&ss|3787|lindstrom, michael|0|2011|105|45|7|71.15|math|207
+int calc ap c&ss|3788|kim, djun m|0|2011|105|84|14|68.28|math|208
+int calc ap c&ss|3789|moulding, erin|0|2011|105|72|5|75.23|math|209
+int calc ap c&ss|3790|klinzmann, robert|0|2011|105|48|6|66.69|math|210
+int calc ap c&ss|3791|wong, erick|0|2011|105|62|12|63.42|math|211
+int calc ap c&ss|3792||0|2011|105|911|113|69.27|math|overall
+int calc ap c&ss|5156|harland, nicholas|0|2009|105|68|3|70.76|math|201
+int calc ap c&ss|5157|chau, albert|0|2009|105|102|3|68.83|math|202
+int calc ap c&ss|5158|liu, keqin|0|2009|105|208|11|72.42|math|203
+int calc ap c&ss|5159|ottaway, paul|0|2009|105|68|7|66.13|math|204
+int calc ap c&ss|5160|luoto, kurt|0|2009|105|92|7|63.14|math|205
+int calc ap c&ss|5161|carrasco-teja, mariana|0|2009|105|71|5|67.24|math|206
+int calc ap c&ss|5162|staal, andrew|0|2009|105|71|2|70.07|math|207
+int calc ap c&ss|5163|maclean, mark thomson|0|2009|105|107|6|70|math|208
+int calc ap c&ss|5164|khomenko, maria|0|2009|105|59|3|72.02|math|210
+int calc ap c&ss|5165|ottaway, paul|0|2009|105|127|9|70.04|math|211
+int calc ap c&ss|5166||0|2009|105|973|56|69.43|math|overall
+int calc ap c&ss|13710|carazzo, guillaume|0|2007|105|91|8|70.55|math|201
+int calc ap c&ss|13711|huang, hui|0|2007|105|72|7|68.57|math|202
+int calc ap c&ss|13712|steinberg, david|0|2007|105|55|5|64.87|math|203
+int calc ap c&ss|13713|combariza, german|0|2007|105|65|5|68.56|math|204
+int calc ap c&ss|13714|clarkson, james|0|2007|105|61|5|65.02|math|205
+int calc ap c&ss|13715|raggi, miguel|0|2007|105|55|5|67.98|math|206
+int calc ap c&ss|13716|liu, keqin|0|2007|105|199|13|68.31|math|207
+int calc ap c&ss|13717|duncan, alexander|0|2007|105|71|5|65.54|math|208
+int calc ap c&ss|13718|phan, tuoc van|0|2007|105|79|8|64.49|math|209
+int calc ap c&ss|13719||0|2007|105|748|61|67.41|math|overall
+int calc ap c&ss|23129|vakil, ali|0|2010|105|56|0|78.59|math|921
+int calc ap c&ss|23130|tania, nessy|0|2010|105|94|2|78.69|math|922
+int calc ap c&ss|23131||0|2010|105|150|2|78.65|math|overall
+int calc ap c&ss|24680|burda, yuri|0|2013|105|94|0|69.59|math|951
+int calc ap c&ss|24681|pramanik, malabika|0|2013|105|62|12|65.14|math|952
+int calc ap c&ss|24682||0|2013|105|156|12|67.63|math|overall
+int calc ap c&ss|27241|liu, keqin|0|2012|105|45|7|65.06|math|201
+int calc ap c&ss|27242|liu, keqin|0|2012|105|64|10|65.65|math|202
+int calc ap c&ss|27243|liu, keqin|0|2012|105|196|18|66.09|math|203
+int calc ap c&ss|27244|sadel, christian|0|2012|105|60|17|60.1|math|204
+int calc ap c&ss|27245|fazly, mostafa|0|2012|105|89|8|68.37|math|205
+int calc ap c&ss|27246|liu, keqin|0|2012|105|113|20|62.52|math|206
+int calc ap c&ss|27247|lefebvre, jerome|0|2012|105|59|11|65.97|math|207
+int calc ap c&ss|27248|steinberg, david|0|2012|105|89|7|68.76|math|208
+int calc ap c&ss|27249|ghadermarzi, amir|0|2012|105|71|8|65.38|math|209
+int calc ap c&ss|27250|heumann, jay|0|2012|105|57|19|56.34|math|210
+int calc ap c&ss|27251|hambrook, kyle|0|2012|105|59|13|64.14|math|211
+int calc ap c&ss|27252|liu, keqin|0|2012|105|65|9|61.27|math|212
+int calc ap c&ss|27253||0|2012|105|967|147|64.43|math|overall
+int calc ap c&ss|29739||0|2008|105|190|7|69.8|math|201
+int calc ap c&ss|29740||0|2008|105|195|21|65.39|math|203
+int calc ap c&ss|29741||0|2008|105|86|8|65.93|math|205
+int calc ap c&ss|29742||0|2008|105|115|3|70.77|math|207
+int calc ap c&ss|29743||0|2008|105|100|7|72.37|math|208
+int calc ap c&ss|29744||0|2008|105|94|4|69.47|math|209
+int calc ap c&ss|29745||0|2008|105|780|50|68.65|math|overall
+int calc ap c&ss|33989|doerksen, kevin;liu, keqin|0|2013|105|287|53|64.03|math|201
+int calc ap c&ss|33990|liu, keqin|0|2013|105|197|19|67.54|math|203
+int calc ap c&ss|33991|feldman, joel;liu, keqin|0|2013|105|107|16|66.18|math|204
+int calc ap c&ss|33992|liu, keqin;rath, balazs|0|2013|105|69|13|63.51|math|205
+int calc ap c&ss|33993|liu, keqin;peskin, laura|0|2013|105|70|21|55.74|math|206
+int calc ap c&ss|33994|levy, alon;liu, keqin|0|2013|105|91|8|64.93|math|208
+int calc ap c&ss|33995|liu, keqin;tba|0|2013|105|73|7|67.38|math|209
+int calc ap c&ss|33996|garcia ramos aguilar, felipe;liu, keqin|0|2013|105|62|10|65.21|math|211
+int calc ap c&ss|33997||0|2013|105|956|147|64.63|math|overall
+int calc ap c&ss|47037|nguyen, athena|0|2014|105|82|11|71.63|math|101
+int calc ap c&ss|47038||0|2014|105|85|23|58.04|math|201
+int calc ap c&ss|47039||0|2014|105|30|15|54.64|math|202
+int calc ap c&ss|47040|balmforth, neil|0|2014|105|184|23|63.16|math|203
+int calc ap c&ss|47041|ao, weiwei|0|2014|105|27|13|53.88|math|204
+int calc ap c&ss|47042|zhao, mingfeng|0|2014|105|96|10|66.58|math|205
+int calc ap c&ss|47043|talpo, mattia|0|2014|105|53|19|53.06|math|206
+int calc ap c&ss|47044||0|2014|105|31|5|64.58|math|207
+int calc ap c&ss|47045|liu, keqin|0|2014|105|202|20|65.56|math|208
+int calc ap c&ss|47046|brakocevic, miljan|0|2014|105|51|5|68.91|math|209
+int calc ap c&ss|47047||0|2014|105|56|14|58.16|math|211
+int calc ap c&ss|47048||0|2014|105|52|12|63.31|math|213
+int calc ap c&ss|47049||0|2014|105|949|170|62.88|math|overall
+int calc ap c&ss|48139|helmuth, tyler|0|2011|105|59|12|65.68|math|921
+int calc ap c&ss|48140|lefebvre, jerome|0|2011|105|37|15|63.4|math|922
+int calc ap c&ss|48141||0|2011|105|96|27|64.72|math|overall
+int calc ap c&ss|61269|nguyen, athena|0|2012|105|58|12|67.06|math|921
+int calc ap c&ss|61270|pramanik, malabika|0|2012|105|70|8|62.65|math|922
+int calc ap c&ss|61271||0|2012|105|128|20|64.74|math|overall
+int calc ap c&ss|68474||0|2008|105|108|13|67.05|math|951
+int calc ap c&ss|68475||0|2008|105|108|13|67.05|math|overall
+int calc ap c&ss|72933|athreya, siva|0|2010|105|91|6|68.09|math|201
+int calc ap c&ss|72934|maurin, guillaume|0|2010|105|78|11|66.33|math|202
+int calc ap c&ss|72935|pramanik, malabika|0|2010|105|210|6|74.56|math|203
+int calc ap c&ss|72936|blunk, mark|0|2010|105|93|3|69.82|math|204
+int calc ap c&ss|72937|guigue, alexis|0|2010|105|90|2|71.61|math|205
+int calc ap c&ss|72938|zangeneh, hamid|0|2010|105|93|5|69.37|math|206
+int calc ap c&ss|72939|israel, robert b|0|2010|105|109|6|69.92|math|208
+int calc ap c&ss|72940|de zeeuw, frank|0|2010|105|71|3|76.64|math|209
+int calc ap c&ss|72941|zhai, kelan|0|2010|105|71|5|75.43|math|210
+int calc ap c&ss|72942||0|2010|105|906|47|71.51|math|overall
+int calc ap c&ss|90000|wade, richard|0|2015|105|106|19|64.09|math|201
+int calc ap c&ss|90001||0|2015|105|91|3|73.74|math|202
+int calc ap c&ss|90002|anstee, richard|0|2015|105|182|22|65.74|math|203
+int calc ap c&ss|90003|yeager, elyse|0|2015|105|150|10|66.44|math|204
+int calc ap c&ss|90004|yilmaz, ozgur|0|2015|105|125|14|69.11|math|205
+int calc ap c&ss|90005||0|2015|105|44|10|67.17|math|207
+int calc ap c&ss|90006|liu, keqin|0|2015|105|178|11|69.6|math|208
+int calc ap c&ss|90007|yeager, elyse|0|2015|105|123|10|68.92|math|209
+int calc ap c&ss|90008|liu, keqin|0|2015|105|66|8|65.58|math|211
+int calc ap c&ss|90009||0|2015|105|1065|107|67.74|math|overall
+int calc ap c&ss|96991|wei, xiaoxi tereza|0|2009|105|95|16|59.74|math|921
+int calc ap c&ss|96992||0|2009|105|95|16|59.74|math|overall

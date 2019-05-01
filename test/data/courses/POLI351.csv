@@ -1,0 +1,18 @@
+Title|id|Professor|Audit|Year|Course|Pass|Fail|Avg|Subject|Section
+env poli&polcy|7745|pacheco-vega, hector r|0|2011|351|38|0|80.95|poli|921
+env poli&polcy|7746||0|2011|351|38|0|80.95|poli|overall
+env poli&polcy|8939|harrison, kathryn|0|2014|351|64|5|70.39|poli|001
+env poli&polcy|8940||0|2014|351|64|5|70.39|poli|overall
+env poli&polcy|16112|harrison, kathryn|0|2013|351|37|1|71.29|poli|001
+env poli&polcy|16113||0|2013|351|37|1|71.29|poli|overall
+env poli&polcy|17073|barros leal farias, deborah|0|2015|351|96|2|76.2|poli|001
+env poli&polcy|17074||0|2015|351|96|2|76.2|poli|overall
+env poli&polcy|53775|hoberg, george|0|2012|351|45|1|76.2|poli|002
+env poli&polcy|53776||0|2012|351|45|1|76.2|poli|overall
+env poli&polcy|63002|pacheco-vega, hector r|1|2010|351|62|2|80.66|poli|001
+env poli&polcy|63003|hoberg, george|0|2010|351|48|0|74.77|poli|002
+env poli&polcy|63004||1|2010|351|110|2|78.13|poli|overall
+env poli&polcy|69474||1|2008|351|83|4|70.69|poli|002
+env poli&polcy|69475||1|2008|351|83|4|70.69|poli|overall
+env poli&polcy|70798|hoberg, george|0|2011|351|43|0|74.21|poli|002
+env poli&polcy|70799||0|2011|351|43|0|74.21|poli|overall

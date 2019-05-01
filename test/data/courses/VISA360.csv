@@ -1,0 +1,11 @@
+Title|id|Professor|Audit|Year|Course|Pass|Fail|Avg|Subject|Section
+int sculpture i|5780|prince, richard|0|2011|360|10|0|78.4|visa|001
+int sculpture i|5781||0|2011|360|10|0|78.4|visa|overall
+int sculpture i|14711|prince, richard|0|2012|360|12|0|77.83|visa|001
+int sculpture i|14712||0|2012|360|12|0|77.83|visa|overall
+int sculpture i|19973|prince, richard|0|2013|360|12|0|79.25|visa|001
+int sculpture i|19974||0|2013|360|12|0|79.25|visa|overall
+int sculpture i|52530|levin, simon|0|2010|360|16|0|81|visa|001
+int sculpture i|52531||0|2010|360|16|0|81|visa|overall
+int sculpture i|53965|prince, richard|0|2015|360|12|0|78.17|visa|001
+int sculpture i|53966||0|2015|360|12|0|78.17|visa|overall

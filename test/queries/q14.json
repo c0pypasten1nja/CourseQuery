@@ -1,0 +1,26 @@
+{
+    "title": "SELECT dept, id, Instructor WHERE Instructor includes 'zwiers'  ORDER BY Instructor",
+    "query": "In courses dataset courses, find entries whose Instructor includes \"zwiers\"; show Department and ID and Instructor; sort in descending order by Instructor.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                  "courses_dept": "math",
+                  "courses_id": "257",
+                  "courses_instructor": "zwiers, ian"
+                },
+                {
+                  "courses_dept": "math",
+                  "courses_id": "316",
+                  "courses_instructor": "zwiers, ian"
+                },
+                {
+                  "courses_dept": "math",
+                  "courses_id": "264",
+                  "courses_instructor": "zwiers, ian"
+                }
+              ]
+        }
+    }
+}

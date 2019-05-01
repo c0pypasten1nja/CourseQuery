@@ -1,0 +1,31 @@
+Title|id|Professor|Audit|Year|Course|Pass|Fail|Avg|Subject|Section
+eval src evidenc|10581||3|2009|501|11|0|84.27|rhsc|001
+eval src evidenc|10582||4|2009|501|6|0|95|rhsc|002
+eval src evidenc|10583|tba|3|2009|501|4|0|85.75|rhsc|006
+eval src evidenc|10584||2|2009|501|8|0|85.5|rhsc|007
+eval src evidenc|10585||12|2009|501|29|0|87.03|rhsc|overall
+eval src evidenc|21786|tba|6|2010|501|6|0|89.67|rhsc|001
+eval src evidenc|21787|tba|10|2010|501|5|0|91.4|rhsc|002
+eval src evidenc|21788|tba|7|2010|501|3|0|82.67|rhsc|006
+eval src evidenc|21789||23|2010|501|14|0|88.79|rhsc|overall
+evidnc for pract|25827|tba|0|2012|501|11|0|85.82|rhsc|001
+evidnc for pract|25828|tba|0|2012|501|4|0|85|rhsc|006
+evidnc for pract|25829||0|2012|501|15|0|85.6|rhsc|overall
+evidnc for pract|60919||0|2014|501|12|1|81.38|rhsc|001
+evidnc for pract|60920|mortenson, patricia|0|2014|501|7|0|84.71|rhsc|006
+evidnc for pract|60921|davidson, katherine|0|2014|501|8|0|88.88|rhsc|007
+evidnc for pract|60922||0|2014|501|27|1|84.36|rhsc|overall
+evidnc for pract|66155|tba|0|2013|501|12|0|88.17|rhsc|001
+evidnc for pract|66156|tba|0|2013|501|9|0|86.22|rhsc|006
+evidnc for pract|66157||0|2013|501|21|0|87.33|rhsc|overall
+eval src evidenc|71591|tba|5|2011|501|5|1|70.83|rhsc|001
+eval src evidenc|71592|tba|7|2011|501|4|0|89.5|rhsc|002
+eval src evidenc|71593|tba|3|2011|501|8|1|73.44|rhsc|006
+eval src evidenc|71594||15|2011|501|17|2|76|rhsc|overall
+eval src evidenc|76486||6|2008|501|6|0|88.5|rhsc|001
+eval src evidenc|76487||9|2008|501|5|0|87.4|rhsc|002
+eval src evidenc|76488||6|2008|501|7|0|85.14|rhsc|006
+eval src evidenc|76489||21|2008|501|18|0|86.89|rhsc|overall
+evidnc for pract|87109|mortenson, william|0|2015|501|13|0|86.54|rhsc|001
+evidnc for pract|87110|davidson, katherine;mortenson, patricia|0|2015|501|8|0|84.5|rhsc|006
+evidnc for pract|87111||0|2015|501|21|0|85.76|rhsc|overall

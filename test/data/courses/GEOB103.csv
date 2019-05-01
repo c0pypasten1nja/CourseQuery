@@ -1,0 +1,29 @@
+Title|id|Professor|Audit|Year|Course|Pass|Fail|Avg|Subject|Section
+chng env: wt&lnd|8228|gaitan, carlos|0|2012|103|33|0|67.94|geob|921
+chng env: wt&lnd|8229||0|2012|103|33|0|67.94|geob|overall
+chng env: wt&lnd|24386|eaton, brett|0|2014|103|269|4|72.53|geob|101
+chng env: wt&lnd|24387|ferrer boix, carles|0|2014|103|154|2|70.22|geob|201
+chng env: wt&lnd|24388||0|2014|103|423|6|71.69|geob|overall
+chng env: wt&lnd|37514|cienciala, piotr;tba|0|2013|103|236|8|71.46|geob|101
+chng env: wt&lnd|37515|ferrer boix, carles|0|2013|103|205|22|67.59|geob|201
+chng env: wt&lnd|37516||0|2013|103|441|30|69.59|geob|overall
+int phy geog:w&l|44633|eaton, brett|0|2009|103|131|5|72.54|geob|101
+int phy geog:w&l|44634|bovis, michael j;hassan, marwan|0|2009|103|121|13|69.96|geob|201
+int phy geog:w&l|44635|bovis, michael j;hassan, marwan|0|2009|103|166|7|70.4|geob|202
+int phy geog:w&l|44636||0|2009|103|418|25|70.92|geob|overall
+chng env: wt&lnd|50129|eaton, brett|0|2010|103|151|14|67.87|geob|101
+chng env: wt&lnd|50130|ali, khawaja faran|0|2010|103|167|17|65.18|geob|201
+chng env: wt&lnd|50131|koppes, michele|0|2010|103|187|25|65.36|geob|202
+chng env: wt&lnd|50132||0|2010|103|505|56|66.04|geob|overall
+chng env: wt&lnd|51085|ferrer boix, carles|0|2015|103|197|9|69.6|geob|101
+chng env: wt&lnd|51086|koppes, michele|0|2015|103|272|14|70.53|geob|201
+chng env: wt&lnd|51087||0|2015|103|469|23|70.14|geob|overall
+chng env: wt&lnd|59877|hamdan, khaled|0|2013|103|43|3|72.39|geob|921
+chng env: wt&lnd|59878||0|2013|103|43|3|72.39|geob|overall
+chng env: wt&lnd|65336|eaton, brett|0|2012|103|228|14|71.57|geob|101
+chng env: wt&lnd|65337|bovis, michael j|0|2012|103|191|31|62.81|geob|201
+chng env: wt&lnd|65338||0|2012|103|419|45|67.38|geob|overall
+chng env: wt&lnd|66200|koppes, michele|0|2011|103|192|18|68.37|geob|101
+chng env: wt&lnd|66201|hassan, marwan|0|2011|103|196|10|70.94|geob|201
+chng env: wt&lnd|66202|ali, khawaja faran|0|2011|103|173|6|71.26|geob|202
+chng env: wt&lnd|66203||0|2011|103|561|34|70.13|geob|overall

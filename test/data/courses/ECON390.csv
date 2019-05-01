@@ -1,0 +1,11 @@
+Title|id|Professor|Audit|Year|Course|Pass|Fail|Avg|Subject|Section
+int econ resrch|9998|adshade, marina|0|2016|390|33|0|78.3|econ|001
+int econ resrch|9999||0|2016|390|33|0|78.3|econ|overall
+int econ resrch|11540|adshade, marina|0|2014|390|22|0|72.95|econ|001
+int econ resrch|11541||0|2014|390|22|0|72.95|econ|overall
+int econ resrch|74401|adshade, marina|0|2015|390|25|0|75.6|econ|001
+int econ resrch|74402||0|2015|390|25|0|75.6|econ|overall
+int econ resrch|78446|adshade, marina|0|2012|390|19|0|78.47|econ|001
+int econ resrch|78447||0|2012|390|19|0|78.47|econ|overall
+int econ resrch|90992|adshade, marina|0|2013|390|16|0|79.94|econ|001
+int econ resrch|90993||0|2013|390|16|0|79.94|econ|overall

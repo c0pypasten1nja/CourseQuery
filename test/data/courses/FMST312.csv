@@ -1,0 +1,40 @@
+Title|id|Professor|Audit|Year|Course|Pass|Fail|Avg|Subject|Section
+parent-child rel|5472|bartolic, silvia|0|2007|312|90|0|74.76|fmst|001
+parent-child rel|5473|marshall, sheila|0|2007|312|83|3|68.27|fmst|901
+parent-child rel|5474||0|2007|312|173|3|71.59|fmst|overall
+parent-child rel|9373|weatherby, maria|0|2013|312|50|3|73.51|fmst|001
+parent-child rel|9374|weatherby, maria|0|2013|312|85|6|72.44|fmst|002
+parent-child rel|9375|weatherby, maria|0|2013|312|88|3|71.34|fmst|003
+parent-child rel|9376||0|2013|312|223|12|72.26|fmst|overall
+parent-child rel|9930|ponzetti, james joseph|0|2009|312|23|3|65.81|fmst|001
+parent-child rel|9931|ponzetti, james joseph|0|2009|312|32|1|73.52|fmst|002
+parent-child rel|9932||0|2009|312|55|4|70.12|fmst|overall
+parent-child rel|13262|ponzetti, james joseph|2|2011|312|39|3|69.12|fmst|001
+parent-child rel|13263|ponzetti, james joseph|0|2011|312|36|6|67.33|fmst|002
+parent-child rel|13264||2|2011|312|75|9|68.23|fmst|overall
+parent-child rel|22214||0|2008|312|77|5|69.66|fmst|001
+parent-child rel|22215||0|2008|312|77|5|69.66|fmst|overall
+parent-child rel|37720|weatherby, maria|0|2013|312|28|0|77.29|fmst|001
+parent-child rel|37721|weatherby, maria|0|2013|312|33|2|73.51|fmst|002
+parent-child rel|37722||0|2013|312|61|2|75.19|fmst|overall
+parent-child rel|41892|weatherby, maria|0|2015|312|83|8|69.57|fmst|002
+parent-child rel|41893|wainer, rafael|0|2015|312|38|0|74.18|fmst|003
+parent-child rel|41894|lester-smith, donna|1|2015|312|74|1|78.05|fmst|100
+parent-child rel|41895|weatherby, maria|0|2015|312|75|7|68.63|fmst|202
+parent-child rel|41896||1|2015|312|270|16|72.14|fmst|overall
+parent-child rel|46243|ponzetti, james joseph|0|2012|312|35|5|65|fmst|001
+parent-child rel|46244|ponzetti, james joseph|0|2012|312|38|1|78.67|fmst|002
+parent-child rel|46245||0|2012|312|73|6|71.75|fmst|overall
+parent-child rel|48640|ponzetti, james joseph|0|2010|312|16|3|62.58|fmst|001
+parent-child rel|48641|ponzetti, james joseph|0|2010|312|35|3|69.82|fmst|002
+parent-child rel|48642||0|2010|312|51|6|67.4|fmst|overall
+parent-child rel|51490|weatherby, maria|0|2014|312|25|0|74.92|fmst|001
+parent-child rel|51491|weatherby, maria|1|2014|312|37|1|78.58|fmst|002
+parent-child rel|51492||1|2014|312|62|1|77.13|fmst|overall
+parent-child rel|75982|wainer, rafael|0|2016|312|50|0|72.92|fmst|100
+parent-child rel|75983||0|2016|312|50|0|72.92|fmst|overall
+parent-child rel|87723|ponzetti, james joseph|0|2014|312|29|1|71.83|fmst|001
+parent-child rel|87724|weatherby, maria|0|2014|312|91|8|66.25|fmst|002
+parent-child rel|87725|wainer, rafael|1|2014|312|37|1|68.89|fmst|003
+parent-child rel|87726|weatherby, maria|0|2014|312|85|4|69.33|fmst|202
+parent-child rel|87727||1|2014|312|242|14|68.37|fmst|overall

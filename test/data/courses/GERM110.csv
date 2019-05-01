@@ -1,0 +1,109 @@
+Title|id|Professor|Audit|Year|Course|Pass|Fail|Avg|Subject|Section
+begin germ 2|1722||0|2015|110|15|0|82.73|germ|001
+begin germ 2|1723|kumar, uma|0|2015|110|23|0|77.09|germ|003
+begin germ 2|1724|faller, florian|0|2015|110|23|1|74.54|germ|004
+begin germ 2|1725|faller, florian|0|2015|110|23|2|75.52|germ|006
+begin germ 2|1726|o'brien, adelheid|0|2015|110|26|3|78.31|germ|007
+begin germ 2|1727|lieblang, jason|0|2015|110|27|0|79.15|germ|008
+begin germ 2|1728|laszlo, eszter|0|2015|110|32|1|81.12|germ|009
+begin germ 2|1729|maslenikau, ihar|1|2015|110|27|2|78.28|germ|010
+begin germ 2|1730||1|2015|110|196|9|78.27|germ|overall
+begin germ 2|7006|maslenikau, ihar|0|2014|110|23|1|77.63|germ|001
+begin germ 2|7007|kumar, uma|0|2014|110|27|1|73.54|germ|003
+begin germ 2|7008|faller, florian|2|2014|110|21|1|82.59|germ|004
+begin germ 2|7009|faller, florian|0|2014|110|23|0|79.78|germ|006
+begin germ 2|7010|o'brien, adelheid|1|2014|110|21|1|81|germ|007
+begin germ 2|7011|hempen, daniela|0|2014|110|21|1|73.73|germ|008
+begin germ 2|7012|struch, gela|1|2014|110|27|2|74.31|germ|009
+begin germ 2|7013|maslenikau, ihar|0|2014|110|25|0|81.96|germ|010
+begin germ 2|7014||4|2014|110|188|7|77.86|germ|overall
+begin germ 2|17950|toor, gorsharn|1|2012|110|10|4|73.71|germ|001
+begin germ 2|17951|roy, catherine|1|2012|110|20|4|73.13|germ|002
+begin germ 2|17952|spreter von kreudenstein, chri|0|2012|110|23|0|78.78|germ|004
+begin germ 2|17953|faller, florian|0|2012|110|30|0|75.3|germ|006
+begin germ 2|17954|o'brien, adelheid|0|2012|110|24|0|77.33|germ|007
+begin germ 2|17955|kumar, uma|0|2012|110|14|1|78.47|germ|008
+begin germ 2|17956|lieblang, jason|2|2012|110|24|1|80.68|germ|009
+begin germ 2|17957|lieblang, jason|0|2012|110|24|0|83.71|germ|010
+begin germ 2|17958|faller, florian|1|2012|110|20|0|78.4|germ|901
+begin germ 2|17959||5|2012|110|189|10|77.81|germ|overall
+begin germ 2|28070|struch, gela|0|2013|110|11|0|78.27|germ|005
+begin germ 2|28071|roy, catherine|1|2013|110|20|0|80.9|germ|921
+begin germ 2|28072||1|2013|110|31|0|79.97|germ|overall
+begin germ 2|31009|toor, gorsharn|1|2012|110|19|1|81.7|germ|921
+begin germ 2|31010||1|2012|110|19|1|81.7|germ|overall
+begin germ 2|31799|kumar, uma|0|2011|110|18|0|81.61|germ|001
+begin germ 2|31800|klibadze, dali;struch, gela|0|2011|110|11|0|77.82|germ|002
+begin germ 2|31801|sanders, travis;struch, gela|1|2011|110|17|1|76.67|germ|003
+begin germ 2|31802|faller, florian|0|2011|110|28|1|79.1|germ|004
+begin germ 2|31803|faller, florian|0|2011|110|24|0|78.33|germ|006
+begin germ 2|31804|o'brien, adelheid|0|2011|110|21|0|78.48|germ|007
+begin germ 2|31805|struch, gela|0|2011|110|28|1|74.79|germ|008
+begin germ 2|31806|struch, gela|1|2011|110|28|1|83.03|germ|009
+begin germ 2|31807|maslenikau, ihar|0|2011|110|13|0|75.77|germ|010
+begin germ 2|31808|faller, florian|0|2011|110|18|1|79.63|germ|901
+begin germ 2|31809||2|2011|110|206|5|78.68|germ|overall
+begin germ 2|33420|struch, gela;svanidze, tamara|1|2009|110|21|0|83.19|germ|001
+begin germ 2|33421|klibadze, dali;struch, gela|0|2009|110|19|0|83.21|germ|002
+begin germ 2|33422|hempen, daniela|0|2009|110|20|0|74.4|germ|003
+begin germ 2|33423|toor, gorsharn|1|2009|110|26|2|79.32|germ|004
+begin germ 2|33424|zaenker, karl a|0|2009|110|21|1|78.95|germ|005
+begin germ 2|33425|spreter von kreudenstein, chri|0|2009|110|28|0|76.43|germ|007
+begin germ 2|33426|struch, gela|0|2009|110|31|0|79.9|germ|008
+begin germ 2|33427|spreter von kreudenstein, chri|0|2009|110|22|0|77.95|germ|009
+begin germ 2|33428|spreter von kreudenstein, chri|2|2009|110|20|0|78.65|germ|010
+begin germ 2|33429|kumar, uma|0|2009|110|6|0|89|germ|901
+begin germ 2|33430||4|2009|110|214|3|79.32|germ|overall
+begin germ 2|36751|hempen, daniela|1|2011|110|27|0|80.15|germ|921
+begin germ 2|36752||1|2011|110|27|0|80.15|germ|overall
+begin germ 2|39929||0|2008|110|13|0|74.38|germ|001
+begin germ 2|39930||1|2008|110|12|0|76.92|germ|002
+begin germ 2|39931||0|2008|110|22|0|76.95|germ|003
+begin germ 2|39932||0|2008|110|26|1|74|germ|004
+begin germ 2|39933||0|2008|110|20|1|71.43|germ|007
+begin germ 2|39934||0|2008|110|18|1|79.05|germ|008
+begin germ 2|39935||0|2008|110|20|1|72.38|germ|009
+begin germ 2|39936||0|2008|110|13|0|78.23|germ|010
+begin germ 2|39937||1|2008|110|15|3|59.61|germ|901
+begin germ 2|39938||0|2008|110|10|1|69.73|germ|902
+begin germ 2|39939||2|2008|110|169|8|73.22|germ|overall
+begin germ 2|42346|gassner, florian|0|2013|110|22|1|78.26|germ|001
+begin germ 2|42347|struch, gela;tba|0|2013|110|14|0|78.43|germ|002
+begin germ 2|42348|struch, gela;tba|0|2013|110|22|0|76.09|germ|003
+begin germ 2|42349|faller, florian|0|2013|110|20|2|78.14|germ|004
+begin germ 2|42350|maslenikau, ihar|0|2013|110|16|0|74.63|germ|006
+begin germ 2|42351|o'brien, adelheid|0|2013|110|29|0|76.72|germ|007
+begin germ 2|42352|hempen, daniela|0|2013|110|28|3|76.32|germ|009
+begin germ 2|42353|maslenikau, ihar|0|2013|110|24|0|80.79|germ|010
+begin germ 2|42354|faller, florian|0|2013|110|14|1|80.8|germ|901
+begin germ 2|42355||0|2013|110|189|7|77.69|germ|overall
+begin germ 2|53077|petro, ingrid;struch, gela|1|2007|110|9|0|78.22|germ|001
+begin germ 2|53078|struch, gela|1|2007|110|17|3|70.65|germ|002
+begin germ 2|53079|schenkel, guido;struch, gela|1|2007|110|21|0|70.33|germ|003
+begin germ 2|53080|toor, gorsharn|0|2007|110|25|0|74.12|germ|004
+begin germ 2|53081|schade, silke|0|2007|110|26|0|73.31|germ|007
+begin germ 2|53082|schallie, charlotte|0|2007|110|18|1|74.95|germ|008
+begin germ 2|53083|hey, isolde|0|2007|110|15|0|71.33|germ|010
+begin germ 2|53084|faller, florian|0|2007|110|16|1|70.12|germ|901
+begin germ 2|53085||3|2007|110|147|5|72.63|germ|overall
+begin germ 2|57690|maslenikau, ihar|0|2016|110|22|0|80.95|germ|010
+begin germ 2|57691||0|2016|110|22|0|80.95|germ|overall
+begin germ 2|60581|coordinator;redlich, jeremy;struch, gela|0|2010|110|18|0|83.67|germ|001
+begin germ 2|60582|coordinator;jones, lydia;struch, gela|0|2010|110|27|0|78.37|germ|002
+begin germ 2|60583|faller, florian|0|2010|110|28|1|77.66|germ|004
+begin germ 2|60584|faller, florian|0|2010|110|26|1|78.37|germ|006
+begin germ 2|60585|struch, gela|0|2010|110|21|3|73.58|germ|007
+begin germ 2|60586|toor, gorsharn|0|2010|110|15|2|74.47|germ|008
+begin germ 2|60587|coordinator;struch, gela;svanidze, tamara|1|2010|110|21|0|82.52|germ|009
+begin germ 2|60588|maslenikau, ihar|0|2010|110|21|0|78.29|germ|010
+begin germ 2|60589|faller, florian|1|2010|110|10|0|77.7|germ|901
+begin germ 2|60590||2|2010|110|187|7|78.23|germ|overall
+begin germ 2|75411|maslenikau, ihar|1|2010|110|15|0|80.93|germ|921
+begin germ 2|75412||1|2010|110|15|0|80.93|germ|overall
+begin germ 2|80294|struch, gela|0|2014|110|9|0|77.78|germ|005
+begin germ 2|80295|oh, ja-hae|3|2014|110|14|1|72.93|germ|921
+begin germ 2|80296||3|2014|110|23|1|74.75|germ|overall
+begin germ 2|82027|spreter von kreudenstein, chri|1|2009|110|20|0|78.1|germ|921
+begin germ 2|82028||1|2009|110|20|0|78.1|germ|overall
+begin germ 2|98487||2|2008|110|18|2|77.05|germ|921
+begin germ 2|98488||2|2008|110|18|2|77.05|germ|overall

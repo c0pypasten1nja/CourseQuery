@@ -1,0 +1,10 @@
+{
+    "title": "A query containing upper case \"ALL\" instead of \"all\"",
+    "query": "In rooms dataset rooms, find ALL entries; show Seats.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}

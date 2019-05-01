@@ -1,0 +1,10 @@
+{
+    "title": "A query with invalid FILTER ",
+    "query": "In courses dataset courses, find all entries whose Instructor includes \"zwiers\"; show Department and ID and Instructor; sort in descending order by Instructor.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}

@@ -1,0 +1,60 @@
+Title|id|Professor|Audit|Year|Course|Pass|Fail|Avg|Subject|Section
+dev wkshp/sem|8675||0|2008|329|7|0|85.86|adhe|022
+dev wkshp/sem|8676||0|2008|329|19|1|80.35|adhe|63a
+dev wkshp/sem|8677||0|2008|329|20|1|81.71|adhe|63c
+dev wkshp/sem|8678||0|2008|329|46|2|81.75|adhe|overall
+dev wkshp/sem|17258|smulders, dave|0|2010|329|25|0|86.04|adhe|63a
+dev wkshp/sem|17259|smulders, dave|0|2010|329|28|0|85.39|adhe|63c
+dev wkshp/sem|17260||0|2010|329|53|0|85.7|adhe|overall
+dev wkshp/sem|19182|bishundayal, deonarine|0|2016|329|33|0|93.33|adhe|63b
+dev wkshp/sem|19183|smulders, dave|0|2016|329|29|0|86.24|adhe|63c
+dev wkshp/sem|19184||0|2016|329|62|0|90.02|adhe|overall
+dev wkshp/sem|27556|smulders, dave|0|2013|329|21|0|81.71|adhe|93q
+dev wkshp/sem|27557|palacios, carolina|0|2013|329|21|0|72.29|adhe|93s
+dev wkshp/sem|27558||0|2013|329|42|0|77|adhe|overall
+dev wkshp/sem|36012|smulders, dave|0|2014|329|33|1|78.24|adhe|63a
+dev wkshp/sem|36013|bishundayal, deonarine|0|2014|329|28|0|86.64|adhe|63b
+dev wkshp/sem|36014|bishundayal, deonarine|0|2014|329|27|0|89.3|adhe|63c
+dev wkshp/sem|36015|smulders, dave|0|2014|329|30|0|77.77|adhe|63d
+dev wkshp/sem|36016|bishundayal, deonarine|0|2014|329|27|0|86.59|adhe|63e
+dev wkshp/sem|36017||0|2014|329|145|1|83.34|adhe|overall
+dev wkshp/sem|46420|smulders, dave|0|2009|329|16|0|86.44|adhe|63a
+dev wkshp/sem|46421|smulders, dave|0|2009|329|20|0|83.45|adhe|63c
+dev wkshp/sem|46422||0|2009|329|36|0|84.78|adhe|overall
+dev wkshp/sem|62724|smulders, dave|0|2013|329|32|0|80.44|adhe|63a
+dev wkshp/sem|62725|palacios, carolina|0|2013|329|25|1|67.5|adhe|63b
+dev wkshp/sem|62726|palacios, carolina|0|2013|329|27|0|77.59|adhe|63c
+dev wkshp/sem|62727|smulders, dave|0|2013|329|31|1|75.91|adhe|63d
+dev wkshp/sem|62728||0|2013|329|115|2|75.67|adhe|overall
+dev wkshp/sem|66145|smulders, dave|0|2011|329|26|0|89|adhe|93q
+dev wkshp/sem|66146||0|2011|329|26|0|89|adhe|overall
+dev wkshp/sem|68538|smulders, dave|0|2015|329|30|1|79.84|adhe|63a
+dev wkshp/sem|68539|bishundayal, deonarine|0|2015|329|27|0|96.11|adhe|63b
+dev wkshp/sem|68540|bishundayal, deonarine|0|2015|329|26|0|92.54|adhe|63c
+dev wkshp/sem|68541|smulders, dave|0|2015|329|27|0|83.48|adhe|63d
+dev wkshp/sem|68542|aijazi, omer|0|2015|329|36|0|85.03|adhe|63e
+dev wkshp/sem|68543|bishundayal, deonarine|0|2015|329|33|0|90.82|adhe|63f
+dev wkshp/sem|68544||0|2015|329|179|1|87.71|adhe|overall
+dev wkshp/sem|75623|smulders, dave|0|2011|329|20|1|84.57|adhe|63a
+dev wkshp/sem|75624|smulders, dave|0|2011|329|27|0|82.78|adhe|63c
+dev wkshp/sem|75625|palacios, carolina|0|2011|329|24|0|80.33|adhe|63d
+dev wkshp/sem|75626||0|2011|329|71|1|82.49|adhe|overall
+dev wkshp/sem|78868|palacios, carolina;sork, thomas joda|0|2007|329|12|0|85.58|adhe|022
+dev wkshp/sem|78869|wilson, mary|0|2007|329|18|1|82.84|adhe|63a
+dev wkshp/sem|78870|wilson, mary|0|2007|329|21|0|86.19|adhe|63c
+dev wkshp/sem|78871||0|2007|329|51|1|84.83|adhe|overall
+dev wkshp/sem|79474|smulders, dave|0|2012|329|33|0|82.76|adhe|63a
+dev wkshp/sem|79475|palacios, carolina|0|2012|329|24|1|70.56|adhe|63b
+dev wkshp/sem|79476|palacios, carolina|0|2012|329|19|0|73.79|adhe|63c
+dev wkshp/sem|79477|smulders, dave|0|2012|329|29|1|79.83|adhe|63d
+dev wkshp/sem|79478||0|2012|329|105|2|77.5|adhe|overall
+dev wkshp/sem|85071|palacios, carolina|0|2012|329|19|1|81.85|adhe|93q
+dev wkshp/sem|85072|smulders, dave|0|2012|329|16|0|86|adhe|93s
+dev wkshp/sem|85073||0|2012|329|35|1|83.69|adhe|overall
+dev wkshp/sem|88897|smulders, dave|0|2009|329|24|0|89.38|adhe|93q
+dev wkshp/sem|88898||0|2009|329|24|0|89.38|adhe|overall
+dev wkshp/sem|91249|smulders, dave|0|2010|329|19|0|86.26|adhe|93q
+dev wkshp/sem|91250||0|2010|329|19|0|86.26|adhe|overall
+dev wkshp/sem|91927|palacios, carolina|0|2014|329|17|1|79|adhe|93q
+dev wkshp/sem|91928|smulders, dave|0|2014|329|19|3|67.95|adhe|93s
+dev wkshp/sem|91929||0|2014|329|36|4|72.93|adhe|overall

@@ -1,0 +1,30 @@
+Title|id|Professor|Audit|Year|Course|Pass|Fail|Avg|Subject|Section
+select libr res|3642|mcpherson, keith|0|2011|463|29|0|81.97|libe|951
+select libr res|3643||0|2011|463|29|0|81.97|libe|overall
+select libr res|7708|kulyk, tamzen|0|2016|463|30|0|82.37|libe|63a
+select libr res|7709|duran, lorena|0|2016|463|29|0|83.24|libe|63b
+select libr res|7710||0|2016|463|59|0|82.8|libe|overall
+select libr res|23456|henri, james;lee, sandra marjorie|0|2009|463|26|0|85.58|libe|63a
+select libr res|23457||0|2009|463|26|0|85.58|libe|overall
+select libr res|27599|de groot, joanne|0|2011|463|23|0|87.78|libe|63a
+select libr res|27600||0|2011|463|23|0|87.78|libe|overall
+select libr res|32078|cho, allan|0|2015|463|29|1|81.53|libe|63a
+select libr res|32079||0|2015|463|29|1|81.53|libe|overall
+select libr res|43681|letain, anne|0|2014|463|23|0|87.13|libe|63a
+select libr res|43682||0|2014|463|23|0|87.13|libe|overall
+select libr res|43878|de groot, joanne|0|2012|463|27|0|91.26|libe|93q
+select libr res|43879||0|2012|463|27|0|91.26|libe|overall
+select libr res|44623||0|2008|463|23|0|83.17|libe|63c
+select libr res|44624||0|2008|463|23|0|83.17|libe|overall
+select libr res|45372|lee, sandra marjorie|0|2007|463|21|0|84.29|libe|63a
+select libr res|45373|henri, james;lee, sandra marjorie|0|2007|463|25|0|83.36|libe|63c
+select libr res|45374||0|2007|463|46|0|83.78|libe|overall
+select libr res|51835|de groot, joanne|0|2010|463|29|0|89.41|libe|63c
+select libr res|51836||0|2010|463|29|0|89.41|libe|overall
+select libr res|53408|letain, anne|0|2013|463|26|0|87.65|libe|63a
+select libr res|53409||0|2013|463|26|0|87.65|libe|overall
+select libr res|54865|letain, anne|0|2012|463|23|0|84.26|libe|63c
+select libr res|54866||0|2012|463|23|0|84.26|libe|overall
+select libr res|69646||0|2008|463|39|0|83.13|libe|93q
+select libr res|69647||0|2008|463|32|0|82.78|libe|951
+select libr res|69648||0|2008|463|71|0|82.97|libe|overall

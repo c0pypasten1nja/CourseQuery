@@ -1,0 +1,53 @@
+Title|id|Professor|Audit|Year|Course|Pass|Fail|Avg|Subject|Section
+int quan dec mak|708|graham, brian|0|2011|290|221|13|72.67|comm|101
+int quan dec mak|709|graham, brian|4|2011|290|223|14|71.13|comm|102
+int quan dec mak|710|graham, brian|0|2011|290|217|22|69.97|comm|103
+int quan dec mak|711||5|2011|290|661|49|71.25|comm|overall
+int quan dec mak|19110|das, anupam|0|2014|290|108|5|71.17|comm|921
+int quan dec mak|19111|das, anupam|0|2014|290|51|0|74.49|comm|971
+int quan dec mak|19112||0|2014|290|159|5|72.2|comm|overall
+int quan dec mak|23316|das, anupam|0|2013|290|46|0|80.39|comm|921
+int quan dec mak|23317|das, anupam|0|2013|290|48|0|82.52|comm|922
+int quan dec mak|23318||0|2013|290|94|0|81.48|comm|overall
+int quan dec mak|38770|graham, brian;werker, gregory|0|2015|290|185|26|72.55|comm|101
+int quan dec mak|38771|graham, brian;werker, gregory|0|2015|290|233|6|76.8|comm|102
+int quan dec mak|38772|huh, woonghee tim;werker, gregory|0|2015|290|208|23|73.65|comm|103
+int quan dec mak|38773|huh, woonghee tim;werker, gregory|0|2015|290|203|12|74.72|comm|104
+int quan dec mak|38774||0|2015|290|829|67|74.49|comm|overall
+int quan dec mak|43904|graham, brian|0|2012|290|229|6|78.42|comm|101
+int quan dec mak|43905|graham, brian|0|2012|290|232|5|75.03|comm|102
+int quan dec mak|43906|graham, brian|0|2012|290|219|13|69.34|comm|103
+int quan dec mak|43907||0|2012|290|680|24|74.29|comm|overall
+int quan dec mak|47792|das, anupam|0|2012|290|42|0|74.83|comm|921
+int quan dec mak|47793||0|2012|290|42|0|74.83|comm|overall
+int quan dec mak|57717|graham, brian|1|2010|290|238|9|73.4|comm|101
+int quan dec mak|57718|graham, brian|1|2010|290|219|16|72.22|comm|102
+int quan dec mak|57719|graham, brian|0|2010|290|198|24|67.62|comm|103
+int quan dec mak|57720||3|2010|290|655|49|71.19|comm|overall
+int quan dec mak|67499|graham, brian;huh, woonghee tim|0|2016|290|193|24|70.15|comm|101
+int quan dec mak|67500|graham, brian;huh, woonghee tim|0|2016|290|208|22|70.93|comm|102
+int quan dec mak|67501|huh, woonghee tim;werker, gregory|0|2016|290|204|19|73.33|comm|103
+int quan dec mak|67502|huh, woonghee tim;werker, gregory|0|2016|290|209|16|73.89|comm|104
+int quan dec mak|67503||0|2016|290|814|81|72.08|comm|overall
+int quan dec mak|71173|graham, brian|0|2007|290|176|12|69.76|comm|101
+int quan dec mak|71174|graham, brian|0|2007|290|179|8|71.7|comm|102
+int quan dec mak|71175|graham, brian|0|2007|290|184|2|72.26|comm|103
+int quan dec mak|71176|graham, brian|1|2007|290|71|5|69.32|comm|104
+int quan dec mak|71177||2|2007|290|610|27|71.01|comm|overall
+int quan dec mak|81436|graham, brian|1|2014|290|238|5|79|comm|101
+int quan dec mak|81437|graham, brian|0|2014|290|231|12|72.83|comm|102
+int quan dec mak|81438|graham, brian|0|2014|290|200|28|68.06|comm|103
+int quan dec mak|81439|huh, woonghee tim;werker, gregory|0|2014|290|176|19|70.28|comm|104
+int quan dec mak|81440|huh, woonghee tim;werker, gregory|0|2014|290|150|13|70.18|comm|105
+int quan dec mak|81441|huh, woonghee tim;werker, gregory|0|2014|290|191|15|72.44|comm|106
+int quan dec mak|81442|huh, woonghee tim;werker, gregory|0|2014|290|102|8|70.96|comm|107
+int quan dec mak|81443||1|2014|290|1288|100|72.25|comm|overall
+int quan dec mak|83613|graham, brian|0|2013|290|237|5|75.57|comm|101
+int quan dec mak|83614|graham, brian|0|2013|290|229|14|70.7|comm|102
+int quan dec mak|83615|graham, brian|0|2013|290|201|27|65.22|comm|103
+int quan dec mak|83616||0|2013|290|667|46|70.6|comm|overall
+int quan dec mak|96315|graham, brian|0|2009|290|168|3|75.98|comm|101
+int quan dec mak|96316|graham, brian|0|2009|290|170|6|73.47|comm|102
+int quan dec mak|96317|graham, brian|0|2009|290|162|6|70.32|comm|103
+int quan dec mak|96318|graham, brian|0|2009|290|80|6|70.12|comm|104
+int quan dec mak|96319||0|2009|290|580|21|72.82|comm|overall

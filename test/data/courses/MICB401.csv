@@ -1,0 +1,22 @@
+Title|id|Professor|Audit|Year|Course|Pass|Fail|Avg|Subject|Section
+env microbi lab|9671|bingle, wade|0|2012|401|67|0|80.78|micb|001
+env microbi lab|9672||0|2012|401|67|0|80.78|micb|overall
+env microbi lab|12389|bingle, wade|0|2013|401|40|0|77.58|micb|101
+env microbi lab|12390|bingle, wade|0|2013|401|38|0|76.63|micb|201
+env microbi lab|12391||0|2013|401|78|0|77.12|micb|overall
+env microbi lab|17214|bingle, wade|0|2009|401|67|0|82.09|micb|001
+env microbi lab|17215||0|2009|401|67|0|82.09|micb|overall
+env microbi lab|17487|bingle, wade|0|2011|401|72|0|80.97|micb|001
+env microbi lab|17488||0|2011|401|72|0|80.97|micb|overall
+env microbi tech|18348||0|2008|401|71|0|83.01|micb|001
+env microbi tech|18349||0|2008|401|71|0|83.01|micb|overall
+env microbi lab|62303|bingle, wade|0|2014|401|36|0|76.44|micb|101
+env microbi lab|62304|bingle, wade|0|2014|401|28|0|80.43|micb|201
+env microbi lab|62305||0|2014|401|64|0|78.19|micb|overall
+env microbi tech|67262|bingle, wade|0|2007|401|70|0|84.3|micb|001
+env microbi tech|67263||0|2007|401|70|0|84.3|micb|overall
+env microbi lab|80036|bingle, wade|0|2010|401|73|0|78.74|micb|001
+env microbi lab|80037||0|2010|401|73|0|78.74|micb|overall
+env microbi lab|93667|bingle, wade|0|2015|401|38|0|83.34|micb|101
+env microbi lab|93668|bingle, wade|0|2015|401|35|0|81.26|micb|201
+env microbi lab|93669||0|2015|401|73|0|82.34|micb|overall

@@ -1,0 +1,825 @@
+Title|id|Professor|Audit|Year|Course|Pass|Fail|Avg|Subject|Section
+strat univ writ|18816|sutherland, julie|0|2012|112|22|0|71.45|engl|98a
+strat univ writ|18817|lee, tara|0|2012|112|30|0|76.83|engl|jn2
+strat univ writ|18818|jerome, gillian|0|2012|112|30|0|77.03|engl|jn3
+strat univ writ|18819|catron, mandy|0|2012|112|26|2|68.89|engl|jn4
+strat univ writ|18820|grubisic, brett|0|2012|112|28|0|75.93|engl|ma1
+strat univ writ|18821|raglon, rebecca|0|2012|112|22|2|69.83|engl|ma2
+strat univ writ|18822|parry, sarah|0|2012|112|33|0|72.58|engl|ma3
+strat univ writ|18823|parry, sarah|0|2012|112|23|0|68|engl|ma4
+strat univ writ|18824|morgan, george macgregor|0|2012|112|24|0|70.58|engl|ma5
+strat univ writ|18825|stumm, bettina|0|2012|112|21|3|64.5|engl|ma6
+strat univ writ|18826||0|2012|112|259|7|71.88|engl|overall
+strat univ writ|20740|sutherland, julie|0|2011|112|21|2|71.26|engl|98a
+strat univ writ|20741|jerome, gillian|0|2011|112|27|0|75.59|engl|jn1
+strat univ writ|20742|fleming, tara-lynn|0|2011|112|26|0|67.54|engl|jn2
+strat univ writ|20743|roberts, duff|0|2011|112|30|1|68.84|engl|jn3
+strat univ writ|20744|trainor, kimberley|0|2011|112|23|0|71.65|engl|jn4
+strat univ writ|20745|jerome, gillian|0|2011|112|25|0|76.08|engl|ma1
+strat univ writ|20746|parry, sarah|0|2011|112|26|1|72.67|engl|ma2
+strat univ writ|20747|roberts, duff|0|2011|112|27|0|68.22|engl|ma3
+strat univ writ|20748|biermann, wilhelmina georgina|0|2011|112|33|0|75.76|engl|ma4
+strat univ writ|20749|somers, emily|0|2011|112|32|0|78.78|engl|ma5
+strat univ writ|20750|stumm, bettina|0|2011|112|24|1|70.72|engl|ma6
+strat univ writ|20751||0|2011|112|295|5|72.58|engl|overall
+strat univ writ|22540|soles, derek|0|2010|112|31|0|72.39|engl|921
+strat univ writ|22541|trainor, kimberley|0|2010|112|32|0|73.63|engl|922
+strat univ writ|22542|saunders, mary ann|0|2010|112|30|0|70.87|engl|926
+strat univ writ|22543|somers, emily|0|2010|112|35|0|72|engl|927
+strat univ writ|22544|parry, sarah|0|2010|112|32|1|69.58|engl|928
+strat univ writ|22545|robinson, leni|0|2010|112|28|1|69.21|engl|929
+strat univ writ|22546|jerome, gillian|0|2010|112|34|0|75.38|engl|92a
+strat univ writ|22547|morgan, george macgregor|0|2010|112|31|0|74.06|engl|92b
+strat univ writ|22548|jerome, gillian|0|2010|112|29|0|74.86|engl|92c
+strat univ writ|22549|paterson, erika|0|2010|112|34|0|73.06|engl|92d
+strat univ writ|22550|sutherland, julie|0|2010|112|22|1|68.61|engl|98a
+strat univ writ|22551||0|2010|112|338|3|72.26|engl|overall
+univrsty writing|37136|endo, paul|0|2015|112|22|0|68.77|engl|01a
+univrsty writing|37137|lee, tara|0|2015|112|26|2|72.39|engl|01b
+univrsty writing|37138|endo, paul|0|2015|112|20|0|68.4|engl|01m
+univrsty writing|37139|lee, tara|0|2015|112|21|1|74.45|engl|01n
+univrsty writing|37140|bose, sarika|0|2015|112|29|0|73.03|engl|02a
+univrsty writing|37141|birks, roberta|0|2015|112|32|1|75.45|engl|02b
+univrsty writing|37142|trainor, kimberley|0|2015|112|34|0|74.56|engl|02c
+univrsty writing|37143|parry, sarah|0|2015|112|30|0|73.7|engl|02d
+univrsty writing|37144|fox, lorcan francis|0|2015|112|32|0|76.53|engl|02m
+univrsty writing|37145|baxter, gisele marie|0|2015|112|30|0|71.5|engl|02n
+univrsty writing|37146|morgan, george macgregor|0|2015|112|23|1|72.83|engl|02p
+univrsty writing|37147|scholes, judith|0|2015|112|28|1|75.45|engl|02q
+univrsty writing|37148|endo, paul|0|2015|112|35|0|70.89|engl|03a
+univrsty writing|37149|roberts, duff|0|2015|112|31|1|71.28|engl|03b
+univrsty writing|37150|hart, r alexander|0|2015|112|29|0|67.34|engl|03c
+univrsty writing|37151|baxter, gisele marie|0|2015|112|33|1|72.41|engl|03d
+univrsty writing|37152|trainor, kimberley|0|2015|112|32|0|73.22|engl|03e
+univrsty writing|37153|endo, paul|0|2015|112|25|1|66.54|engl|03m
+univrsty writing|37154|baxter, gisele marie|0|2015|112|27|0|73|engl|03n
+univrsty writing|37155|hart, r alexander|0|2015|112|22|1|64.09|engl|03p
+univrsty writing|37156|parry, sarah|0|2015|112|27|0|74.59|engl|03q
+univrsty writing|37157|mahon, peter|0|2015|112|26|1|69.37|engl|03r
+univrsty writing|37158|bose, sarika|0|2015|112|28|0|70.57|engl|04a
+univrsty writing|37159|lee, tara|0|2015|112|32|0|77.81|engl|04b
+univrsty writing|37160|morgan, george macgregor|0|2015|112|31|0|72.55|engl|04c
+univrsty writing|37161|grubisic, brett|0|2015|112|31|1|75.78|engl|04d
+univrsty writing|37162|birks, roberta|0|2015|112|31|0|75.16|engl|04e
+univrsty writing|37163|morgan, george macgregor|0|2015|112|26|0|71.42|engl|04m
+univrsty writing|37164|jerome, gillian|0|2015|112|28|1|75.72|engl|04n
+univrsty writing|37165|roberts, duff|0|2015|112|28|0|72|engl|04p
+univrsty writing|37166|hart, r alexander|0|2015|112|20|1|65.95|engl|04q
+univrsty writing|37167|james, suzanne|0|2015|112|34|0|72|engl|04r
+univrsty writing|37168|scholes, judith|0|2015|112|32|0|74.09|engl|05a
+univrsty writing|37169|lee, tara|0|2015|112|32|2|68.76|engl|05b
+univrsty writing|37170|mahon, peter|0|2015|112|33|1|70.47|engl|05c
+univrsty writing|37171|parry, sarah|0|2015|112|31|1|69.5|engl|05d
+univrsty writing|37172|trainor, kimberley|0|2015|112|35|0|74.89|engl|05e
+univrsty writing|37173|stewart, fenn|0|2015|112|27|0|74.48|engl|05m
+univrsty writing|37174|parry, sarah|0|2015|112|27|0|73.22|engl|05n
+univrsty writing|37175|bose, sarika|0|2015|112|27|0|71|engl|05p
+univrsty writing|37176|roberts, duff|0|2015|112|28|1|72.38|engl|05q
+univrsty writing|37177|morgan, george macgregor|0|2015|112|27|0|74.59|engl|05r
+univrsty writing|37178|hart, r alexander|0|2015|112|30|0|68.23|engl|06a
+univrsty writing|37179|fox, lorcan francis|0|2015|112|31|1|76.88|engl|06b
+univrsty writing|37180|grubisic, brett|0|2015|112|32|0|80.69|engl|06c
+univrsty writing|37181|baxter, gisele marie|0|2015|112|31|0|72.87|engl|06d
+univrsty writing|37182|parry, sarah|0|2015|112|29|0|73.69|engl|06e
+univrsty writing|37183|lee, tara|0|2015|112|32|0|74.5|engl|06n
+univrsty writing|37184|hart, r alexander|0|2015|112|24|0|67.5|engl|06p
+univrsty writing|37185|mahon, peter|0|2015|112|31|2|65|engl|06q
+univrsty writing|37186|james, suzanne|0|2015|112|33|0|71.09|engl|06r
+univrsty writing|37187|fox, lorcan francis|0|2015|112|33|0|75.7|engl|07a
+univrsty writing|37188|morgan, george macgregor|0|2015|112|26|0|72.65|engl|07b
+univrsty writing|37189|roberts, duff|0|2015|112|31|1|70.63|engl|07c
+univrsty writing|37190|parry, sarah|0|2015|112|29|0|71.34|engl|07m
+univrsty writing|37191|fox, lorcan francis|0|2015|112|32|0|77.31|engl|07n
+univrsty writing|37192|morgan, george macgregor|0|2015|112|29|0|74.1|engl|07p
+univrsty writing|37193|parry, sarah|0|2015|112|27|2|72.21|engl|08a
+univrsty writing|37194|grubisic, brett|0|2015|112|27|3|71.67|engl|08b
+univrsty writing|37195|james, suzanne|0|2015|112|29|1|69.3|engl|08m
+univrsty writing|37196|dreher, gudrun|0|2015|112|33|0|77.45|engl|10a
+univrsty writing|37197|stewart, fenn|0|2015|112|28|1|69.93|engl|11a
+univrsty writing|37198|jerome, gillian|0|2015|112|25|1|72.46|engl|11b
+univrsty writing|37199|birks, roberta|0|2015|112|27|6|64.73|engl|11m
+univrsty writing|37200|jerome, gillian|0|2015|112|30|0|76.5|engl|11n
+univrsty writing|37201|nelson-mcdermott, catherine|0|2015|112|28|2|66.07|engl|12a
+univrsty writing|37202|jerome, gillian|0|2015|112|31|0|76.19|engl|12b
+univrsty writing|37203|james, suzanne|0|2015|112|33|0|71.42|engl|12c
+univrsty writing|37204|dreher, gudrun|0|2015|112|30|0|78.87|engl|12d
+univrsty writing|37205|nelson-mcdermott, catherine|0|2015|112|30|0|70.37|engl|12m
+univrsty writing|37206|grubisic, brett|0|2015|112|34|0|77.94|engl|12n
+univrsty writing|37207|scholes, judith|0|2015|112|34|0|72.26|engl|12p
+univrsty writing|37208|nelson-mcdermott, catherine|0|2015|112|32|0|69.44|engl|13a
+univrsty writing|37209|stewart, fenn|0|2015|112|31|0|75.94|engl|13b
+univrsty writing|37210|fleming, tara-lynn|0|2015|112|29|0|71.97|engl|13m
+univrsty writing|37211|scholes, judith|0|2015|112|31|0|74.9|engl|13n
+univrsty writing|37212|trainor, kimberley|0|2015|112|33|1|74.12|engl|13p
+univrsty writing|37213|jerome, gillian|0|2015|112|28|0|78.14|engl|14a
+univrsty writing|37214|james, suzanne|0|2015|112|28|0|70.43|engl|14b
+univrsty writing|37215|jerome, gillian|0|2015|112|25|0|74.12|engl|14m
+univrsty writing|37216|fleming, tara-lynn|0|2015|112|29|0|71.38|engl|14n
+univrsty writing|37217|fleming, tara-lynn|0|2015|112|26|1|69.48|engl|15a
+univrsty writing|37218|grubisic, brett|0|2015|112|29|0|75.93|engl|15m
+univrsty writing|37219|fleming, tara-lynn|0|2015|112|30|0|68.87|engl|17a
+univrsty writing|37220|paterson, erika|0|2015|112|21|4|68.28|engl|99a
+univrsty writing|37221|trainor, kimberley|0|2015|112|25|0|78.76|engl|99c
+univrsty writing|37222||0|2015|112|2498|45|72.59|engl|overall
+strat univ writ|41366|birks, roberta|0|2007|112|28|1|69.69|engl|01a
+strat univ writ|41367|thieme, katja|0|2007|112|34|0|77.35|engl|01b
+strat univ writ|41368|grubisic, brett|0|2007|112|32|0|74.03|engl|01c
+strat univ writ|41369|lange, maja|0|2007|112|32|1|74.61|engl|01d
+strat univ writ|41370|birks, roberta|0|2007|112|26|2|67.82|engl|01m
+strat univ writ|41371|thieme, katja|0|2007|112|28|0|73.5|engl|01n
+strat univ writ|41372|grubisic, brett|0|2007|112|30|1|73.06|engl|01p
+strat univ writ|41373|roberts, duff|0|2007|112|28|0|70.32|engl|01q
+strat univ writ|41374|baxter, gisele marie|0|2007|112|34|0|74.41|engl|02a
+strat univ writ|41375|bose, sarika|0|2007|112|33|0|68.91|engl|02b
+strat univ writ|41376|fox, lorcan francis|0|2007|112|33|1|73.44|engl|02c
+strat univ writ|41377|gooding, richard|0|2007|112|32|0|70.25|engl|02d
+strat univ writ|41378|laflamme, michelle|0|2007|112|33|1|72.21|engl|02e
+strat univ writ|41379|roberts, duff|0|2007|112|31|1|68.66|engl|02f
+strat univ writ|41380|baxter, gisele marie|0|2007|112|32|0|74.38|engl|02m
+strat univ writ|41381|bose, sarika|0|2007|112|29|0|69.31|engl|02n
+strat univ writ|41382|fox, lorcan francis|0|2007|112|31|0|74.52|engl|02p
+strat univ writ|41383|gooding, richard|0|2007|112|28|0|71.18|engl|02q
+strat univ writ|41384|laflamme, michelle|0|2007|112|28|0|78.68|engl|02r
+strat univ writ|41385|kent, edward|0|2007|112|34|1|70.31|engl|03a
+strat univ writ|41386|hart, r alexander|0|2007|112|30|2|66.19|engl|03b
+strat univ writ|41387|patterson, katharine|0|2007|112|32|0|74.66|engl|03c
+strat univ writ|41388|james, suzanne|0|2007|112|34|0|71.5|engl|03d
+strat univ writ|41389|lee, tara|0|2007|112|31|0|76.06|engl|03e
+strat univ writ|41390|hart, r alexander|0|2007|112|27|3|63.7|engl|03m
+strat univ writ|41391|lange, maja|0|2007|112|33|1|73.82|engl|03n
+strat univ writ|41392|patterson, katharine|0|2007|112|30|1|73.23|engl|03p
+strat univ writ|41393|james, suzanne|0|2007|112|34|1|67.6|engl|03q
+strat univ writ|41394|kent, edward|0|2007|112|29|1|74.53|engl|03r
+strat univ writ|41395|lee, tara|0|2007|112|33|1|73.91|engl|03s
+strat univ writ|41396|laflamme, michelle|0|2007|112|33|1|75.47|engl|04a
+strat univ writ|41397|baxter, gisele marie|0|2007|112|34|0|72.56|engl|04b
+strat univ writ|41398|grabovac, ivan|0|2007|112|32|1|72.48|engl|04c
+strat univ writ|41399|lee, tara|0|2007|112|28|1|73.21|engl|04d
+strat univ writ|41400|baxter, gisele marie|0|2007|112|34|0|73.26|engl|04m
+strat univ writ|41401|grabovac, ivan|0|2007|112|33|1|70.32|engl|04n
+strat univ writ|41402|doyle, kegan|0|2007|112|34|0|71.91|engl|04p
+strat univ writ|41403|laflamme, michelle|0|2007|112|27|0|79.22|engl|04q
+strat univ writ|41404|roberts, duff|0|2007|112|32|0|69.56|engl|04r
+strat univ writ|41405|parry, sarah|0|2007|112|26|1|69.81|engl|04s
+strat univ writ|41406|thieme, katja|0|2007|112|33|1|76.68|engl|05a
+strat univ writ|41407|grubisic, brett|0|2007|112|34|0|73.44|engl|05b
+strat univ writ|41408|lange, maja|0|2007|112|34|0|77.59|engl|05c
+strat univ writ|41409|mahon, peter|0|2007|112|31|1|70.75|engl|05d
+strat univ writ|41410|roberts, duff|0|2007|112|31|1|70.5|engl|05e
+strat univ writ|41411|laflamme, michelle|0|2007|112|29|1|79.67|engl|05m
+strat univ writ|41412|grubisic, brett|0|2007|112|31|1|74.59|engl|05n
+strat univ writ|41413|lange, maja|0|2007|112|31|2|73.79|engl|05p
+strat univ writ|41414|mahon, peter|0|2007|112|30|4|66.12|engl|05q
+strat univ writ|41415|lee, tara|0|2007|112|35|0|77.6|engl|05r
+strat univ writ|41416|bose, sarika|0|2007|112|33|0|68.27|engl|06a
+strat univ writ|41417|fox, lorcan francis|0|2007|112|34|1|73.54|engl|06b
+strat univ writ|41418|gooding, richard|0|2007|112|30|4|64.56|engl|06c
+strat univ writ|41419|mackie, gregory|0|2007|112|32|0|73.59|engl|06d
+strat univ writ|41420|bose, sarika|0|2007|112|28|0|68.18|engl|06m
+strat univ writ|41421|fox, lorcan francis|0|2007|112|33|1|71.97|engl|06n
+strat univ writ|41422|gooding, richard|0|2007|112|32|2|67.85|engl|06p
+strat univ writ|41423|parry, sarah|0|2007|112|32|0|75.03|engl|06q
+strat univ writ|41424|james, suzanne|0|2007|112|33|1|72.97|engl|07a
+strat univ writ|41425|mahon, peter|0|2007|112|34|1|71.23|engl|07b
+strat univ writ|41426|kent, edward|0|2007|112|31|2|66.48|engl|07c
+strat univ writ|41427|james, suzanne|0|2007|112|32|1|70.24|engl|07m
+strat univ writ|41428|mahon, peter|0|2007|112|32|0|70.75|engl|07n
+strat univ writ|41429|grabovac, ivan|0|2007|112|32|0|73.16|engl|08a
+strat univ writ|41430|parry, sarah|0|2007|112|30|0|72.03|engl|08b
+strat univ writ|41431|grabovac, ivan|0|2007|112|32|2|68.85|engl|08m
+strat univ writ|41432|parry, sarah|0|2007|112|30|1|70.58|engl|08n
+strat univ writ|41433|catron, mandy|0|2007|112|30|0|74.87|engl|10a
+strat univ writ|41434|mcneill, laurie|0|2007|112|33|0|68|engl|10b
+strat univ writ|41435|hanna, julian richmond|0|2007|112|29|2|69.13|engl|10m
+strat univ writ|41436|fleming, tara-lynn|0|2007|112|30|1|66.65|engl|10n
+strat univ writ|41437|jerome, gillian|0|2007|112|31|0|75.48|engl|11a
+strat univ writ|41438|trainor, kimberley|0|2007|112|31|0|73.87|engl|11b
+strat univ writ|41439|fleming, tara-lynn|0|2007|112|31|0|72.35|engl|11c
+strat univ writ|41440|jerome, gillian|0|2007|112|31|0|75.74|engl|11m
+strat univ writ|41441|trainor, kimberley|0|2007|112|30|0|72.97|engl|11n
+strat univ writ|41442|fleming, tara-lynn|0|2007|112|34|0|69.68|engl|11p
+strat univ writ|41443|nelson-mcdermott, catherine|0|2007|112|34|0|70.68|engl|12a
+strat univ writ|41444|catron, mandy|0|2007|112|34|0|75.59|engl|12b
+strat univ writ|41445|martineau, joel|0|2007|112|30|2|67.81|engl|12c
+strat univ writ|41446|hanna, julian richmond|0|2007|112|32|2|71.12|engl|12m
+strat univ writ|41447|martineau, joel|0|2007|112|33|0|68.82|engl|12n
+strat univ writ|41448|catron, mandy|0|2007|112|35|0|72.43|engl|12p
+strat univ writ|41449|petrillo, larissa|0|2007|112|35|0|77.71|engl|13a
+strat univ writ|41450|potter, tiffany|0|2007|112|34|0|69.53|engl|13b
+strat univ writ|41451|mcneill, laurie|0|2007|112|34|0|70.26|engl|13c
+strat univ writ|41452|kent, edward|0|2007|112|36|1|72.3|engl|13m
+strat univ writ|41453|potter, tiffany|0|2007|112|31|2|66.12|engl|13n
+strat univ writ|41454|catron, mandy|0|2007|112|31|0|70.06|engl|13p
+strat univ writ|41455|jerome, gillian|0|2007|112|31|0|75.42|engl|14a
+strat univ writ|41456|trainor, kimberley|0|2007|112|33|0|73.36|engl|14b
+strat univ writ|41457|fleming, tara-lynn|0|2007|112|33|0|72.52|engl|14c
+strat univ writ|41458|jerome, gillian|0|2007|112|30|1|73.13|engl|14m
+strat univ writ|41459|trainor, kimberley|0|2007|112|27|0|71.26|engl|14n
+strat univ writ|41460|nelson-mcdermott, catherine|0|2007|112|30|1|64.97|engl|18m
+strat univ writ|41461||0|2007|112|2994|63|71.91|engl|overall
+strat univ writ|42778|birks, roberta|0|2009|112|29|2|69.77|engl|01a
+strat univ writ|42779|endo, paul|0|2009|112|30|1|66.77|engl|01b
+strat univ writ|42780|paterson, erika|0|2009|112|31|3|70.56|engl|01c
+strat univ writ|42781|dreher, gudrun|0|2009|112|31|0|82.9|engl|01d
+strat univ writ|42782|birks, roberta|0|2009|112|28|2|69.13|engl|01m
+strat univ writ|42783|mahon, peter|0|2009|112|30|1|71.84|engl|01n
+strat univ writ|42784|stumm, bettina|0|2009|112|31|0|69.48|engl|01p
+strat univ writ|42785|baxter, gisele marie|0|2009|112|33|0|74.39|engl|02a
+strat univ writ|42786|bose, sarika|0|2009|112|33|0|66.27|engl|02b
+strat univ writ|42787|fox, lorcan francis|0|2009|112|34|0|76.35|engl|02c
+strat univ writ|42788|lee, tara|0|2009|112|32|0|72.5|engl|02d
+strat univ writ|42789|soles, derek|0|2009|112|31|0|77.68|engl|02e
+strat univ writ|42790|bose, sarika|0|2009|112|32|0|69.22|engl|02m
+strat univ writ|42791|morgan, george macgregor|0|2009|112|32|0|74.53|engl|02n
+strat univ writ|42792|hart, r alexander|0|2009|112|29|4|62.94|engl|02p
+strat univ writ|42793|grubisic, brett|0|2009|112|32|1|73.7|engl|02q
+strat univ writ|42794|dreher, gudrun|0|2009|112|28|2|76.93|engl|02r
+strat univ writ|42795|grubisic, brett|0|2009|112|30|0|78.6|engl|03a
+strat univ writ|42796|parry, sarah|0|2009|112|33|0|73.09|engl|03b
+strat univ writ|42797|roberts, duff|0|2009|112|32|1|68.94|engl|03c
+strat univ writ|42798|sutherland, julie|0|2009|112|33|1|67.09|engl|03d
+strat univ writ|42799|dreher, gudrun|0|2009|112|32|0|86.09|engl|03e
+strat univ writ|42800|soles, derek|0|2009|112|33|0|75.94|engl|03m
+strat univ writ|42801|james, suzanne|0|2009|112|33|0|74.91|engl|03n
+strat univ writ|42802|parkin, christine|0|2009|112|33|0|79.85|engl|03p
+strat univ writ|42803|dreher, gudrun|0|2009|112|32|2|76.65|engl|03q
+strat univ writ|42804|mahon, peter|0|2009|112|35|0|76.34|engl|04a
+strat univ writ|42805|paterson, erika|0|2009|112|31|0|75.42|engl|04b
+strat univ writ|42806|hart, r alexander|0|2009|112|29|2|62.68|engl|04c
+strat univ writ|42807|parry, sarah|0|2009|112|30|0|70.03|engl|04d
+strat univ writ|42808|bose, sarika|0|2009|112|33|0|68.39|engl|04m
+strat univ writ|42809|endo, paul|0|2009|112|32|2|66.35|engl|04n
+strat univ writ|42810|morgan, george macgregor|0|2009|112|33|1|72.09|engl|04p
+strat univ writ|42811|somers, emily|0|2009|112|32|1|76.21|engl|05a
+strat univ writ|42812|morgan, george macgregor|0|2009|112|34|0|75.41|engl|05b
+strat univ writ|42813|roberts, duff|0|2009|112|32|1|68.09|engl|05c
+strat univ writ|42814|soles, derek|0|2009|112|30|0|77.43|engl|05d
+strat univ writ|42815|parkin, christine|0|2009|112|30|2|75.53|engl|05e
+strat univ writ|42816|parkin, christine|0|2009|112|35|0|80.86|engl|05m
+strat univ writ|42817|grubisic, brett|0|2009|112|34|0|75.15|engl|05n
+strat univ writ|42818|parry, sarah|0|2009|112|32|0|74.41|engl|05p
+strat univ writ|42819|dreher, gudrun|0|2009|112|32|2|78.5|engl|05q
+strat univ writ|42820|baxter, gisele marie|0|2009|112|34|1|69.71|engl|06a
+strat univ writ|42821|lee, tara|0|2009|112|34|0|75.24|engl|06b
+strat univ writ|42822|somers, emily|0|2009|112|31|2|76.21|engl|06c
+strat univ writ|42823|sutherland, julie|0|2009|112|33|1|66.12|engl|06d
+strat univ writ|42824|soles, derek|0|2009|112|33|1|71.41|engl|06m
+strat univ writ|42825|roberts, duff|0|2009|112|30|3|65.76|engl|06n
+strat univ writ|42826|somers, emily|0|2009|112|35|0|75.57|engl|06p
+strat univ writ|42827|stumm, bettina|0|2009|112|30|3|66.42|engl|06q
+strat univ writ|42828|paterson, erika|0|2009|112|30|1|77.19|engl|07a
+strat univ writ|42829|grubisic, brett|0|2009|112|34|0|75.53|engl|07b
+strat univ writ|42830|parkin, christine|0|2009|112|33|0|80.88|engl|07c
+strat univ writ|42831|james, suzanne|0|2009|112|31|0|74.74|engl|07m
+strat univ writ|42832|parry, sarah|0|2009|112|32|0|72.69|engl|07n
+strat univ writ|42833|parry, sarah|0|2009|112|28|0|73.57|engl|08a
+strat univ writ|42834|somers, emily|0|2009|112|31|1|74.97|engl|08b
+strat univ writ|42835|robinson, leni|0|2009|112|27|0|70.52|engl|08c
+strat univ writ|42836|somers, emily|0|2009|112|32|2|70.91|engl|08m
+strat univ writ|42837|roberts, duff|0|2009|112|31|3|64.88|engl|08n
+strat univ writ|42838|parry, sarah|0|2009|112|29|0|69.45|engl|08p
+strat univ writ|42839|sutherland, julie|0|2009|112|31|3|64.82|engl|09a
+strat univ writ|42840|parkin, christine|0|2009|112|31|0|79.94|engl|09m
+strat univ writ|42841|morgan, george macgregor|0|2009|112|31|0|74.1|engl|10a
+strat univ writ|42842|birks, roberta|0|2009|112|26|5|65.23|engl|10m
+strat univ writ|42843|saunders, mary ann|0|2009|112|22|3|69.2|engl|10n
+strat univ writ|42844|dreher, gudrun|0|2009|112|35|0|82.97|engl|11a
+strat univ writ|42845|jerome, gillian|0|2009|112|34|1|77.37|engl|11b
+strat univ writ|42846|jerome, gillian|0|2009|112|32|1|72.76|engl|11m
+strat univ writ|42847|saunders, mary ann|0|2009|112|33|1|69.06|engl|11n
+strat univ writ|42848|biermann, wilhelmina georgina|0|2009|112|32|0|80.75|engl|12a
+strat univ writ|42849|paterson, erika|0|2009|112|34|1|76.31|engl|12b
+strat univ writ|42850|nelson-mcdermott, catherine|0|2009|112|33|0|71.36|engl|12m
+strat univ writ|42851|catron, mandy|0|2009|112|29|1|70.77|engl|13a
+strat univ writ|42852|wright, claire|0|2009|112|30|0|73.27|engl|13b
+strat univ writ|42853|trainor, kimberley|0|2009|112|34|0|73.12|engl|13m
+strat univ writ|42854|saunders, mary ann|0|2009|112|29|3|68.53|engl|13n
+strat univ writ|42855|soles, derek|0|2009|112|33|0|75.06|engl|14a
+strat univ writ|42856|jerome, gillian|0|2009|112|33|0|77.55|engl|14b
+strat univ writ|42857|jerome, gillian|0|2009|112|34|0|76.71|engl|14m
+strat univ writ|42858|robinson, leni|0|2009|112|32|1|72.61|engl|14n
+strat univ writ|42859|robinson, leni|0|2009|112|32|0|70.84|engl|15m
+strat univ writ|42860|martineau, joel|0|2009|112|29|3|69.22|engl|15n
+strat univ writ|42861|catron, mandy|0|2009|112|32|1|70.79|engl|15p
+strat univ writ|42862|baxter, gisele marie|0|2009|112|15|0|70.53|engl|99a
+strat univ writ|42863|james, suzanne|0|2009|112|13|3|65.13|engl|99b
+strat univ writ|42864|sutherland, julie|0|2009|112|20|3|64.87|engl|99c
+strat univ writ|42865||0|2009|112|2698|79|72.91|engl|overall
+strat univ writ|48280|birks, roberta|0|2012|112|24|1|75.52|engl|01a
+strat univ writ|48281|endo, paul|0|2012|112|25|1|65.81|engl|01b
+strat univ writ|48282|lee, tara|0|2012|112|28|0|73.54|engl|01c
+strat univ writ|48283|robinson, leni|0|2012|112|26|1|73.44|engl|01m
+strat univ writ|48284|birks, roberta|0|2012|112|24|3|68.93|engl|01n
+strat univ writ|48285|bose, sarika|0|2012|112|24|0|70.42|engl|02a
+strat univ writ|48286|fox, lorcan francis|0|2012|112|29|0|75.45|engl|02b
+strat univ writ|48287|parry, sarah|0|2012|112|24|1|71.52|engl|02c
+strat univ writ|48288|somers, emily|0|2012|112|30|0|78.43|engl|02d
+strat univ writ|48289|soles, derek|0|2012|112|30|1|71.06|engl|02e
+strat univ writ|48290|morgan, george macgregor|0|2012|112|21|3|67.21|engl|02f
+strat univ writ|48291|bose, sarika|0|2012|112|21|1|68.5|engl|02m
+strat univ writ|48292|fox, lorcan francis|0|2012|112|34|0|75.35|engl|02n
+strat univ writ|48293|lee, tara|0|2012|112|27|0|73.19|engl|02p
+strat univ writ|48294|parry, sarah|0|2012|112|24|0|74.04|engl|02q
+strat univ writ|48295|hart, r alexander|0|2012|112|30|1|67.74|engl|03a
+strat univ writ|48296|james, suzanne|0|2012|112|29|0|70.72|engl|03b
+strat univ writ|48297|mahon, peter|0|2012|112|27|1|69.86|engl|03c
+strat univ writ|48298|parry, sarah|0|2012|112|28|0|75.71|engl|03d
+strat univ writ|48299|trainor, kimberley|0|2012|112|34|0|73.88|engl|03e
+strat univ writ|48300|endo, paul|0|2012|112|27|1|61.04|engl|03f
+strat univ writ|48301|baxter, gisele marie|0|2012|112|31|0|72.03|engl|03m
+strat univ writ|48302|endo, paul|0|2012|112|28|1|67.21|engl|03n
+strat univ writ|48303|trainor, kimberley|0|2012|112|30|0|73.33|engl|03p
+strat univ writ|48304|james, suzanne|0|2012|112|30|0|70.43|engl|03q
+strat univ writ|48305|robinson, leni|0|2012|112|29|2|68.71|engl|03r
+strat univ writ|48306|hart, r alexander|0|2012|112|26|2|64.68|engl|04a
+strat univ writ|48307|lee, tara|0|2012|112|35|0|73.69|engl|04b
+strat univ writ|48308|dreher, gudrun|0|2012|112|31|0|81.48|engl|04c
+strat univ writ|48309|morgan, george macgregor|0|2012|112|32|1|71.06|engl|04d
+strat univ writ|48310|brocklebank, lisa|0|2012|112|33|1|67.29|engl|04e
+strat univ writ|48311|mahon, peter|0|2012|112|31|1|68.03|engl|04m
+strat univ writ|48312|morgan, george macgregor|0|2012|112|31|1|71|engl|04n
+strat univ writ|48313|parry, sarah|0|2012|112|30|0|70.03|engl|04p
+strat univ writ|48314|trainor, kimberley|0|2012|112|33|0|71.91|engl|04q
+strat univ writ|48315|mahon, peter|0|2012|112|29|2|69.29|engl|05a
+strat univ writ|48316|endo, paul|0|2012|112|33|0|68.12|engl|05b
+strat univ writ|48317|morgan, george macgregor|0|2012|112|32|1|70.52|engl|05c
+strat univ writ|48318|roberts, duff|0|2012|112|32|1|68.55|engl|05d
+strat univ writ|48319|brocklebank, lisa|0|2012|112|33|1|64.85|engl|05e
+strat univ writ|48320|hart, r alexander|0|2012|112|28|3|66.9|engl|05m
+strat univ writ|48321|lee, tara|0|2012|112|31|1|73.69|engl|05n
+strat univ writ|48322|roberts, duff|0|2012|112|27|4|64.03|engl|05p
+strat univ writ|48323|brocklebank, lisa|0|2012|112|34|0|68.71|engl|05q
+strat univ writ|48324|bose, sarika|0|2012|112|31|0|70.23|engl|06a
+strat univ writ|48325|fox, lorcan francis|0|2012|112|32|0|75.94|engl|06b
+strat univ writ|48326|trainor, kimberley|0|2012|112|32|0|73.56|engl|06c
+strat univ writ|48327|sutherland, julie|0|2012|112|30|1|70.55|engl|06d
+strat univ writ|48328|mahon, peter|0|2012|112|33|1|70.03|engl|06m
+strat univ writ|48329|morgan, george macgregor|0|2012|112|31|2|69.94|engl|06n
+strat univ writ|48330|trainor, kimberley|0|2012|112|33|0|73.18|engl|06p
+strat univ writ|48331|sutherland, julie|0|2012|112|35|0|71.83|engl|06q
+strat univ writ|48332|roberts, duff|0|2012|112|34|0|69.35|engl|07a
+strat univ writ|48333|soles, derek|0|2012|112|31|1|72.91|engl|07b
+strat univ writ|48334|james, suzanne|0|2012|112|33|0|71.82|engl|07m
+strat univ writ|48335|robinson, leni|0|2012|112|27|1|73.07|engl|08a
+strat univ writ|48336|soles, derek|0|2012|112|32|0|73.75|engl|08b
+strat univ writ|48337|morgan, george macgregor|0|2012|112|25|2|70.37|engl|08m
+strat univ writ|48338|soles, derek|0|2012|112|30|0|74.6|engl|08n
+strat univ writ|48339|somers, emily|0|2012|112|29|0|76.97|engl|09a
+strat univ writ|48340|somers, emily|0|2012|112|28|2|76.7|engl|09m
+strat univ writ|48341|catron, mandy|0|2012|112|33|0|73.67|engl|10a
+strat univ writ|48342|catron, mandy|0|2012|112|18|0|70.94|engl|10m
+strat univ writ|48343|jerome, gillian|0|2012|112|31|0|76.77|engl|11a
+strat univ writ|48344|grubisic, brett|0|2012|112|31|0|72.1|engl|11b
+strat univ writ|48345|morgan, george macgregor|0|2012|112|33|0|71.58|engl|11c
+strat univ writ|48346|biermann, wilhelmina georgina|0|2012|112|33|0|80.67|engl|11m
+strat univ writ|48347|jerome, gillian|0|2012|112|25|2|72.59|engl|11n
+strat univ writ|48348|catron, mandy|0|2012|112|30|2|71.31|engl|12a
+strat univ writ|48349|dreher, gudrun|0|2012|112|34|0|79.94|engl|12b
+strat univ writ|48350|nelson-mcdermott, catherine|0|2012|112|35|0|71.34|engl|12c
+strat univ writ|48351|catron, mandy|0|2012|112|33|0|73.27|engl|12m
+strat univ writ|48352|grubisic, brett|0|2012|112|31|0|75.87|engl|12n
+strat univ writ|48353|jerome, gillian|0|2012|112|28|0|78.04|engl|12p
+strat univ writ|48354|biermann, wilhelmina georgina|0|2012|112|29|1|78.53|engl|14a
+strat univ writ|48355|catron, mandy|0|2012|112|32|0|73.16|engl|14b
+strat univ writ|48356|nelson-mcdermott, catherine|0|2012|112|31|0|70.97|engl|14m
+strat univ writ|48357|soles, derek|0|2012|112|31|0|73.45|engl|14n
+strat univ writ|48358|jerome, gillian|0|2012|112|28|1|73.45|engl|14p
+strat univ writ|48359|grubisic, brett|0|2012|112|33|0|75.27|engl|15a
+strat univ writ|48360|grubisic, brett|0|2012|112|30|1|74.94|engl|15m
+strat univ writ|48361|dreher, gudrun|0|2012|112|32|0|78.59|engl|15n
+strat univ writ|48362|sutherland, julie|0|2012|112|21|2|69.3|engl|99a
+strat univ writ|48363|baxter, gisele marie|0|2012|112|26|1|68.78|engl|99c
+strat univ writ|48364||0|2012|112|2491|57|72.02|engl|overall
+strat univ writ|55811||0|2008|112|36|1|72.3|engl|921
+strat univ writ|55812||0|2008|112|34|0|71.68|engl|922
+strat univ writ|55813||0|2008|112|35|0|80.69|engl|923
+strat univ writ|55814||0|2008|112|34|1|74.6|engl|924
+strat univ writ|55815||0|2008|112|34|0|78.35|engl|925
+strat univ writ|55816||0|2008|112|33|2|68.6|engl|926
+strat univ writ|55817||0|2008|112|34|0|73.62|engl|927
+strat univ writ|55818||0|2008|112|31|0|73.84|engl|928
+strat univ writ|55819||0|2008|112|25|0|79.04|engl|929
+strat univ writ|55820||0|2008|112|31|2|74.55|engl|92a
+strat univ writ|55821||0|2008|112|32|0|70.47|engl|92b
+strat univ writ|55822||0|2008|112|28|1|73.07|engl|92c
+strat univ writ|55823||0|2008|112|30|1|69.48|engl|92d
+strat univ writ|55824||0|2008|112|417|8|73.81|engl|overall
+strat univ writ|57030|endo, paul|0|2013|112|32|1|70|engl|01a
+strat univ writ|57031|lee, tara|0|2013|112|30|0|72.4|engl|01b
+strat univ writ|57032|lee, tara|0|2013|112|24|1|68.84|engl|01m
+strat univ writ|57033|morgan, george macgregor|0|2013|112|25|1|71.58|engl|01n
+strat univ writ|57034|fox, lorcan francis|0|2013|112|33|0|77.94|engl|02a
+strat univ writ|57035|morgan, george macgregor|0|2013|112|29|3|68.5|engl|02b
+strat univ writ|57036|parry, sarah|0|2013|112|33|0|73.94|engl|02c
+strat univ writ|57037|dreher, gudrun|0|2013|112|33|0|79.24|engl|02d
+strat univ writ|57038|endo, paul|0|2013|112|27|2|64.72|engl|02m
+strat univ writ|57039|fox, lorcan francis|0|2013|112|30|1|75.06|engl|02n
+strat univ writ|57040|lee, tara|0|2013|112|28|0|73.57|engl|02p
+strat univ writ|57041|mahon, peter|0|2013|112|28|0|68.43|engl|02q
+strat univ writ|57042|bose, sarika|0|2013|112|25|2|65.15|engl|03a
+strat univ writ|57043|endo, paul|0|2013|112|33|2|65.26|engl|03b
+strat univ writ|57044|james, suzanne|0|2013|112|33|1|67.41|engl|03c
+strat univ writ|57045|hart, r alexander|0|2013|112|30|2|63.94|engl|03d
+strat univ writ|57046|roberts, duff|0|2013|112|30|2|66.5|engl|03e
+strat univ writ|57047|trainor, kimberley|0|2013|112|32|2|68.18|engl|03f
+strat univ writ|57048|baxter, gisele marie|0|2013|112|27|0|73.33|engl|03m
+strat univ writ|57049|parry, sarah|0|2013|112|26|0|75.69|engl|03n
+strat univ writ|57050|james, suzanne|0|2013|112|27|0|70.15|engl|03p
+strat univ writ|57051|roberts, duff|0|2013|112|24|4|62.75|engl|03q
+strat univ writ|57052|morgan, george macgregor|0|2013|112|21|1|73.23|engl|03r
+strat univ writ|57053|baxter, gisele marie|0|2013|112|33|0|74.52|engl|04a
+strat univ writ|57054|lee, tara|0|2013|112|35|0|77.66|engl|04b
+strat univ writ|57055|mahon, peter|0|2013|112|33|1|73.09|engl|04c
+strat univ writ|57056|parry, sarah|0|2013|112|35|0|71.54|engl|04d
+strat univ writ|57057|trainor, kimberley|0|2013|112|34|0|71.88|engl|04e
+strat univ writ|57058|endo, paul|0|2013|112|25|1|67.85|engl|04m
+strat univ writ|57059|fox, lorcan francis|0|2013|112|31|1|74.09|engl|04n
+strat univ writ|57060|catron, mandy|0|2013|112|32|1|70.09|engl|04p
+strat univ writ|57061|lee, tara|0|2013|112|30|0|73.1|engl|04q
+strat univ writ|57062|catron, mandy|0|2013|112|31|0|73.81|engl|05a
+strat univ writ|57063|james, suzanne|0|2013|112|34|0|70.74|engl|05b
+strat univ writ|57064|paterson, erika|0|2013|112|33|0|72.21|engl|05c
+strat univ writ|57065|robinson, leni|0|2013|112|31|3|69.76|engl|05d
+strat univ writ|57066|biermann, wilhelmina georgina|0|2013|112|34|0|75.85|engl|05e
+strat univ writ|57067|bose, sarika|0|2013|112|24|1|71.48|engl|05m
+strat univ writ|57068|hart, r alexander|0|2013|112|26|3|62.45|engl|05n
+strat univ writ|57069|trainor, kimberley|0|2013|112|33|0|75.91|engl|05p
+strat univ writ|57070|parry, sarah|0|2013|112|32|1|75.61|engl|05q
+strat univ writ|57071|baxter, gisele marie|0|2013|112|32|0|73.06|engl|06a
+strat univ writ|57072|roberts, duff|0|2013|112|33|0|72.09|engl|06b
+strat univ writ|57073|fox, lorcan francis|0|2013|112|33|0|76.94|engl|06c
+strat univ writ|57074|hart, r alexander|0|2013|112|29|2|66.06|engl|06d
+strat univ writ|57075|trainor, kimberley|0|2013|112|33|1|72.94|engl|06e
+strat univ writ|57076|saunders, mary ann|0|2013|112|33|0|74.91|engl|06m
+strat univ writ|57077|lee, tara|0|2013|112|31|1|72.31|engl|06n
+strat univ writ|57078|parry, sarah|0|2013|112|27|2|70.76|engl|06p
+strat univ writ|57079|roberts, duff|0|2013|112|27|0|71|engl|06q
+strat univ writ|57080|endo, paul|0|2013|112|25|1|63.69|engl|06r
+strat univ writ|57081|bose, sarika|0|2013|112|28|1|68.31|engl|07a
+strat univ writ|57082|catron, mandy|0|2013|112|33|2|67.4|engl|07b
+strat univ writ|57083|bose, sarika|0|2013|112|22|0|71.05|engl|07m
+strat univ writ|57084|biermann, wilhelmina georgina|0|2013|112|26|0|74|engl|07n
+strat univ writ|57085|morgan, george macgregor|0|2013|112|21|1|70.5|engl|07p
+strat univ writ|57086|mahon, peter|0|2013|112|32|0|71.38|engl|08a
+strat univ writ|57087|morgan, george macgregor|0|2013|112|31|0|70.23|engl|08b
+strat univ writ|57088|catron, mandy|0|2013|112|24|0|70.79|engl|08m
+strat univ writ|57089|mahon, peter|0|2013|112|25|2|65.85|engl|08n
+strat univ writ|57090|paterson, erika|0|2013|112|29|1|67.03|engl|09a
+strat univ writ|57091|morgan, george macgregor|0|2013|112|24|0|70.83|engl|09m
+strat univ writ|57092|birks, roberta|0|2013|112|30|3|65.58|engl|10a
+strat univ writ|57093|birks, roberta|0|2013|112|28|1|70.48|engl|10m
+strat univ writ|57094|grubisic, brett|0|2013|112|30|1|73.52|engl|11a
+strat univ writ|57095|jerome, gillian|0|2013|112|32|0|76.84|engl|11b
+strat univ writ|57096|robinson, leni|0|2013|112|30|0|72.83|engl|11m
+strat univ writ|57097|birks, roberta|0|2013|112|30|0|73.4|engl|11n
+strat univ writ|57098|morgan, george macgregor|0|2013|112|32|0|75.19|engl|12a
+strat univ writ|57099|paterson, erika|0|2013|112|31|0|76.35|engl|12b
+strat univ writ|57100|grubisic, brett|0|2013|112|31|0|77.1|engl|12m
+strat univ writ|57101|nelson-mcdermott, catherine|0|2013|112|27|1|67.5|engl|12n
+strat univ writ|57102|roberts, duff|0|2013|112|20|6|58.73|engl|12p
+strat univ writ|57103|trainor, kimberley|0|2013|112|33|1|73.65|engl|13m
+strat univ writ|57104|birks, roberta|0|2013|112|32|0|70.72|engl|13n
+strat univ writ|57105|grubisic, brett|0|2013|112|31|0|75.48|engl|14a
+strat univ writ|57106|jerome, gillian|0|2013|112|32|1|74.09|engl|14b
+strat univ writ|57107|jerome, gillian|0|2013|112|29|0|75.83|engl|14m
+strat univ writ|57108|somers, emily|0|2013|112|30|1|76.32|engl|14n
+strat univ writ|57109|grubisic, brett|0|2013|112|35|0|75.09|engl|15a
+strat univ writ|57110|grubisic, brett|0|2013|112|27|0|75.19|engl|15m
+strat univ writ|57111|jerome, gillian|0|2013|112|25|2|69.93|engl|15n
+strat univ writ|57112|trainor, kimberley|0|2013|112|26|0|73.04|engl|99a
+strat univ writ|57113|paterson, erika|0|2013|112|21|1|71|engl|99c
+strat univ writ|57114||0|2013|112|2466|69|71.49|engl|overall
+strat univ writ|62155|mason, travis|0|2009|112|26|0|65|engl|920
+strat univ writ|62156|fleming, tara-lynn|0|2009|112|28|0|67.36|engl|921
+strat univ writ|62157|morgan, george macgregor|0|2009|112|26|2|70.71|engl|922
+strat univ writ|62158|sutherland, julie|0|2009|112|29|1|68.4|engl|923
+strat univ writ|62159|paterson, erika|0|2009|112|29|0|73.86|engl|924
+strat univ writ|62160|roberts, duff|0|2009|112|32|0|66.38|engl|925
+strat univ writ|62161|grubisic, brett|0|2009|112|26|1|75.37|engl|926
+strat univ writ|62162|james, suzanne|0|2009|112|26|0|71.12|engl|927
+strat univ writ|62163|somers, emily|0|2009|112|27|0|79.07|engl|928
+strat univ writ|62164|birks, roberta|0|2009|112|26|0|75.73|engl|929
+strat univ writ|62165|morgan, george macgregor|0|2009|112|27|0|74.63|engl|92a
+strat univ writ|62166|parry, sarah|0|2009|112|22|4|64.85|engl|92b
+strat univ writ|62167|saunders, mary ann|0|2009|112|25|0|74|engl|92c
+strat univ writ|62168|trainor, kimberley|0|2009|112|26|0|71.77|engl|92d
+strat univ writ|62169||0|2009|112|375|8|71.22|engl|overall
+univrsty writing|63115|endo, paul|0|2016|112|27|0|67.44|engl|01a
+univrsty writing|63116|lee, tara|0|2016|112|32|0|75.97|engl|01b
+univrsty writing|63117|bose, sarika|0|2016|112|28|1|71.21|engl|02a
+univrsty writing|63118|lee, tara|0|2016|112|32|0|76.63|engl|02b
+univrsty writing|63119|parry, sarah|0|2016|112|28|0|74.32|engl|02c
+univrsty writing|63120|dreher, gudrun|0|2016|112|32|0|77|engl|02d
+univrsty writing|63121|fox, lorcan francis|0|2016|112|32|0|75.13|engl|03a
+univrsty writing|63122|jerome, gillian|0|2016|112|31|1|75.22|engl|03b
+univrsty writing|63123|hart, r alexander|0|2016|112|29|1|66.27|engl|03c
+univrsty writing|63124|endo, paul|0|2016|112|30|0|68.17|engl|03d
+univrsty writing|63125|roberts, duff|0|2016|112|34|0|72.82|engl|03e
+univrsty writing|63126|bose, sarika|0|2016|112|29|1|71.53|engl|04a
+univrsty writing|63127|jerome, gillian|0|2016|112|33|0|72.94|engl|04c
+univrsty writing|63128|scholes, judith|0|2016|112|31|1|74.34|engl|04d
+univrsty writing|63129|catron, mandy|0|2016|112|33|0|72.36|engl|04e
+univrsty writing|63130|morgan, george macgregor|0|2016|112|29|1|73.8|engl|05a
+univrsty writing|63131|mahon, peter|0|2016|112|33|0|72.21|engl|05b
+univrsty writing|63132|endo, paul|0|2016|112|32|1|63.48|engl|05c
+univrsty writing|63133|roberts, duff|0|2016|112|31|0|72.71|engl|05d
+univrsty writing|63134|parry, sarah|0|2016|112|27|3|69.1|engl|05e
+univrsty writing|63135|lee, tara|0|2016|112|27|2|66.86|engl|05f
+univrsty writing|63136|newell, jonathan|0|2016|112|27|1|73.46|engl|06a
+univrsty writing|63137|morgan, george macgregor|0|2016|112|32|0|73.25|engl|06b
+univrsty writing|63138|scholes, judith|0|2016|112|31|1|74.16|engl|06c
+univrsty writing|63139|mahon, peter|0|2016|112|28|3|65.97|engl|06d
+univrsty writing|63140|gooding, richard|0|2016|112|28|1|71.97|engl|07a
+univrsty writing|63141|jerome, gillian|0|2016|112|31|1|73.22|engl|07b
+univrsty writing|63142|fox, lorcan francis|0|2016|112|32|0|76.34|engl|07c
+univrsty writing|63143|morgan, george macgregor|0|2016|112|25|4|67.17|engl|08a
+univrsty writing|63144|scholes, judith|0|2016|112|30|0|74.5|engl|08b
+univrsty writing|63145|birks, roberta|0|2016|112|29|1|72.5|engl|10a
+univrsty writing|63146|birks, roberta|0|2016|112|33|1|74.12|engl|11a
+univrsty writing|63147|grubisic, brett|0|2016|112|34|0|78.41|engl|11b
+univrsty writing|63148|baxter, gisele marie|0|2016|112|30|1|70.52|engl|12a
+univrsty writing|63149|fleming, tara-lynn|0|2016|112|31|1|71.25|engl|12b
+univrsty writing|63150|newell, jonathan|0|2016|112|31|0|73.48|engl|12c
+univrsty writing|63151|roberts, duff|0|2016|112|27|3|63.87|engl|12d
+univrsty writing|63152|fleming, tara-lynn|0|2016|112|30|1|69.58|engl|13a
+univrsty writing|63153|jerome, gillian|0|2016|112|28|1|73.28|engl|13c
+univrsty writing|63154|grubisic, brett|0|2016|112|33|0|78.42|engl|14a
+univrsty writing|63155|baxter, gisele marie|0|2016|112|33|0|73.42|engl|14b
+univrsty writing|63156|nelson-mcdermott, catherine|0|2016|112|26|1|74.85|engl|17a
+univrsty writing|63157|trainor, kimberley|0|2016|112|25|0|78.6|engl|99a
+univrsty writing|63158||0|2016|112|1294|33|72.41|engl|overall
+strat univ writ|64247|birks, roberta|0|2010|112|29|0|75.28|engl|01a
+strat univ writ|64248|endo, paul|0|2010|112|29|0|67.41|engl|01b
+strat univ writ|64249|lee, tara|0|2010|112|28|1|71.48|engl|01c
+strat univ writ|64250|paterson, erika|0|2010|112|29|1|73.1|engl|01d
+strat univ writ|64251|birks, roberta|0|2010|112|26|1|74.63|engl|01m
+strat univ writ|64252|mahon, peter|0|2010|112|26|3|63.48|engl|01n
+strat univ writ|64253|lee, tara|0|2010|112|25|0|74.6|engl|01p
+strat univ writ|64254|baxter, gisele marie|0|2010|112|31|0|73.45|engl|02a
+strat univ writ|64255|bose, sarika|0|2010|112|29|1|68|engl|02b
+strat univ writ|64256|hart, r alexander|0|2010|112|28|0|69.43|engl|02c
+strat univ writ|64257|mahon, peter|0|2010|112|34|0|74.26|engl|02d
+strat univ writ|64258|morgan, george macgregor|0|2010|112|30|0|74.8|engl|02e
+strat univ writ|64259|morgan, george macgregor|0|2010|112|26|1|70.22|engl|02m
+strat univ writ|64260|dreher, gudrun|0|2010|112|30|0|79.33|engl|02n
+strat univ writ|64261|trainor, kimberley|0|2010|112|30|0|71.33|engl|02p
+strat univ writ|64262|paterson, erika|0|2010|112|28|1|71.83|engl|02q
+strat univ writ|64263|somers, emily|0|2010|112|30|0|76.27|engl|02r
+strat univ writ|64264|james, suzanne|0|2010|112|32|0|75.38|engl|03a
+strat univ writ|64265|roberts, duff|0|2010|112|32|0|72.19|engl|03b
+strat univ writ|64266|dreher, gudrun|0|2010|112|34|0|82.88|engl|03c
+strat univ writ|64267|grafton, kathryn;stumm, bettina|0|2010|112|34|1|69.26|engl|03d
+strat univ writ|64268|somers, emily|0|2010|112|29|0|73.55|engl|03e
+strat univ writ|64269|james, suzanne|0|2010|112|33|1|72.06|engl|03m
+strat univ writ|64270|catron, mandy|0|2010|112|33|1|70.62|engl|03n
+strat univ writ|64271|robinson, leni|0|2010|112|31|1|72.16|engl|03p
+strat univ writ|64272|roberts, duff|0|2010|112|31|2|70.48|engl|03q
+strat univ writ|64273|fox, lorcan francis|0|2010|112|32|1|75.42|engl|04a
+strat univ writ|64274|lee, tara|0|2010|112|31|3|73.91|engl|04b
+strat univ writ|64275|calloway, katherine|0|2010|112|31|0|74.26|engl|04c
+strat univ writ|64276|salmon, william noel|0|2010|112|32|0|72.56|engl|04d
+strat univ writ|64277|paterson, erika|0|2010|112|31|1|79.06|engl|04e
+strat univ writ|64278|bose, sarika|0|2010|112|27|1|67.54|engl|04m
+strat univ writ|64279|dreher, gudrun|0|2010|112|35|0|78.06|engl|04n
+strat univ writ|64280|lee, tara|0|2010|112|31|1|73.66|engl|04p
+strat univ writ|64281|morgan, george macgregor|0|2010|112|32|1|69.58|engl|04q
+strat univ writ|64282|morgan, george macgregor|0|2010|112|31|0|75.1|engl|05a
+strat univ writ|64283|paterson, erika|0|2010|112|31|2|75.85|engl|05b
+strat univ writ|64284|calloway, katherine|0|2010|112|33|0|76.18|engl|05c
+strat univ writ|64285|robinson, leni|0|2010|112|33|0|72.33|engl|05d
+strat univ writ|64286|parry, sarah|0|2010|112|30|1|70.87|engl|05e
+strat univ writ|64287|salmon, william noel|0|2010|112|31|0|71.23|engl|05m
+strat univ writ|64288|calloway, katherine|0|2010|112|32|0|73.69|engl|05n
+strat univ writ|64289|paterson, erika|0|2010|112|30|2|71.25|engl|05p
+strat univ writ|64290|trainor, kimberley|0|2010|112|30|0|72.7|engl|05q
+strat univ writ|64291|baxter, gisele marie|0|2010|112|33|0|73.27|engl|06a
+strat univ writ|64292|salmon, william noel|0|2010|112|34|0|74.71|engl|06b
+strat univ writ|64293|parry, sarah|0|2010|112|32|1|71.7|engl|06c
+strat univ writ|64294|somers, emily|0|2010|112|35|0|72.91|engl|06d
+strat univ writ|64295|baxter, gisele marie|0|2010|112|35|0|73.09|engl|06m
+strat univ writ|64296|roberts, duff|0|2010|112|32|1|70.21|engl|06n
+strat univ writ|64297|trainor, kimberley|0|2010|112|32|0|72.5|engl|06p
+strat univ writ|64298|salmon, william noel|0|2010|112|35|0|69.06|engl|06q
+strat univ writ|64299|james, suzanne|0|2010|112|34|0|77.68|engl|07a
+strat univ writ|64300|robinson, leni|0|2010|112|30|1|71.97|engl|07b
+strat univ writ|64301|fox, lorcan francis|0|2010|112|29|1|72.4|engl|07m
+strat univ writ|64302|james, suzanne|0|2010|112|31|0|71.52|engl|07n
+strat univ writ|64303|parry, sarah|0|2010|112|27|1|71.68|engl|08a
+strat univ writ|64304|soles, derek|0|2010|112|33|1|71.85|engl|08b
+strat univ writ|64305|dreher, gudrun|0|2010|112|31|0|83.19|engl|08c
+strat univ writ|64306|parry, sarah|0|2010|112|31|0|72.68|engl|08m
+strat univ writ|64307|calloway, katherine|0|2010|112|29|1|72.07|engl|08n
+strat univ writ|64308|dreher, gudrun|0|2010|112|30|1|73.61|engl|08p
+strat univ writ|64309|calloway, katherine|0|2010|112|30|0|77.7|engl|09a
+strat univ writ|64310|somers, emily|0|2010|112|28|0|77.18|engl|09m
+strat univ writ|64311|raglon, rebecca|0|2010|112|32|0|70.94|engl|10a
+strat univ writ|64312|soles, derek|0|2010|112|30|0|71.9|engl|10m
+strat univ writ|64313|raglon, rebecca|0|2010|112|29|1|70.2|engl|10n
+strat univ writ|64314|parkin, christine|0|2010|112|32|0|82.59|engl|11a
+strat univ writ|64315|grubisic, brett|0|2010|112|31|0|70.03|engl|11b
+strat univ writ|64316|biermann, wilhelmina georgina|0|2010|112|30|1|72.45|engl|11m
+strat univ writ|64317|grubisic, brett|0|2010|112|30|1|73.29|engl|11n
+strat univ writ|64318|grubisic, brett|0|2010|112|33|0|75.97|engl|12a
+strat univ writ|64319|jerome, gillian|0|2010|112|33|0|75.58|engl|12b
+strat univ writ|64320|trainor, kimberley|0|2010|112|33|0|74.39|engl|12c
+strat univ writ|64321|grubisic, brett|0|2010|112|32|0|75.34|engl|12m
+strat univ writ|64322|jerome, gillian|0|2010|112|33|0|77.61|engl|12n
+strat univ writ|64323|jerome, gillian|0|2010|112|31|1|73.22|engl|14a
+strat univ writ|64324|catron, mandy|0|2010|112|30|1|71.87|engl|14b
+strat univ writ|64325|jerome, gillian|0|2010|112|29|0|76.17|engl|14m
+strat univ writ|64326|nelson-mcdermott, catherine|0|2010|112|26|1|71.04|engl|14n
+strat univ writ|64327|soles, derek|0|2010|112|29|1|69.2|engl|14p
+strat univ writ|64328|biermann, wilhelmina georgina|0|2010|112|28|1|78.41|engl|14q
+strat univ writ|64329|grubisic, brett|0|2010|112|31|0|72.97|engl|15a
+strat univ writ|64330|grubisic, brett|0|2010|112|30|1|72.58|engl|15m
+strat univ writ|64331|robinson, leni|0|2010|112|30|1|69.68|engl|15n
+strat univ writ|64332|sutherland, julie|0|2010|112|22|2|67.46|engl|99a
+strat univ writ|64333|james, suzanne|0|2010|112|20|4|64.75|engl|99c
+strat univ writ|64334||0|2010|112|2655|52|73.17|engl|overall
+strat univ writ|73812|trainor, kimberley|0|2013|112|28|2|70.67|engl|98a
+strat univ writ|73813|parry, sarah|0|2013|112|36|0|71.83|engl|jn2
+strat univ writ|73814|jerome, gillian|0|2013|112|35|0|76.94|engl|jn3
+strat univ writ|73815|catron, mandy|0|2013|112|35|0|69.63|engl|jn4
+strat univ writ|73816|grubisic, brett|0|2013|112|34|0|75.24|engl|ma1
+strat univ writ|73817|parry, sarah|0|2013|112|32|0|74.69|engl|ma2
+strat univ writ|73818|jerome, gillian|0|2013|112|35|0|76.63|engl|ma3
+strat univ writ|73819|james, suzanne|0|2013|112|35|1|69.81|engl|ma4
+strat univ writ|73820||0|2013|112|270|3|73.18|engl|overall
+univrsty writing|91178|trainor, kimberley|0|2014|112|26|2|70.36|engl|98a
+univrsty writing|91179|saunders, mary ann|0|2014|112|34|0|72.5|engl|jl1
+univrsty writing|91180|lee, tara|0|2014|112|34|0|71.32|engl|jl2
+univrsty writing|91181|parry, sarah|0|2014|112|35|0|73.83|engl|jl3
+univrsty writing|91182|biermann, wilhelmina georgina|0|2014|112|32|2|74|engl|ma1
+univrsty writing|91183|biermann, wilhelmina georgina|0|2014|112|34|1|73.57|engl|ma2
+univrsty writing|91184|parry, sarah|0|2014|112|35|0|71.63|engl|ma3
+univrsty writing|91185|nelson-mcdermott, catherine|0|2014|112|32|1|65.36|engl|ma4
+univrsty writing|91186|jerome, gillian|0|2014|112|34|0|77|engl|ma5
+univrsty writing|91187||0|2014|112|296|6|72.24|engl|overall
+strat univ writ|95137|birks, roberta|0|2011|112|30|2|71.09|engl|01a
+strat univ writ|95138|endo, paul|0|2011|112|30|2|65.03|engl|01b
+strat univ writ|95139|lee, tara|0|2011|112|31|1|73.91|engl|01c
+strat univ writ|95140|birks, roberta|0|2011|112|31|0|74.16|engl|01m
+strat univ writ|95141|endo, paul|0|2011|112|24|3|62.04|engl|01n
+strat univ writ|95142|bose, sarika|0|2011|112|32|0|72.72|engl|02a
+strat univ writ|95143|fox, lorcan francis|0|2011|112|33|0|77.39|engl|02b
+strat univ writ|95144|hart, r alexander|0|2011|112|30|0|66.6|engl|02c
+strat univ writ|95145|parry, sarah|0|2011|112|32|0|72.78|engl|02d
+strat univ writ|95146|brocklebank, lisa|0|2011|112|29|2|62.06|engl|02e
+strat univ writ|95147|bose, sarika|0|2011|112|32|0|69.53|engl|02m
+strat univ writ|95148|hart, r alexander|0|2011|112|26|1|67.37|engl|02n
+strat univ writ|95149|lee, tara|0|2011|112|32|1|74.39|engl|02p
+strat univ writ|95150|parry, sarah|0|2011|112|33|0|74.03|engl|02q
+strat univ writ|95151|endo, paul|0|2011|112|35|0|72.06|engl|03a
+strat univ writ|95152|james, suzanne|0|2011|112|33|1|72.44|engl|03b
+strat univ writ|95153|parry, sarah|0|2011|112|33|0|72.94|engl|03c
+strat univ writ|95154|paterson, erika|0|2011|112|35|1|71.64|engl|03d
+strat univ writ|95155|morgan, george macgregor|0|2011|112|34|0|71.74|engl|03e
+strat univ writ|95156|baxter, gisele marie|0|2011|112|33|1|69.06|engl|03m
+strat univ writ|95157|james, suzanne|0|2011|112|33|1|70.71|engl|03n
+strat univ writ|95158|paterson, erika|0|2011|112|31|1|71.75|engl|03p
+strat univ writ|95159|robinson, leni|0|2011|112|31|1|69.53|engl|03q
+strat univ writ|95160|robinson, leni|0|2011|112|31|2|69.33|engl|04a
+strat univ writ|95161|hart, r alexander|0|2011|112|35|0|68.86|engl|04b
+strat univ writ|95162|lee, tara|0|2011|112|34|1|75.09|engl|04c
+strat univ writ|95163|brocklebank, lisa|0|2011|112|33|1|68.12|engl|04d
+strat univ writ|95164|fox, lorcan francis|0|2011|112|34|0|77.76|engl|04m
+strat univ writ|95165|parry, sarah|0|2011|112|33|0|69.94|engl|04n
+strat univ writ|95166|paterson, erika|0|2011|112|31|2|65.97|engl|04p
+strat univ writ|95167|roberts, duff|0|2011|112|33|1|70.29|engl|04q
+strat univ writ|95168|mahon, peter|0|2011|112|31|0|71.77|engl|05a
+strat univ writ|95169|roberts, duff|0|2011|112|35|0|71.57|engl|05b
+strat univ writ|95170|sutherland, julie|0|2011|112|33|1|74.82|engl|05c
+strat univ writ|95171|dreher, gudrun|0|2011|112|34|0|74.35|engl|05d
+strat univ writ|95172|soles, derek|0|2011|112|34|0|72.44|engl|05e
+strat univ writ|95173|baxter, gisele marie|0|2011|112|33|0|72.55|engl|05m
+strat univ writ|95174|lee, tara|0|2011|112|33|2|76.06|engl|05n
+strat univ writ|95175|mahon, peter|0|2011|112|32|1|69.76|engl|05p
+strat univ writ|95176|paterson, erika|0|2011|112|33|1|77.26|engl|06a
+strat univ writ|95177|trainor, kimberley|0|2011|112|33|0|74.15|engl|06b
+strat univ writ|95178|robinson, leni|0|2011|112|32|1|72.24|engl|06c
+strat univ writ|95179|dreher, gudrun|0|2011|112|35|0|77.11|engl|06d
+strat univ writ|95180|bose, sarika|0|2011|112|29|1|66.6|engl|06m
+strat univ writ|95181|fox, lorcan francis|0|2011|112|31|1|72.53|engl|06n
+strat univ writ|95182|paterson, erika|0|2011|112|33|0|75.52|engl|06p
+strat univ writ|95183|roberts, duff|0|2011|112|29|4|66.27|engl|06q
+strat univ writ|95184|james, suzanne|0|2011|112|34|1|74.11|engl|07a
+strat univ writ|95185|soles, derek|0|2011|112|36|0|75.06|engl|07b
+strat univ writ|95186|sutherland, julie|0|2011|112|33|0|73.91|engl|07m
+strat univ writ|95187|mahon, peter|0|2011|112|29|1|66.33|engl|07n
+strat univ writ|95188|morgan, george macgregor|0|2011|112|33|1|72|engl|08a
+strat univ writ|95189|brocklebank, lisa|0|2011|112|31|1|68.88|engl|08b
+strat univ writ|95190|morgan, george macgregor|0|2011|112|28|2|67.47|engl|08m
+strat univ writ|95191|dreher, gudrun|0|2011|112|32|2|77.12|engl|08n
+strat univ writ|95192|dreher, gudrun|0|2011|112|34|0|76.29|engl|09a
+strat univ writ|95193|morgan, george macgregor|0|2011|112|26|0|73|engl|09m
+strat univ writ|95194|raglon, rebecca|0|2011|112|33|1|71.97|engl|10a
+strat univ writ|95195|raglon, rebecca|0|2011|112|26|4|65.53|engl|10m
+strat univ writ|95196|soles, derek|0|2011|112|30|0|73.5|engl|10n
+strat univ writ|95197|jerome, gillian|0|2011|112|32|2|73.68|engl|11a
+strat univ writ|95198|fleming, tara-lynn|0|2011|112|34|1|66.43|engl|11b
+strat univ writ|95199|jerome, gillian|0|2011|112|34|0|75.74|engl|11m
+strat univ writ|95200|grubisic, brett|0|2011|112|33|0|74.64|engl|11n
+strat univ writ|95201|jerome, gillian|0|2011|112|33|0|75.79|engl|12a
+strat univ writ|95202|grubisic, brett|0|2011|112|32|0|74.44|engl|12b
+strat univ writ|95203|catron, mandy|0|2011|112|34|0|72.79|engl|12c
+strat univ writ|95204|fleming, tara-lynn|0|2011|112|32|1|65|engl|12d
+strat univ writ|95205|trainor, kimberley|0|2011|112|32|0|74.25|engl|12m
+strat univ writ|95206|fleming, tara-lynn|0|2011|112|35|0|66.8|engl|12n
+strat univ writ|95207|grubisic, brett|0|2011|112|30|1|73.03|engl|14a
+strat univ writ|95208|catron, mandy|0|2011|112|33|1|70.56|engl|14b
+strat univ writ|95209|jerome, gillian|0|2011|112|24|0|76.21|engl|14m
+strat univ writ|95210|nelson-mcdermott, catherine|0|2011|112|27|0|69.41|engl|14n
+strat univ writ|95211|trainor, kimberley|0|2011|112|20|0|70.5|engl|14p
+strat univ writ|95212|catron, mandy|0|2011|112|23|1|71.46|engl|14q
+strat univ writ|95213|stumm, bettina|0|2011|112|21|0|69.9|engl|14r
+strat univ writ|95214|grubisic, brett|0|2011|112|33|0|73.94|engl|15a
+strat univ writ|95215|grubisic, brett|0|2011|112|29|0|73.69|engl|15m
+strat univ writ|95216|biermann, wilhelmina georgina|0|2011|112|32|0|75.03|engl|15n
+strat univ writ|95217|sutherland, julie|0|2011|112|21|1|69.45|engl|99a
+strat univ writ|95218|baxter, gisele marie|0|2011|112|20|1|67.71|engl|99c
+strat univ writ|95219||0|2011|112|2557|59|71.71|engl|overall
+univrsty writing|97335|endo, paul|0|2014|112|26|1|68.22|engl|01a
+univrsty writing|97336|lee, tara|0|2014|112|31|0|75.06|engl|01b
+univrsty writing|97337|endo, paul|0|2014|112|21|1|63.77|engl|01m
+univrsty writing|97338|lee, tara|0|2014|112|22|1|70.22|engl|01n
+univrsty writing|97339|lee, tara|0|2014|112|33|0|75.12|engl|02a
+univrsty writing|97340|james, suzanne|0|2014|112|31|0|70.84|engl|02b
+univrsty writing|97341|endo, paul|0|2014|112|29|3|67.44|engl|02c
+univrsty writing|97342|saunders, mary ann|0|2014|112|31|0|76.61|engl|02d
+univrsty writing|97343|parry, sarah|0|2014|112|24|0|76.17|engl|02m
+univrsty writing|97344|morgan, george macgregor|0|2014|112|25|0|74|engl|02n
+univrsty writing|97345|lee, tara|0|2014|112|27|0|71.96|engl|02p
+univrsty writing|97346|stewart, fenn|0|2014|112|27|1|68.71|engl|02q
+univrsty writing|97347|birks, roberta|0|2014|112|28|0|74.04|engl|02r
+univrsty writing|97348|nelson-mcdermott, catherine|0|2014|112|31|2|64.39|engl|03a
+univrsty writing|97349|mahon, peter|0|2014|112|33|1|69.68|engl|03b
+univrsty writing|97350|hart, r alexander|0|2014|112|30|0|68.53|engl|03c
+univrsty writing|97351|roberts, duff|0|2014|112|27|1|71.57|engl|03d
+univrsty writing|97352|bose, sarika|0|2014|112|30|0|68.67|engl|03e
+univrsty writing|97353|james, suzanne|0|2014|112|35|0|71.03|engl|03m
+univrsty writing|97354|lee, tara|0|2014|112|32|1|68.48|engl|03n
+univrsty writing|97355|hart, r alexander|0|2014|112|26|0|67.85|engl|03p
+univrsty writing|97356|roberts, duff|0|2014|112|33|0|71.3|engl|03q
+univrsty writing|97357|trainor, kimberley|0|2014|112|34|1|69.31|engl|03r
+univrsty writing|97358|fox, lorcan francis|0|2014|112|30|1|72.26|engl|04a
+univrsty writing|97359|morgan, george macgregor|0|2014|112|30|1|72.84|engl|04b
+univrsty writing|97360|nelson-mcdermott, catherine|0|2014|112|30|1|66.74|engl|04c
+univrsty writing|97361|parry, sarah|0|2014|112|35|0|75.46|engl|04d
+univrsty writing|97362|phillips, noelle|0|2014|112|31|2|73.97|engl|04e
+univrsty writing|97363|endo, paul|0|2014|112|29|0|70.76|engl|04m
+univrsty writing|97364|baxter, gisele marie|0|2014|112|33|0|72.97|engl|04n
+univrsty writing|97365|parry, sarah|0|2014|112|29|1|71.17|engl|04p
+univrsty writing|97366|mahon, peter|0|2014|112|30|3|67.82|engl|04q
+univrsty writing|97367|james, suzanne|0|2014|112|34|0|71.47|engl|05a
+univrsty writing|97368|jerome, gillian|0|2014|112|32|0|77.66|engl|05b
+univrsty writing|97369|trainor, kimberley|0|2014|112|35|0|73|engl|05c
+univrsty writing|97370|lee, tara|0|2014|112|35|0|72.06|engl|05e
+univrsty writing|97371|hart, r alexander|0|2014|112|23|1|66.92|engl|05m
+univrsty writing|97372|endo, paul|0|2014|112|27|0|68.67|engl|05n
+univrsty writing|97373|roberts, duff|0|2014|112|23|2|66.52|engl|05p
+univrsty writing|97374|trainor, kimberley|0|2014|112|31|0|74.48|engl|05q
+univrsty writing|97375|jerome, gillian|0|2014|112|25|1|74.54|engl|05r
+univrsty writing|97376|morgan, george macgregor|0|2014|112|29|1|72.1|engl|06a
+univrsty writing|97377|roberts, duff|0|2014|112|31|2|69.52|engl|06b
+univrsty writing|97378|parry, sarah|0|2014|112|33|0|75|engl|06c
+univrsty writing|97379|trainor, kimberley|0|2014|112|31|1|71.69|engl|06d
+univrsty writing|97380|hart, r alexander|0|2014|112|33|0|67.03|engl|06e
+univrsty writing|97381|stewart, fenn|0|2014|112|33|1|74.12|engl|06m
+univrsty writing|97382|mahon, peter|0|2014|112|30|2|67.63|engl|06n
+univrsty writing|97383|parry, sarah|0|2014|112|30|0|73.87|engl|06p
+univrsty writing|97384|baxter, gisele marie|0|2014|112|32|0|71.22|engl|06q
+univrsty writing|97385|trainor, kimberley|0|2014|112|32|1|73.48|engl|06r
+univrsty writing|97386|morgan, george macgregor|0|2014|112|31|0|73.87|engl|07a
+univrsty writing|97387|fox, lorcan francis|0|2014|112|33|0|73.88|engl|07b
+univrsty writing|97388|parry, sarah|0|2014|112|33|0|75.85|engl|07c
+univrsty writing|97389|parry, sarah|0|2014|112|31|0|73|engl|07m
+univrsty writing|97390|fox, lorcan francis|0|2014|112|30|1|74.74|engl|07n
+univrsty writing|97391|james, suzanne|0|2014|112|27|2|68.24|engl|07p
+univrsty writing|97392|mahon, peter|0|2014|112|28|2|64.17|engl|08a
+univrsty writing|97393|catron, mandy|0|2014|112|29|2|69.52|engl|08b
+univrsty writing|97394|catron, mandy|0|2014|112|28|0|71.64|engl|08m
+univrsty writing|97395|catron, mandy|0|2014|112|21|1|71.14|engl|09m
+univrsty writing|97396|dreher, gudrun|0|2014|112|36|0|72.78|engl|10a
+univrsty writing|97397|jerome, gillian|0|2014|112|28|1|73.14|engl|11a
+univrsty writing|97398|stewart, fenn|0|2014|112|33|0|73.45|engl|11b
+univrsty writing|97399|grubisic, brett|0|2014|112|34|0|75.47|engl|11m
+univrsty writing|97400|jerome, gillian|0|2014|112|28|0|77.64|engl|11n
+univrsty writing|97401|fleming, tara-lynn|0|2014|112|32|1|69.52|engl|12a
+univrsty writing|97402|jerome, gillian|0|2014|112|24|1|75.28|engl|12b
+univrsty writing|97403|roberts, duff|0|2014|112|30|3|69.18|engl|12c
+univrsty writing|97404|jerome, gillian|0|2014|112|31|1|76|engl|12m
+univrsty writing|97405|fleming, tara-lynn|0|2014|112|33|0|69.52|engl|12n
+univrsty writing|97406|grubisic, brett|0|2014|112|32|1|75.21|engl|13a
+univrsty writing|97407|morgan, george macgregor|0|2014|112|24|1|72.48|engl|13b
+univrsty writing|97408|grubisic, brett|0|2014|112|31|0|76.45|engl|13m
+univrsty writing|97409|morgan, george macgregor|0|2014|112|25|1|71.12|engl|13n
+univrsty writing|97410|nelson-mcdermott, catherine|0|2014|112|33|0|70.55|engl|13p
+univrsty writing|97411|stewart, fenn|0|2014|112|32|0|75.38|engl|14a
+univrsty writing|97412|fleming, tara-lynn|0|2014|112|32|1|65.21|engl|14b
+univrsty writing|97413|fleming, tara-lynn|0|2014|112|32|2|66.41|engl|14m
+univrsty writing|97414|grubisic, brett|0|2014|112|34|1|75.77|engl|14n
+univrsty writing|97415|grubisic, brett|0|2014|112|32|1|72.42|engl|15a
+univrsty writing|97416|james, suzanne|0|2014|112|28|3|67.26|engl|17a
+univrsty writing|97417|paterson, erika|0|2014|112|19|3|66.82|engl|99a
+univrsty writing|97418|trainor, kimberley|0|2014|112|24|2|71.27|engl|99c
+univrsty writing|97419||0|2014|112|2502|65|71.51|engl|overall

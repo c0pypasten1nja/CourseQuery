@@ -1,0 +1,16 @@
+Title|id|Professor|Audit|Year|Course|Pass|Fail|Avg|Subject|Section
+int mktg comm|11306|cubbon, paul|0|2007|504|32|0|80.63|bama|001
+int mktg comm|11307||0|2007|504|32|0|80.63|bama|overall
+int mktg comm|13303|stone, ann|0|2015|504|27|0|82.26|bama|001
+int mktg comm|13304|stone, ann|0|2015|504|26|0|81.35|bama|815
+int mktg comm|13305||0|2015|504|53|0|81.81|bama|overall
+int mktg comm|22314|stone, ann|0|2014|504|24|0|81.79|bama|001
+int mktg comm|22315||0|2014|504|24|0|81.79|bama|overall
+int mktg comm|32825|cubbon, paul|0|2010|504|29|0|84.03|bama|001
+int mktg comm|32826||0|2010|504|29|0|84.03|bama|overall
+int mktg comm|39688|stone, ann|0|2012|504|26|0|83.12|bama|001
+int mktg comm|39689||0|2012|504|26|0|83.12|bama|overall
+int mktg comm|41814|stone, ann|0|2011|504|26|0|80.96|bama|001
+int mktg comm|41815||0|2011|504|26|0|80.96|bama|overall
+int mktg comm|60409|stone, ann|0|2013|504|41|0|81.88|bama|001
+int mktg comm|60410||0|2013|504|41|0|81.88|bama|overall

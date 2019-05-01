@@ -1,0 +1,47 @@
+{
+    "title": "SELECT dept, id, pass, fail WHERE fail > 200",
+    "query": "In courses dataset courses, find entries whose Fail is greater than 200; show Department and ID and Pass and Fail; sort in descending order by Fail.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                  "courses_dept": "biol",
+                  "courses_id": "112",
+                  "courses_pass": 1215,
+                  "courses_fail": 230
+                },
+                {
+                  "courses_dept": "math",
+                  "courses_id": "101",
+                  "courses_pass": 1122,
+                  "courses_fail": 222
+                },
+                {
+                  "courses_dept": "econ",
+                  "courses_id": "101",
+                  "courses_pass": 2124,
+                  "courses_fail": 221
+                },
+                {
+                  "courses_dept": "math",
+                  "courses_id": "101",
+                  "courses_pass": 1390,
+                  "courses_fail": 205
+                },
+                {
+                  "courses_dept": "biol",
+                  "courses_id": "200",
+                  "courses_pass": 958,
+                  "courses_fail": 204
+                },
+                {
+                  "courses_dept": "math",
+                  "courses_id": "101",
+                  "courses_pass": 1012,
+                  "courses_fail": 203
+                }
+              ]
+        }
+    }
+}
