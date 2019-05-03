@@ -1,0 +1,10 @@
+{
+    "title": "A query string equal to RESERVED strings",
+    "query": "In courses dataset courses, find entries whose Instructor includes KIND; show Instructor and Title and UUID and Average and Pass and Fail and Audit; sort in descending order by Average.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}

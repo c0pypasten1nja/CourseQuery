@@ -1,0 +1,2873 @@
+{
+    "title": "SELECT instrctr, ttl, uuid, avg, pss, fl, adt WHERE ID includes 0101",
+    "query": "In courses dataset courses, find entries whose ID includes 0101; show Instructor and Title and UUID and Average and Pass and Fail and Audit; sort in descending order by Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                  "courses_instructor": "",
+                  "courses_title": "market structure",
+                  "courses_uuid": "74492",
+                  "courses_avg": 92.5,
+                  "courses_pass": 2,
+                  "courses_fail": 0,
+                  "courses_audit": 2
+                },
+                {
+                  "courses_instructor": "schrimpf, paul",
+                  "courses_title": "market structure",
+                  "courses_uuid": "74491",
+                  "courses_avg": 92.5,
+                  "courses_pass": 2,
+                  "courses_fail": 0,
+                  "courses_audit": 2
+                },
+                {
+                  "courses_instructor": "tba",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "80719",
+                  "courses_avg": 91.13,
+                  "courses_pass": 16,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "weinberg, mark",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "15570",
+                  "courses_avg": 91,
+                  "courses_pass": 18,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "klubben, laura",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "5681",
+                  "courses_avg": 90.75,
+                  "courses_pass": 12,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "market structure",
+                  "courses_uuid": "11638",
+                  "courses_avg": 90.5,
+                  "courses_pass": 2,
+                  "courses_fail": 0,
+                  "courses_audit": 2
+                },
+                {
+                  "courses_instructor": "schrimpf, paul",
+                  "courses_title": "market structure",
+                  "courses_uuid": "11637",
+                  "courses_avg": 90.5,
+                  "courses_pass": 2,
+                  "courses_fail": 0,
+                  "courses_audit": 2
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "comm networks",
+                  "courses_uuid": "55670",
+                  "courses_avg": 90.33,
+                  "courses_pass": 12,
+                  "courses_fail": 0,
+                  "courses_audit": 2
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "comm networks",
+                  "courses_uuid": "55671",
+                  "courses_avg": 90.33,
+                  "courses_pass": 12,
+                  "courses_fail": 0,
+                  "courses_audit": 2
+                },
+                {
+                  "courses_instructor": "norrie, cathy",
+                  "courses_title": "org lrn res",
+                  "courses_uuid": "51837",
+                  "courses_avg": 90.29,
+                  "courses_pass": 31,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "org lrn res",
+                  "courses_uuid": "51838",
+                  "courses_avg": 90.29,
+                  "courses_pass": 31,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "maier, kirsten",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "5680",
+                  "courses_avg": 89.57,
+                  "courses_pass": 28,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "market structure",
+                  "courses_uuid": "91090",
+                  "courses_avg": 87.86,
+                  "courses_pass": 7,
+                  "courses_fail": 0,
+                  "courses_audit": 1
+                },
+                {
+                  "courses_instructor": "schrimpf, paul",
+                  "courses_title": "market structure",
+                  "courses_uuid": "91089",
+                  "courses_avg": 87.86,
+                  "courses_pass": 7,
+                  "courses_fail": 0,
+                  "courses_audit": 1
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "59079",
+                  "courses_avg": 87.28,
+                  "courses_pass": 36,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "clin prac vi b",
+                  "courses_uuid": "94715",
+                  "courses_avg": 87.23,
+                  "courses_pass": 82,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "clin prac vi b",
+                  "courses_uuid": "94714",
+                  "courses_avg": 87.23,
+                  "courses_pass": 82,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "olson, trevor",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "91128",
+                  "courses_avg": 87.16,
+                  "courses_pass": 31,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "50966",
+                  "courses_avg": 87.13,
+                  "courses_pass": 30,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "song repertre ii",
+                  "courses_uuid": "7249",
+                  "courses_avg": 87,
+                  "courses_pass": 7,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "epp, richard arthur",
+                  "courses_title": "song repertre ii",
+                  "courses_uuid": "7248",
+                  "courses_avg": 87,
+                  "courses_pass": 7,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "buchanan, marla",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "14121",
+                  "courses_avg": 86.79,
+                  "courses_pass": 29,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "westwood, marvin",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "33353",
+                  "courses_avg": 86,
+                  "courses_pass": 25,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "caldwell, john;lee, sandra marjorie",
+                  "courses_title": "org lrn res",
+                  "courses_uuid": "1971",
+                  "courses_avg": 85.92,
+                  "courses_pass": 25,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "radioiso sci&med",
+                  "courses_uuid": "534",
+                  "courses_avg": 85.78,
+                  "courses_pass": 9,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "kruecken, reiner",
+                  "courses_title": "radioiso sci&med",
+                  "courses_uuid": "533",
+                  "courses_avg": 85.78,
+                  "courses_pass": 9,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "org lrn res",
+                  "courses_uuid": "1972",
+                  "courses_avg": 85.49,
+                  "courses_pass": 51,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "org lrn res",
+                  "courses_uuid": "32080",
+                  "courses_avg": 85.42,
+                  "courses_pass": 19,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "org lrn res",
+                  "courses_uuid": "32081",
+                  "courses_avg": 85.42,
+                  "courses_pass": 19,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "epp, richard arthur",
+                  "courses_title": "song repertre ii",
+                  "courses_uuid": "28829",
+                  "courses_avg": 85.3,
+                  "courses_pass": 10,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "song repertre ii",
+                  "courses_uuid": "28830",
+                  "courses_avg": 85.3,
+                  "courses_pass": 10,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "munteanu, mircea",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "50965",
+                  "courses_avg": 85.3,
+                  "courses_pass": 33,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "clin prac vi b",
+                  "courses_uuid": "66655",
+                  "courses_avg": 85.19,
+                  "courses_pass": 81,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "clin prac vi b",
+                  "courses_uuid": "66656",
+                  "courses_avg": 85.19,
+                  "courses_pass": 81,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "caldwell, john;lee, sandra marjorie",
+                  "courses_title": "org lrn res",
+                  "courses_uuid": "1970",
+                  "courses_avg": 85.08,
+                  "courses_pass": 26,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "caldwell, john;lee, sandra marjorie",
+                  "courses_title": "org lrn res",
+                  "courses_uuid": "23458",
+                  "courses_avg": 85.04,
+                  "courses_pass": 28,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "org lrn res",
+                  "courses_uuid": "23459",
+                  "courses_avg": 85.04,
+                  "courses_pass": 28,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "lee, sandra marjorie",
+                  "courses_title": "org lrn res",
+                  "courses_uuid": "45376",
+                  "courses_avg": 85.03,
+                  "courses_pass": 35,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "berube, pierre",
+                  "courses_title": "phys-chml trt pr",
+                  "courses_uuid": "2878",
+                  "courses_avg": 85,
+                  "courses_pass": 4,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "phys-chml trt pr",
+                  "courses_uuid": "2879",
+                  "courses_avg": 85,
+                  "courses_pass": 4,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "clin prac vi b",
+                  "courses_uuid": "22768",
+                  "courses_avg": 84.96,
+                  "courses_pass": 75,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "clin prac vi b",
+                  "courses_uuid": "22767",
+                  "courses_avg": 84.96,
+                  "courses_pass": 75,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "phys-chml trt pr",
+                  "courses_uuid": "37681",
+                  "courses_avg": 84.89,
+                  "courses_pass": 9,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "phys-chml trt pr",
+                  "courses_uuid": "37682",
+                  "courses_avg": 84.89,
+                  "courses_pass": 9,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "org lrn res",
+                  "courses_uuid": "45377",
+                  "courses_avg": 84.82,
+                  "courses_pass": 56,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "lee, sandra marjorie",
+                  "courses_title": "org lrn res",
+                  "courses_uuid": "45375",
+                  "courses_avg": 84.48,
+                  "courses_pass": 21,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "berube, pierre",
+                  "courses_title": "phys-chml trt pr",
+                  "courses_uuid": "47635",
+                  "courses_avg": 84.25,
+                  "courses_pass": 4,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "phys-chml trt pr",
+                  "courses_uuid": "47636",
+                  "courses_avg": 84.25,
+                  "courses_pass": 4,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "olson, trevor;westwood, marvin",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "15569",
+                  "courses_avg": 84.21,
+                  "courses_pass": 33,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "clin prac vi b",
+                  "courses_uuid": "11822",
+                  "courses_avg": 84.13,
+                  "courses_pass": 78,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "clin prac vi b",
+                  "courses_uuid": "11821",
+                  "courses_avg": 84.13,
+                  "courses_pass": 78,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "schrimpf, paul",
+                  "courses_title": "market structure",
+                  "courses_uuid": "78544",
+                  "courses_avg": 84.07,
+                  "courses_pass": 14,
+                  "courses_fail": 0,
+                  "courses_audit": 3
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "market structure",
+                  "courses_uuid": "78545",
+                  "courses_avg": 84.07,
+                  "courses_pass": 14,
+                  "courses_fail": 0,
+                  "courses_audit": 3
+                },
+                {
+                  "courses_instructor": "epp, richard arthur",
+                  "courses_title": "song repertre ii",
+                  "courses_uuid": "66009",
+                  "courses_avg": 83.92,
+                  "courses_pass": 12,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "song repertre ii",
+                  "courses_uuid": "66010",
+                  "courses_avg": 83.92,
+                  "courses_pass": 12,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "phys-chml trt pr",
+                  "courses_uuid": "45147",
+                  "courses_avg": 83.9,
+                  "courses_pass": 10,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "berube, pierre",
+                  "courses_title": "phys-chml trt pr",
+                  "courses_uuid": "45146",
+                  "courses_avg": 83.9,
+                  "courses_pass": 10,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "berube, pierre",
+                  "courses_title": "phys-chml trt pr",
+                  "courses_uuid": "84931",
+                  "courses_avg": 83.86,
+                  "courses_pass": 14,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "biotech lab",
+                  "courses_uuid": "58560",
+                  "courses_avg": 83.86,
+                  "courses_pass": 21,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "phys-chml trt pr",
+                  "courses_uuid": "84932",
+                  "courses_avg": 83.86,
+                  "courses_pass": 14,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "creagh, aimee louise;muttray, annette f",
+                  "courses_title": "biotech lab",
+                  "courses_uuid": "58559",
+                  "courses_avg": 83.86,
+                  "courses_pass": 21,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "market structure",
+                  "courses_uuid": "69955",
+                  "courses_avg": 83.73,
+                  "courses_pass": 37,
+                  "courses_fail": 0,
+                  "courses_audit": 3
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "market structure",
+                  "courses_uuid": "69954",
+                  "courses_avg": 83.73,
+                  "courses_pass": 37,
+                  "courses_fail": 0,
+                  "courses_audit": 3
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "org lrn res",
+                  "courses_uuid": "43684",
+                  "courses_avg": 83.73,
+                  "courses_pass": 26,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "cho, allan",
+                  "courses_title": "org lrn res",
+                  "courses_uuid": "43683",
+                  "courses_avg": 83.73,
+                  "courses_pass": 26,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "jacquard, stillman;young, richard",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "87763",
+                  "courses_avg": 83.68,
+                  "courses_pass": 25,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "shah mansouri, hamed",
+                  "courses_title": "comm networks",
+                  "courses_uuid": "18476",
+                  "courses_avg": 83.67,
+                  "courses_pass": 12,
+                  "courses_fail": 0,
+                  "courses_audit": 1
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "comm networks",
+                  "courses_uuid": "18477",
+                  "courses_avg": 83.67,
+                  "courses_pass": 12,
+                  "courses_fail": 0,
+                  "courses_audit": 1
+                },
+                {
+                  "courses_instructor": "wong, wai-shuen vincent",
+                  "courses_title": "comm networks",
+                  "courses_uuid": "6253",
+                  "courses_avg": 83.63,
+                  "courses_pass": 8,
+                  "courses_fail": 0,
+                  "courses_audit": 2
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "comm networks",
+                  "courses_uuid": "6254",
+                  "courses_avg": 83.63,
+                  "courses_pass": 8,
+                  "courses_fail": 0,
+                  "courses_audit": 2
+                },
+                {
+                  "courses_instructor": "munteanu, mircea",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "28341",
+                  "courses_avg": 83.39,
+                  "courses_pass": 30,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "28342",
+                  "courses_avg": 83.39,
+                  "courses_pass": 30,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "polak, emily",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "26762",
+                  "courses_avg": 83.38,
+                  "courses_pass": 24,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "comm networks",
+                  "courses_uuid": "95891",
+                  "courses_avg": 83.33,
+                  "courses_pass": 9,
+                  "courses_fail": 0,
+                  "courses_audit": 2
+                },
+                {
+                  "courses_instructor": "wong, wai-shuen vincent",
+                  "courses_title": "comm networks",
+                  "courses_uuid": "95890",
+                  "courses_avg": 83.33,
+                  "courses_pass": 9,
+                  "courses_fail": 0,
+                  "courses_audit": 2
+                },
+                {
+                  "courses_instructor": "winter, ralph",
+                  "courses_title": "market structure",
+                  "courses_uuid": "22093",
+                  "courses_avg": 83.27,
+                  "courses_pass": 33,
+                  "courses_fail": 0,
+                  "courses_audit": 1
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "market structure",
+                  "courses_uuid": "22094",
+                  "courses_avg": 83.27,
+                  "courses_pass": 33,
+                  "courses_fail": 0,
+                  "courses_audit": 1
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "comm networks",
+                  "courses_uuid": "76757",
+                  "courses_avg": 83.17,
+                  "courses_pass": 12,
+                  "courses_fail": 0,
+                  "courses_audit": 2
+                },
+                {
+                  "courses_instructor": "wong, wai-shuen vincent",
+                  "courses_title": "comm networks",
+                  "courses_uuid": "76756",
+                  "courses_avg": 83.17,
+                  "courses_pass": 12,
+                  "courses_fail": 0,
+                  "courses_audit": 2
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "org lrn res",
+                  "courses_uuid": "27602",
+                  "courses_avg": 82.96,
+                  "courses_pass": 26,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "norrie, cathy",
+                  "courses_title": "org lrn res",
+                  "courses_uuid": "27601",
+                  "courses_avg": 82.96,
+                  "courses_pass": 26,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "91129",
+                  "courses_avg": 82.94,
+                  "courses_pass": 81,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "5682",
+                  "courses_avg": 82.92,
+                  "courses_pass": 92,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "radioiso sci&med",
+                  "courses_uuid": "80008",
+                  "courses_avg": 82.88,
+                  "courses_pass": 8,
+                  "courses_fail": 0,
+                  "courses_audit": 3
+                },
+                {
+                  "courses_instructor": "kruecken, reiner",
+                  "courses_title": "radioiso sci&med",
+                  "courses_uuid": "80007",
+                  "courses_avg": 82.88,
+                  "courses_pass": 8,
+                  "courses_fail": 0,
+                  "courses_audit": 3
+                },
+                {
+                  "courses_instructor": "creagh, aimee louise",
+                  "courses_title": "biotech lab",
+                  "courses_uuid": "76858",
+                  "courses_avg": 82.83,
+                  "courses_pass": 23,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "biotech lab",
+                  "courses_uuid": "76859",
+                  "courses_avg": 82.83,
+                  "courses_pass": 23,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "mcpherson, keith",
+                  "courses_title": "org lrn res",
+                  "courses_uuid": "54867",
+                  "courses_avg": 82.79,
+                  "courses_pass": 28,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "org lrn res",
+                  "courses_uuid": "54868",
+                  "courses_avg": 82.79,
+                  "courses_pass": 28,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "pauly, daniel",
+                  "courses_title": "div evol fishes",
+                  "courses_uuid": "42311",
+                  "courses_avg": 82.67,
+                  "courses_pass": 12,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "div evol fishes",
+                  "courses_uuid": "42312",
+                  "courses_avg": 82.67,
+                  "courses_pass": 12,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "ladha, zahra",
+                  "courses_title": "marketing mgmt",
+                  "courses_uuid": "74254",
+                  "courses_avg": 82.5,
+                  "courses_pass": 6,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "marketing mgmt",
+                  "courses_uuid": "74255",
+                  "courses_avg": 82.5,
+                  "courses_pass": 8,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "59080",
+                  "courses_avg": 82.47,
+                  "courses_pass": 32,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "taylor, eric",
+                  "courses_title": "div evol fishes",
+                  "courses_uuid": "89140",
+                  "courses_avg": 82.43,
+                  "courses_pass": 21,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "div evol fishes",
+                  "courses_uuid": "89141",
+                  "courses_avg": 82.43,
+                  "courses_pass": 21,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "wong, wai-shuen vincent",
+                  "courses_title": "comm networks",
+                  "courses_uuid": "10253",
+                  "courses_avg": 82.36,
+                  "courses_pass": 11,
+                  "courses_fail": 0,
+                  "courses_audit": 5
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "comm networks",
+                  "courses_uuid": "10254",
+                  "courses_avg": 82.36,
+                  "courses_pass": 11,
+                  "courses_fail": 0,
+                  "courses_audit": 5
+                },
+                {
+                  "courses_instructor": "erlebach, anne",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "25306",
+                  "courses_avg": 82.18,
+                  "courses_pass": 33,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "agharebparast, farshid",
+                  "courses_title": "data communicat",
+                  "courses_uuid": "88733",
+                  "courses_avg": 82.17,
+                  "courses_pass": 12,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "data communicat",
+                  "courses_uuid": "88734",
+                  "courses_avg": 82.17,
+                  "courses_pass": 12,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "phys-chml trt pr",
+                  "courses_uuid": "53375",
+                  "courses_avg": 82.11,
+                  "courses_pass": 18,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "berube, pierre",
+                  "courses_title": "phys-chml trt pr",
+                  "courses_uuid": "53374",
+                  "courses_avg": 82.11,
+                  "courses_pass": 18,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "org lrn res",
+                  "courses_uuid": "43881",
+                  "courses_avg": 82.08,
+                  "courses_pass": 25,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "mcpherson, keith",
+                  "courses_title": "org lrn res",
+                  "courses_uuid": "43880",
+                  "courses_avg": 82.08,
+                  "courses_pass": 25,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "yeung, paul",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "69208",
+                  "courses_avg": 82.08,
+                  "courses_pass": 24,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "hall, eric",
+                  "courses_title": "phys-chml trt pr",
+                  "courses_uuid": "10844",
+                  "courses_avg": 82.07,
+                  "courses_pass": 14,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "phys-chml trt pr",
+                  "courses_uuid": "10845",
+                  "courses_avg": 82.07,
+                  "courses_pass": 14,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "kozak, greg",
+                  "courses_title": "foip&priv rcrds",
+                  "courses_uuid": "82450",
+                  "courses_avg": 81.95,
+                  "courses_pass": 19,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "foip&priv rcrds",
+                  "courses_uuid": "82451",
+                  "courses_avg": 81.95,
+                  "courses_pass": 19,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "div evol fishes",
+                  "courses_uuid": "54208",
+                  "courses_avg": 81.85,
+                  "courses_pass": 26,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "taylor, eric",
+                  "courses_title": "div evol fishes",
+                  "courses_uuid": "54207",
+                  "courses_avg": 81.85,
+                  "courses_pass": 26,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "biotech lab",
+                  "courses_uuid": "63611",
+                  "courses_avg": 81.74,
+                  "courses_pass": 23,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "biotech lab",
+                  "courses_uuid": "63612",
+                  "courses_avg": 81.74,
+                  "courses_pass": 23,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "taylor, eric",
+                  "courses_title": "div evol fishes",
+                  "courses_uuid": "72244",
+                  "courses_avg": 81.64,
+                  "courses_pass": 22,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "div evol fishes",
+                  "courses_uuid": "72245",
+                  "courses_avg": 81.64,
+                  "courses_pass": 22,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "adler, michal",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "70429",
+                  "courses_avg": 81.64,
+                  "courses_pass": 36,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "biotech lab",
+                  "courses_uuid": "49078",
+                  "courses_avg": 81.52,
+                  "courses_pass": 23,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "creagh, aimee louise",
+                  "courses_title": "biotech lab",
+                  "courses_uuid": "49077",
+                  "courses_avg": 81.52,
+                  "courses_pass": 23,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "foip&priv rcrds",
+                  "courses_uuid": "95101",
+                  "courses_avg": 81.38,
+                  "courses_pass": 16,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "kozak, greg",
+                  "courses_title": "foip&priv rcrds",
+                  "courses_uuid": "95100",
+                  "courses_avg": 81.38,
+                  "courses_pass": 16,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "div evol fishes",
+                  "courses_uuid": "34474",
+                  "courses_avg": 81.24,
+                  "courses_pass": 17,
+                  "courses_fail": 0,
+                  "courses_audit": 1
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "div evol fishes",
+                  "courses_uuid": "34475",
+                  "courses_avg": 81.24,
+                  "courses_pass": 17,
+                  "courses_fail": 0,
+                  "courses_audit": 1
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "marketing mgmt",
+                  "courses_uuid": "16937",
+                  "courses_avg": 81.2,
+                  "courses_pass": 5,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "foip&priv rcrds",
+                  "courses_uuid": "36646",
+                  "courses_avg": 81.15,
+                  "courses_pass": 13,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "foip&priv rcrds",
+                  "courses_uuid": "36645",
+                  "courses_avg": 81.15,
+                  "courses_pass": 13,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "59083",
+                  "courses_avg": 81.12,
+                  "courses_pass": 158,
+                  "courses_fail": 3,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "yeung, paul",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "69207",
+                  "courses_avg": 81.09,
+                  "courses_pass": 32,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "berube, pierre",
+                  "courses_title": "phys-chml trt pr",
+                  "courses_uuid": "48005",
+                  "courses_avg": 81,
+                  "courses_pass": 16,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "internationl tax",
+                  "courses_uuid": "36397",
+                  "courses_avg": 81,
+                  "courses_pass": 7,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "internationl tax",
+                  "courses_uuid": "36398",
+                  "courses_avg": 81,
+                  "courses_pass": 7,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "phys-chml trt pr",
+                  "courses_uuid": "48006",
+                  "courses_avg": 81,
+                  "courses_pass": 16,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "adler, michal",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "82339",
+                  "courses_avg": 80.81,
+                  "courses_pass": 32,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "87764",
+                  "courses_avg": 80.77,
+                  "courses_pass": 74,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "market structure",
+                  "courses_uuid": "21619",
+                  "courses_avg": 80.63,
+                  "courses_pass": 40,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "winter, ralph",
+                  "courses_title": "market structure",
+                  "courses_uuid": "21618",
+                  "courses_avg": 80.63,
+                  "courses_pass": 40,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "60059",
+                  "courses_avg": 80.62,
+                  "courses_pass": 29,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "div evol fishes",
+                  "courses_uuid": "55247",
+                  "courses_avg": 80.61,
+                  "courses_pass": 23,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "taylor, eric",
+                  "courses_title": "div evol fishes",
+                  "courses_uuid": "55246",
+                  "courses_avg": 80.61,
+                  "courses_pass": 23,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "15573",
+                  "courses_avg": 80.57,
+                  "courses_pass": 202,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "wong, wai-shuen vincent",
+                  "courses_title": "comm networks",
+                  "courses_uuid": "21175",
+                  "courses_avg": 80.56,
+                  "courses_pass": 16,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "comm networks",
+                  "courses_uuid": "21176",
+                  "courses_avg": 80.56,
+                  "courses_pass": 16,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "polak, emily",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "82340",
+                  "courses_avg": 80.56,
+                  "courses_pass": 31,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "berube, pierre",
+                  "courses_title": "phys-chml trt pr",
+                  "courses_uuid": "79656",
+                  "courses_avg": 80.5,
+                  "courses_pass": 10,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "phys-chml trt pr",
+                  "courses_uuid": "79657",
+                  "courses_avg": 80.5,
+                  "courses_pass": 10,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "creagh, aimee louise",
+                  "courses_title": "biotech lab",
+                  "courses_uuid": "56451",
+                  "courses_avg": 80.48,
+                  "courses_pass": 25,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "biotech lab",
+                  "courses_uuid": "56452",
+                  "courses_avg": 80.48,
+                  "courses_pass": 25,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "munteanu, mircea",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "15571",
+                  "courses_avg": 80.44,
+                  "courses_pass": 57,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "adler, michal",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "80717",
+                  "courses_avg": 80.42,
+                  "courses_pass": 35,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "59081",
+                  "courses_avg": 80.39,
+                  "courses_pass": 45,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "14122",
+                  "courses_avg": 80.35,
+                  "courses_pass": 77,
+                  "courses_fail": 0,
+                  "courses_audit": 1
+                },
+                {
+                  "courses_instructor": "munteanu, mircea",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "91127",
+                  "courses_avg": 80.32,
+                  "courses_pass": 50,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "org lrn res",
+                  "courses_uuid": "53411",
+                  "courses_avg": 80.27,
+                  "courses_pass": 26,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "cho, allan",
+                  "courses_title": "org lrn res",
+                  "courses_uuid": "53410",
+                  "courses_avg": 80.27,
+                  "courses_pass": 26,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "intro corp finan",
+                  "courses_uuid": "64001",
+                  "courses_avg": 80.21,
+                  "courses_pass": 14,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "intro corp finan",
+                  "courses_uuid": "64000",
+                  "courses_avg": 80.21,
+                  "courses_pass": 14,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "creagh, aimee louise",
+                  "courses_title": "biotech lab",
+                  "courses_uuid": "12958",
+                  "courses_avg": 80.2,
+                  "courses_pass": 20,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "biotech lab",
+                  "courses_uuid": "12959",
+                  "courses_avg": 80.2,
+                  "courses_pass": 20,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "taylor, eric",
+                  "courses_title": "div evol fishes",
+                  "courses_uuid": "18252",
+                  "courses_avg": 80.07,
+                  "courses_pass": 15,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "div evol fishes",
+                  "courses_uuid": "18253",
+                  "courses_avg": 80.07,
+                  "courses_pass": 15,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "org lrn res",
+                  "courses_uuid": "1403",
+                  "courses_avg": 80,
+                  "courses_pass": 30,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "smith, lauren a",
+                  "courses_title": "org lrn res",
+                  "courses_uuid": "1402",
+                  "courses_avg": 80,
+                  "courses_pass": 30,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "taylor, eric",
+                  "courses_title": "div evol fishes",
+                  "courses_uuid": "20720",
+                  "courses_avg": 79.87,
+                  "courses_pass": 30,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "div evol fishes",
+                  "courses_uuid": "20721",
+                  "courses_avg": 79.87,
+                  "courses_pass": 30,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "33354",
+                  "courses_avg": 79.72,
+                  "courses_pass": 73,
+                  "courses_fail": 2,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "internationl tax",
+                  "courses_uuid": "34798",
+                  "courses_avg": 79.5,
+                  "courses_pass": 8,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "internationl tax",
+                  "courses_uuid": "34799",
+                  "courses_avg": 79.5,
+                  "courses_pass": 8,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "adler, michal",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "25305",
+                  "courses_avg": 79.39,
+                  "courses_pass": 33,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "munteanu, mircea",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "87762",
+                  "courses_avg": 79.32,
+                  "courses_pass": 49,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "song repertre ii",
+                  "courses_uuid": "93918",
+                  "courses_avg": 79.18,
+                  "courses_pass": 16,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "epp, richard arthur",
+                  "courses_title": "song repertre ii",
+                  "courses_uuid": "93917",
+                  "courses_avg": 79.18,
+                  "courses_pass": 16,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "biotech lab",
+                  "courses_uuid": "7886",
+                  "courses_avg": 79.17,
+                  "courses_pass": 23,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "creagh, aimee louise",
+                  "courses_title": "biotech lab",
+                  "courses_uuid": "7885",
+                  "courses_avg": 79.17,
+                  "courses_pass": 23,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "div evol fishes",
+                  "courses_uuid": "19768",
+                  "courses_avg": 79.04,
+                  "courses_pass": 24,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "taylor, eric",
+                  "courses_title": "div evol fishes",
+                  "courses_uuid": "19767",
+                  "courses_avg": 79.04,
+                  "courses_pass": 24,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "biolog eng lab",
+                  "courses_uuid": "45665",
+                  "courses_avg": 79.03,
+                  "courses_pass": 32,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "creagh, aimee louise",
+                  "courses_title": "biolog eng lab",
+                  "courses_uuid": "45664",
+                  "courses_avg": 79.03,
+                  "courses_pass": 32,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "80722",
+                  "courses_avg": 78.82,
+                  "courses_pass": 188,
+                  "courses_fail": 5,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "munteanu, mircea",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "80720",
+                  "courses_avg": 78.79,
+                  "courses_pass": 55,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "intro corp finan",
+                  "courses_uuid": "34725",
+                  "courses_avg": 78.78,
+                  "courses_pass": 18,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "intro corp finan",
+                  "courses_uuid": "34724",
+                  "courses_avg": 78.78,
+                  "courses_pass": 18,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "60060",
+                  "courses_avg": 78.68,
+                  "courses_pass": 67,
+                  "courses_fail": 2,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "munteanu, mircea",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "25307",
+                  "courses_avg": 78.66,
+                  "courses_pass": 58,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "adler, michal",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "80718",
+                  "courses_avg": 78.63,
+                  "courses_pass": 28,
+                  "courses_fail": 2,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "26763",
+                  "courses_avg": 78.61,
+                  "courses_pass": 73,
+                  "courses_fail": 2,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "25309",
+                  "courses_avg": 78.61,
+                  "courses_pass": 173,
+                  "courses_fail": 3,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "adler, michal",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "15568",
+                  "courses_avg": 78.42,
+                  "courses_pass": 36,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "adler, michal",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "70430",
+                  "courses_avg": 78.24,
+                  "courses_pass": 29,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "82343",
+                  "courses_avg": 78.22,
+                  "courses_pass": 169,
+                  "courses_fail": 4,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "tpcs canadn ind",
+                  "courses_uuid": "51743",
+                  "courses_avg": 78.19,
+                  "courses_pass": 32,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "vaney, michael",
+                  "courses_title": "tpcs canadn ind",
+                  "courses_uuid": "51742",
+                  "courses_avg": 78.19,
+                  "courses_pass": 32,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "50969",
+                  "courses_avg": 78.05,
+                  "courses_pass": 170,
+                  "courses_fail": 2,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "69211",
+                  "courses_avg": 77.66,
+                  "courses_pass": 153,
+                  "courses_fail": 3,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "munteanu, mircea",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "5679",
+                  "courses_avg": 77.64,
+                  "courses_pass": 52,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "intro corp finan",
+                  "courses_uuid": "68288",
+                  "courses_avg": 77.31,
+                  "courses_pass": 29,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "intro corp finan",
+                  "courses_uuid": "68289",
+                  "courses_avg": 77.31,
+                  "courses_pass": 29,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "60058",
+                  "courses_avg": 77.28,
+                  "courses_pass": 38,
+                  "courses_fail": 2,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "munteanu, mircea",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "82341",
+                  "courses_avg": 76.94,
+                  "courses_pass": 50,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "creagh, aimee louise",
+                  "courses_title": "biotech lab",
+                  "courses_uuid": "30161",
+                  "courses_avg": 76.88,
+                  "courses_pass": 31,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "biotech lab",
+                  "courses_uuid": "30162",
+                  "courses_avg": 76.88,
+                  "courses_pass": 31,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "marketing mgmt",
+                  "courses_uuid": "50709",
+                  "courses_avg": 76.88,
+                  "courses_pass": 8,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "market structure",
+                  "courses_uuid": "11569",
+                  "courses_avg": 76.78,
+                  "courses_pass": 45,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "kozak rogo, juliana",
+                  "courses_title": "market structure",
+                  "courses_uuid": "11568",
+                  "courses_avg": 76.78,
+                  "courses_pass": 45,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "munteanu, mircea",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "15572",
+                  "courses_avg": 76.78,
+                  "courses_pass": 58,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "munteanu, mircea",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "82342",
+                  "courses_avg": 76.62,
+                  "courses_pass": 56,
+                  "courses_fail": 2,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "munteanu, mircea",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "33352",
+                  "courses_avg": 76.58,
+                  "courses_pass": 48,
+                  "courses_fail": 2,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "pollard, richard",
+                  "courses_title": "renssance europe",
+                  "courses_uuid": "96040",
+                  "courses_avg": 76.48,
+                  "courses_pass": 42,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "renssance europe",
+                  "courses_uuid": "96041",
+                  "courses_avg": 76.48,
+                  "courses_pass": 42,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "munteanu, mircea",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "14120",
+                  "courses_avg": 76.46,
+                  "courses_pass": 48,
+                  "courses_fail": 0,
+                  "courses_audit": 1
+                },
+                {
+                  "courses_instructor": "epp, richard arthur",
+                  "courses_title": "song repertre ii",
+                  "courses_uuid": "41004",
+                  "courses_avg": 76.46,
+                  "courses_pass": 12,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "song repertre ii",
+                  "courses_uuid": "41005",
+                  "courses_avg": 76.46,
+                  "courses_pass": 12,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "munteanu, mircea",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "26761",
+                  "courses_avg": 76.37,
+                  "courses_pass": 49,
+                  "courses_fail": 2,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "market structure",
+                  "courses_uuid": "21561",
+                  "courses_avg": 76.32,
+                  "courses_pass": 43,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "vaney, michael",
+                  "courses_title": "market structure",
+                  "courses_uuid": "21560",
+                  "courses_avg": 76.32,
+                  "courses_pass": 43,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "59082",
+                  "courses_avg": 76.21,
+                  "courses_pass": 45,
+                  "courses_fail": 2,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "70433",
+                  "courses_avg": 76.19,
+                  "courses_pass": 174,
+                  "courses_fail": 7,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "intro corp finan",
+                  "courses_uuid": "88408",
+                  "courses_avg": 76,
+                  "courses_pass": 29,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "intro corp finan",
+                  "courses_uuid": "88409",
+                  "courses_avg": 76,
+                  "courses_pass": 29,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "intro corp finan",
+                  "courses_uuid": "91880",
+                  "courses_avg": 76,
+                  "courses_pass": 27,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "intro corp finan",
+                  "courses_uuid": "91881",
+                  "courses_avg": 76,
+                  "courses_pass": 27,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "munteanu, mircea",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "25308",
+                  "courses_avg": 75.73,
+                  "courses_pass": 49,
+                  "courses_fail": 2,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "pollard, richard matthew",
+                  "courses_title": "renssance europe",
+                  "courses_uuid": "29558",
+                  "courses_avg": 75.68,
+                  "courses_pass": 28,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "renssance europe",
+                  "courses_uuid": "29559",
+                  "courses_avg": 75.68,
+                  "courses_pass": 28,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "munteanu, mircea",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "69209",
+                  "courses_avg": 75.63,
+                  "courses_pass": 47,
+                  "courses_fail": 2,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "pollard, richard",
+                  "courses_title": "renssance europe",
+                  "courses_uuid": "38354",
+                  "courses_avg": 75.39,
+                  "courses_pass": 36,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "renssance europe",
+                  "courses_uuid": "38355",
+                  "courses_avg": 75.39,
+                  "courses_pass": 36,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "munteanu, mircea",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "69210",
+                  "courses_avg": 75.37,
+                  "courses_pass": 50,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "munteanu, mircea",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "70431",
+                  "courses_avg": 75.29,
+                  "courses_pass": 54,
+                  "courses_fail": 4,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "kozak rogo, juliana",
+                  "courses_title": "market structure",
+                  "courses_uuid": "74427",
+                  "courses_avg": 75.27,
+                  "courses_pass": 48,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "market structure",
+                  "courses_uuid": "74428",
+                  "courses_avg": 75.27,
+                  "courses_pass": 48,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "wong, wai-shuen vincent",
+                  "courses_title": "comm networks",
+                  "courses_uuid": "74909",
+                  "courses_avg": 75.15,
+                  "courses_pass": 12,
+                  "courses_fail": 1,
+                  "courses_audit": 1
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "comm networks",
+                  "courses_uuid": "74910",
+                  "courses_avg": 75.15,
+                  "courses_pass": 12,
+                  "courses_fail": 1,
+                  "courses_audit": 1
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "intro corp finan",
+                  "courses_uuid": "53665",
+                  "courses_avg": 75.15,
+                  "courses_pass": 41,
+                  "courses_fail": 0,
+                  "courses_audit": 2
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "intro corp finan",
+                  "courses_uuid": "53664",
+                  "courses_avg": 75.15,
+                  "courses_pass": 41,
+                  "courses_fail": 0,
+                  "courses_audit": 2
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "tpcs canadn ind",
+                  "courses_uuid": "85652",
+                  "courses_avg": 75.13,
+                  "courses_pass": 50,
+                  "courses_fail": 4,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "agurto, marcos",
+                  "courses_title": "tpcs canadn ind",
+                  "courses_uuid": "85651",
+                  "courses_avg": 75.13,
+                  "courses_pass": 50,
+                  "courses_fail": 4,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "market structure",
+                  "courses_uuid": "52374",
+                  "courses_avg": 74.5,
+                  "courses_pass": 45,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "song, unjy",
+                  "courses_title": "market structure",
+                  "courses_uuid": "52373",
+                  "courses_avg": 74.5,
+                  "courses_pass": 45,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "market structure",
+                  "courses_uuid": "78475",
+                  "courses_avg": 74.49,
+                  "courses_pass": 49,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "kozak rogo, juliana",
+                  "courses_title": "market structure",
+                  "courses_uuid": "78474",
+                  "courses_avg": 74.49,
+                  "courses_pass": 49,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "vaney, michael",
+                  "courses_title": "tpcs canadn ind",
+                  "courses_uuid": "18288",
+                  "courses_avg": 74.41,
+                  "courses_pass": 49,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "tpcs canadn ind",
+                  "courses_uuid": "18289",
+                  "courses_avg": 74.41,
+                  "courses_pass": 49,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "munteanu, mircea",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "80721",
+                  "courses_avg": 74.35,
+                  "courses_pass": 54,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "song, unjy",
+                  "courses_title": "market structure",
+                  "courses_uuid": "58437",
+                  "courses_avg": 74.12,
+                  "courses_pass": 32,
+                  "courses_fail": 2,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "market structure",
+                  "courses_uuid": "58438",
+                  "courses_avg": 74.12,
+                  "courses_pass": 32,
+                  "courses_fail": 2,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "market structure",
+                  "courses_uuid": "22033",
+                  "courses_avg": 74.02,
+                  "courses_pass": 51,
+                  "courses_fail": 2,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "kozak rogo, juliana",
+                  "courses_title": "market structure",
+                  "courses_uuid": "22032",
+                  "courses_avg": 74.02,
+                  "courses_pass": 51,
+                  "courses_fail": 2,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "market structure",
+                  "courses_uuid": "69898",
+                  "courses_avg": 74,
+                  "courses_pass": 50,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "market structure",
+                  "courses_uuid": "69897",
+                  "courses_avg": 74,
+                  "courses_pass": 50,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "munteanu, mircea",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "50968",
+                  "courses_avg": 73.82,
+                  "courses_pass": 56,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "kozak rogo, juliana",
+                  "courses_title": "market structure",
+                  "courses_uuid": "91020",
+                  "courses_avg": 73.67,
+                  "courses_pass": 49,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "market structure",
+                  "courses_uuid": "91021",
+                  "courses_avg": 73.67,
+                  "courses_pass": 49,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "marketing mgmt",
+                  "courses_uuid": "66828",
+                  "courses_avg": 73.63,
+                  "courses_pass": 8,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "foip&priv rcrds",
+                  "courses_uuid": "66985",
+                  "courses_avg": 73.56,
+                  "courses_pass": 8,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "kozak, greg",
+                  "courses_title": "foip&priv rcrds",
+                  "courses_uuid": "66984",
+                  "courses_avg": 73.56,
+                  "courses_pass": 8,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "renssance europe",
+                  "courses_uuid": "66680",
+                  "courses_avg": 72.95,
+                  "courses_pass": 37,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "christopoulos, john",
+                  "courses_title": "renssance europe",
+                  "courses_uuid": "66679",
+                  "courses_avg": 72.95,
+                  "courses_pass": 37,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "munteanu, mircea",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "50967",
+                  "courses_avg": 72.83,
+                  "courses_pass": 51,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "stone, ann",
+                  "courses_title": "marketing mgmt",
+                  "courses_uuid": "95637",
+                  "courses_avg": 72.75,
+                  "courses_pass": 4,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "marketing mgmt",
+                  "courses_uuid": "87523",
+                  "courses_avg": 72.75,
+                  "courses_pass": 4,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "tpcs canadn ind",
+                  "courses_uuid": "87298",
+                  "courses_avg": 72.73,
+                  "courses_pass": 31,
+                  "courses_fail": 2,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "vaney, michael",
+                  "courses_title": "tpcs canadn ind",
+                  "courses_uuid": "87297",
+                  "courses_avg": 72.73,
+                  "courses_pass": 31,
+                  "courses_fail": 2,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "munteanu, mircea",
+                  "courses_title": "int thry counsel",
+                  "courses_uuid": "70432",
+                  "courses_avg": 72.69,
+                  "courses_pass": 55,
+                  "courses_fail": 3,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "renssance europe",
+                  "courses_uuid": "85479",
+                  "courses_avg": 72.6,
+                  "courses_pass": 38,
+                  "courses_fail": 2,
+                  "courses_audit": 1
+                },
+                {
+                  "courses_instructor": "pollard, richard",
+                  "courses_title": "renssance europe",
+                  "courses_uuid": "85478",
+                  "courses_avg": 72.6,
+                  "courses_pass": 38,
+                  "courses_fail": 2,
+                  "courses_audit": 1
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "tpcs canadn ind",
+                  "courses_uuid": "21521",
+                  "courses_avg": 72.28,
+                  "courses_pass": 75,
+                  "courses_fail": 4,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "vaney, michael",
+                  "courses_title": "tpcs canadn ind",
+                  "courses_uuid": "21520",
+                  "courses_avg": 72.28,
+                  "courses_pass": 75,
+                  "courses_fail": 4,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "vaney, michael",
+                  "courses_title": "tpcs canadn ind",
+                  "courses_uuid": "74389",
+                  "courses_avg": 71.5,
+                  "courses_pass": 72,
+                  "courses_fail": 2,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "tpcs canadn ind",
+                  "courses_uuid": "74390",
+                  "courses_avg": 71.5,
+                  "courses_pass": 72,
+                  "courses_fail": 2,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "marketing mgmt",
+                  "courses_uuid": "95638",
+                  "courses_avg": 71.33,
+                  "courses_pass": 6,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "vaney, michael",
+                  "courses_title": "tpcs canadn ind",
+                  "courses_uuid": "52333",
+                  "courses_avg": 71.19,
+                  "courses_pass": 50,
+                  "courses_fail": 2,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "tpcs canadn ind",
+                  "courses_uuid": "52334",
+                  "courses_avg": 71.19,
+                  "courses_pass": 50,
+                  "courses_fail": 2,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "tpcs canadn ind",
+                  "courses_uuid": "19539",
+                  "courses_avg": 71.16,
+                  "courses_pass": 38,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "tpcs canadn ind",
+                  "courses_uuid": "19540",
+                  "courses_avg": 71.16,
+                  "courses_pass": 38,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "tpcs canadn ind",
+                  "courses_uuid": "78432",
+                  "courses_avg": 71.11,
+                  "courses_pass": 31,
+                  "courses_fail": 6,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "vaney, michael",
+                  "courses_title": "tpcs canadn ind",
+                  "courses_uuid": "78431",
+                  "courses_avg": 71.11,
+                  "courses_pass": 31,
+                  "courses_fail": 6,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "vaney, michael",
+                  "courses_title": "tpcs canadn ind",
+                  "courses_uuid": "11527",
+                  "courses_avg": 71.03,
+                  "courses_pass": 78,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "tpcs canadn ind",
+                  "courses_uuid": "11528",
+                  "courses_avg": 71.03,
+                  "courses_pass": 78,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "tpcs canadn ind",
+                  "courses_uuid": "21994",
+                  "courses_avg": 71.03,
+                  "courses_pass": 89,
+                  "courses_fail": 6,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "vaney, michael",
+                  "courses_title": "tpcs canadn ind",
+                  "courses_uuid": "21993",
+                  "courses_avg": 71.03,
+                  "courses_pass": 89,
+                  "courses_fail": 6,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "agurto, marcos",
+                  "courses_title": "tpcs canadn ind",
+                  "courses_uuid": "8116",
+                  "courses_avg": 71,
+                  "courses_pass": 42,
+                  "courses_fail": 2,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "tpcs canadn ind",
+                  "courses_uuid": "8117",
+                  "courses_avg": 71,
+                  "courses_pass": 42,
+                  "courses_fail": 2,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "tpcs canadn ind",
+                  "courses_uuid": "69868",
+                  "courses_avg": 70.47,
+                  "courses_pass": 68,
+                  "courses_fail": 5,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "tpcs canadn ind",
+                  "courses_uuid": "69867",
+                  "courses_avg": 70.47,
+                  "courses_pass": 68,
+                  "courses_fail": 5,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "vaney, michael",
+                  "courses_title": "tpcs canadn ind",
+                  "courses_uuid": "90977",
+                  "courses_avg": 70.27,
+                  "courses_pass": 56,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "tpcs canadn ind",
+                  "courses_uuid": "90978",
+                  "courses_avg": 70.27,
+                  "courses_pass": 56,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "fudge, john",
+                  "courses_title": "renssance europe",
+                  "courses_uuid": "61763",
+                  "courses_avg": 69.3,
+                  "courses_pass": 54,
+                  "courses_fail": 3,
+                  "courses_audit": 1
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "renssance europe",
+                  "courses_uuid": "61764",
+                  "courses_avg": 69.3,
+                  "courses_pass": 54,
+                  "courses_fail": 3,
+                  "courses_audit": 1
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "renssance europe",
+                  "courses_uuid": "13543",
+                  "courses_avg": 67.85,
+                  "courses_pass": 58,
+                  "courses_fail": 2,
+                  "courses_audit": 2
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "renssance europe",
+                  "courses_uuid": "13544",
+                  "courses_avg": 67.85,
+                  "courses_pass": 58,
+                  "courses_fail": 2,
+                  "courses_audit": 2
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "marketing mgmt",
+                  "courses_uuid": "65306",
+                  "courses_avg": 67.25,
+                  "courses_pass": 3,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "fudge, john",
+                  "courses_title": "renssance europe",
+                  "courses_uuid": "79340",
+                  "courses_avg": 67.23,
+                  "courses_pass": 44,
+                  "courses_fail": 3,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "renssance europe",
+                  "courses_uuid": "79341",
+                  "courses_avg": 67.23,
+                  "courses_pass": 44,
+                  "courses_fail": 3,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "fudge, john",
+                  "courses_title": "renssance europe",
+                  "courses_uuid": "18977",
+                  "courses_avg": 66.47,
+                  "courses_pass": 53,
+                  "courses_fail": 5,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "renssance europe",
+                  "courses_uuid": "18978",
+                  "courses_avg": 66.47,
+                  "courses_pass": 53,
+                  "courses_fail": 5,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "vaney, michael",
+                  "courses_title": "tpcs canadn ind",
+                  "courses_uuid": "58406",
+                  "courses_avg": 65.73,
+                  "courses_pass": 49,
+                  "courses_fail": 7,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "tpcs canadn ind",
+                  "courses_uuid": "58407",
+                  "courses_avg": 65.73,
+                  "courses_pass": 49,
+                  "courses_fail": 7,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "sinclair, chadwick",
+                  "courses_title": "mech beh matls",
+                  "courses_uuid": "49721",
+                  "courses_avg": 65.68,
+                  "courses_pass": 37,
+                  "courses_fail": 3,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "mech beh matls",
+                  "courses_uuid": "49722",
+                  "courses_avg": 65.68,
+                  "courses_pass": 37,
+                  "courses_fail": 3,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "mech beh matls",
+                  "courses_uuid": "1875",
+                  "courses_avg": 65.33,
+                  "courses_pass": 57,
+                  "courses_fail": 7,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "sinclair, chadwick",
+                  "courses_title": "mech beh matls",
+                  "courses_uuid": "1874",
+                  "courses_avg": 65.33,
+                  "courses_pass": 57,
+                  "courses_fail": 7,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "marketing mgmt",
+                  "courses_uuid": "15816",
+                  "courses_avg": 64.75,
+                  "courses_pass": 3,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "mech beh matls",
+                  "courses_uuid": "62664",
+                  "courses_avg": 64.65,
+                  "courses_pass": 35,
+                  "courses_fail": 2,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "sinclair, chadwick",
+                  "courses_title": "mech beh matls",
+                  "courses_uuid": "62663",
+                  "courses_avg": 64.65,
+                  "courses_pass": 35,
+                  "courses_fail": 2,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "mech beh matls",
+                  "courses_uuid": "40074",
+                  "courses_avg": 63.16,
+                  "courses_pass": 52,
+                  "courses_fail": 5,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "sinclair, chadwick",
+                  "courses_title": "mech beh matls",
+                  "courses_uuid": "40073",
+                  "courses_avg": 63.16,
+                  "courses_pass": 52,
+                  "courses_fail": 5,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "mech beh matls",
+                  "courses_uuid": "44899",
+                  "courses_avg": 62.28,
+                  "courses_pass": 35,
+                  "courses_fail": 4,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "sinclair, chadwick",
+                  "courses_title": "mech beh matls",
+                  "courses_uuid": "44898",
+                  "courses_avg": 62.28,
+                  "courses_pass": 35,
+                  "courses_fail": 4,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "sinclair, chadwick",
+                  "courses_title": "mech beh matls",
+                  "courses_uuid": "2621",
+                  "courses_avg": 62,
+                  "courses_pass": 41,
+                  "courses_fail": 4,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "mech beh matls",
+                  "courses_uuid": "2622",
+                  "courses_avg": 62,
+                  "courses_pass": 41,
+                  "courses_fail": 4,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "maalekian, mehran",
+                  "courses_title": "mech beh matls",
+                  "courses_uuid": "46163",
+                  "courses_avg": 60.73,
+                  "courses_pass": 38,
+                  "courses_fail": 7,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "mech beh matls",
+                  "courses_uuid": "46164",
+                  "courses_avg": 60.73,
+                  "courses_pass": 38,
+                  "courses_fail": 7,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "mech beh matls",
+                  "courses_uuid": "51894",
+                  "courses_avg": 59.97,
+                  "courses_pass": 34,
+                  "courses_fail": 5,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "mech beh matls",
+                  "courses_uuid": "51895",
+                  "courses_avg": 59.97,
+                  "courses_pass": 34,
+                  "courses_fail": 5,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "mech beh matls",
+                  "courses_uuid": "24213",
+                  "courses_avg": 59.14,
+                  "courses_pass": 41,
+                  "courses_fail": 8,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "sinclair, chadwick",
+                  "courses_title": "mech beh matls",
+                  "courses_uuid": "24212",
+                  "courses_avg": 59.14,
+                  "courses_pass": 41,
+                  "courses_fail": 8,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "cretu, edmond",
+                  "courses_title": "microsys design",
+                  "courses_uuid": "30948",
+                  "courses_avg": 52.67,
+                  "courses_pass": 4,
+                  "courses_fail": 2,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "microsys design",
+                  "courses_uuid": "30949",
+                  "courses_avg": 52.67,
+                  "courses_pass": 4,
+                  "courses_fail": 2,
+                  "courses_audit": 0
+                }
+              ]
+        }
+    }
+}

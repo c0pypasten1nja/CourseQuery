@@ -1,0 +1,47 @@
+{
+    "title": "SELECT instrctr, ttl, uuid, avg, pss, fl, adt WHERE instrctr includes 'gomez' && not 'villagomez'",
+    "query": "In courses dataset courses, find entries whose Instructor includes \"gomez\" and Instructor does not include \"villagomez\"; show Instructor and Title and UUID and Average and Pass and Fail and Audit; sort in descending order by Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                  "courses_instructor": "gomez, jose",
+                  "courses_title": "algb topology i",
+                  "courses_uuid": "5373",
+                  "courses_avg": 99.78,
+                  "courses_pass": 9,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "gomez, jose",
+                  "courses_title": "df calc ap ph sc",
+                  "courses_uuid": "72887",
+                  "courses_avg": 70.76,
+                  "courses_pass": 106,
+                  "courses_fail": 5,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "gomez, jose",
+                  "courses_title": "linear systems",
+                  "courses_uuid": "72952",
+                  "courses_avg": 68.42,
+                  "courses_pass": 94,
+                  "courses_fail": 12,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_instructor": "gomez, jose",
+                  "courses_title": "linear systems",
+                  "courses_uuid": "5175",
+                  "courses_avg": 66.61,
+                  "courses_pass": 99,
+                  "courses_fail": 15,
+                  "courses_audit": 0
+                }
+              ]
+        }
+    }
+}

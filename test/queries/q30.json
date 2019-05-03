@@ -1,0 +1,10 @@
+{
+    "title": "A query without input",
+    "query": "In courses dataset courses, find all entries.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}

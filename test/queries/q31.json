@@ -1,0 +1,10 @@
+{
+    "title": "A query string with spaces",
+    "query": "In courses dataset courses, find entries whose UUID includes 1 1; show Instructor and Title and UUID and Average and Pass and Fail and Audit; sort in descending order by Average.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}

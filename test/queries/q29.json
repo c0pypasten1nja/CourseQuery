@@ -1,0 +1,10 @@
+{
+    "title": "A query with invalid M_KEY",
+    "query": "In courses dataset courses, find entries whose courses_avg is less than 66.66; show Department and ID and Instructor; sort in descending order by Instructor.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Cannot read property 'key' of undefined"
+        }
+    }
+}

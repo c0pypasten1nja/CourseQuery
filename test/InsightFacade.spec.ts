@@ -20,11 +20,13 @@ describe("InsightFacade Add/Remove List Dataset", function () {
     // automatically be loaded in the Before All hook.
     const datasetsToLoad: { [id: string]: string } = {
         courses: "./test/data/courses.zip",
-        notZip: "./test/data/notZip.tar",
+        courses7z: "./test/data/courses7z.7z",
+        coursesTar: "./test/data/coursesTar.tar",
         notCalledCourses: "./test/data/notCalledCourses.zip",
         woFiles: "./test/data/woFiles.zip",
         coursesNotCSV: "./test/data/coursesNotCSV.zip",
         coursesD1: "./test/data/coursesD1.zip",
+        zeroSection: "./test/data/zeroSection.zip",
     };
 
     let insightFacade: InsightFacade;
@@ -83,12 +85,22 @@ describe("InsightFacade Add/Remove List Dataset", function () {
     });
 
     it("Should not add non zip dataset", async () => {
-        const id: string = "notZip";
+        const id1: string = "courses7z";
+        const id2: string = "coursesTar";
         const expectedCode: number = 400;
         let response: InsightResponse;
 
         try {
-            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
+            response = await insightFacade.addDataset(id1, datasets[id1], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+            expect(response.body).to.contain({error: "Should not add non zip dataset"});
+        }
+
+        try {
+            response = await insightFacade.addDataset(id2, datasets[id2], InsightDatasetKind.Courses);
         } catch (err) {
             response = err;
         } finally {
@@ -139,6 +151,21 @@ describe("InsightFacade Add/Remove List Dataset", function () {
         } finally {
             expect(response.code).to.equal(expectedCode);
             expect(response.body).to.contain({error: "Should not add courses not in CSV format"});
+        }
+    });
+
+    it("Should not add dataset with zero valid course section", async () => {
+        const id: string = "zeroSection";
+        const expectedCode: number = 400;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+            expect(response.body).to.contain({error: "Should not add dataset with zero valid course section"});
         }
     });
 
