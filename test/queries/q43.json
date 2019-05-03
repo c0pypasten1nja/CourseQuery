@@ -1,0 +1,10 @@
+{
+    "title": "A query string with missing comma",
+    "query": "In courses dataset courses find entries whose Audit is greater than 10; show Department and Instructor and Title and UUID and Average and Pass and Fail and Audit; sort in descending order by Audit.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}

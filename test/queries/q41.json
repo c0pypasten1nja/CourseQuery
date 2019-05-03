@@ -1,0 +1,10 @@
+{
+    "title": "A query string with invalid kind",
+    "query": "In course dataset courses, find entries whose UUID begins with 8071; show Department and Instructor and Title and UUID and Average and Pass and Fail and Audit; sort in descending order by UUID.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}

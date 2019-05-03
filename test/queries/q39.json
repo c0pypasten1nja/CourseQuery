@@ -1,0 +1,10 @@
+{
+    "title": "A query string with \" ",
+    "query": "In courses dataset courses, find entries whose Department includes \"phy\"\"; show Department and Instructor and Title and UUID and Average and Pass and Fail and Audit; sort in descending order by Department.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}
