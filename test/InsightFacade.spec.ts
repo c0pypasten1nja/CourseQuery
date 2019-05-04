@@ -27,6 +27,7 @@ describe("InsightFacade Add/Remove List Dataset", function () {
         coursesNotCSV: "./test/data/coursesNotCSV.zip",
         coursesD1: "./test/data/coursesD1.zip",
         zeroSection: "./test/data/zeroSection.zip",
+        oneValidcsv: "./test/data/oneValidcsv.zip",
     };
 
     let insightFacade: InsightFacade;
@@ -166,6 +167,20 @@ describe("InsightFacade Add/Remove List Dataset", function () {
         } finally {
             expect(response.code).to.equal(expectedCode);
             expect(response.body).to.contain({error: "Should not add dataset with zero valid course section"});
+        }
+    });
+
+    it("Should add dataset with one valid csv", async () => {
+        const id: string = "oneValidcsv";
+        const expectedCode: number = 204;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
         }
     });
 

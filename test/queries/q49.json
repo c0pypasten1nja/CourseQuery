@@ -1,0 +1,10 @@
+{
+    "title": "INPUT courses_avg instead Average",
+    "query": "In courses dataset courses, find entries whose courses_avg is greater than 90 and Pass is greater than 200; show Instructor and Title and UUID and courses_avg and Pass and Fail; sort in descending order by courses_avg.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Cannot read property 'key' of undefined"
+        }
+    }
+}
