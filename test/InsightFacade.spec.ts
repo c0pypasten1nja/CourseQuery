@@ -22,6 +22,7 @@ describe("InsightFacade Add/Remove List Dataset", function () {
         courses: "./test/data/courses.zip",
         courses7z: "./test/data/courses7z.7z",
         coursesTar: "./test/data/coursesTar.tar",
+        coursesGz: "./test/data/coursesGz.gz",
         notCalledCourses: "./test/data/notCalledCourses.zip",
         woFiles: "./test/data/woFiles.zip",
         coursesNotCSV: "./test/data/coursesNotCSV.zip",
@@ -102,6 +103,21 @@ describe("InsightFacade Add/Remove List Dataset", function () {
 
         try {
             response = await insightFacade.addDataset(id2, datasets[id2], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+            expect(response.body).to.contain({error: "Should not add non zip dataset"});
+        }
+    });
+
+    it("Should not add non zip dataset", async () => {
+        const id: string = "coursesGz";
+        const expectedCode: number = 400;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
         } catch (err) {
             response = err;
         } finally {
@@ -245,7 +261,6 @@ describe("InsightFacade Add/Remove List Dataset", function () {
             response = err;
         } finally {
             expect(response.code).to.equal(expectedCode1);
-            expect(response.body).to.contain({error: "Should not add non zip dataset"});
         }
 
         try {
@@ -254,6 +269,32 @@ describe("InsightFacade Add/Remove List Dataset", function () {
             response = err;
         } finally {
             expect(response.code).to.equal(expectedCode2);
+            expect(response.body).to.contain({error: "Should not add non zip dataset"});
+        }
+    });
+
+    it("Should not add same dataset twice", async () => {
+        const id1: string = "courses";
+        const id2: string = "courses";
+        const expectedCode1: number = 204;
+        const expectedCode2: number = 400;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.addDataset(id1, datasets[id1], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode1);
+        }
+
+        try {
+            response = await insightFacade.addDataset(id2, datasets[id2], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode2);
+            expect(response.body).to.contain({error: "dataset not added as it exists"});
         }
     });
 
@@ -338,6 +379,10 @@ describe("InsightFacade Add/Remove List Dataset", function () {
 
     it("Should list added datasets and its type", async () => {
         const expectedCode: number = 200;
+        const expectedBody = [{
+            id: "courses",
+            kind: InsightDatasetKind.Courses,
+        }];
         let response: InsightResponse;
 
         try {
@@ -346,6 +391,7 @@ describe("InsightFacade Add/Remove List Dataset", function () {
             response = err;
         } finally {
             expect(response.code).to.equal(expectedCode);
+            expect(response.body).to.deep.equal(expectedBody);
         }
     });
 

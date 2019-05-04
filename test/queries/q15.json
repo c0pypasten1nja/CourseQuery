@@ -1,6 +1,6 @@
 {
     "title": "A query containing upper case \"ALL\" instead of \"all\"",
-    "query": "In rooms dataset rooms, find ALL entries; show Seats.",
+    "query": "In courses dataset courses, find ALL entries; show courses_dept and courses_id and courses_instructor; sort in descending order by courses_instructor.",
     "response": {
         "code": 400,
         "body": {
