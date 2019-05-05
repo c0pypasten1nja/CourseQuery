@@ -448,6 +448,7 @@ describe("InsightFacade list Dataset", function () {
 describe("InsightFacade PerformQuery", () => {
     const datasetsToQuery: { [id: string]: string } = {
         courses: "./test/data/courses.zip",
+        oneValidcsv: "./test/data/oneValidcsv.zip",
     };
     let insightFacade: InsightFacade;
     let testQueries: ITestQuery[] = [];
