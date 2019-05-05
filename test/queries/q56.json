@@ -1,6 +1,6 @@
 {
     "title": "SELECT dprtmnt, instrctr, ttl, uuid, avg, pss, fl",
-    "query": "In courses dataset oneValidcsv, find all entries; show courses_title and courses_uuid and courses_instructor and courses_audit and courses_avg and courses_pass and courses_fail; sort in ascending order by courses_uuid.",
+    "query": "In courses dataset oneValidcsv, find all entries; show oneValidcsv_title and oneValidcsv_uuid and oneValidcsv_instructor and oneValidcsv_audit and oneValidcsv_avg and oneValidcsv_pass and oneValidcsv_fail; sort in ascending order by oneValidcsv_uuid.",
     "response": {
         "code": 200,
         "body": {
