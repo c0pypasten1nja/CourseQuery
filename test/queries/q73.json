@@ -1,0 +1,209 @@
+{
+    "title": "SELECT dprtmnt, instrctr, ttl, uuid, avg, pss, fl, adt WHERE instrctr is 'friedman, joel'",
+    "query": "In courses dataset courses, find entries whose Instructor is \"friedman, joel\"; show courses_dept, courses_instructor, courses_title, courses_uuid, courses_avg, courses_pass and courses_fail; sort in descending order by courses_avg.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                  "courses_dept": "cpsc",
+                  "courses_instructor": "friedman, joel",
+                  "courses_title": "thry of automata",
+                  "courses_uuid": "90603",
+                  "courses_avg": 94,
+                  "courses_pass": 5,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_dept": "math",
+                  "courses_instructor": "friedman, joel",
+                  "courses_title": "combinatorial op",
+                  "courses_uuid": "34199",
+                  "courses_avg": 92.67,
+                  "courses_pass": 9,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_dept": "cpsc",
+                  "courses_instructor": "friedman, joel",
+                  "courses_title": "thry of automata",
+                  "courses_uuid": "46762",
+                  "courses_avg": 92.43,
+                  "courses_pass": 7,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_dept": "cpsc",
+                  "courses_instructor": "friedman, joel",
+                  "courses_title": "thry of automata",
+                  "courses_uuid": "72428",
+                  "courses_avg": 91,
+                  "courses_pass": 4,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_dept": "math",
+                  "courses_instructor": "friedman, joel",
+                  "courses_title": "discrete math",
+                  "courses_uuid": "73137",
+                  "courses_avg": 90,
+                  "courses_pass": 5,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_dept": "cpsc",
+                  "courses_instructor": "friedman, joel",
+                  "courses_title": "fund alg dsgn&an",
+                  "courses_uuid": "49960",
+                  "courses_avg": 86.33,
+                  "courses_pass": 18,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_dept": "cpsc",
+                  "courses_instructor": "friedman, joel",
+                  "courses_title": "thry of automata",
+                  "courses_uuid": "61192",
+                  "courses_avg": 84.67,
+                  "courses_pass": 6,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_dept": "cpsc",
+                  "courses_instructor": "friedman, joel",
+                  "courses_title": "thry of automata",
+                  "courses_uuid": "62452",
+                  "courses_avg": 83.8,
+                  "courses_pass": 5,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_dept": "cpsc",
+                  "courses_instructor": "friedman, joel",
+                  "courses_title": "theory comptg",
+                  "courses_uuid": "72404",
+                  "courses_avg": 79.88,
+                  "courses_pass": 17,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_dept": "math",
+                  "courses_instructor": "friedman, joel",
+                  "courses_title": "appl linear algb",
+                  "courses_uuid": "3906",
+                  "courses_avg": 77.61,
+                  "courses_pass": 61,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_dept": "cpsc",
+                  "courses_instructor": "friedman, joel",
+                  "courses_title": "theory comptg",
+                  "courses_uuid": "61167",
+                  "courses_avg": 77.15,
+                  "courses_pass": 27,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_dept": "cpsc",
+                  "courses_instructor": "friedman, joel",
+                  "courses_title": "theory comptg",
+                  "courses_uuid": "46739",
+                  "courses_avg": 75.52,
+                  "courses_pass": 21,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_dept": "math",
+                  "courses_instructor": "friedman, joel",
+                  "courses_title": "intro lin prog",
+                  "courses_uuid": "47189",
+                  "courses_avg": 75.24,
+                  "courses_pass": 83,
+                  "courses_fail": 0
+                },
+                {
+                  "courses_dept": "cpsc",
+                  "courses_instructor": "friedman, joel",
+                  "courses_title": "theory comptg",
+                  "courses_uuid": "1337",
+                  "courses_avg": 74.68,
+                  "courses_pass": 45,
+                  "courses_fail": 2
+                },
+                {
+                  "courses_dept": "cpsc",
+                  "courses_instructor": "friedman, joel",
+                  "courses_title": "theory comptg",
+                  "courses_uuid": "62429",
+                  "courses_avg": 73.73,
+                  "courses_pass": 50,
+                  "courses_fail": 1
+                },
+                {
+                  "courses_dept": "math",
+                  "courses_instructor": "friedman, joel",
+                  "courses_title": "intro lin prog",
+                  "courses_uuid": "90151",
+                  "courses_avg": 73,
+                  "courses_pass": 82,
+                  "courses_fail": 1
+                },
+                {
+                  "courses_dept": "math",
+                  "courses_instructor": "friedman, joel",
+                  "courses_title": "appl linear algb",
+                  "courses_uuid": "5278",
+                  "courses_avg": 70.73,
+                  "courses_pass": 48,
+                  "courses_fail": 3
+                },
+                {
+                  "courses_dept": "math",
+                  "courses_instructor": "friedman, joel",
+                  "courses_title": "intro lin prog",
+                  "courses_uuid": "13881",
+                  "courses_avg": 70.56,
+                  "courses_pass": 58,
+                  "courses_fail": 4
+                },
+                {
+                  "courses_dept": "math",
+                  "courses_instructor": "friedman, joel",
+                  "courses_title": "intro lin prog",
+                  "courses_uuid": "5309",
+                  "courses_avg": 70.25,
+                  "courses_pass": 41,
+                  "courses_fail": 3
+                },
+                {
+                  "courses_dept": "cpsc",
+                  "courses_instructor": "friedman, joel",
+                  "courses_title": "theory comptg",
+                  "courses_uuid": "90584",
+                  "courses_avg": 70.03,
+                  "courses_pass": 34,
+                  "courses_fail": 3
+                },
+                {
+                  "courses_dept": "math",
+                  "courses_instructor": "friedman, joel",
+                  "courses_title": "linear systems",
+                  "courses_uuid": "3803",
+                  "courses_avg": 65.42,
+                  "courses_pass": 100,
+                  "courses_fail": 10
+                },
+                {
+                  "courses_dept": "math",
+                  "courses_instructor": "friedman, joel",
+                  "courses_title": "calculus 3",
+                  "courses_uuid": "90039",
+                  "courses_avg": 65.02,
+                  "courses_pass": 155,
+                  "courses_fail": 17
+                }
+              ]
+        }
+    }
+}
