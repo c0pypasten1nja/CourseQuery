@@ -378,12 +378,22 @@ describe("InsightFacade Add/Remove List Dataset", function () {
     });
 
     it("Should list added datasets and its type", async () => {
+        const id: string = "oneValidcsv";
+        const expectedAddCode: number = 204;
         const expectedCode: number = 200;
         const expectedBody = [{
-            id: "courses",
+            id: "oneValidcsv",
             kind: InsightDatasetKind.Courses,
         }];
         let response: InsightResponse;
+
+        try {
+            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedAddCode);
+        }
 
         try {
             response = await insightFacade.listDatasets();
