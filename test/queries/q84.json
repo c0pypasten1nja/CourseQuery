@@ -1,0 +1,22 @@
+{
+    "title": "SELECT instrctr, ttl, uuid, avg, pss, fl, adt WHERE ID includes 101",
+    "query": "In courses dataset courses, find entries whose ID includes 101 and Instructor includes \",\" and UUID includes \"010\"; show Department and ID and Instructor and Title and UUID and Average and Pass and Fail and Audit; sort in descending order by Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                  "courses_dept": "math",
+                  "courses_id": "101",
+                  "courses_instructor": "leung, fok-shuen",
+                  "courses_title": "int calc ap ph s",
+                  "courses_uuid": "47010",
+                  "courses_avg": 68.79,
+                  "courses_pass": 82,
+                  "courses_fail": 4,
+                  "courses_audit": 0
+                }
+              ]
+        }
+    }
+}
