@@ -29,6 +29,8 @@ describe("InsightFacade Add/Remove Dataset", function () {
         coursesD1: "./test/data/coursesD1.zip",
         zeroSection: "./test/data/zeroSection.zip",
         oneValidcsv: "./test/data/oneValidcsv.zip",
+        randomFileGarbage: "./test/data/randomFileGarbage.zip",
+        noFolder: "./test/data/noFolder.zip",
     };
 
     let insightFacade: InsightFacade;
@@ -111,6 +113,21 @@ describe("InsightFacade Add/Remove Dataset", function () {
         }
     });
 
+    it("Should not add zip with no folder", async () => {
+        const id: string = "noFolder";
+        const expectedCode: number = 400;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+            expect(response.body).to.contain({error: "Should not add zip with no folder"});
+        }
+    });
+
     it("Should not add non zip dataset", async () => {
         const id: string = "coursesGz";
         const expectedCode: number = 400;
@@ -183,6 +200,21 @@ describe("InsightFacade Add/Remove Dataset", function () {
         } finally {
             expect(response.code).to.equal(expectedCode);
             expect(response.body).to.contain({error: "Should not add dataset with zero valid course section"});
+        }
+    });
+
+    it("Should not add dataset with invalid contents", async () => {
+        const id: string = "randomFileGarbage";
+        const expectedCode: number = 400;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+            expect(response.body).to.contain({error: "Should not add dataset with invalid contents"});
         }
     });
 
