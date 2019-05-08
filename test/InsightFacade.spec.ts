@@ -395,28 +395,34 @@ describe("InsightFacade Add/Remove Dataset", function () {
         }
     });
 
-    it("Should not add same dataset twice", async () => {
-        const id1: string = "courses";
-        const id2: string = "courses";
-        const expectedCode1: number = 204;
-        const expectedCode2: number = 400;
+    it("Should not add same dataset twice same instance", async () => {
+        const id: string = "courses";
+        const expectedCode: number = 400;
         let response: InsightResponse;
 
         try {
-            response = await insightFacade.addDataset(id1, datasets[id1], InsightDatasetKind.Courses);
+            await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
+            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
         } catch (err) {
             response = err;
         } finally {
-            expect(response.code).to.equal(expectedCode1);
+            expect(response.code).to.equal(expectedCode);
+            expect(response.body).to.contain({error: "dataset exists, not added"});
         }
+    });
+
+    it("Should not add same dataset twice new instance", async () => {
+        const newInsightFacade = new InsightFacade();
+        const id: string = "courses";
+        const expectedCode: number = 400;
+        let response: InsightResponse;
 
         try {
-            response = await insightFacade.addDataset(id2, datasets[id2], InsightDatasetKind.Courses);
+            response = await newInsightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
         } catch (err) {
             response = err;
         } finally {
-            expect(response.code).to.equal(expectedCode2);
-            expect(response.body).to.contain({error: "dataset not added as it exists"});
+            expect(response.code).to.equal(expectedCode);
         }
     });
 
