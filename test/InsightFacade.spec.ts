@@ -440,6 +440,20 @@ describe("InsightFacade Add/Remove Dataset", function () {
         }
     });
 
+    it("Should be able to add dataset after it was removed", async () => {
+        const id: string = "courses";
+        const expectedCode: number = 204;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+        }
+    });
+
     it("Should not remove dataset if id undefined", async () => {
         const id: string = undefined;
         const expectedCode: number = 404;
@@ -633,7 +647,7 @@ describe("InsightFacade list Dataset", function () {
 
 });
 
-describe("InsightFacade list Dataset", function () {
+describe("InsightFacade list 0 Dataset", function () {
 
     let insightFacade: InsightFacade;
 

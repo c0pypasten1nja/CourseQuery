@@ -1,0 +1,10 @@
+{
+    "title": "A query with invalid kind",
+    "query": "In dataset courses, find entries whose Pass is greater than 500; show Pass.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}
