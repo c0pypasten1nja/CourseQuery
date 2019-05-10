@@ -454,6 +454,21 @@ describe("InsightFacade Add/Remove Dataset", function () {
         }
     });
 
+    it("in new instance, should remove the courses dataset from previous instance", async () => {
+        const newInsightFacade = new InsightFacade();
+        const id: string = "courses";
+        const expectedCode: number = 204;
+        let response: InsightResponse;
+
+        try {
+            response = await newInsightFacade.removeDataset(id);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+        }
+    });
+
     it("Should not remove dataset if id undefined", async () => {
         const id: string = undefined;
         const expectedCode: number = 404;
@@ -637,6 +652,21 @@ describe("InsightFacade list Dataset", function () {
         let response: InsightResponse;
         try {
             response = await insightFacade.listDatasets();
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+            expect((response.body as InsightResponseSuccessBody).result.length).to.equal(expectedLength);
+        }
+    });
+
+    it("Should list 2 datasets in cache", async () => {
+        const newInsightFacade = new InsightFacade();
+        const expectedCode: number = 200;
+        const expectedLength = 2;
+        let response: InsightResponse;
+        try {
+            response = await newInsightFacade.listDatasets();
         } catch (err) {
             response = err;
         } finally {

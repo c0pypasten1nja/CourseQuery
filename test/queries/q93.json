@@ -1,0 +1,47 @@
+{
+    "title": "SELECT Pass WHERE Pass > 2222",
+    "query": "In courses dataset courses, find entries whose Pass is greater than 2222; show Pass.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                  "courses_pass": 2498
+                },
+                {
+                  "courses_pass": 2994
+                },
+                {
+                  "courses_pass": 2698
+                },
+                {
+                  "courses_pass": 2491
+                },
+                {
+                  "courses_pass": 2466
+                },
+                {
+                  "courses_pass": 2655
+                },
+                {
+                  "courses_pass": 2557
+                },
+                {
+                  "courses_pass": 2502
+                },
+                {
+                  "courses_pass": 2278
+                },
+                {
+                  "courses_pass": 2438
+                },
+                {
+                  "courses_pass": 2286
+                },
+                {
+                  "courses_pass": 2378
+                }
+              ]
+        }
+    }
+}
