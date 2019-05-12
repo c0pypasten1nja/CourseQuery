@@ -31,6 +31,9 @@ describe("InsightFacade Add/Remove Dataset", function () {
         oneValidcsv: "./test/data/oneValidcsv.zip",
         randomFileGarbage: "./test/data/randomFileGarbage.zip",
         noFolder: "./test/data/noFolder.zip",
+        spacetime: "./test/data/space time.zip",
+        under_score: "./test/data/under_score.zip",
+        dataset: "./test/data/dataset.zip",
     };
 
     let insightFacade: InsightFacade;
@@ -110,6 +113,51 @@ describe("InsightFacade Add/Remove Dataset", function () {
         } finally {
             expect(response.code).to.equal(expectedCode);
             expect(response.body).to.contain({error: "Should not add non zip dataset"});
+        }
+    });
+
+    it("Should not add dataset name contain spaces", async () => {
+        const id: string = "space time";
+        const expectedCode: number = 400;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+            expect(response.body).to.contain({error: "dataset name contain spaces"});
+        }
+    });
+
+    it("Should not add dataset name contain underscore", async () => {
+        const id: string = "under_score";
+        const expectedCode: number = 400;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+            expect(response.body).to.contain({error: "dataset name contain underscore"});
+        }
+    });
+
+    it("Should not add dataset name equal RESERVED strings", async () => {
+        const id: string = "dataset";
+        const expectedCode: number = 400;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+            expect(response.body).to.contain({error: "dataset name equal RESERVED strings"});
         }
     });
 

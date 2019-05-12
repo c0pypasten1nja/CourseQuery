@@ -1,0 +1,10 @@
+{
+    "title": "query undefined",
+    "query": "",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}
