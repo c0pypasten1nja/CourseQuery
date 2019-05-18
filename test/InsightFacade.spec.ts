@@ -488,6 +488,37 @@ describe("InsightFacade Add/Remove Dataset", function () {
         }
     });
 
+    it("subsequent queries for removed id should fail unless a new addDataset happens first", async () => {
+        const expectedCode: number = 400;
+        let response: InsightResponse;
+
+        try {
+            // tslint:disable-next-line:max-line-length
+            response = await insightFacade.performQuery("In courses dataset courses, find entries whose Average is greater than 98; show UUID.");
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+            expect(response.body).to.contain({error: "dataset not found"});
+        }
+    });
+
+    it("in new instance, subsequent queries for removed id should fail", async () => {
+        const newInsightFacade = new InsightFacade();
+        const expectedCode: number = 400;
+        let response: InsightResponse;
+
+        try {
+            // tslint:disable-next-line:max-line-length
+            response = await newInsightFacade.performQuery("In courses dataset courses, find entries whose Average is greater than 98; show UUID.");
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+            expect(response.body).to.contain({error: "dataset not found"});
+        }
+    });
+
     it("Should be able to add dataset after it was removed", async () => {
         const id: string = "courses";
         const expectedCode: number = 204;
@@ -495,6 +526,35 @@ describe("InsightFacade Add/Remove Dataset", function () {
 
         try {
             response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+        }
+    });
+
+    it("subsequent queries for added id should pass", async () => {
+        const expectedCode: number = 200;
+        let response: InsightResponse;
+
+        try {
+            // tslint:disable-next-line:max-line-length
+            response = await insightFacade.performQuery("In courses dataset courses, find entries whose Average is greater than 98; show UUID.");
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+        }
+    });
+
+    it("in new instance, subsequent queries for added id should pass", async () => {
+        const newInsightFacade = new InsightFacade();
+        const expectedCode: number = 200;
+        let response: InsightResponse;
+
+        try {
+            // tslint:disable-next-line:max-line-length
+            response = await newInsightFacade.performQuery("In courses dataset courses, find entries whose Average is greater than 98; show UUID.");
         } catch (err) {
             response = err;
         } finally {
