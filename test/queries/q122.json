@@ -1,0 +1,10 @@
+{
+    "title": "S_KEY + M_OP  + STRING",
+    "query": "In courses dataset courses, find entries whose UUID is not less than \"555\"; show Department and ID, Instructor, Title, UUID, Average, Pass, Fail and Audit.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}
