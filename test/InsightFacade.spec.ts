@@ -327,7 +327,7 @@ describe("InsightFacade Add/Remove Dataset", function () {
     });
 
     it("Should not add dataset if id contain spaces, underscores or equal to RESERVED strings", async () => {
-        const id: string = "instructor";
+        const id: string = "dataset";
         const expectedCode: number = 400;
         let response: InsightResponse;
 

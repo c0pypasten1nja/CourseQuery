@@ -1,0 +1,10 @@
+{
+    "title": "id equal to RESERVED M_OP",
+    "query": "In courses dataset Average, find entries whose Average is not equal to 98 and Department is \"cnps\" and Instructor includes \"goodwill\"; show Department and ID, Instructor, Title, UUID, Average, Pass, Fail and Audit; sort in ascending order by Department, ID, Average and Pass.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}
