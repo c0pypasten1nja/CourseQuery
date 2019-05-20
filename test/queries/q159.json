@@ -1,0 +1,10 @@
+{
+    "title": "S_OP == && S_OP like || M_OP >= && M_OP >=",
+    "query": "In courses dataset courses, find entries whose Department is \"cnps\" and Instructor includes \"goodwill\" or Pass is not less than 777.7 and Average ends with 98.0; show Department and ID, Instructor, Title, UUID, Average, Pass, Fail and Audit; sort in ascending order by Department, ID, Average and Pass.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}

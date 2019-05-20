@@ -34,6 +34,8 @@ describe("InsightFacade Add/Remove Dataset", function () {
         spacetime: "./test/data/space time.zip",
         under_score: "./test/data/under_score.zip",
         dataset: "./test/data/dataset.zip",
+        ends: "./test/data/ends.zip",
+        is: "./test/data/is.zip",
     };
 
     let insightFacade: InsightFacade;
@@ -328,6 +330,36 @@ describe("InsightFacade Add/Remove Dataset", function () {
 
     it("Should not add dataset if id contain spaces, underscores or equal to RESERVED strings", async () => {
         const id: string = "dataset";
+        const expectedCode: number = 400;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+            expect(response.body).to.contain({error: "Should not add dataset if id is invalid"});
+        }
+    });
+
+    it("Should not add dataset if id contain spaces, underscores or equal to RESERVED strings", async () => {
+        const id: string = "ends";
+        const expectedCode: number = 400;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+            expect(response.body).to.contain({error: "Should not add dataset if id is invalid"});
+        }
+    });
+
+    it("Should not add dataset if id contain spaces, underscores or equal to RESERVED strings", async () => {
+        const id: string = "is";
         const expectedCode: number = 400;
         let response: InsightResponse;
 
@@ -712,6 +744,17 @@ describe("InsightFacade list Dataset", function () {
     const datasetsToList: { [id: string]: string } = {
         courses: "./test/data/courses.zip",
         oneValidcsv: "./test/data/oneValidcsv.zip",
+        coursesNotCSV: "./test/data/coursesNotCSV.zip",
+        coursesGz: "./test/data/coursesGz.gz",
+        notCalledCourses: "./test/data/notCalledCourses.zip",
+        randomFileGarbage: "./test/data/randomFileGarbage.zip",
+        spacetime: "./test/data/space time.zip",
+        under_score: "./test/data/under_score.zip",
+        woFiles: "./test/data/woFiles.zip",
+        zeroSection: "./test/data/zeroSection.zip",
+        dataset: "./test/data/dataset.zip",
+        ends: "./test/data/ends.zip",
+        is: "./test/data/is.zip",
     };
     let insightFacade: InsightFacade;
     let datasets: { [id: string]: string };

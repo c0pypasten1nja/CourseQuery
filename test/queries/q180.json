@@ -1,0 +1,10 @@
+{
+    "title": "M_OP edge",
+    "query": "In courses dataset courses, find entries whose Average is greater than 99.781 or Average is less than 00.000 or Pass is greater than 2994.001 or Pass is less than 00.000 or Pass is equal to 01.001 or Fail is greater than 999.999 or Fail is less than 00.000 or Audit is greater than 99.999 or Audit is less than 00.000; show Department and ID, Instructor, Title, UUID, Average, Pass, Fail and Audit; sort in ascending order by Pass.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": []
+        }
+    }
+}
