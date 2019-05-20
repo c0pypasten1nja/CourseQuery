@@ -744,17 +744,17 @@ describe("InsightFacade list Dataset", function () {
     const datasetsToList: { [id: string]: string } = {
         courses: "./test/data/courses.zip",
         oneValidcsv: "./test/data/oneValidcsv.zip",
-        coursesNotCSV: "./test/data/coursesNotCSV.zip",
-        coursesGz: "./test/data/coursesGz.gz",
-        notCalledCourses: "./test/data/notCalledCourses.zip",
-        randomFileGarbage: "./test/data/randomFileGarbage.zip",
-        spacetime: "./test/data/space time.zip",
-        under_score: "./test/data/under_score.zip",
-        woFiles: "./test/data/woFiles.zip",
-        zeroSection: "./test/data/zeroSection.zip",
-        dataset: "./test/data/dataset.zip",
-        ends: "./test/data/ends.zip",
-        is: "./test/data/is.zip",
+        // coursesNotCSV: "./test/data/coursesNotCSV.zip",
+        // coursesGz: "./test/data/coursesGz.gz",
+        // notCalledCourses: "./test/data/notCalledCourses.zip",
+        // randomFileGarbage: "./test/data/randomFileGarbage.zip",
+        // spacetime: "./test/data/space time.zip",
+        // under_score: "./test/data/under_score.zip",
+        // woFiles: "./test/data/woFiles.zip",
+        // zeroSection: "./test/data/zeroSection.zip",
+        // dataset: "./test/data/dataset.zip",
+        // ends: "./test/data/ends.zip",
+        // is: "./test/data/is.zip",
     };
     let insightFacade: InsightFacade;
     let datasets: { [id: string]: string };
