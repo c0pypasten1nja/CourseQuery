@@ -1,6 +1,6 @@
 {
     "title": "S_OP == && M_OP >= || M_OP >= && S_OP like",
-    "query": "In courses dataset courses, find entries whose Department is \"cnps\" and Average is greater than 89.0599999 or Fail is not less than -0.9999 and Instructor ends with \", alanaise\"; show Department and ID, Instructor, Title, UUID, Average, Pass, Fail and Audit; sort in ascending order by Department, ID, Average and Pass.",
+    "query": "In courses dataset courses, find entries whose Department is \"cnps\" and Average is greater than 89.0599999 and Fail is not less than -0.9999 and Instructor ends with \", alanaise\"; show Department and ID, Instructor, Title, UUID, Average, Pass, Fail and Audit; sort in ascending order by Department, ID, Average and Pass.",
     "response": {
         "code": 200,
         "body": {
