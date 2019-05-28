@@ -1,0 +1,10 @@
+{
+    "title": "sort key not in the COLUMNS array",
+    "query": "In courses dataset courses, find entries whose Average is greater than 90 and Pass is greater than 200; show Instructor and Title and UUID and Average and Fail; sort in ascending order by Pass.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}
