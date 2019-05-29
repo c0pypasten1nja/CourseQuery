@@ -1,6 +1,6 @@
 {
     "title": "SELECT instrctr, ttl, uuid, avg, pss, fl, adt WHERE UUID ends 1111",
-    "query": "In courses dataset courses, find entries whose UUID ends with 1111; show Instructor and Title and UUID and Average and Pass and Fail and Audit; sort in descending order by Average.",
+    "query": "In courses dataset courses, find entries whose UUID ends with \"1111\"; show Instructor and Title and UUID and Average and Pass and Fail and Audit; sort in descending order by Average.",
     "response": {
         "code": 200,
         "body": {

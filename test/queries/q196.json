@@ -1,0 +1,43 @@
+{
+    "title": "does not include \" \"",
+    "query": "In courses dataset courses, find entries whose Instructor does not include \" \" and Average is greater than 99.0 or Pass is greater than 2600; show Instructor, Title, UUID, Average, Pass and Fail; sort in descending order by Pass and Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                  "courses_instructor": "",
+                  "courses_title": "strat univ writ",
+                  "courses_uuid": "41461",
+                  "courses_avg": 71.91,
+                  "courses_pass": 2994,
+                  "courses_fail": 63
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "strat univ writ",
+                  "courses_uuid": "42865",
+                  "courses_avg": 72.91,
+                  "courses_pass": 2698,
+                  "courses_fail": 79
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "strat univ writ",
+                  "courses_uuid": "64334",
+                  "courses_avg": 73.17,
+                  "courses_pass": 2655,
+                  "courses_fail": 52
+                },
+                {
+                  "courses_instructor": "",
+                  "courses_title": "algb topology i",
+                  "courses_uuid": "5374",
+                  "courses_avg": 99.78,
+                  "courses_pass": 9,
+                  "courses_fail": 0
+                }
+              ]
+        }
+    }
+}
