@@ -36,6 +36,9 @@ describe("InsightFacade Add/Remove Dataset", function () {
         dataset: "./test/data/dataset.zip",
         ends: "./test/data/ends.zip",
         is: "./test/data/is.zip",
+        oneSection: "./test/data/oneSection.zip",
+        oneZeroSection: "./test/data/oneZeroSection.zip",
+        validCvsOthers: "./test/data/validCvsOthers.zip",
     };
 
     let insightFacade: InsightFacade;
@@ -395,6 +398,104 @@ describe("InsightFacade Add/Remove Dataset", function () {
 
         try {
             response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+        }
+    });
+
+    it("subsequent queries for added oneValidcsv should pass", async () => {
+        const expectedCode: number = 200;
+        let response: InsightResponse;
+
+        try {
+            // tslint:disable-next-line:max-line-length
+            response = await insightFacade.performQuery("In courses dataset oneValidcsv, find all entries; show Department and ID and Average.");
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+        }
+    });
+
+    it("Should add valid dataset with one section", async () => {
+        const id: string = "oneSection";
+        const expectedCode: number = 204;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+        }
+    });
+
+    it("subsequent queries for added oneSection should pass", async () => {
+        const expectedCode: number = 200;
+        let response: InsightResponse;
+
+        try {
+            // tslint:disable-next-line:max-line-length
+            response = await insightFacade.performQuery("In courses dataset oneSection, find all entries; show Department and ID and Average.");
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+        }
+    });
+
+    it("Should add valid dataset with 2 courses one section", async () => {
+        const id: string = "oneZeroSection";
+        const expectedCode: number = 204;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+        }
+    });
+
+    it("subsequent queries for added oneZeroSection should pass", async () => {
+        const expectedCode: number = 200;
+        let response: InsightResponse;
+
+        try {
+            // tslint:disable-next-line:max-line-length
+            response = await insightFacade.performQuery("In courses dataset oneZeroSection, find all entries; show Department and ID and Average.");
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+        }
+    });
+
+    it("Should add zip with valid csv and other files", async () => {
+        const id: string = "validCvsOthers";
+        const expectedCode: number = 204;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+        }
+    });
+
+    it("subsequent queries for added validCvsOthers should pass", async () => {
+        const expectedCode: number = 200;
+        let response: InsightResponse;
+
+        try {
+            // tslint:disable-next-line:max-line-length
+            response = await insightFacade.performQuery("In courses dataset validCvsOthers, find all entries; show Department and ID and Average.");
         } catch (err) {
             response = err;
         } finally {
