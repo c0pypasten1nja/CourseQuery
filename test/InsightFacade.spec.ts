@@ -39,6 +39,7 @@ describe("InsightFacade Add/Remove Dataset", function () {
         oneSection: "./test/data/oneSection.zip",
         oneZeroSection: "./test/data/oneZeroSection.zip",
         validCvsOthers: "./test/data/validCvsOthers.zip",
+        _: "./test/data/_.zip",
     };
 
     let insightFacade: InsightFacade;
@@ -318,6 +319,21 @@ describe("InsightFacade Add/Remove Dataset", function () {
 
     it("Should not add dataset if id contain spaces, underscores or equal to RESERVED strings", async () => {
         const id: string = "under_score";
+        const expectedCode: number = 400;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+            expect(response.body).to.contain({error: "Should not add dataset if id is invalid"});
+        }
+    });
+
+    it("Should not add dataset if id contain spaces, underscores or equal to RESERVED strings", async () => {
+        const id: string = "_";
         const expectedCode: number = 400;
         let response: InsightResponse;
 

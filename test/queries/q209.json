@@ -1,0 +1,10 @@
+{
+    "title": "DATASET + ', ' + DISPLAY(+ '; ' + ORDER)? + '.'",
+    "query": "In courses dataset oneValidcsv, show Title and UUID and Instructor and Audit and Average and Pass and Fail; sort in ascending order by UUID.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": "M_OP + NUMBER",
+    "query": "In courses dataset courses, find entries whose Instructor is not \"\" and Average is greater than 98.5 or is greater than 1100 and Instructor is not \"\"; show Instructor, Title, UUID, Average, Pass and Fail; sort in descending order by Pass and Average.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Cannot read property 'key' of undefined"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": "DATASET + ', ' + FILTER + '; ' + '; ' + ORDER + '.'",
+    "query": "In courses dataset oneValidcsv, find all entries; sort in ascending order by UUID.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}
