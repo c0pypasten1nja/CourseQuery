@@ -101,7 +101,7 @@ export default class DatasetController {
                 result.push(obj);
             }
         }
-        return JSON.stringify(result);
+        return result;
     }
 
     public saveDataset(id: string, data: any) {

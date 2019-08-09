@@ -8,21 +8,21 @@ import JSZip = require("jszip");
  */
 export default class InsightFacade implements IInsightFacade {
 
-    private datasetController: DatasetController;
+    private static datasetController: DatasetController;
 
     constructor() {
         Log.trace("InsightFacade::init()");
-        this.datasetController = new DatasetController();
     }
 
     public addDataset(id: string, content: string, kind: InsightDatasetKind): Promise<InsightResponse> {
         // return Promise.reject({code: -1, body: null});
         return new Promise(async function (fulfill, reject) {
             Log.trace("InsightFacade::addDataset()");
-            let result: string[];
-            let data: object[];
+            // tslint:disable-next-line:prefer-const
+            let data: object[] = [];
+            const datasetController = InsightFacade.datasetController;
 
-            if (this.datasetController.datasetExists(id)) {
+            if (datasetController.datasetExists(id)) {
                 Log.trace("datasetController.datasetExists() error: dataset exists!");
                 return Promise.reject({ code: 400, body: { error: "Dataset exists!" } });
             }
@@ -32,7 +32,7 @@ export default class InsightFacade implements IInsightFacade {
                 const loadContent = await jsZip.loadAsync(content, { base64: true });
                 const contentFiles = await Object.keys(loadContent.files);
 
-                if (!this.datasetController.isFolderCourses(contentFiles)) {
+                if (!datasetController.isFolderCourses(contentFiles)) {
                     Log.trace("datasetController.isValidDataset()");
                     return Promise.reject({ code: 400, body: { error: "Should not add folder not called courses!" } });
                 }
@@ -41,8 +41,8 @@ export default class InsightFacade implements IInsightFacade {
 
                     for (const fileName of contentFiles) {
 
-                        if (this.datasetController.isCSVfile(fileName)) {
-                            const fileJson = await this.datasetController.csvJSON(fileName, id);
+                        if (datasetController.isCSVfile(fileName)) {
+                            const fileJson = await datasetController.csvJSON(fileName, id);
                             data.push(fileJson);
                         }
                     }
@@ -58,7 +58,7 @@ export default class InsightFacade implements IInsightFacade {
                     return  fulfill({ code: 204, body: { result: "dataset saved" } });
                 }
             } catch (err) {
-                return Promise.reject({ code: 400, body: { error: "Failed to load zip file!" } });
+                return reject({ code: 400, body: { error: "Failed to load zip file!" } });
             }
 
         });
