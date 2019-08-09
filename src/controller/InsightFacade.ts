@@ -11,18 +11,19 @@ export default class InsightFacade implements IInsightFacade {
     private static datasetController: DatasetController;
 
     constructor() {
-        Log.trace("InsightFacade::init()");
+        Log.trace("InsightFacadeImpl::init()");
     }
 
-    public addDataset(id: string, content: string, kind: InsightDatasetKind): Promise<InsightResponse> {
+    public async addDataset(id: string, content: string, kind: InsightDatasetKind): Promise<InsightResponse> {
         // return Promise.reject({code: -1, body: null});
-        return new Promise(async function (fulfill, reject) {
             Log.trace("InsightFacade::addDataset()");
             // tslint:disable-next-line:prefer-const
             let data: object[] = [];
             const datasetController = InsightFacade.datasetController;
 
-            if (datasetController.datasetExists(id)) {
+            // tslint:disable-next-line:prefer-const
+            let datasetExists =  datasetController.datasetExists(id);
+            if (datasetExists) {
                 Log.trace("datasetController.datasetExists() error: dataset exists!");
                 return Promise.reject({ code: 400, body: { error: "Dataset exists!" } });
             }
@@ -32,9 +33,12 @@ export default class InsightFacade implements IInsightFacade {
                 const loadContent = await jsZip.loadAsync(content, { base64: true });
                 const contentFiles = await Object.keys(loadContent.files);
 
-                if (!datasetController.isFolderCourses(contentFiles)) {
+                // tslint:disable-next-line:prefer-const
+                let isFolderCourses = datasetController.isFolderCourses(contentFiles);
+                if (!isFolderCourses) {
                     Log.trace("datasetController.isValidDataset()");
-                    return Promise.reject({ code: 400, body: { error: "Should not add folder not called courses!" } });
+                    return Promise.reject({ code: 400,
+                        body: { error: "Should not add folder not called courses!" } });
                 }
 
                 if (kind === InsightDatasetKind.Courses) {
@@ -51,17 +55,16 @@ export default class InsightFacade implements IInsightFacade {
                             body: { error: "Should not add dataset with zero valid course section" } });
                     }
                 }
-
-                const dataset: InsightDataset = {id, kind, numRows: data.length};
-                const datasetSaved = this.datasetController.saveDataset(id, dataset);
-                if (datasetSaved) {
-                    return  fulfill({ code: 204, body: { result: "dataset saved" } });
-                }
             } catch (err) {
-                return reject({ code: 400, body: { error: "Failed to load zip file!" } });
+                return Promise.reject({ code: 400,
+                    body: { error: "Failed to load zip file!" } });
             }
-
-        });
+            const dataset: InsightDataset = {id, kind, numRows: data.length};
+            // tslint:disable-next-line:prefer-const
+            let saveDataset = datasetController.saveDataset(id, dataset);
+            if (saveDataset) {
+                return Promise.resolve({ code: 204, body: { result: "dataset saved" } });
+            }
     }
 
     public removeDataset(id: string): Promise<InsightResponse> {

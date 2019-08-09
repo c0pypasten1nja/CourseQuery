@@ -1,6 +1,6 @@
 import Log from "../Util";
 import JSZip = require("jszip");
-import { InsightDataset } from "./IInsightFacade";
+import { InsightDataset, InsightResponse } from "./IInsightFacade";
 import fs = require("fs");
 
 export default class DatasetController {
@@ -106,14 +106,21 @@ export default class DatasetController {
 
     public saveDataset(id: string, data: any) {
 
-        if (!fs.existsSync("./data")) {
-            fs.mkdirSync("./data");
-        }
-        // saves to disk
-        fs.writeFile("./data/" + id, JSON.stringify(data), (err) => {
-            if (err) { throw err; }
-        });
         // saves to memory
         this.datasets.set(id, data);
+
+        try {
+            if (!fs.existsSync("./data")) {
+                fs.mkdirSync("./data");
+            }
+            // saves to disk
+            fs.writeFile("./data/" + id, JSON.stringify(data), (err) => {
+                if (err) {
+                    throw err;
+                }
+            });
+        } catch (err) {
+            return false;
+        }
     }
 }
