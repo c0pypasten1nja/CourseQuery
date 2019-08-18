@@ -109,7 +109,7 @@ describe("InsightFacade Add/Remove Dataset", function () {
             response = err;
         } finally {
             expect(response.code).to.equal(expectedCode);
-            expect(response.body).to.contain({error: "Should not add non zip dataset"});
+            expect(response.body).to.contain({error: "Failed to load zip file!"});
         }
 
         try {
@@ -118,7 +118,7 @@ describe("InsightFacade Add/Remove Dataset", function () {
             response = err;
         } finally {
             expect(response.code).to.equal(expectedCode);
-            expect(response.body).to.contain({error: "Should not add non zip dataset"});
+            expect(response.body).to.contain({error: "Failed to load zip file!"});
         }
     });
 
@@ -133,7 +133,7 @@ describe("InsightFacade Add/Remove Dataset", function () {
             response = err;
         } finally {
             expect(response.code).to.equal(expectedCode);
-            expect(response.body).to.contain({error: "dataset name contain spaces"});
+            expect(response.body).to.contain({error: "Invalid ID!"});
         }
     });
 
@@ -148,7 +148,7 @@ describe("InsightFacade Add/Remove Dataset", function () {
             response = err;
         } finally {
             expect(response.code).to.equal(expectedCode);
-            expect(response.body).to.contain({error: "dataset name contain underscore"});
+            expect(response.body).to.contain({error: "Invalid ID!"});
         }
     });
 
@@ -163,7 +163,7 @@ describe("InsightFacade Add/Remove Dataset", function () {
             response = err;
         } finally {
             expect(response.code).to.equal(expectedCode);
-            expect(response.body).to.contain({error: "dataset name equal RESERVED strings"});
+            expect(response.body).to.contain({error: "Invalid ID!"});
         }
     });
 
@@ -178,7 +178,7 @@ describe("InsightFacade Add/Remove Dataset", function () {
             response = err;
         } finally {
             expect(response.code).to.equal(expectedCode);
-            expect(response.body).to.contain({error: "Should not add zip with no folder"});
+            expect(response.body).to.contain({error: "courses folder not found!"});
         }
     });
 
@@ -193,7 +193,7 @@ describe("InsightFacade Add/Remove Dataset", function () {
             response = err;
         } finally {
             expect(response.code).to.equal(expectedCode);
-            expect(response.body).to.contain({error: "Should not add non zip dataset"});
+            expect(response.body).to.contain({error: "Failed to load zip file!"});
         }
     });
 
@@ -208,7 +208,7 @@ describe("InsightFacade Add/Remove Dataset", function () {
             response = err;
         } finally {
             expect(response.code).to.equal(expectedCode);
-            expect(response.body).to.contain({error: "Should not add folder not called courses"});
+            expect(response.body).to.contain({error: "courses folder not found!"});
         }
     });
 
@@ -223,7 +223,7 @@ describe("InsightFacade Add/Remove Dataset", function () {
             response = err;
         } finally {
             expect(response.code).to.equal(expectedCode);
-            expect(response.body).to.contain({error: "Should not add zip without files"});
+            expect(response.body).to.contain({error: "Invalid course section!"});
         }
     });
 
@@ -238,7 +238,7 @@ describe("InsightFacade Add/Remove Dataset", function () {
             response = err;
         } finally {
             expect(response.code).to.equal(expectedCode);
-            expect(response.body).to.contain({error: "Should not add courses not in CSV format"});
+            expect(response.body).to.contain({error: "Invalid course section!"});
         }
     });
 
@@ -253,7 +253,7 @@ describe("InsightFacade Add/Remove Dataset", function () {
             response = err;
         } finally {
             expect(response.code).to.equal(expectedCode);
-            expect(response.body).to.contain({error: "Should not add dataset with zero valid course section"});
+            expect(response.body).to.contain({error: "Invalid course section!"});
         }
     });
 
@@ -268,7 +268,7 @@ describe("InsightFacade Add/Remove Dataset", function () {
             response = err;
         } finally {
             expect(response.code).to.equal(expectedCode);
-            expect(response.body).to.contain({error: "Should not add dataset with invalid contents"});
+            expect(response.body).to.contain({error: "Invalid course section!"});
         }
     });
 
@@ -283,7 +283,7 @@ describe("InsightFacade Add/Remove Dataset", function () {
             response = err;
         } finally {
             expect(response.code).to.equal(expectedCode);
-            expect(response.body).to.contain({error: "Should not add dataset with id undefined"});
+            expect(response.body).to.contain({error: "Invalid ID!"});
         }
     });
 
@@ -298,7 +298,7 @@ describe("InsightFacade Add/Remove Dataset", function () {
             response = err;
         } finally {
             expect(response.code).to.equal(expectedCode);
-            expect(response.body).to.contain({error: "Should not add dataset if id empty"});
+            expect(response.body).to.contain({error: "Invalid ID!"});
         }
     });
 
@@ -313,7 +313,7 @@ describe("InsightFacade Add/Remove Dataset", function () {
             response = err;
         } finally {
             expect(response.code).to.equal(expectedCode);
-            expect(response.body).to.contain({error: "Should not add dataset if id is invalid"});
+            expect(response.body).to.contain({error: "Invalid ID!"});
         }
     });
 
@@ -328,7 +328,7 @@ describe("InsightFacade Add/Remove Dataset", function () {
             response = err;
         } finally {
             expect(response.code).to.equal(expectedCode);
-            expect(response.body).to.contain({error: "Should not add dataset if id is invalid"});
+            expect(response.body).to.contain({error: "Invalid ID!"});
         }
     });
 
@@ -343,7 +343,7 @@ describe("InsightFacade Add/Remove Dataset", function () {
             response = err;
         } finally {
             expect(response.code).to.equal(expectedCode);
-            expect(response.body).to.contain({error: "Should not add dataset if id is invalid"});
+            expect(response.body).to.contain({error: "Invalid ID!"});
         }
     });
 
@@ -358,7 +358,7 @@ describe("InsightFacade Add/Remove Dataset", function () {
             response = err;
         } finally {
             expect(response.code).to.equal(expectedCode);
-            expect(response.body).to.contain({error: "Should not add dataset if id is invalid"});
+            expect(response.body).to.contain({error: "Invalid ID!"});
         }
     });
 
@@ -373,7 +373,7 @@ describe("InsightFacade Add/Remove Dataset", function () {
             response = err;
         } finally {
             expect(response.code).to.equal(expectedCode);
-            expect(response.body).to.contain({error: "Should not add dataset if id is invalid"});
+            expect(response.body).to.contain({error: "Invalid ID!"});
         }
     });
 
@@ -388,7 +388,7 @@ describe("InsightFacade Add/Remove Dataset", function () {
             response = err;
         } finally {
             expect(response.code).to.equal(expectedCode);
-            expect(response.body).to.contain({error: "Should not add dataset if id is invalid"});
+            expect(response.body).to.contain({error: "Invalid ID!"});
         }
     });
 
@@ -403,7 +403,7 @@ describe("InsightFacade Add/Remove Dataset", function () {
             response = err;
         } finally {
             expect(response.code).to.equal(expectedCode);
-            expect(response.body).to.contain({error: "Should not add dataset if notfound"});
+            expect(response.body).to.contain({error: "Failed to load zip file!"});
         }
     });
 
@@ -588,7 +588,7 @@ describe("InsightFacade Add/Remove Dataset", function () {
             response = err;
         } finally {
             expect(response.code).to.equal(expectedCode2);
-            expect(response.body).to.contain({error: "Should not add non zip dataset"});
+            expect(response.body).to.contain({error: "Failed to load zip file!"});
         }
     });
 

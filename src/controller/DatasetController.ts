@@ -40,10 +40,15 @@ export default class DatasetController {
 
     public csvJSON(csv: any, id: string) {
         const lines = csv.split("\n");
-        const result = [];
+        const result: any = [];
         const headers = lines[0].split("|");
         const section = [];
-
+        // Log.trace("csvJSON " + id + " " + lines);
+        // Log.trace("csvJSON " + id + " " + lines.length);
+        // if (lines.length === 2) {
+        //     Log.trace("csvJSON " + id + " " + lines[0]);
+        //     Log.trace("csvJSON " + id + " " + lines[1]);
+        // }
         for (let h = 0; h < headers.length; h++) {
             if (headers[h] === "Title") {
                 section[h] = id + "_title";
@@ -80,7 +85,7 @@ export default class DatasetController {
             }
         }
 
-        if (lines.length > 1) {
+        if (lines.length > 2) {
             for (let i = 1; i < lines.length; i++) {
 
                 const obj: Record<string, string | number> = {};
@@ -98,7 +103,11 @@ export default class DatasetController {
                         obj[section[j]] = currentline[j] as number;
                     }
                 }
-                result.push(obj);
+                if ( Object.keys(obj).length === 10 ) {
+                    // Log.trace("csvJSON " + id + " " + Object.keys(obj).length);
+                    result.push(obj);
+                    return result;
+                }
             }
         }
         return result;
