@@ -852,7 +852,7 @@ describe("InsightFacade list Dataset", function () {
             response = err;
         } finally {
             expect(response.code).to.equal(expectedCode);
-            expect(response.body).to.deep.equal(expectedResult);
+            expect((response.body as InsightResponseSuccessBody).result).to.equal(expectedResult);
         }
     });
 });

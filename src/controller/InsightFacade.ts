@@ -80,7 +80,7 @@ export default class InsightFacade implements IInsightFacade {
                                     body: { error: "Invalid course section!" } });
                             } else {
                                 Log.trace("data length " + data.length);
-                                dataController.saveDataset(id, data);
+                                dataController.saveDataset( id, kind, data);
                                 fulfill({ code: 204, body: { result: "dataset saved" } });
                             }
                         });
@@ -106,6 +106,10 @@ export default class InsightFacade implements IInsightFacade {
     }
 
     public listDatasets(): Promise<InsightResponse> {
-        return Promise.reject({ code: -1, body: null });
+        const dataController = InsightFacade.datasetController;
+        const insightdatasets = dataController.controllerListDataset();
+        const insightsucessbody = {result: insightdatasets};
+        // Log.trace("insightsucessbody " + insightsucessbody);
+        return Promise.resolve({ code: 200, body: insightsucessbody });
     }
 }

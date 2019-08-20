@@ -5,11 +5,13 @@ import fs = require("fs");
 
 export default class DatasetController {
 
-    private datasets: Map<string, InsightDataset>;
+    private datasets: Map<string, object[]>;
+    private datasetlist: Map<string, InsightDataset>;
 
     constructor() {
         Log.trace("DatasetController::init()");
-        this.datasets = new Map<string, InsightDataset>();
+        this.datasets = new Map<string, object[]>();
+        this.datasetlist = new Map<string, InsightDataset>();
     }
 
     public datasetExists(id: string): boolean {
@@ -113,10 +115,12 @@ export default class DatasetController {
         return result;
     }
 
-    public saveDataset(id: string, data: any) {
+    public saveDataset(id: string, kind: any, data: any) {
 
         // saves to memory
         this.datasets.set(id, data);
+        const dataset: InsightDataset = {id, kind, numRows: data.length};
+        this.datasetlist.set(id, dataset);
 
         try {
             if (!fs.existsSync("./data")) {
@@ -131,5 +135,15 @@ export default class DatasetController {
         } catch (err) {
             return false;
         }
+    }
+
+    public controllerListDataset() {
+        const insightdatasets: InsightDataset[] = [];
+
+        this.datasetlist.forEach((value: InsightDataset, key: string) => {
+
+            insightdatasets.push(value);
+        });
+        return insightdatasets;
     }
 }
