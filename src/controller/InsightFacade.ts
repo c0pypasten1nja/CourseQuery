@@ -22,16 +22,12 @@ export default class InsightFacade implements IInsightFacade {
             // tslint:disable-next-line:prefer-const
             let data: object[] = [];
             const dataController = InsightFacade.datasetController;
-            const reserved = ["In", "dataset", "find", "all", "show", "and", "or", "sort", "by",
-            "entries", "is", "the", "of", "whose", "includes", "begins", "ends", "_"];
             let InvalidID = false;
-            if ((id === "") || (typeof(id) !== "string") || (id === null) || (/\_/.test(id)) ||
-            (reserved.indexOf(id) >= 0) || (/\s/.test(id)) ) {
+            if (!dataController.isValidId(id) ) {
                 Log.trace("Invalid ID!");
                 InvalidID = true;
                 reject({ code: 400, body: { error: "Invalid ID!" } });
             }
-            Log.trace("reserved " + id + " " + reserved.indexOf(id) + " " + (reserved.indexOf(id) >= 0));
 
             // tslint:disable-next-line:prefer-const
             let datasetExists =  dataController.datasetExists(id);
@@ -98,7 +94,18 @@ export default class InsightFacade implements IInsightFacade {
     }
 
     public removeDataset(id: string): Promise<InsightResponse> {
-        return Promise.reject({ code: -1, body: null });
+
+        const dataController = InsightFacade.datasetController;
+        Log.trace("removeDataset " + id);
+        if (!dataController.isValidId(id) || !dataController.datasetExists(id)) {
+            Log.trace("Invalid ID!");
+            return Promise.reject({ code: 404, body: { error: "Invalid ID!" } });
+        } else if (dataController.controllerRemoveDataset(id)) {
+            Log.trace("controllerRemoveDataset()");
+            return Promise.resolve({ code: 204, body: { result: "dataset removed" }});
+        } else {
+            return Promise.reject({ code: 404, body: { error: "Failed to remove dataset!" } });
+        }
     }
 
     public performQuery(query: string): Promise<InsightResponse> {

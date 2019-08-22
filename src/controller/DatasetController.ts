@@ -14,6 +14,17 @@ export default class DatasetController {
         this.datasetlist = new Map<string, InsightDataset>();
     }
 
+    public isValidId(id: string): boolean {
+        const reserved = ["In", "dataset", "find", "all", "show", "and", "or", "sort", "by",
+        "entries", "is", "the", "of", "whose", "includes", "begins", "ends", "_"];
+        if ((id === "") || (typeof(id) !== "string") || (id === null) || (/\_/.test(id)) ||
+        (reserved.indexOf(id) >= 0) || (/\s/.test(id)) ) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+
     public datasetExists(id: string): boolean {
         if (this.datasets.has(id) || fs.existsSync("./data/" + id + ".json")) {
             return true;
@@ -127,7 +138,7 @@ export default class DatasetController {
                 fs.mkdirSync("./data");
             }
             // saves to disk
-            fs.writeFile("./data/" + id, JSON.stringify(data), (err) => {
+            fs.writeFile("./data/" + id + ".json", JSON.stringify(data), (err) => {
                 if (err) {
                     throw err;
                 }
@@ -146,4 +157,33 @@ export default class DatasetController {
         });
         return insightdatasets;
     }
+
+    public controllerRemoveDataset(id: string) {
+
+        const datasettodelete: string = "./data/" + id + ".json";
+        let datasetsDeleted = false;
+        let datasetlistDeleted = false;
+        let datasetDeleted = false;
+
+        if (this.datasets.delete(id) || !this.datasets.has(id)) {
+            Log.trace(id + " deleted from datasets");
+            datasetsDeleted = true;
+        }
+
+        if (this.datasetlist.delete(id) || !this.datasetlist.has(id)) {
+            Log.trace(id + " deleted from datasetlist");
+            datasetlistDeleted = true;
+        }
+
+        if (fs.unlinkSync(datasettodelete) || !fs.existsSync(datasettodelete)) {
+            Log.trace(datasettodelete + " deleted");
+            datasetDeleted = true;
+        }
+
+        if (datasetsDeleted && datasetlistDeleted && datasetDeleted) {
+            return true;
+        }
+
+    }
+
 }
