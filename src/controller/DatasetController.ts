@@ -116,8 +116,9 @@ export default class DatasetController {
                         obj[section[j]] = currentline[j] as number;
                     }
                 }
-                if ( Object.keys(obj).length === 10 ) {
-                    // Log.trace("csvJSON " + id + " " + Object.keys(obj).length);
+
+                if ( Object.keys(obj).length >= 9 ) {
+
                     result.push(obj);
                     return result;
                 }
