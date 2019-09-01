@@ -56,7 +56,6 @@ export default class DatasetController {
         const result: any = [];
         const headers = lines[0].split("|");
         const section = [];
-        
         if (id === "twoValidcsv") {
             Log.trace(id  + " headers " + headers);
         }
