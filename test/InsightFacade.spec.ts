@@ -199,6 +199,7 @@ describe("InsightFacade Add/Remove Dataset", function () {
         coursesNotCSV: "./test/data/coursesNotCSV.zip",
         zeroSection: "./test/data/zeroSection.zip",
         oneValidcsv: "./test/data/oneValidcsv.zip",
+        twoValidcsv: "./test/data/twoValidcsv.zip",
         randomFileGarbage: "./test/data/randomFileGarbage.zip",
         noFolder: "./test/data/noFolder.zip",
         spacetime: "./test/data/space time.zip",
@@ -584,6 +585,20 @@ describe("InsightFacade Add/Remove Dataset", function () {
         try {
             // tslint:disable-next-line:max-line-length
             response = await insightFacade.performQuery("In courses dataset oneValidcsv, find all entries; show Department and ID and Average.");
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+        }
+    });
+
+    it("Should add valid dataset with 2 CSVs", async () => {
+        const id: string = "twoValidcsv";
+        const expectedCode: number = 204;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
         } catch (err) {
             response = err;
         } finally {

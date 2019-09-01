@@ -1,6 +1,7 @@
 import Log from "../Util";
 import { IInsightFacade, InsightDataset, InsightResponse, InsightDatasetKind } from "./IInsightFacade";
 import DatasetController from "../controller/DatasetController";
+import QueryController from "../controller/QueryController";
 import JSZip = require("jszip");
 import fs = require("fs");
 
@@ -10,6 +11,7 @@ import fs = require("fs");
 export default class InsightFacade implements IInsightFacade {
 
     private static datasetController= new DatasetController();
+    private static queryController= new QueryController();
 
     constructor() {
         Log.trace("InsightFacadeImpl::init()");
@@ -20,7 +22,7 @@ export default class InsightFacade implements IInsightFacade {
         return new Promise(async (fulfill, reject) => {
             Log.trace("InsightFacade::addDataset()");
             // tslint:disable-next-line:prefer-const
-            let data: object[] = [];
+            let data: any[] = [];
             const dataController = InsightFacade.datasetController;
             let InvalidID = false;
             if (!dataController.isValidId(id) ) {
@@ -40,11 +42,14 @@ export default class InsightFacade implements IInsightFacade {
 
                 if (kind === InsightDatasetKind.Courses && !InvalidID && !datasetExists) {
 
-                    const arrayPromise: Array<Promise<any>> = [];
+                    const arrayPromise: any[]  = [];
 
                     JSZip.loadAsync(content, {base64: true}).then(async function (zip: JSZip) {
 
                         const contentFiles = await Object.keys(zip.files);
+                        // if (id === "twoValidcsv" || id === "oneValidcsv" || id === "validCvsOthers" ) {
+                        //     Log.trace(id + " " + JSON.stringify(contentFiles) + " contentFiles");
+                        // }
                         const isFolderCourses = dataController.isFolderCourses(contentFiles);
                         if (!isFolderCourses) {
                             Log.trace("datasetController.isValidDataset()");
@@ -60,15 +65,24 @@ export default class InsightFacade implements IInsightFacade {
                             }
                         });
 
-                        Promise.all(arrayPromise).then(async function (arrayContent: string[]) {
-
-                            for (content of arrayContent) {
-                                const fileJson = await dataController.csvJSON(content, id);
+                        Promise.all(arrayPromise).then( function (arrayContent) {
+                            arrayContent.forEach( function (contentData) {
+                                const fileJson =  dataController.csvJSON(contentData, id);
+                                // if (id === "twoValidcsv") {
+                                //     Log.trace(id + " " + JSON.stringify(fileJson) + " fileJson");
+                                //     Log.trace(id + " fileJson " + Object.keys(fileJson).length);
+                                // }
                                 if (Object.keys(fileJson).length !== 0) {
                                     // Log.trace("fileJson " + Object.keys(fileJson).length);
-                                    data.push(fileJson[0]);
+                                    // data.push(fileJson);
+                                    data = data.concat(fileJson);
                                 }
-                            }
+                            });
+
+                            // if (id === "twoValidcsv") {
+                            //     Log.trace(id + " " + JSON.stringify(data) + " data");
+                            //     Log.trace(id + " data " + data.length);
+                            // }
 
                             if (data.length === 0) {
                                 Log.trace("data length " + data.length);
@@ -96,12 +110,12 @@ export default class InsightFacade implements IInsightFacade {
     public removeDataset(id: string): Promise<InsightResponse> {
 
         const dataController = InsightFacade.datasetController;
-        Log.trace("removeDataset " + id);
+        // Log.trace("removeDataset " + id);
         if (!dataController.isValidId(id) || !dataController.datasetExists(id)) {
-            Log.trace("Invalid ID!");
+            // Log.trace("Invalid ID!");
             return Promise.reject({ code: 404, body: { error: "Invalid ID!" } });
         } else if (dataController.controllerRemoveDataset(id)) {
-            Log.trace("controllerRemoveDataset()");
+            // Log.trace("controllerRemoveDataset()");
             return Promise.resolve({ code: 204, body: { result: "dataset removed" }});
         } else {
             return Promise.reject({ code: 404, body: { error: "Failed to remove dataset!" } });
@@ -109,14 +123,20 @@ export default class InsightFacade implements IInsightFacade {
     }
 
     public performQuery(query: string): Promise<InsightResponse> {
+
+        const queryController = InsightFacade.queryController;
+        if (!queryController.isValidQuery(query)) {
+            return Promise.reject({ code: 400, body: { error: "Invalid query!" } });
+        }
         return Promise.reject({ code: -1, body: null });
     }
 
     public listDatasets(): Promise<InsightResponse> {
         const dataController = InsightFacade.datasetController;
         const insightdatasets = dataController.controllerListDataset();
+        // Log.trace("insightsucessbody " + insightdatasets);
         const insightsucessbody = {result: insightdatasets};
-        // Log.trace("insightsucessbody " + insightsucessbody);
+        Log.trace("insightsucessbody " + JSON.stringify(insightsucessbody));
         return Promise.resolve({ code: 200, body: insightsucessbody });
     }
 }
