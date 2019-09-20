@@ -2,9 +2,9 @@
     "title": "UUID begins 807.1",
     "query": "In courses dataset courses, find entries whose UUID begins with 807.1; show Department and Instructor and Title and UUID and Average and Pass and Fail and Audit; sort in descending order by UUID.",
     "response": {
-        "code": 200,
+        "code": 400,
         "body": {
-            "result": []
+            "error": "Invalid query string"
         }
     }
 }

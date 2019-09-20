@@ -1,7 +1,9 @@
 import Log from "../Util";
 import { IInsightFacade, InsightDataset, InsightResponse, InsightDatasetKind } from "./IInsightFacade";
 import DatasetController from "../controller/DatasetController";
+import IConvertedQuery from "../controller/QueryController";
 import QueryController from "../controller/QueryController";
+import QueryConverter from "../controller/QueryConverter";
 import JSZip = require("jszip");
 import fs = require("fs");
 
@@ -34,7 +36,7 @@ export default class InsightFacade implements IInsightFacade {
             // tslint:disable-next-line:prefer-const
             let datasetExists =  dataController.datasetExists(id);
             if (datasetExists) {
-                Log.trace("datasetController.datasetExists()!");
+                // Log.trace("datasetController.datasetExists()!");
                 reject({ code: 400, body: { error: "Dataset exists!" } });
             }
 
@@ -46,13 +48,13 @@ export default class InsightFacade implements IInsightFacade {
 
                     JSZip.loadAsync(content, {base64: true}).then(async function (zip: JSZip) {
 
-                        const contentFiles = await Object.keys(zip.files);
+                        const contentFiles = Object.keys(zip.files);
                         // if (id === "twoValidcsv" || id === "oneValidcsv" || id === "validCvsOthers" ) {
                         //     Log.trace(id + " " + JSON.stringify(contentFiles) + " contentFiles");
                         // }
                         const isFolderCourses = dataController.isFolderCourses(contentFiles);
                         if (!isFolderCourses) {
-                            Log.trace("datasetController.isValidDataset()");
+                            // Log.trace("datasetController.isValidDataset()");
                             reject({ code: 400,
                                 body: { error: "courses folder not found!" } });
                         }
@@ -85,11 +87,11 @@ export default class InsightFacade implements IInsightFacade {
                             // }
 
                             if (data.length === 0) {
-                                Log.trace("data length " + data.length);
+                                // Log.trace("data length " + data.length);
                                 reject({ code: 400,
                                     body: { error: "Invalid course section!" } });
                             } else {
-                                Log.trace("data length " + data.length);
+                                // Log.trace("data length " + data.length);
                                 dataController.saveDataset( id, kind, data);
                                 fulfill({ code: 204, body: { result: "dataset saved" } });
                             }
@@ -123,12 +125,22 @@ export default class InsightFacade implements IInsightFacade {
     }
 
     public performQuery(query: string): Promise<InsightResponse> {
-
+        let convertQuery: QueryConverter;
         const queryController = InsightFacade.queryController;
-        if (!queryController.isValidQuery(query)) {
+        // if (queryController.inValidString(query)) {
+        //     return Promise.reject({ code: 400, body: { error: "Invalid query!" } });
+        // }
+        try {
+            convertQuery = new QueryConverter();
+            const convertedQuery = convertQuery.convertQuery(query);
+            // Log.trace("convertedQuery " + JSON.stringify(convertedQuery));
+            const result = queryController.query(convertedQuery);
+            return Promise.resolve({ code: 200, body: { result }});
+        } catch (err) {
+            // Log.trace("performQuery " + err);
             return Promise.reject({ code: 400, body: { error: "Invalid query!" } });
         }
-        return Promise.reject({ code: -1, body: null });
+        // return Promise.reject({ code: -1, body: null });
     }
 
     public listDatasets(): Promise<InsightResponse> {
@@ -136,7 +148,7 @@ export default class InsightFacade implements IInsightFacade {
         const insightdatasets = dataController.controllerListDataset();
         // Log.trace("insightsucessbody " + insightdatasets);
         const insightsucessbody = {result: insightdatasets};
-        Log.trace("insightsucessbody " + JSON.stringify(insightsucessbody));
+        // Log.trace("insightsucessbody " + JSON.stringify(insightsucessbody));
         return Promise.resolve({ code: 200, body: insightsucessbody });
     }
 }

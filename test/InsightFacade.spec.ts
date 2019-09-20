@@ -200,6 +200,7 @@ describe("InsightFacade Add/Remove Dataset", function () {
         zeroSection: "./test/data/zeroSection.zip",
         oneValidcsv: "./test/data/oneValidcsv.zip",
         twoValidcsv: "./test/data/twoValidcsv.zip",
+        threeValidcsv: "./test/data/threeValidcsv.zip",
         randomFileGarbage: "./test/data/randomFileGarbage.zip",
         noFolder: "./test/data/noFolder.zip",
         spacetime: "./test/data/space time.zip",
@@ -261,6 +262,211 @@ describe("InsightFacade Add/Remove Dataset", function () {
 
         try {
             response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+        }
+    });
+
+    // it("Should add a second valid dataset", async () => {
+    //     const id1: string = "courses";
+    //     const id2: string = "coursesD1";
+    //     const expectedCode: number = 204;
+    //     let response: InsightResponse;
+
+    //     try {
+    //         response = await insightFacade.addDataset(id1, datasets[id1], InsightDatasetKind.Courses);
+    //     } catch (err) {
+    //         response = err;
+    //     } finally {
+    //         expect(response.code).to.equal(expectedCode);
+    //     }
+
+    //     try {
+    //         response = await insightFacade.addDataset(id2, datasets[id2], InsightDatasetKind.Courses);
+    //     } catch (err) {
+    //         response = err;
+    //     } finally {
+    //         expect(response.code).to.equal(expectedCode);
+    //     }
+    // });
+
+    // it("Should not add first invalid dataset", async () => {
+    //     const id1: string = "coursesNotCSV";
+    //     const id2: string = "coursesD1";
+    //     const expectedCode1: number = 400;
+    //     const expectedCode2: number = 204;
+    //     let response: InsightResponse;
+
+    //     try {
+    //         response = await insightFacade.addDataset(id1, datasets[id1], InsightDatasetKind.Courses);
+    //     } catch (err) {
+    //         response = err;
+    //     } finally {
+    //         expect(response.code).to.equal(expectedCode1);
+    //         expect(response.body).to.contain({error: "Should not add courses not in CSV format"});
+    //     }
+
+    //     try {
+    //         response = await insightFacade.addDataset(id2, datasets[id2], InsightDatasetKind.Courses);
+    //     } catch (err) {
+    //         response = err;
+    //     } finally {
+    //         expect(response.code).to.equal(expectedCode2);
+    //     }
+    // });
+
+    // it("Should not add second invalid dataset", async () => {
+    //     const id1: string = "courses";
+    //     const id2: string = "notZip";
+    //     const expectedCode1: number = 204;
+    //     const expectedCode2: number = 400;
+    //     let response: InsightResponse;
+
+    //     try {
+    //         response = await insightFacade.addDataset(id1, datasets[id1], InsightDatasetKind.Courses);
+    //     } catch (err) {
+    //         response = err;
+    //     } finally {
+    //         expect(response.code).to.equal(expectedCode1);
+    //     }
+
+    //     try {
+    //         response = await insightFacade.addDataset(id2, datasets[id2], InsightDatasetKind.Courses);
+    //     } catch (err) {
+    //         response = err;
+    //     } finally {
+    //         expect(response.code).to.equal(expectedCode2);
+    //         expect(response.body).to.contain({error: "Failed to load zip file!"});
+    //     }
+    // });
+
+    it("Should not add same dataset twice same instance", async () => {
+        const id: string = "courses";
+        const expectedCode: number = 400;
+        let response: InsightResponse;
+
+        try {
+            await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
+            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+            expect(response.body).to.contain({error: "Dataset exists!"});
+        }
+    });
+
+    it("Should not add same dataset twice new instance", async () => {
+        const newInsightFacade = new InsightFacade();
+        const id: string = "courses";
+        const expectedCode: number = 400;
+        let response: InsightResponse;
+
+        try {
+            response = await newInsightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+        }
+    });
+
+    it("Should remove the courses dataset", async () => {
+        const id: string = "courses";
+        const expectedCode: number = 204;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.removeDataset(id);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+        }
+    });
+
+    it("subsequent queries for removed id should fail unless a new addDataset happens first", async () => {
+        const expectedCode: number = 400;
+        let response: InsightResponse;
+
+        try {
+            // tslint:disable-next-line:max-line-length
+            response = await insightFacade.performQuery("In courses dataset courses, find entries whose Average is greater than 98; show UUID.");
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+            expect(response.body).to.contain({error: "Invalid query!"});
+        }
+    });
+
+    it("in new instance, subsequent queries for removed id should fail", async () => {
+        const newInsightFacade = new InsightFacade();
+        const expectedCode: number = 400;
+        let response: InsightResponse;
+
+        try {
+            // tslint:disable-next-line:max-line-length
+            response = await newInsightFacade.performQuery("In courses dataset courses, find entries whose Average is greater than 98; show UUID.");
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+            expect(response.body).to.contain({error: "Invalid query!"});
+        }
+    });
+
+    it("Should be able to add dataset after it was removed", async () => {
+        const id: string = "courses";
+        const expectedCode: number = 204;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+        }
+    });
+
+    it("Should add valid dataset with 2 courses one section", async () => {
+        const id: string = "oneZeroSection";
+        const expectedCode: number = 204;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+        }
+    });
+
+    it("Should not remove dataset if id empty", async () => {
+        const id: string = "";
+        const expectedCode: number = 404;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.removeDataset(id);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+        }
+    });
+
+    it("Should not remove dataset if not found", async () => {
+        const id: string = "notFound";
+        const expectedCode: number = 404;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.removeDataset(id);
         } catch (err) {
             response = err;
         } finally {
@@ -592,6 +798,34 @@ describe("InsightFacade Add/Remove Dataset", function () {
         }
     });
 
+    it("Should add valid dataset with one section", async () => {
+        const id: string = "oneSection";
+        const expectedCode: number = 204;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+        }
+    });
+
+    it("Should add zip with valid csv and other files", async () => {
+        const id: string = "validCvsOthers";
+        const expectedCode: number = 204;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+        }
+    });
+
     it("Should add valid dataset with 2 CSVs", async () => {
         const id: string = "twoValidcsv";
         const expectedCode: number = 204;
@@ -606,8 +840,8 @@ describe("InsightFacade Add/Remove Dataset", function () {
         }
     });
 
-    it("Should add valid dataset with one section", async () => {
-        const id: string = "oneSection";
+    it("Should add valid dataset with 3 CSVs", async () => {
+        const id: string = "threeValidcsv";
         const expectedCode: number = 204;
         let response: InsightResponse;
 
@@ -634,20 +868,6 @@ describe("InsightFacade Add/Remove Dataset", function () {
         }
     });
 
-    it("Should add valid dataset with 2 courses one section", async () => {
-        const id: string = "oneZeroSection";
-        const expectedCode: number = 204;
-        let response: InsightResponse;
-
-        try {
-            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
-        } catch (err) {
-            response = err;
-        } finally {
-            expect(response.code).to.equal(expectedCode);
-        }
-    });
-
     it("subsequent queries for added oneZeroSection should pass", async () => {
         const expectedCode: number = 200;
         let response: InsightResponse;
@@ -662,20 +882,6 @@ describe("InsightFacade Add/Remove Dataset", function () {
         }
     });
 
-    it("Should add zip with valid csv and other files", async () => {
-        const id: string = "validCvsOthers";
-        const expectedCode: number = 204;
-        let response: InsightResponse;
-
-        try {
-            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
-        } catch (err) {
-            response = err;
-        } finally {
-            expect(response.code).to.equal(expectedCode);
-        }
-    });
-
     it("subsequent queries for added validCvsOthers should pass", async () => {
         const expectedCode: number = 200;
         let response: InsightResponse;
@@ -683,169 +889,6 @@ describe("InsightFacade Add/Remove Dataset", function () {
         try {
             // tslint:disable-next-line:max-line-length
             response = await insightFacade.performQuery("In courses dataset validCvsOthers, find all entries; show Department and ID and Average.");
-        } catch (err) {
-            response = err;
-        } finally {
-            expect(response.code).to.equal(expectedCode);
-        }
-    });
-
-    // it("Should add a second valid dataset", async () => {
-    //     const id1: string = "courses";
-    //     const id2: string = "coursesD1";
-    //     const expectedCode: number = 204;
-    //     let response: InsightResponse;
-
-    //     try {
-    //         response = await insightFacade.addDataset(id1, datasets[id1], InsightDatasetKind.Courses);
-    //     } catch (err) {
-    //         response = err;
-    //     } finally {
-    //         expect(response.code).to.equal(expectedCode);
-    //     }
-
-    //     try {
-    //         response = await insightFacade.addDataset(id2, datasets[id2], InsightDatasetKind.Courses);
-    //     } catch (err) {
-    //         response = err;
-    //     } finally {
-    //         expect(response.code).to.equal(expectedCode);
-    //     }
-    // });
-
-    // it("Should not add first invalid dataset", async () => {
-    //     const id1: string = "coursesNotCSV";
-    //     const id2: string = "coursesD1";
-    //     const expectedCode1: number = 400;
-    //     const expectedCode2: number = 204;
-    //     let response: InsightResponse;
-
-    //     try {
-    //         response = await insightFacade.addDataset(id1, datasets[id1], InsightDatasetKind.Courses);
-    //     } catch (err) {
-    //         response = err;
-    //     } finally {
-    //         expect(response.code).to.equal(expectedCode1);
-    //         expect(response.body).to.contain({error: "Should not add courses not in CSV format"});
-    //     }
-
-    //     try {
-    //         response = await insightFacade.addDataset(id2, datasets[id2], InsightDatasetKind.Courses);
-    //     } catch (err) {
-    //         response = err;
-    //     } finally {
-    //         expect(response.code).to.equal(expectedCode2);
-    //     }
-    // });
-
-    // it("Should not add second invalid dataset", async () => {
-    //     const id1: string = "courses";
-    //     const id2: string = "notZip";
-    //     const expectedCode1: number = 204;
-    //     const expectedCode2: number = 400;
-    //     let response: InsightResponse;
-
-    //     try {
-    //         response = await insightFacade.addDataset(id1, datasets[id1], InsightDatasetKind.Courses);
-    //     } catch (err) {
-    //         response = err;
-    //     } finally {
-    //         expect(response.code).to.equal(expectedCode1);
-    //     }
-
-    //     try {
-    //         response = await insightFacade.addDataset(id2, datasets[id2], InsightDatasetKind.Courses);
-    //     } catch (err) {
-    //         response = err;
-    //     } finally {
-    //         expect(response.code).to.equal(expectedCode2);
-    //         expect(response.body).to.contain({error: "Failed to load zip file!"});
-    //     }
-    // });
-
-    it("Should not add same dataset twice same instance", async () => {
-        const id: string = "courses";
-        const expectedCode: number = 400;
-        let response: InsightResponse;
-
-        try {
-            await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
-            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
-        } catch (err) {
-            response = err;
-        } finally {
-            expect(response.code).to.equal(expectedCode);
-            expect(response.body).to.contain({error: "Dataset exists!"});
-        }
-    });
-
-    it("Should not add same dataset twice new instance", async () => {
-        const newInsightFacade = new InsightFacade();
-        const id: string = "courses";
-        const expectedCode: number = 400;
-        let response: InsightResponse;
-
-        try {
-            response = await newInsightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
-        } catch (err) {
-            response = err;
-        } finally {
-            expect(response.code).to.equal(expectedCode);
-        }
-    });
-
-    it("Should remove the courses dataset", async () => {
-        const id: string = "courses";
-        const expectedCode: number = 204;
-        let response: InsightResponse;
-
-        try {
-            response = await insightFacade.removeDataset(id);
-        } catch (err) {
-            response = err;
-        } finally {
-            expect(response.code).to.equal(expectedCode);
-        }
-    });
-
-    it("subsequent queries for removed id should fail unless a new addDataset happens first", async () => {
-        const expectedCode: number = 400;
-        let response: InsightResponse;
-
-        try {
-            // tslint:disable-next-line:max-line-length
-            response = await insightFacade.performQuery("In courses dataset courses, find entries whose Average is greater than 98; show UUID.");
-        } catch (err) {
-            response = err;
-        } finally {
-            expect(response.code).to.equal(expectedCode);
-            expect(response.body).to.contain({error: "dataset not found"});
-        }
-    });
-
-    it("in new instance, subsequent queries for removed id should fail", async () => {
-        const newInsightFacade = new InsightFacade();
-        const expectedCode: number = 400;
-        let response: InsightResponse;
-
-        try {
-            // tslint:disable-next-line:max-line-length
-            response = await newInsightFacade.performQuery("In courses dataset courses, find entries whose Average is greater than 98; show UUID.");
-        } catch (err) {
-            response = err;
-        } finally {
-            expect(response.code).to.equal(expectedCode);
-            expect(response.body).to.contain({error: "dataset not found"});
-        }
-    });
-
-    it("Should be able to add dataset after it was removed", async () => {
-        const id: string = "courses";
-        const expectedCode: number = 204;
-        let response: InsightResponse;
-
-        try {
-            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Courses);
         } catch (err) {
             response = err;
         } finally {
@@ -910,34 +953,6 @@ describe("InsightFacade Add/Remove Dataset", function () {
     //         expect(response.code).to.equal(expectedCode);
     //     }
     // });
-
-    it("Should not remove dataset if id empty", async () => {
-        const id: string = "";
-        const expectedCode: number = 404;
-        let response: InsightResponse;
-
-        try {
-            response = await insightFacade.removeDataset(id);
-        } catch (err) {
-            response = err;
-        } finally {
-            expect(response.code).to.equal(expectedCode);
-        }
-    });
-
-    it("Should not remove dataset if not found", async () => {
-        const id: string = "notFound";
-        const expectedCode: number = 404;
-        let response: InsightResponse;
-
-        try {
-            response = await insightFacade.removeDataset(id);
-        } catch (err) {
-            response = err;
-        } finally {
-            expect(response.code).to.equal(expectedCode);
-        }
-    });
 
     // it("Should remove selected datasets", async () => {
     //     const id1: string = "courses";

@@ -1,21 +1,19 @@
 {
     "title": "SELECT dprtmnt, instrctr, ttl, uuid, avg, pss, fl, adt WHERE UUID is '11111'",
-    "query": "In courses dataset courses, find entries whose UUID is \"11111\"; show courses_dept, courses_id, courses_instructor, courses_title, courses_uuid, courses_avg, courses_pass and courses_fail.",
+    "query": "In courses dataset courses, find entries whose UUID is \"11111\"; show Department, ID, Instructor, Title, UUID, Average, Pass and Fail.",
     "response": {
         "code": 200,
         "body": {
-            "result": [
-                {
-                  "courses_dept": "busi",
-                  "courses_id": "354",
-                  "courses_instructor": "",
-                  "courses_title": "cost accounting",
-                  "courses_uuid": "11111",
-                  "courses_avg": 71.54,
-                  "courses_pass": 246,
-                  "courses_fail": 17
-                }
-              ]
+            "result": [{
+                "courses_dept": "busi",
+                "courses_id": "354",
+                "courses_instructor": "",
+                "courses_title": "cost accounting",
+                "courses_uuid": "11111",
+                "courses_avg": 71.54,
+                "courses_pass": 246,
+                "courses_fail": 17
+            }]
         }
     }
 }

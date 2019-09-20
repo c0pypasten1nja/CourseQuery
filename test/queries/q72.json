@@ -1,236 +1,235 @@
 {
     "title": "SELECT dprtmnt, instrctr, ttl, uuid, avg, pss, fl, adt WHERE avg > 88.88",
-    "query": "In courses dataset courses, find entries whose Average is greater than 88.88 and Department is \"cpsc\" and Instructor includes \",\"; show courses_dept, courses_instructor, courses_title, courses_uuid, courses_avg, courses_pass and courses_fail; sort in descending order by courses_avg.",
+    "query": "In courses dataset courses, find entries whose Average is greater than 88.88 and Department is \"cpsc\" and Instructor includes \",\"; show Department, Instructor, Title, UUID, Average, Pass and Fail; sort in descending order by Average.",
     "response": {
         "code": 200,
         "body": {
-            "result": [
-                {
-                  "courses_dept": "cpsc",
-                  "courses_instructor": "carenini, giuseppe",
-                  "courses_title": "computl ling 1",
-                  "courses_uuid": "90607",
-                  "courses_avg": 94.5,
-                  "courses_pass": 6,
-                  "courses_fail": 0
+            "result": [{
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "carenini, giuseppe",
+                    "courses_title": "computl ling 1",
+                    "courses_uuid": "90607",
+                    "courses_avg": 94.5,
+                    "courses_pass": 6,
+                    "courses_fail": 0
                 },
                 {
-                  "courses_dept": "cpsc",
-                  "courses_instructor": "friedman, joel",
-                  "courses_title": "thry of automata",
-                  "courses_uuid": "90603",
-                  "courses_avg": 94,
-                  "courses_pass": 5,
-                  "courses_fail": 0
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "friedman, joel",
+                    "courses_title": "thry of automata",
+                    "courses_uuid": "90603",
+                    "courses_avg": 94,
+                    "courses_pass": 5,
+                    "courses_fail": 0
                 },
                 {
-                  "courses_dept": "cpsc",
-                  "courses_instructor": "knorr, edwin max",
-                  "courses_title": "honours thesis",
-                  "courses_uuid": "61186",
-                  "courses_avg": 93.5,
-                  "courses_pass": 6,
-                  "courses_fail": 0
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "knorr, edwin max",
+                    "courses_title": "honours thesis",
+                    "courses_uuid": "61186",
+                    "courses_avg": 93.5,
+                    "courses_pass": 6,
+                    "courses_fail": 0
                 },
                 {
-                  "courses_dept": "cpsc",
-                  "courses_instructor": "tsiknis, georgios",
-                  "courses_title": "honours thesis",
-                  "courses_uuid": "49956",
-                  "courses_avg": 93.38,
-                  "courses_pass": 8,
-                  "courses_fail": 0
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "tsiknis, georgios",
+                    "courses_title": "honours thesis",
+                    "courses_uuid": "49956",
+                    "courses_avg": 93.38,
+                    "courses_pass": 8,
+                    "courses_fail": 0
                 },
                 {
-                  "courses_dept": "cpsc",
-                  "courses_instructor": "harvey, nicholas",
-                  "courses_title": "thry of automata",
-                  "courses_uuid": "83495",
-                  "courses_avg": 92.75,
-                  "courses_pass": 8,
-                  "courses_fail": 0
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "harvey, nicholas",
+                    "courses_title": "thry of automata",
+                    "courses_uuid": "83495",
+                    "courses_avg": 92.75,
+                    "courses_pass": 8,
+                    "courses_fail": 0
                 },
                 {
-                  "courses_dept": "cpsc",
-                  "courses_instructor": "knorr, edwin max",
-                  "courses_title": "honours thesis",
-                  "courses_uuid": "46756",
-                  "courses_avg": 92.63,
-                  "courses_pass": 8,
-                  "courses_fail": 0
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "knorr, edwin max",
+                    "courses_title": "honours thesis",
+                    "courses_uuid": "46756",
+                    "courses_avg": 92.63,
+                    "courses_pass": 8,
+                    "courses_fail": 0
                 },
                 {
-                  "courses_dept": "cpsc",
-                  "courses_instructor": "tsiknis, georgios",
-                  "courses_title": "honours thesis",
-                  "courses_uuid": "83491",
-                  "courses_avg": 92.5,
-                  "courses_pass": 6,
-                  "courses_fail": 0
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "tsiknis, georgios",
+                    "courses_title": "honours thesis",
+                    "courses_uuid": "83491",
+                    "courses_avg": 92.5,
+                    "courses_pass": 6,
+                    "courses_fail": 0
                 },
                 {
-                  "courses_dept": "cpsc",
-                  "courses_instructor": "friedman, joel",
-                  "courses_title": "thry of automata",
-                  "courses_uuid": "46762",
-                  "courses_avg": 92.43,
-                  "courses_pass": 7,
-                  "courses_fail": 0
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "friedman, joel",
+                    "courses_title": "thry of automata",
+                    "courses_uuid": "46762",
+                    "courses_avg": 92.43,
+                    "courses_pass": 7,
+                    "courses_fail": 0
                 },
                 {
-                  "courses_dept": "cpsc",
-                  "courses_instructor": "wolfman, steven",
-                  "courses_title": "student seminar",
-                  "courses_uuid": "72424",
-                  "courses_avg": 92,
-                  "courses_pass": 6,
-                  "courses_fail": 0
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "wolfman, steven",
+                    "courses_title": "student seminar",
+                    "courses_uuid": "72424",
+                    "courses_avg": 92,
+                    "courses_pass": 6,
+                    "courses_fail": 0
                 },
                 {
-                  "courses_dept": "cpsc",
-                  "courses_instructor": "wohlstadter, eric",
-                  "courses_title": "software eng",
-                  "courses_uuid": "49966",
-                  "courses_avg": 91.79,
-                  "courses_pass": 19,
-                  "courses_fail": 0
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "wohlstadter, eric",
+                    "courses_title": "software eng",
+                    "courses_uuid": "49966",
+                    "courses_avg": 91.79,
+                    "courses_pass": 19,
+                    "courses_fail": 0
                 },
                 {
-                  "courses_dept": "cpsc",
-                  "courses_instructor": "hoos, holger",
-                  "courses_title": "alg in bioin",
-                  "courses_uuid": "61179",
-                  "courses_avg": 91.25,
-                  "courses_pass": 16,
-                  "courses_fail": 0
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "hoos, holger",
+                    "courses_title": "alg in bioin",
+                    "courses_uuid": "61179",
+                    "courses_avg": 91.25,
+                    "courses_pass": 16,
+                    "courses_fail": 0
                 },
                 {
-                  "courses_dept": "cpsc",
-                  "courses_instructor": "schmidt, mark",
-                  "courses_title": "machine learn i",
-                  "courses_uuid": "1376",
-                  "courses_avg": 91.22,
-                  "courses_pass": 54,
-                  "courses_fail": 0
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "schmidt, mark",
+                    "courses_title": "machine learn i",
+                    "courses_uuid": "1376",
+                    "courses_avg": 91.22,
+                    "courses_pass": 54,
+                    "courses_fail": 0
                 },
                 {
-                  "courses_dept": "cpsc",
-                  "courses_instructor": "beschastnikh, ivan",
-                  "courses_title": "comp comm protcl",
-                  "courses_uuid": "62468",
-                  "courses_avg": 91.22,
-                  "courses_pass": 9,
-                  "courses_fail": 0
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "beschastnikh, ivan",
+                    "courses_title": "comp comm protcl",
+                    "courses_uuid": "62468",
+                    "courses_avg": 91.22,
+                    "courses_pass": 9,
+                    "courses_fail": 0
                 },
                 {
-                  "courses_dept": "cpsc",
-                  "courses_instructor": "friedman, joel",
-                  "courses_title": "thry of automata",
-                  "courses_uuid": "72428",
-                  "courses_avg": 91,
-                  "courses_pass": 4,
-                  "courses_fail": 0
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "friedman, joel",
+                    "courses_title": "thry of automata",
+                    "courses_uuid": "72428",
+                    "courses_avg": 91,
+                    "courses_pass": 4,
+                    "courses_fail": 0
                 },
                 {
-                  "courses_dept": "cpsc",
-                  "courses_instructor": "poole, david",
-                  "courses_title": "artif intell 2",
-                  "courses_uuid": "83519",
-                  "courses_avg": 90.71,
-                  "courses_pass": 7,
-                  "courses_fail": 0
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "poole, david",
+                    "courses_title": "artif intell 2",
+                    "courses_uuid": "83519",
+                    "courses_avg": 90.71,
+                    "courses_pass": 7,
+                    "courses_fail": 0
                 },
                 {
-                  "courses_dept": "cpsc",
-                  "courses_instructor": "schmidt, mark",
-                  "courses_title": "machine learn i",
-                  "courses_uuid": "62474",
-                  "courses_avg": 90.53,
-                  "courses_pass": 59,
-                  "courses_fail": 0
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "schmidt, mark",
+                    "courses_title": "machine learn i",
+                    "courses_uuid": "62474",
+                    "courses_avg": 90.53,
+                    "courses_pass": 59,
+                    "courses_fail": 0
                 },
                 {
-                  "courses_dept": "cpsc",
-                  "courses_instructor": "tsiknis, georgios",
-                  "courses_title": "honours thesis",
-                  "courses_uuid": "62446",
-                  "courses_avg": 90.25,
-                  "courses_pass": 4,
-                  "courses_fail": 0
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "tsiknis, georgios",
+                    "courses_title": "honours thesis",
+                    "courses_uuid": "62446",
+                    "courses_avg": 90.25,
+                    "courses_pass": 4,
+                    "courses_fail": 0
                 },
                 {
-                  "courses_dept": "cpsc",
-                  "courses_instructor": "krasic, charles",
-                  "courses_title": "comp comm protcl",
-                  "courses_uuid": "90629",
-                  "courses_avg": 90.11,
-                  "courses_pass": 9,
-                  "courses_fail": 0
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "krasic, charles",
+                    "courses_title": "comp comm protcl",
+                    "courses_uuid": "90629",
+                    "courses_avg": 90.11,
+                    "courses_pass": 9,
+                    "courses_fail": 0
                 },
                 {
-                  "courses_dept": "cpsc",
-                  "courses_instructor": "maclean, karon",
-                  "courses_title": "phy user intfc",
-                  "courses_uuid": "72467",
-                  "courses_avg": 89.75,
-                  "courses_pass": 4,
-                  "courses_fail": 0
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "maclean, karon",
+                    "courses_title": "phy user intfc",
+                    "courses_uuid": "72467",
+                    "courses_avg": 89.75,
+                    "courses_pass": 4,
+                    "courses_fail": 0
                 },
                 {
-                  "courses_dept": "cpsc",
-                  "courses_instructor": "carenini, giuseppe",
-                  "courses_title": "computl ling 1",
-                  "courses_uuid": "62456",
-                  "courses_avg": 89.47,
-                  "courses_pass": 19,
-                  "courses_fail": 0
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "carenini, giuseppe",
+                    "courses_title": "computl ling 1",
+                    "courses_uuid": "62456",
+                    "courses_avg": 89.47,
+                    "courses_pass": 19,
+                    "courses_fail": 0
                 },
                 {
-                  "courses_dept": "cpsc",
-                  "courses_instructor": "wohlstadter, eric",
-                  "courses_title": "software eng",
-                  "courses_uuid": "61200",
-                  "courses_avg": 89.17,
-                  "courses_pass": 12,
-                  "courses_fail": 0
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "wohlstadter, eric",
+                    "courses_title": "software eng",
+                    "courses_uuid": "61200",
+                    "courses_avg": 89.17,
+                    "courses_pass": 12,
+                    "courses_fail": 0
                 },
                 {
-                  "courses_dept": "cpsc",
-                  "courses_instructor": "carenini, giuseppe",
-                  "courses_title": "computl ling 1",
-                  "courses_uuid": "46766",
-                  "courses_avg": 89.1,
-                  "courses_pass": 10,
-                  "courses_fail": 0
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "carenini, giuseppe",
+                    "courses_title": "computl ling 1",
+                    "courses_uuid": "46766",
+                    "courses_avg": 89.1,
+                    "courses_pass": 10,
+                    "courses_fail": 0
                 },
                 {
-                  "courses_dept": "cpsc",
-                  "courses_instructor": "hu, alan",
-                  "courses_title": "intgrt sys desgn",
-                  "courses_uuid": "72442",
-                  "courses_avg": 89.09,
-                  "courses_pass": 11,
-                  "courses_fail": 0
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "hu, alan",
+                    "courses_title": "intgrt sys desgn",
+                    "courses_uuid": "72442",
+                    "courses_avg": 89.09,
+                    "courses_pass": 11,
+                    "courses_fail": 0
                 },
                 {
-                  "courses_dept": "cpsc",
-                  "courses_instructor": "allen, meghan",
-                  "courses_title": "student seminar",
-                  "courses_uuid": "46758",
-                  "courses_avg": 89,
-                  "courses_pass": 15,
-                  "courses_fail": 0
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "allen, meghan",
+                    "courses_title": "student seminar",
+                    "courses_uuid": "46758",
+                    "courses_avg": 89,
+                    "courses_pass": 15,
+                    "courses_fail": 0
                 },
                 {
-                  "courses_dept": "cpsc",
-                  "courses_instructor": "holmes, reid",
-                  "courses_title": "software eng",
-                  "courses_uuid": "62458",
-                  "courses_avg": 89,
-                  "courses_pass": 7,
-                  "courses_fail": 0
+                    "courses_dept": "cpsc",
+                    "courses_instructor": "holmes, reid",
+                    "courses_title": "software eng",
+                    "courses_uuid": "62458",
+                    "courses_avg": 89,
+                    "courses_pass": 7,
+                    "courses_fail": 0
                 }
-              ]
+            ]
         }
     }
 }

@@ -9,7 +9,7 @@ export default class DatasetController {
     private datasetlist: Map<string, InsightDataset>;
 
     constructor() {
-        Log.trace("DatasetController::init()");
+        // Log.trace("DatasetController::init()");
         this.datasets = new Map<string, object[]>();
         this.datasetlist = new Map<string, InsightDataset>();
     }
@@ -56,9 +56,9 @@ export default class DatasetController {
         const result: any = [];
         const headers = lines[0].split("|");
         const section = [];
-        if (id === "twoValidcsv") {
-            Log.trace(id  + " headers " + headers);
-        }
+        // if (id === "twoValidcsv") {
+        //     Log.trace(id  + " headers " + headers);
+        // }
         for (let h = 0; h < headers.length; h++) {
             if (headers[h] === "Title") {
                 section[h] = id + "_title";
@@ -98,20 +98,24 @@ export default class DatasetController {
         if (lines.length > 2) {
             for (let i = 1; i < lines.length; i++) {
 
-                const obj: Record<string, string | number> = {};
+                const obj: any = {};
 
                 const currentline = lines[i].split("|");
 
                 for (let j = 0; j < section.length; j++) {
                     if (currentline.length > 1) {
-                        if (section[j] === id + "_title" || id + "_uuid" || id + "_instructor"
-                        || id + "_id" || id + "_dept") {
+                        if (section[j] === id + "_title" || section[j] === id + "_uuid" ||
+                        section[j] === id + "_instructor" || section[j] === id + "_id"
+                        || section[j] === id + "_dept") {
                             obj[section[j]] = currentline[j].trim() as string;
                         } else {
                             if (currentline[j] === "overall") {
                                 currentline[j] = 1900;
                             }
-                            obj[section[j]] = currentline[j].trim() as number;
+                            obj[section[j]] = Number(currentline[j].trim());
+                            // if (id === "twoValidcsv") {
+                            //     Log.trace("currentline[j].trim() as number " + obj[section[j]]);
+                            // }
                         }
                     }
                 }
@@ -119,7 +123,15 @@ export default class DatasetController {
                     result.push(obj);
                 }
             }
+            // if (id === "twoValidcsv") {
+                // const num = currentline[j].trim() as number;
+            //     Log.trace("result " + JSON.stringify(result));
+            // }
         }
+
+        // if (result.length < 10) {
+        //     Log.trace("result " + JSON.stringify(result));
+        // }
         return result;
     }
 
@@ -129,7 +141,7 @@ export default class DatasetController {
         this.datasets.set(id, data);
 
         const dataset: InsightDataset = {id, kind, numRows: data.length};
-        Log.trace(JSON.stringify(dataset) + " dataset");
+        // Log.trace(JSON.stringify(dataset) + " dataset");
         this.datasetlist.set(id, dataset);
 
         try {
@@ -166,24 +178,24 @@ export default class DatasetController {
         let datasetUnlinked  = true;
 
         if (this.datasets.delete(id) || !this.datasets.has(id)) {
-            Log.trace(id + " deleted from datasets");
+            // Log.trace(id + " deleted from datasets");
             datasetsDeleted = true;
         }
 
         if (this.datasetlist.delete(id) || !this.datasetlist.has(id)) {
-            Log.trace(id + " deleted from datasetlist");
+            // Log.trace(id + " deleted from datasetlist");
             datasetlistDeleted = true;
         }
 
         try {
             fs.unlinkSync(datasettodelete);
         } catch (err) {
-            Log.trace(err + " datasettodeletetest");
+            // Log.trace(err + " datasettodeletetest");
             datasetUnlinked = false;
         }
 
         if (datasetUnlinked && !fs.existsSync(datasettodelete)) {
-            Log.trace(datasettodelete + " deleted");
+            // Log.trace(datasettodelete + " deleted");
             datasetDeleted = true;
         }
 
@@ -191,6 +203,15 @@ export default class DatasetController {
             return true;
         }
 
+    }
+
+    public getDataset(id: string) {
+
+        if (this.datasets.has(id)) {
+            return this.datasets.get(id);
+        } else if (fs.existsSync("./data/" + id + ".json")) {
+            return JSON.parse(fs.readFileSync("./data/" + id + ".json", "utf8"));
+        }
     }
 
 }
