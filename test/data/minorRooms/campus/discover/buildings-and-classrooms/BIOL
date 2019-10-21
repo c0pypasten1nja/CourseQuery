@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="BIOL" address="6270 University Boulevard" name="Biological Sciences">
+  <rooms>
+    <room number="1503">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/BIOL-1503"/>
+      <space seats="16" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="2000">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/BIOL-2000"/>
+      <space seats="228" furniture="Classroom-Fixed Tablets" type="Tiered Large Group"/>
+    </room>
+    <room number="2200">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/BIOL-2200"/>
+      <space seats="76" furniture="Classroom-Fixed Tables/Movable Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="2519">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/BIOL-2519"/>
+      <space seats="16" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+  </rooms>
+</building>

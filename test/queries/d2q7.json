@@ -1,0 +1,110 @@
+{
+    "title": "grouped by Full Name, where avgSeats is the AVG of Seats",
+    "query": "In rooms dataset rooms grouped by Full Name, find entries whose Type is \"Tiered Large Group\" and Seats is greater than 100; show Full Name and avgSeats, where avgSeats is the AVG of Seats; sort in descending order by Full Name and avgSeats.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [{
+                    "rooms_fullname": "Woodward (Instructional Resources Centre-IRC)",
+                    "avgSeats": 208.8
+                },
+                {
+                    "rooms_fullname": "West Mall Swing Space",
+                    "avgSeats": 188.75
+                },
+                {
+                    "rooms_fullname": "Wesbrook",
+                    "avgSeats": 213.5
+                },
+                {
+                    "rooms_fullname": "Pharmaceutical Sciences Building",
+                    "avgSeats": 201.5
+                },
+                {
+                    "rooms_fullname": "Neville Scarfe",
+                    "avgSeats": 280
+                },
+                {
+                    "rooms_fullname": "Mathematics Annex",
+                    "avgSeats": 106
+                },
+                {
+                    "rooms_fullname": "Mathematics",
+                    "avgSeats": 224
+                },
+                {
+                    "rooms_fullname": "MacMillan",
+                    "avgSeats": 200
+                },
+                {
+                    "rooms_fullname": "MacLeod",
+                    "avgSeats": 129.5
+                },
+                {
+                    "rooms_fullname": "Life Sciences Centre",
+                    "avgSeats": 275
+                },
+                {
+                    "rooms_fullname": "Leonard S. Klinck (also known as CSCI)",
+                    "avgSeats": 194
+                },
+                {
+                    "rooms_fullname": "Irving K Barber Learning Centre",
+                    "avgSeats": 154
+                },
+                {
+                    "rooms_fullname": "Hugh Dempster Pavilion",
+                    "avgSeats": 140
+                },
+                {
+                    "rooms_fullname": "Henry Angus",
+                    "avgSeats": 260
+                },
+                {
+                    "rooms_fullname": "Hennings",
+                    "avgSeats": 187.33
+                },
+                {
+                    "rooms_fullname": "Hebb",
+                    "avgSeats": 375
+                },
+                {
+                    "rooms_fullname": "Geography",
+                    "avgSeats": 225
+                },
+                {
+                    "rooms_fullname": "Friedman Building",
+                    "avgSeats": 160
+                },
+                {
+                    "rooms_fullname": "Forest Sciences Centre",
+                    "avgSeats": 250
+                },
+                {
+                    "rooms_fullname": "Earth Sciences Building",
+                    "avgSeats": 250
+                },
+                {
+                    "rooms_fullname": "Chemistry",
+                    "avgSeats": 183.25
+                },
+                {
+                    "rooms_fullname": "Chemical and Biological Engineering Building",
+                    "avgSeats": 200
+                },
+                {
+                    "rooms_fullname": "Centre for Interactive  Research on Sustainability",
+                    "avgSeats": 426
+                },
+                {
+                    "rooms_fullname": "Biological Sciences",
+                    "avgSeats": 228
+                },
+                {
+                    "rooms_fullname": "Aquatic Ecosystems Research Laboratory",
+                    "avgSeats": 144
+                }
+            ]
+        }
+    }
+}

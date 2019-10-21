@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="SCRF" address="2125 Main Mall" name="Neville Scarfe">
+  <rooms>
+    <room number="100">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SCRF-100"/>
+      <space seats="280" furniture="Classroom-Fixed Tablets" type="Tiered Large Group"/>
+    </room>
+    <room number="1003">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SCRF-1003"/>
+      <space seats="40" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="1004">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SCRF-1004"/>
+      <space seats="40" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="1005">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SCRF-1005"/>
+      <space seats="40" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="1020">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SCRF-1020"/>
+      <space seats="24" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="1021">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SCRF-1021"/>
+      <space seats="20" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="1022">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SCRF-1022"/>
+      <space seats="20" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="1023">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SCRF-1023"/>
+      <space seats="20" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="1024">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SCRF-1024"/>
+      <space seats="20" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="1328">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SCRF-1328"/>
+      <space seats="38" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="200">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SCRF-200"/>
+      <space seats="40" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="201">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SCRF-201"/>
+      <space seats="40" furniture="Classroom-Moveable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="202">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SCRF-202"/>
+      <space seats="40" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="203">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SCRF-203"/>
+      <space seats="40" furniture="Classroom-Moveable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="204">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SCRF-204"/>
+      <space seats="40" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="204A">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SCRF-204A"/>
+      <space seats="24" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="205">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SCRF-205"/>
+      <space seats="34" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="206">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SCRF-206"/>
+      <space seats="40" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="207">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SCRF-207"/>
+      <space seats="40" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="208">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SCRF-208"/>
+      <space seats="40" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="209">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SCRF-209"/>
+      <space seats="60" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="210">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SCRF-210"/>
+      <space seats="24" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+  </rooms>
+</building>

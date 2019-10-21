@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="AERL" address="2202 Main Mall" name="Aquatic Ecosystems Research Laboratory">
+  <rooms>
+    <room number="120">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/AERL-120"/>
+      <space seats="144" furniture="Classroom-Fixed Tablets" type="Tiered Large Group"/>
+    </room>
+  </rooms>
+</building>

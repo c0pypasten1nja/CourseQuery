@@ -1,0 +1,10 @@
+{
+    "title": "'SORT' - Any keys provided must be in the COLUMNS.",
+    "query": "In rooms dataset rooms, find entries whose Seats is greater than 200; show Seats and Address; sort in descending order by Address and Full Name and Furniture and maxSeats and minSeats.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}

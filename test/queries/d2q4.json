@@ -1,0 +1,115 @@
+{
+    "title": "grouped by Department and Title, where maxPass is the MAX of Pass",
+    "query": "In courses dataset courses grouped by Department and Title, find entries whose Average is greater than 90 and Pass is not less than 100; show Title and Department and maxPass, where maxPass is the MAX of Pass; sort in ascending order by Title and Department and maxPass.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [{
+                    "courses_dept": "phar",
+                    "courses_title": "admn of injectns",
+                    "maxPass": 220
+                },
+                {
+                    "courses_dept": "phar",
+                    "courses_title": "biophys pharm i",
+                    "maxPass": 155
+                },
+                {
+                    "courses_dept": "edcp",
+                    "courses_title": "curric iss&thry",
+                    "maxPass": 102
+                },
+                {
+                    "courses_dept": "etec",
+                    "courses_title": "des tech",
+                    "maxPass": 102
+                },
+                {
+                    "courses_dept": "civl",
+                    "courses_title": "desig & analys 2",
+                    "maxPass": 140
+                },
+                {
+                    "courses_dept": "epse",
+                    "courses_title": "ed st dvl ds inc",
+                    "maxPass": 115
+                },
+                {
+                    "courses_dept": "epse",
+                    "courses_title": "educ stds autism",
+                    "maxPass": 185
+                },
+                {
+                    "courses_dept": "musc",
+                    "courses_title": "hist poplr music",
+                    "maxPass": 148
+                },
+                {
+                    "courses_dept": "cons",
+                    "courses_title": "intro to conserv",
+                    "maxPass": 137
+                },
+                {
+                    "courses_dept": "nurs",
+                    "courses_title": "ldrshp ethcs pol",
+                    "maxPass": 116
+                },
+                {
+                    "courses_dept": "nurs",
+                    "courses_title": "ldrshp, ethics",
+                    "maxPass": 120
+                },
+                {
+                    "courses_dept": "civl",
+                    "courses_title": "opt&dcs anl civl",
+                    "maxPass": 132
+                },
+                {
+                    "courses_dept": "phar",
+                    "courses_title": "pharm mgmt",
+                    "maxPass": 220
+                },
+                {
+                    "courses_dept": "phar",
+                    "courses_title": "pharmacokinetics",
+                    "maxPass": 152
+                },
+                {
+                    "courses_dept": "phrm",
+                    "courses_title": "phrm in practc 1",
+                    "maxPass": 218
+                },
+                {
+                    "courses_dept": "nurs",
+                    "courses_title": "practice praxis",
+                    "maxPass": 116
+                },
+                {
+                    "courses_dept": "cnps",
+                    "courses_title": "psnl soc dv adlt",
+                    "maxPass": 214
+                },
+                {
+                    "courses_dept": "educ",
+                    "courses_title": "res mthd in educ",
+                    "maxPass": 137
+                },
+                {
+                    "courses_dept": "nurs",
+                    "courses_title": "rl div hlth expr",
+                    "maxPass": 118
+                },
+                {
+                    "courses_dept": "phrm",
+                    "courses_title": "tech in hlthcare",
+                    "maxPass": 218
+                },
+                {
+                    "courses_dept": "epse",
+                    "courses_title": "typ atyp inf/ch",
+                    "maxPass": 139
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="ANGU" address="2053 Main Mall" name="Henry Angus">
+  <rooms>
+    <room number="037">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANGU-037"/>
+      <space seats="54" furniture="Classroom-Fixed Tables/Movable Chairs" type="Case Style"/>
+    </room>
+    <room number="039">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANGU-039"/>
+      <space seats="54" furniture="Classroom-Fixed Tables/Movable Chairs" type="Case Style"/>
+    </room>
+    <room number="098">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANGU-098"/>
+      <space seats="260" furniture="Classroom-Fixed Tables/Movable Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="232">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANGU-232"/>
+      <space seats="16" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="234">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANGU-234"/>
+      <space seats="60" furniture="Classroom-Fixed Tables/Movable Chairs" type="Case Style"/>
+    </room>
+    <room number="235">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANGU-235"/>
+      <space seats="41" furniture="Classroom-Fixed Tables/Movable Chairs" type="Case Style"/>
+    </room>
+    <room number="237">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANGU-237"/>
+      <space seats="41" furniture="Classroom-Fixed Tables/Movable Chairs" type="Case Style"/>
+    </room>
+    <room number="241">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANGU-241"/>
+      <space seats="70" furniture="Classroom-Fixed Tables/Movable Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="243">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANGU-243"/>
+      <space seats="68" furniture="Classroom-Fixed Tables/Movable Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="254">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANGU-254"/>
+      <space seats="80" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="291">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANGU-291"/>
+      <space seats="54" furniture="Classroom-Fixed Tables/Movable Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="292">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANGU-292"/>
+      <space seats="35" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="293">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANGU-293"/>
+      <space seats="32" furniture="Classroom-Movable Tables + Chairs" type="TBD"/>
+    </room>
+    <room number="295">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANGU-295"/>
+      <space seats="54" furniture="Classroom-Fixed Tables/Movable Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="296">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANGU-296"/>
+      <space seats="37" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="332">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANGU-332"/>
+      <space seats="16" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="334">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANGU-334"/>
+      <space seats="60" furniture="Classroom-Fixed Tables/Movable Chairs" type="Case Style"/>
+    </room>
+    <room number="335">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANGU-335"/>
+      <space seats="41" furniture="Classroom-Fixed Tables/Movable Chairs" type="Case Style"/>
+    </room>
+    <room number="339">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANGU-339"/>
+      <space seats="20" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="343">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANGU-343"/>
+      <space seats="68" furniture="Classroom-Fixed Tables/Movable Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="345">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANGU-345"/>
+      <space seats="68" furniture="Classroom-Fixed Tables/Movable Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="347">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANGU-347"/>
+      <space seats="70" furniture="Classroom-Fixed Tables/Movable Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="350">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANGU-350"/>
+      <space seats="58" furniture="Classroom-Fixed Tables/Movable Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="354">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANGU-354"/>
+      <space seats="44" furniture="Classroom-Fixed Tables/Movable Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="432">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANGU-432"/>
+      <space seats="16" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="434">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANGU-434"/>
+      <space seats="44" furniture="Classroom-Fixed Tables/Movable Chairs" type="Case Style"/>
+    </room>
+    <room number="435">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANGU-435"/>
+      <space seats="53" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="437">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANGU-437"/>
+      <space seats="32" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+  </rooms>
+</building>

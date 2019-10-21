@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="IBLC" address="1961 East Mall V6T 1Z1" name="Irving K Barber Learning Centre">
+  <rooms>
+    <room number="155">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/IBLC-155"/>
+      <space seats="50" furniture="Classroom-Fixed Tables/Movable Chairs" type="Case Style"/>
+    </room>
+    <room number="156">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/IBLC-156"/>
+      <space seats="24" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="157">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/IBLC-157"/>
+      <space seats="24" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="158">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/IBLC-158"/>
+      <space seats="24" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="182">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/IBLC-182"/>
+      <space seats="154" furniture="Classroom-Fixed Tables/Fixed Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="185">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/IBLC-185"/>
+      <space seats="40" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="191">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/IBLC-191"/>
+      <space seats="24" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="192">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/IBLC-192"/>
+      <space seats="8" furniture="Classroom-Moveable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="193">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/IBLC-193"/>
+      <space seats="8" furniture="Classroom-Moveable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="194">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/IBLC-194"/>
+      <space seats="8" furniture="Classroom-Moveable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="195">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/IBLC-195"/>
+      <space seats="8" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="261">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/IBLC-261"/>
+      <space seats="112" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="263">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/IBLC-263"/>
+      <space seats="8" furniture="Classroom-Moveable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="264">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/IBLC-264"/>
+      <space seats="12" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="265">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/IBLC-265"/>
+      <space seats="10" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="266">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/IBLC-266"/>
+      <space seats="8" furniture="Classroom-Moveable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="460">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/IBLC-460"/>
+      <space seats="16" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="461">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/IBLC-461"/>
+      <space seats="30" furniture="Classroom-Movable Tablets" type="Small Group"/>
+    </room>
+  </rooms>
+</building>

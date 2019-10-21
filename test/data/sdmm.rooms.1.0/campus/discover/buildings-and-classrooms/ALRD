@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="ALRD" address="1822 East Mall" name="Allard Hall (LAW)">
+  <rooms>
+    <room number="105">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ALRD-105"/>
+      <space seats="94" furniture="Classroom-Fixed Tables/Movable Chairs" type="Case Style"/>
+    </room>
+    <room number="112">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ALRD-112"/>
+      <space seats="20" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="113">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ALRD-113"/>
+      <space seats="20" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="121">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ALRD-121"/>
+      <space seats="50" furniture="Classroom-Fixed Tables/Movable Chairs" type="Case Style"/>
+    </room>
+    <room number="B101">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ALRD-B101"/>
+      <space seats="44" furniture="Classroom-Fixed Tables/Movable Chairs" type="Open Design General Purpose"/>
+    </room>
+  </rooms>
+</building>

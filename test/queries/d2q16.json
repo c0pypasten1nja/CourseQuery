@@ -1,0 +1,86 @@
+{
+    "title": "courses grouped by Title",
+    "query": "In courses dataset courses grouped by Title, find entries whose Average is greater than 80 and Pass is not less than 300; show Title and minPass and avgGrade, where minPass is the MIN of Pass and avgGrade is the AVG of Average; sort in ascending order by Title.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [{
+                    "courses_title": "biology of cell",
+                    "minPass": 306,
+                    "avgGrade": 82.11
+                },
+                {
+                    "courses_title": "eng mtls lab",
+                    "minPass": 300,
+                    "avgGrade": 82.28
+                },
+                {
+                    "courses_title": "exprmnt phys lab",
+                    "minPass": 302,
+                    "avgGrade": 83.86
+                },
+                {
+                    "courses_title": "fund of biostats",
+                    "minPass": 452,
+                    "avgGrade": 80.06
+                },
+                {
+                    "courses_title": "fund physiology",
+                    "minPass": 456,
+                    "avgGrade": 80.27
+                },
+                {
+                    "courses_title": "gold & gems",
+                    "minPass": 312,
+                    "avgGrade": 81.15
+                },
+                {
+                    "courses_title": "intr lang&ling",
+                    "minPass": 381,
+                    "avgGrade": 80.04
+                },
+                {
+                    "courses_title": "intr writ nw med",
+                    "minPass": 317,
+                    "avgGrade": 83.61
+                },
+                {
+                    "courses_title": "intro phys lab",
+                    "minPass": 777,
+                    "avgGrade": 80.43
+                },
+                {
+                    "courses_title": "intro to eng i",
+                    "minPass": 810,
+                    "avgGrade": 80.78
+                },
+                {
+                    "courses_title": "intro to physio",
+                    "minPass": 335,
+                    "avgGrade": 80.36
+                },
+                {
+                    "courses_title": "lab inv life sc",
+                    "minPass": 544,
+                    "avgGrade": 80.92
+                },
+                {
+                    "courses_title": "lnd,fod&comm i",
+                    "minPass": 317,
+                    "avgGrade": 81.18
+                },
+                {
+                    "courses_title": "prof eng practce",
+                    "minPass": 335,
+                    "avgGrade": 82.57
+                },
+                {
+                    "courses_title": "tech terms medic",
+                    "minPass": 346,
+                    "avgGrade": 81.68
+                }
+            ]
+        }
+
+    }
+}

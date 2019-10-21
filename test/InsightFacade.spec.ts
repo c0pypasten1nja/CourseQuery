@@ -212,6 +212,8 @@ describe("InsightFacade Add/Remove Dataset", function () {
         oneZeroSection: "./test/data/oneZeroSection.zip",
         validCvsOthers: "./test/data/validCvsOthers.zip",
         _: "./test/data/_.zip",
+        rooms: "./test/data/rooms.zip",
+        minorRooms: "./test/data/minorRooms.zip",
     };
 
     let insightFacade: InsightFacade;
@@ -854,6 +856,34 @@ describe("InsightFacade Add/Remove Dataset", function () {
         }
     });
 
+    it("Should add valid minorRooms dataset", async () => {
+        const id: string = "minorRooms";
+        const expectedCode: number = 204;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Rooms);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+        }
+    });
+
+    it("Should add valid rooms dataset", async () => {
+        const id: string = "rooms";
+        const expectedCode: number = 204;
+        let response: InsightResponse;
+
+        try {
+            response = await insightFacade.addDataset(id, datasets[id], InsightDatasetKind.Rooms);
+        } catch (err) {
+            response = err;
+        } finally {
+            expect(response.code).to.equal(expectedCode);
+        }
+    });
+
     it("subsequent queries for added oneSection should pass", async () => {
         const expectedCode: number = 200;
         let response: InsightResponse;
@@ -1073,6 +1103,8 @@ describe("InsightFacade PerformQuery", () => {
     const datasetsToQuery: { [id: string]: string } = {
         courses: "./test/data/courses.zip",
         oneValidcsv: "./test/data/oneValidcsv.zip",
+        minorRooms: "./test/data/minorRooms.zip",
+        rooms: "./test/data/rooms.zip",
     };
     let insightFacade: InsightFacade;
     let testQueries: ITestQuery[] = [];

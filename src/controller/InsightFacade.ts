@@ -5,7 +5,10 @@ import IConvertedQuery from "../controller/QueryController";
 import QueryController from "../controller/QueryController";
 import QueryConverter from "../controller/QueryConverter";
 import JSZip = require("jszip");
+import parse5 = require("parse5");
 import fs = require("fs");
+import { doesNotReject } from "assert";
+import { resolve } from "path";
 
 /**
  * This is the main programmatic entry point for the project.
@@ -101,11 +104,162 @@ export default class InsightFacade implements IInsightFacade {
                             body: { error: "Failed to load zip file!" } });
                         return;
                     });
-                }
-            } catch (err) {
+                } else if (kind === InsightDatasetKind.Rooms && !InvalidID && !datasetExists) {
+
+                    const arrayFilePromise: any[]  = [];
+                    const arrayRoomPromise: any[]  = [];
+
+                    JSZip.loadAsync(content, {base64: true}).then(async function (zip: JSZip) {
+
+                        const indexXml = await zip.file("index.xml").async("text").then().catch((err) => {
+                            Log.trace("indexXml.err " + err);
+                            reject({ code: 400,
+                                body: { error: "index not found!" } });
+                        });
+
+                        const paths = dataController.getBuildingsPath(indexXml);
+
+                        for (const path of paths) {
+
+                            const roomfile = await zip.file(path).async("text");
+                            // const roomsPromise = await dataController.processRooms(id, roomfile);
+                            // Log.trace("roomsPromise " + JSON.stringify(roomsPromise));
+                            arrayFilePromise.push(roomfile);
+                            // if (Object.keys(roomsPromise).length !== 0) {
+                            //     data = data.concat(roomsPromise);
+                            //     // data.push(roomsPromise[0]);
+                            // }
+                        }
+
+                        // if (data.length === 0) {
+                        //     // Log.trace("file.name " + file.name);
+                        //     Log.trace("data length " + data.length);
+                        //     reject({ code: 400,
+                        //         body: { error: "Invalid rooms!" } });
+                        //     // dataController.saveDataset( id, kind, data);
+                        //     // fulfill({ code: 204, body: { result: "dataset saved" } });
+                        // } else {
+                        //     Log.trace("data length " + data.length);
+                        //     dataController.saveDataset( id, kind, data);
+                        //     fulfill({ code: 204, body: { result: "dataset saved" } });
+                        // }
+
+                        Promise.all(arrayFilePromise).then( function (arrayContent) {
+                            arrayContent.forEach( async function (contentData) {
+                                const roomsPromise = await dataController.processRooms(id, contentData);
+                                // Log.trace("roomsPromise " + JSON.stringify(roomsPromise));
+
+                                if (Object.keys(roomsPromise).length !== 0) {
+                                    data = data.concat(roomsPromise);
+                                    // data.push(roomsPromise[0]);
+                                    // return data;
+                                }
+                                arrayRoomPromise.push(roomsPromise);
+                                Promise.all(arrayRoomPromise).then( function () {
+                                    // Log.trace("roomJson " + JSON.stringify(roomJson));
+                                    // if (Object.keys(arrayContent).length !== 0) {
+                                    //     data = data.concat(roomsPromise);
+                                    // }
+                                });
+                                if (data.length !== 0) {
+                                    // Log.trace("file.name " + file.name);
+                                    // Log.trace("data length " + data.length);
+                                    dataController.saveDataset( id, kind, data);
+                                    fulfill({ code: 204, body: { result: "dataset saved" } });
+                                    // reject({ code: 400,
+                                    //     body: { error: "Invalid rooms!" } });
+                                // } else {
+                                //     Log.trace("data length " + data.length);
+                                //     dataController.saveDataset( id, kind, data);
+                                //     fulfill({ code: 204, body: { result: "dataset saved" } });
+                                }
+                            });
+                            // if (data.length === 0) {
+                            //     // Log.trace("file.name " + file.name);
+                            //     Log.trace("data length " + data.length);
+                            //     // reject({ code: 400,
+                            //     //     body: { error: "Invalid rooms!" } });
+                            // } else {
+                            //     Log.trace("data length " + data.length);
+                            //     dataController.saveDataset( id, kind, data);
+                            //     fulfill({ code: 204, body: { result: "dataset saved" } });
+                            // }
+                        });
+
+                        // zip.forEach(async function (relativePath, file: JSZip.JSZipObject) {
+
+                        //     if (paths.indexOf(file.name) >= 0) {
+                                // Log.trace("file.name " + file.name);
+                                // const roomfile = await file.async("text");
+
+                                // const roomsPromise = await dataController.processRooms(id, roomfile);
+                                // Log.trace("roomsPromise " + JSON.stringify(roomsPromise));
+                                // arrayRoomPromise.push(roomsPromise);
+                                // if (Object.keys(roomsPromise).length !== 0) {
+                                //     data = data.concat(roomsPromise);
+                                    // data.push(roomsPromise[0]);
+                            //     }
+                            // }
+                            // Log.trace("roomJsons " + JSON.stringify(roomJsons));
+                            // return Promise.resolve(roomJsons);
+                            // if (data.length === 0) {
+                            //     Log.trace("file.name " + file.name);
+                            //     Log.trace("data length " + data.length);
+                                // reject({ code: 400,
+                                //     body: { error: "Invalid rooms!" } });
+                                // dataController.saveDataset( id, kind, data);
+                                // fulfill({ code: 204, body: { result: "dataset saved" } });
+                            // } else {
+                            //     Log.trace("data length " + data.length);
+                            //     dataController.saveDataset( id, kind, data);
+                            //     fulfill({ code: 204, body: { result: "dataset saved" } });
+                            // }
+                        // });
+
+                            // Promise.all(arrayRoomPromise).then( function (arrayContent) {
+                            //     // arrayContent.forEach( async function (contentData) {
+                            //         // Log.trace("contentData " + JSON.stringify(contentData));
+                            //         // const roomJson = await dataController.processRooms(id, contentData);
+                            //         // arrayRoomPromise.push(roompromise);
+                            //         // Log.trace("roomJson " + JSON.stringify(roomJson));
+                            //         // Promise.all(arrayRoomPromise).then( function (arrayRoom) {
+                            //         //     arrayRoom.forEach( function (roomData) {
+                            //             // Log.trace("roomData " + JSON.stringify(roomData));
+                            //         if (Object.keys(arrayContent).length !== 0) {
+                            //             // Log.trace("roomData " + Object.keys(roomData).length);
+                            // //             // data.push(fileJson);
+                            //             // data = data.concat(arrayContent);
+                            //             data.push(arrayContent);
+                            //         }
+                            //     // });
+
+                            //         if (data.length === 0) {
+                            //             Log.trace("data length " + data.length);
+                            //             // reject({ code: 400,
+                            //             //     body: { error: "Invalid rooms!" } });
+                            //             // dataController.saveDataset( id, kind, data);
+                            //             // fulfill({ code: 204, body: { result: "dataset saved" } });
+                            //         } else {
+                            //             Log.trace("data length " + data.length);
+                            //             dataController.saveDataset( id, kind, data);
+                            //             fulfill({ code: 204, body: { result: "dataset saved" } });
+                            //         }
+                            //         //     });
+                            //         // });
+
+                            //     });
+                            // });
+                }).catch(function (err) {
                     reject({ code: 400,
                         body: { error: "Failed to load zip file!" } });
-                }
+                    return;
+                });
+
+            }
+        } catch (err) {
+                reject({ code: 400,
+                    body: { error: "Failed to load zip file!" } });
+            }
         });
     }
 

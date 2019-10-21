@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="FRDM" address="2177 Wesbrook Mall V6T 1Z3" name="Friedman Building">
+  <rooms>
+    <room number="153">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/FRDM-153"/>
+      <space seats="160" furniture="Classroom-Fixed Tables/Movable Chairs" type="Tiered Large Group"/>
+    </room>
+  </rooms>
+</building>

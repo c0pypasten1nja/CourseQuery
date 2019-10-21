@@ -1,0 +1,92 @@
+{
+    "title": "dataset rooms, Full Name",
+    "query": "In rooms dataset rooms, find entries whose Full Name includes \"Engineering\"; show Address, Short Name, Number, Type, Furniture, Link and Seats; sort in ascending order by Seats.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [{
+                    "rooms_address": "6250 Applied Science Lane",
+                    "rooms_shortname": "CEME",
+                    "rooms_number": "1210",
+                    "rooms_type": "Small Group",
+                    "rooms_furniture": "Classroom-Movable Tables + Chairs",
+                    "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/CEME-1210",
+                    "rooms_seats": 22
+                },
+                {
+                    "rooms_address": "6250 Applied Science Lane",
+                    "rooms_shortname": "CEME",
+                    "rooms_number": "1206",
+                    "rooms_type": "Small Group",
+                    "rooms_furniture": "Classroom-Movable Tables + Chairs",
+                    "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/CEME-1206",
+                    "rooms_seats": 26
+                },
+                {
+                    "rooms_address": "6250 Applied Science Lane",
+                    "rooms_shortname": "CEME",
+                    "rooms_number": "1212",
+                    "rooms_type": "Case Style",
+                    "rooms_furniture": "Classroom-Fixed Tables/Movable Chairs",
+                    "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/CEME-1212",
+                    "rooms_seats": 34
+                },
+                {
+                    "rooms_address": "6250 Applied Science Lane",
+                    "rooms_shortname": "CEME",
+                    "rooms_number": "1215",
+                    "rooms_type": "Case Style",
+                    "rooms_furniture": "Classroom-Fixed Tables/Movable Chairs",
+                    "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/CEME-1215",
+                    "rooms_seats": 45
+                },
+                {
+                    "rooms_address": "2360 East Mall V6T 1Z3",
+                    "rooms_shortname": "CHBE",
+                    "rooms_number": "103",
+                    "rooms_type": "Open Design General Purpose",
+                    "rooms_furniture": "Classroom-Movable Tables + Chairs",
+                    "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/CHBE-103",
+                    "rooms_seats": 60
+                },
+                {
+                    "rooms_address": "6250 Applied Science Lane",
+                    "rooms_shortname": "CEME",
+                    "rooms_number": "1204",
+                    "rooms_type": "Case Style",
+                    "rooms_furniture": "Classroom-Fixed Tables/Movable Chairs",
+                    "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/CEME-1204",
+                    "rooms_seats": 62
+                },
+                {
+                    "rooms_address": "2360 East Mall V6T 1Z3",
+                    "rooms_shortname": "CHBE",
+                    "rooms_number": "102",
+                    "rooms_type": "Tiered Large Group",
+                    "rooms_furniture": "Classroom-Fixed Tables/Movable Chairs",
+                    "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/CHBE-102",
+                    "rooms_seats": 94
+                },
+                {
+                    "rooms_address": "6250 Applied Science Lane",
+                    "rooms_shortname": "CEME",
+                    "rooms_number": "1202",
+                    "rooms_type": "Tiered Large Group",
+                    "rooms_furniture": "Classroom-Fixed Tables/Fixed Chairs",
+                    "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/CEME-1202",
+                    "rooms_seats": 100
+                },
+                {
+                    "rooms_address": "2360 East Mall V6T 1Z3",
+                    "rooms_shortname": "CHBE",
+                    "rooms_number": "101",
+                    "rooms_type": "Tiered Large Group",
+                    "rooms_furniture": "Classroom-Fixed Tables/Movable Chairs",
+                    "rooms_href": "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/CHBE-101",
+                    "rooms_seats": 200
+                }
+            ]
+        }
+
+    }
+}

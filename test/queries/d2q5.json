@@ -1,0 +1,10 @@
+{
+    "title": "APPLY keys are not allowed to contain the _ character",
+    "query": "In courses dataset courses grouped by Department and Title, find entries whose Average is greater than 90 and Pass is not less than 100; show Title and Department and minPass, where min_Pass is the MIN of Pass; sort in ascending order by Department and Title.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}

@@ -16,5 +16,6 @@
             ],
             "url": "/test/query.schema.json"
         }
-    ]
+    ],
+    "terminal.integrated.scrollback": 9999
 }

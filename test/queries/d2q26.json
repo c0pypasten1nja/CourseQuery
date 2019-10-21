@@ -1,0 +1,43 @@
+{
+    "title": "WHERE is completely independent of GROUP/APPLY",
+    "query": "In courses dataset courses, find entries whose Average is greater than 80 and Pass is not less than 500; show Title, where minPass is the MIN of Pass and avgGrade is the AVG of Average; sort in ascending order by Title.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [{
+                    "courses_title": "biology of cell"
+                },
+                {
+                    "courses_title": "gold & gems"
+                },
+                {
+                    "courses_title": "gold & gems"
+                },
+                {
+                    "courses_title": "intro phys lab"
+                },
+                {
+                    "courses_title": "intro to eng i"
+                },
+                {
+                    "courses_title": "lab inv life sc"
+                },
+                {
+                    "courses_title": "lab inv life sc"
+                },
+                {
+                    "courses_title": "lab inv life sc"
+                },
+                {
+                    "courses_title": "prof eng practce"
+                },
+                {
+                    "courses_title": "prof eng practce"
+                },
+                {
+                    "courses_title": "prof eng practce"
+                }
+            ]
+        }
+    }
+}

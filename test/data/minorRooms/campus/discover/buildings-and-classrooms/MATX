@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="MATX" address="1986 Mathematics Road" name="Mathematics Annex">
+  <rooms>
+    <room number="1100">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MATX-1100"/>
+      <space seats="106" furniture="Classroom-Fixed Tablets" type="Tiered Large Group"/>
+    </room>
+  </rooms>
+</building>

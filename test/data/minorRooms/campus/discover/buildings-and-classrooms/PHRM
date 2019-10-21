@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="PHRM" address="2405 Wesbrook Mall" name="Pharmaceutical Sciences Building">
+  <rooms>
+    <room number="1101">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/PHRM-1101"/>
+      <space seats="236" furniture="Classroom-Fixed Tables/Movable Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="1201">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/PHRM-1201"/>
+      <space seats="167" furniture="Classroom-Fixed Tables/Movable Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="3112">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/PHRM-3112"/>
+      <space seats="7" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="3114">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/PHRM-3114"/>
+      <space seats="7" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="3115">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/PHRM-3115"/>
+      <space seats="7" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="3116">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/PHRM-3116"/>
+      <space seats="14" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="3118">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/PHRM-3118"/>
+      <space seats="7" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="3120">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/PHRM-3120"/>
+      <space seats="7" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="3122">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/PHRM-3122"/>
+      <space seats="7" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="3124">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/PHRM-3124"/>
+      <space seats="7" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="3208">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/PHRM-3208"/>
+      <space seats="72" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+  </rooms>
+</building>

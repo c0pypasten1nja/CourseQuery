@@ -1,0 +1,19 @@
+{
+    "title": "minorRooms grouped by Short Name",
+    "query": "In rooms dataset minorRooms grouped by Short Name, find all entries; show Short Name; sort in ascending order by Short Name.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [{
+                    "minorRooms_shortname": "AERL"
+                },
+                {
+                    "minorRooms_shortname": "ALRD"
+                },
+                {
+                    "minorRooms_shortname": "ANSO"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="CIRS" address="2260 West Mall, V6T 1Z4" name="Centre for Interactive  Research on Sustainability">
+  <rooms>
+    <room number="1250">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/CIRS-1250"/>
+      <space seats="426" furniture="Classroom-Fixed Tablets" type="Tiered Large Group"/>
+    </room>
+  </rooms>
+</building>
