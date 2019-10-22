@@ -1,14 +1,9 @@
 import Log from "../Util";
-import { IInsightFacade, InsightDataset, InsightResponse, InsightDatasetKind } from "./IInsightFacade";
+import { IInsightFacade, InsightResponse, InsightDatasetKind } from "./IInsightFacade";
 import DatasetController from "../controller/DatasetController";
-import IConvertedQuery from "../controller/QueryController";
 import QueryController from "../controller/QueryController";
 import QueryConverter from "../controller/QueryConverter";
 import JSZip = require("jszip");
-import parse5 = require("parse5");
-import fs = require("fs");
-import { doesNotReject } from "assert";
-import { resolve } from "path";
 
 /**
  * This is the main programmatic entry point for the project.
@@ -99,7 +94,7 @@ export default class InsightFacade implements IInsightFacade {
                                 fulfill({ code: 204, body: { result: "dataset saved" } });
                             }
                         });
-                    }).catch(function (err) {
+                    }).catch(function () {
                         reject({ code: 400,
                             body: { error: "Failed to load zip file!" } });
                         return;
@@ -249,7 +244,7 @@ export default class InsightFacade implements IInsightFacade {
 
                             //     });
                             // });
-                }).catch(function (err) {
+                }).catch(function () {
                     reject({ code: 400,
                         body: { error: "Failed to load zip file!" } });
                     return;
