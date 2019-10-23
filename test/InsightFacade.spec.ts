@@ -4,7 +4,6 @@ import { InsightResponse, InsightResponseSuccessBody, InsightDatasetKind } from 
 import InsightFacade from "../src/controller/InsightFacade";
 import Log from "../src/Util";
 import TestUtil from "./TestUtil";
-import * as fs from "fs";
 
 // This should match the JSON schema described in test/query.schema.json
 // except 'filename' which is injected when the file is read.
