@@ -102,7 +102,6 @@ export default class InsightFacade implements IInsightFacade {
                 } else if (kind === InsightDatasetKind.Rooms && !InvalidID && !datasetExists) {
 
                     const arrayFilePromise: any[]  = [];
-                    const arrayRoomPromise: any[]  = [];
 
                     JSZip.loadAsync(content, {base64: true}).then(async function (zip: JSZip) {
 
@@ -140,27 +139,25 @@ export default class InsightFacade implements IInsightFacade {
                         // }
 
                         Promise.all(arrayFilePromise).then( function (arrayContent) {
+                            let itemsProcessed = 0;
+                            // Log.trace("arrayContent length 144 " + arrayContent.length);
                             arrayContent.forEach( async function (contentData) {
                                 const roomsPromise = await dataController.processRooms(id, contentData);
                                 // Log.trace("roomsPromise " + JSON.stringify(roomsPromise));
-
+                                itemsProcessed++;
+                                // if (Object.keys(roomsPromise).length !== 0) {
+                                //     data = data.concat(roomsPromise);
+                                //     // data.push(roomsPromise[0]);
+                                //     // return data;
+                                // }
                                 if (Object.keys(roomsPromise).length !== 0) {
                                     data = data.concat(roomsPromise);
-                                    // data.push(roomsPromise[0]);
-                                    // return data;
                                 }
-                                arrayRoomPromise.push(roomsPromise);
-                                Promise.all(arrayRoomPromise).then( function () {
-                                    // Log.trace("roomJson " + JSON.stringify(roomJson));
-                                    // if (Object.keys(arrayContent).length !== 0) {
-                                    //     data = data.concat(roomsPromise);
-                                    // }
-                                });
                                 if (data.length !== 0) {
                                     // Log.trace("file.name " + file.name);
-                                    // Log.trace("data length " + data.length);
+                                    // Log.trace("data length 179 " + data.length);
                                     dataController.saveDataset( id, kind, data);
-                                    fulfill({ code: 204, body: { result: "dataset saved" } });
+                                    // fulfill({ code: 204, body: { result: "dataset saved" } });
                                     // reject({ code: 400,
                                     //     body: { error: "Invalid rooms!" } });
                                 // } else {
@@ -168,6 +165,18 @@ export default class InsightFacade implements IInsightFacade {
                                 //     dataController.saveDataset( id, kind, data);
                                 //     fulfill({ code: 204, body: { result: "dataset saved" } });
                                 }
+                                if (itemsProcessed === arrayContent.length) {
+                                    // Log.trace("arrayContent length 170 " + arrayContent.length);
+                                    // dataController.saveDataset( id, kind, data);
+                                    fulfill({ code: 204, body: { result: "dataset saved" } });
+                                }
+                                // Promise.all(arrayRoomPromise).then( function () {
+                                    // Log.trace("roomJson " + JSON.stringify(roomJson));
+                                    // if (Object.keys(arrayContent).length !== 0) {
+                                    //     data = data.concat(roomsPromise);
+                                    // }
+                                // });
+
                             });
                             // if (data.length === 0) {
                             //     // Log.trace("file.name " + file.name);
