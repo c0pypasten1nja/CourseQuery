@@ -48,9 +48,9 @@ export default class QueryConverter {
 
         const numericToken = ["MAX", "MIN", "AVG", "SUM"];
 
-        const queryFirstComma = query.indexOf(",");
-        const queryDataset = query.slice(0, queryFirstComma);
-        const queryExDataset = query.slice(queryFirstComma);
+        const queryFilterPreFix = query.indexOf("find ") - 2;
+        const queryDataset = query.slice(0, queryFilterPreFix);
+        const queryExDataset = query.slice(queryFilterPreFix);
         const queryFirstSemi = queryExDataset.indexOf(";");
         const queryFilter = queryExDataset.slice(2, queryFirstSemi);
         const queryLastChar = query.slice(-1);
@@ -132,11 +132,12 @@ export default class QueryConverter {
 
         if ((orderAscPreFixPos >= 0) && (grpdKys.length < 1) && (queryExDataset.indexOf(aggrgtnPrFx) < 0)) {
             queryDisplay = queryExDataset.slice(queryFirstSemi + 2, orderAscPreFixPos - 2);
+            // Log.trace("queryDisplay 135 " + queryDisplay);
             orderAscKeyArr = queryExDataset.slice(orderAscPreFixPos + orderAscPreFix.length, queryExDataset.length - 1)
             .split(/ and |, /).map((e: { trim: () => void; }) => e.trim() );
         } else if ((orderAscPreFixPos >= 0) && (grpdKys.length < 1) && (queryExDataset.indexOf(aggrgtnPrFx) > -1)) {
             queryDisplay = queryExDataset.slice(queryFirstSemi + 2, queryExDataset.indexOf(aggrgtnPrFx));
-            Log.trace("queryDisplay " + queryDisplay);
+            // Log.trace("queryDisplay 140 " + queryDisplay);
             orderAscKeyArr = queryExDataset.slice(orderAscPreFixPos + orderAscPreFix.length, queryExDataset.length - 1)
             .split(/ and |, /).map((e: { trim: () => void; }) => e.trim() );
         } else if ((orderAscPreFixPos >= 0) && (grpdKys.length > 0) && (queryExDataset.indexOf(aggrgtnPrFx) > -1)) {
@@ -150,14 +151,17 @@ export default class QueryConverter {
             // Log.trace("qDsplyGrp.slice(0, qDsplyGrp.indexOf(aggrgtnPrFx)) "
             // + qDsplyGrp.slice(0, qDsplyGrp.indexOf(aggrgtnPrFx)));
             queryDisplay = qDsplyGrp.slice(0, qDsplyGrp.indexOf(aggrgtnPrFx));
+            // Log.trace("queryDisplay 154 " + queryDisplay);
             orderAscKeyArr = queryExDataset.slice(orderAscPreFixPos + orderAscPreFix.length, queryExDataset.length - 1)
             .split(/ and |, /).map((e: { trim: () => void; }) => e.trim() );
         }  else if ((orderAscPreFixPos >= 0) && (grpdKys.length > 0) && (queryExDataset.indexOf(aggrgtnPrFx) < 0)) {
             queryDisplay = queryExDataset.slice(queryFirstSemi + 2, orderAscPreFixPos - 2);
+            // Log.trace("queryDisplay 159 " + queryDisplay);
             orderAscKeyArr = queryExDataset.slice(orderAscPreFixPos + orderAscPreFix.length, queryExDataset.length - 1)
             .split(/ and |, /).map((e: { trim: () => void; }) => e.trim() );
         } else if (orderDscPreFixPos >= 0 && (grpdKys.length < 1)) {
             queryDisplay = queryExDataset.slice(queryFirstSemi + 2, orderDscPreFixPos - 2);
+            // Log.trace("queryDisplay 163 " + queryDisplay);
             orderDscKeyArr = queryExDataset.slice(orderDscPreFixPos + orderDscPreFix.length, queryExDataset.length - 1)
             .split(/ and |, /).map((e: { trim: () => void; }) => e.trim() );
         }  else if (orderDscPreFixPos >= 0 && (grpdKys.length > 0) && (queryExDataset.indexOf(aggrgtnPrFx) > -1)) {
@@ -171,14 +175,26 @@ export default class QueryConverter {
             // Log.trace("qDsplyGrp.slice(0, qDsplyGrp.indexOf(aggrgtnPrFx))) "
             // + qDsplyGrp.slice(0, qDsplyGrp.indexOf(aggrgtnPrFx)));
             queryDisplay = qDsplyGrp.slice(0, qDsplyGrp.indexOf(aggrgtnPrFx));
+            // Log.trace("queryDisplay 178 " + queryDisplay);
             orderDscKeyArr = queryExDataset.slice(orderDscPreFixPos + orderDscPreFix.length, queryExDataset.length - 1)
             .split(/ and |, /).map((e: { trim: () => void; }) => e.trim() );
         }   else if ((orderDscPreFixPos >= 0) && (grpdKys.length > 0) && (queryExDataset.indexOf(aggrgtnPrFx) < 0)) {
             queryDisplay = queryExDataset.slice(queryFirstSemi + 2, orderDscPreFixPos - 2);
+            // Log.trace("queryDisplay 183 " + queryDisplay);
             orderDscKeyArr = queryExDataset.slice(orderDscPreFixPos + orderDscPreFix.length, queryExDataset.length - 1)
             .split(/ and |, /).map((e: { trim: () => void; }) => e.trim() );
+        } else if ((orderAscPreFixPos < 0) && (orderDscPreFixPos < 0) && (queryExDataset.indexOf(aggrgtnPrFx) > -1)) {
+            queryDisplay = queryExDataset.slice(queryFirstSemi + 2, queryExDataset.indexOf(aggrgtnPrFx));
+            // Log.trace("queryDisplay 188 " + queryDisplay);
+            // Log.trace("queryExDataset.indexOf(aggrgtnPrFx) 189 " + queryExDataset.indexOf(aggrgtnPrFx));
+            aggDffArr = queryExDataset.slice(queryExDataset.indexOf(aggrgtnPrFx) + aggrgtnPrFx.length,
+            queryExDataset.length - 1)
+            .split(/ and |, /).map((e: { trim: () => void; }) => e.trim() );
+            Log.trace("aggDffArr 192 " + aggDffArr);
         } else {
             queryDisplay = queryExDataset.slice(queryFirstSemi + 2);
+            // Log.trace("queryDisplay 192 " + queryDisplay);
+            // Log.trace("queryExDataset.indexOf(aggrgtnPrFx) 193 " + queryExDataset.indexOf(aggrgtnPrFx));
         }
 
         if (grpdKys.length > 0) {
@@ -208,38 +224,45 @@ export default class QueryConverter {
 
         const applyArr: any[] = [];
         const aggKeyArr = [];
+        const alreadySeen: any = [];
 
         if (aggDffArr.length > 0) {
             for (const aggDff of aggDffArr) {
-                // Log.trace("aggDff " + aggDff);
+                Log.trace("aggDff " + aggDff);
                 const aggKey = aggDff.split(" is the ")[0].trim();
                 if (reserved.indexOf(aggKey) >= 0) {
                     throw new Error("Invalid query string");
+                }
+                if (alreadySeen[aggKey]) {
+                    Log.trace("alreadySeen[aggDff] " + JSON.stringify(alreadySeen));
+                    throw new Error("Invalid query string");
+                } else {
+                    alreadySeen[aggKey] = true;
                 }
                 const aggToken = aggDff.split(" is the ")[1].split(" of ")[0].trim();
                 const aggTarget = aggDff.split(" of ")[1].trim();
                 const a: any = {};
                 a[aggKey] = {};
                 if (this.mKeyArrayCourses.hasOwnProperty(aggTarget) && (qCoursesID !== "")
-                && (numericToken.indexOf(aggToken) > -1 )) {
+                && ((numericToken.indexOf(aggToken) > -1 ) || (aggToken === "COUNT" ))) {
                     const aggTargetLabel = qCoursesID + "_" + this.mKeyArrayCourses[aggTarget].label;
                     // Log.trace("aggTargetLabel " + aggTargetLabel);
                     a[aggKey][aggToken] = aggTargetLabel;
                     aggKeyArr.push(aggKey);
                 } else if (this.sKeyArrayCourses.hasOwnProperty(aggTarget) && (qCoursesID !== "")
-                && (numericToken.indexOf(aggToken) < 0 )) {
+                && (aggToken === "COUNT" )) {
                     const aggTargetLabel = qCoursesID + "_" + this.sKeyArrayCourses[aggTarget].label;
                     // Log.trace("aggTargetLabel " + aggTargetLabel);
                     a[aggKey][aggToken] = aggTargetLabel;
                     aggKeyArr.push(aggKey);
                 } else if (this.mKeyArrayRooms.hasOwnProperty(aggTarget) && (qRoomsID !== "")
-                && (numericToken.indexOf(aggToken) > -1 )) {
+                && ((numericToken.indexOf(aggToken) > -1 ) || (aggToken === "COUNT" ))) {
                     const aggTargetLabel = qRoomsID + "_" + this.mKeyArrayRooms[aggTarget].label;
                     // Log.trace("aggTargetLabel " + aggTargetLabel);
                     a[aggKey][aggToken] = aggTargetLabel;
                     aggKeyArr.push(aggKey);
                 } else if (this.sKeyArrayRooms.hasOwnProperty(aggTarget) && (qRoomsID !== "")
-                && (numericToken.indexOf(aggToken) < 0 )) {
+                && (aggToken === "COUNT" )) {
                     const aggTargetLabel = qRoomsID + "_" + this.sKeyArrayRooms[aggTarget].label;
                     // Log.trace("aggTargetLabel " + aggTargetLabel);
                     a[aggKey][aggToken] = aggTargetLabel;
@@ -316,7 +339,7 @@ export default class QueryConverter {
                     // Log.trace("dscKeyLabel " + dscKeyLabel);
                     oKeyArrkeys.push(dscKeyLabel);
                 } else {
-                    Log.trace("aggKeyArr.indexOf(dscKey.trim()) " + aggKeyArr.indexOf(dscKey.trim()));
+                    // Log.trace("aggKeyArr.indexOf(dscKey.trim()) " + aggKeyArr.indexOf(dscKey.trim()));
                     Log.trace("Invalid dscKey " + dscKey);
                     throw new Error("Invalid Order Key!");
                 }
@@ -341,7 +364,7 @@ export default class QueryConverter {
         }
 
         const FILTER = this.parseFilter(queryFilter, qCoursesID, qRoomsID);
-        const DISPLAY = this.parseDisplay(queryDisplay, qCoursesID, qRoomsID, aggKeyArr);
+        const DISPLAY = this.parseDisplay(queryDisplay, qCoursesID, qRoomsID, aggKeyArr, grpdKys);
         const ORDER: any = oKeyArr;
         const GROUP: any = grpdKysArr;
         const APPLY: any = applyArr;
@@ -380,7 +403,7 @@ export default class QueryConverter {
                 throw new Error("Invalid Query!");
             }
         } else {
-            Log.trace("parseFilter err 338");
+            Log.trace("parseFilter err 338 "  + queryFilter);
             throw new Error("Invalid Query!");
         }
 
@@ -395,7 +418,7 @@ export default class QueryConverter {
 
     }
 
-    public parseDisplay(queryDisplay: string, qCoursesID: string, qRoomsID: string, aggKeyArr: any) {
+    public parseDisplay(queryDisplay: string, qCoursesID: string, qRoomsID: string, aggKeyArr: any, grpdKys: any) {
         queryDisplay = queryDisplay.toString();
         if (queryDisplay[queryDisplay.length - 1] === ".") {
             queryDisplay = queryDisplay.slice(0, -1);
@@ -403,10 +426,17 @@ export default class QueryConverter {
         const displayKey = queryDisplay.split("show")[1].split(/,| and /).map((e) =>
          e.trim()).filter((e) => e !== "");
         // Log.trace("displayKey " + displayKey);
-        // Log.trace("qRoomsID " + qRoomsID);
+        // Log.trace("grpdKys " + JSON.stringify(grpdKys));
         let dKey: string = "";
         const dKeyArr: any[] = [];
         for (dKey of displayKey) {
+            if ((aggKeyArr.length > 0) || (grpdKys.length > 0)) {
+                if ((aggKeyArr.indexOf(dKey) < 0) && (grpdKys.indexOf(dKey) < 0)) {
+                    Log.trace("dKey not in aggKeyArr || grpdKysArr " + dKey);
+                    Log.trace("aggKeyArr " + aggKeyArr);
+                    throw new Error("Invalid Display Key!");
+                }
+            }
             if (this.mKeyArrayCourses.hasOwnProperty(dKey) && (qCoursesID.length > 0)) {
                 const dKeyLabel = qCoursesID + "_" + this.mKeyArrayCourses[dKey].label;
                 // Log.trace("dKeyLabel " + dKeyLabel);

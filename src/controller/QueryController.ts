@@ -206,6 +206,7 @@ export default class QueryController {
             let isAgrrKey: boolean = false;
             if (okey.includes("_")) {
                 okeySplit = okey.split("_")[1];
+            } else {
                 isAgrrKey = true;
             }
             // Log.trace("okeySplit " + JSON.stringify(okeySplit));
@@ -357,6 +358,9 @@ export default class QueryController {
                     case "SUM":
                         value = this.applySUM(key, dataGroup[group]);
                         break;
+                    case "COUNT":
+                        value = this.applyCOUNT(key, dataGroup[group], DATASET);
+                        break;
                 }
                 // if ((DATASET !== "courses") && (DATASET !== "rooms")) {
                 //     Log.trace("value " + value);
@@ -439,6 +443,29 @@ export default class QueryController {
         }
         const sum = Number(total.toFixed(2));
         return sum;
+    }
+
+    private applyCOUNT(key: any, data: any, DATASET: any) {
+        let count = 0;
+        const temp: any = [];
+        for (const section of data) {
+            const value = section[key];
+            // if ((DATASET !== "courses") && (DATASET !== "rooms")) {
+            //     Log.trace("section " + JSON.stringify(section));
+            //     Log.trace("value " + value);
+            // }
+            // if (typeof value !== "number") {
+            //     throw new InsightError("MAX can only be applied to a numeric");
+            // }
+            if (!temp.includes(value)) {
+                temp.push(value);
+                // if ((DATASET !== "courses") && (DATASET !== "rooms")) {
+                //     Log.trace("temp " + JSON.stringify(temp));
+                // }
+                count ++;
+            }
+        }
+        return count;
     }
 
 }
