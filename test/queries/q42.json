@@ -1,6 +1,6 @@
 {
     "title": "SELECT dprtmnt, instrctr, ttl, uuid, avg, pss, fl, adt WHERE UUID begins 8071",
-    "query": "In courses dataset courses, find entries whose UUID begins with 8071; show Department and Instructor and Title and UUID and Average and Pass and Fail and Audit; sort in descending order by UUID.",
+    "query": "In courses dataset courses, find entries whose UUID begins with \"8071\"; show Department and Instructor and Title and UUID and Average and Pass and Fail and Audit; sort in descending order by UUID.",
     "response": {
         "code": 200,
         "body": {

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<buildings>
+  <building code="ALRD" name="Allard Hall (LAW)" path="./campus/discover/buildings-and-classrooms/ALRD">
+    <location address="1822 East Mall"/>
+  </building>
+  <building code="ANSO" name="Anthropology and Sociology" path="./campus/discover/buildings-and-classrooms/ANSO">
+    <location address="6303 North West Marine Drive"/>
+  </building>
+  <building code="AERL" name="Aquatic Ecosystems Research Laboratory" path="./campus/discover/buildings-and-classrooms/AERL">
+    <location address="2202 Main Mall"/>
+  </building>
+</buildings>

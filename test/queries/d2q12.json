@@ -1,0 +1,83 @@
+{
+    "title": "rooms dataset, Address includes \"Science\", Furniture includes \"Movable\", does not include \"Fixed\"",
+    "query": "In rooms dataset rooms, find entries whose Address includes \"Science\" and Furniture includes \"Movable\" and Furniture does not include \"Fixed\"; show Address, Short Name, Latitude and Longitude; sort in ascending order by Address, Short Name, Latitude and Longitude.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [{
+                    "rooms_address": "2194 Health Sciences Mall",
+                    "rooms_shortname": "WOOD",
+                    "rooms_lat": 49.26478,
+                    "rooms_lon": -123.24673
+                },
+                {
+                    "rooms_address": "2194 Health Sciences Mall",
+                    "rooms_shortname": "WOOD",
+                    "rooms_lat": 49.26478,
+                    "rooms_lon": -123.24673
+                },
+                {
+                    "rooms_address": "2194 Health Sciences Mall",
+                    "rooms_shortname": "WOOD",
+                    "rooms_lat": 49.26478,
+                    "rooms_lon": -123.24673
+                },
+                {
+                    "rooms_address": "2194 Health Sciences Mall",
+                    "rooms_shortname": "WOOD",
+                    "rooms_lat": 49.26478,
+                    "rooms_lon": -123.24673
+                },
+                {
+                    "rooms_address": "2194 Health Sciences Mall",
+                    "rooms_shortname": "WOOD",
+                    "rooms_lat": 49.26478,
+                    "rooms_lon": -123.24673
+                },
+                {
+                    "rooms_address": "2194 Health Sciences Mall",
+                    "rooms_shortname": "WOOD",
+                    "rooms_lat": 49.26478,
+                    "rooms_lon": -123.24673
+                },
+                {
+                    "rooms_address": "2194 Health Sciences Mall",
+                    "rooms_shortname": "WOOD",
+                    "rooms_lat": 49.26478,
+                    "rooms_lon": -123.24673
+                },
+                {
+                    "rooms_address": "2194 Health Sciences Mall",
+                    "rooms_shortname": "WOOD",
+                    "rooms_lat": 49.26478,
+                    "rooms_lon": -123.24673
+                },
+                {
+                    "rooms_address": "2194 Health Sciences Mall",
+                    "rooms_shortname": "WOOD",
+                    "rooms_lat": 49.26478,
+                    "rooms_lon": -123.24673
+                },
+                {
+                    "rooms_address": "2194 Health Sciences Mall",
+                    "rooms_shortname": "WOOD",
+                    "rooms_lat": 49.26478,
+                    "rooms_lon": -123.24673
+                },
+                {
+                    "rooms_address": "6250 Applied Science Lane",
+                    "rooms_shortname": "CEME",
+                    "rooms_lat": 49.26273,
+                    "rooms_lon": -123.24894
+                },
+                {
+                    "rooms_address": "6250 Applied Science Lane",
+                    "rooms_shortname": "CEME",
+                    "rooms_lat": 49.26273,
+                    "rooms_lon": -123.24894
+                }
+            ]
+        }
+
+    }
+}

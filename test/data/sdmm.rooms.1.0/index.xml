@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<buildings>
+  <building code="ACU" name="Acute Care Unit" path="./campus/discover/buildings-and-classrooms/ACU">
+    <location address="2211 Wesbrook Mall"/>
+  </building>
+  <building code="ALRD" name="Allard Hall (LAW)" path="./campus/discover/buildings-and-classrooms/ALRD">
+    <location address="1822 East Mall"/>
+  </building>
+  <building code="ANSO" name="Anthropology and Sociology" path="./campus/discover/buildings-and-classrooms/ANSO">
+    <location address="6303 North West Marine Drive"/>
+  </building>
+  <building code="AERL" name="Aquatic Ecosystems Research Laboratory" path="./campus/discover/buildings-and-classrooms/AERL">
+    <location address="2202 Main Mall"/>
+  </building>
+  <building code="AAC" name="Audain Art Centre" path="./campus/discover/buildings-and-classrooms/AAC">
+    <location address="6398 University Boulevard"/>
+  </building>
+  <building code="AUDI" name="Auditorium" path="./campus/discover/buildings-and-classrooms/AUDI">
+    <location address="6344 Memorial Road"/>
+  </building>
+  <building code="BINN" name="B.C. Binnings Studio" path="./campus/discover/buildings-and-classrooms/BINN">
+    <location address="6373 University Boulevard"/>
+  </building>
+  <building code="BIOL" name="Biological Sciences" path="./campus/discover/buildings-and-classrooms/BIOL">
+    <location address="6270 University Boulevard"/>
+  </building>
+  <building code="BRKX" name="Brock Hall Annex" path="./campus/discover/buildings-and-classrooms/BRKX">
+    <location address="1874 East Mall"/>
+  </building>
+  <building code="BUTO" name="Buchanan Tower" path="./campus/discover/buildings-and-classrooms/BUTO">
+    <location address="1873 East Mall"/>
+  </building>
+  <building code="CHOI" name="C. K. Choi Building for The Institute of Asian Res" path="./campus/discover/buildings-and-classrooms/CHOI">
+    <location address="1855 West Mall"/>
+  </building>
+  <building code="CIRS" name="Centre for Interactive  Research on Sustainability" path="./campus/discover/buildings-and-classrooms/CIRS">
+    <location address="2260 West Mall, V6T 1Z4"/>
+  </building>
+  <building code="CHBE" name="Chemical and Biological Engineering Building" path="./campus/discover/buildings-and-classrooms/CHBE">
+    <location address="2360 East Mall V6T 1Z3"/>
+  </building>
+  <building code="CHEM" name="Chemistry" path="./campus/discover/buildings-and-classrooms/CHEM">
+    <location address="2036 Main Mall"/>
+  </building>
+  <building code="CEME" name="Civil and Mechanical Engineering" path="./campus/discover/buildings-and-classrooms/CEME">
+    <location address="6250 Applied Science Lane"/>
+  </building>
+  <building code="COPP" name="D.H. Copp" path="./campus/discover/buildings-and-classrooms/COPP">
+    <location address="2146 Health Sciences Mall"/>
+  </building>
+  <building code="DLAM" name="David Lam Management Research Centre" path="./campus/discover/buildings-and-classrooms/DLAM">
+    <location address="2033 Main Mall V6T 1Z2"/>
+  </building>
+  <building code="DSOM" name="Dorothy Somerset Studio" path="./campus/discover/buildings-and-classrooms/DSOM">
+    <location address="6361 University Blvd"/>
+  </building>
+  <building code="KENN" name="Douglas Kenny" path="./campus/discover/buildings-and-classrooms/KENN">
+    <location address="2136 West Mall"/>
+  </building>
+  <building code="ESB" name="Earth Sciences Building" path="./campus/discover/buildings-and-classrooms/ESB">
+    <location address="2207 Main Mall"/>
+  </building>
+  <building code="FNH" name="Food, Nutrition and Health" path="./campus/discover/buildings-and-classrooms/FNH">
+    <location address="2205 East Mall"/>
+  </building>
+  <building code="FSC" name="Forest Sciences Centre" path="./campus/discover/buildings-and-classrooms/FSC">
+    <location address="2424 Main Mall"/>
+  </building>
+  <building code="FORW" name="Frank Forward" path="./campus/discover/buildings-and-classrooms/FORW">
+    <location address="6350 Stores Road"/>
+  </building>
+  <building code="KAIS" name="Fred Kaiser" path="./campus/discover/buildings-and-classrooms/KAIS">
+    <location address="2332 Main Mall"/>
+  </building>
+  <building code="LASR" name="Frederic Lasserre" path="./campus/discover/buildings-and-classrooms/LASR">
+    <location address="6333 Memorial Road"/>
+  </building>
+  <building code="FRWO" name="Frederic Wood Theatre" path="./campus/discover/buildings-and-classrooms/FRWO">
+    <location address="6354 Crescent Road"/>
+  </building>
+  <building code="FRDM" name="Friedman Building" path="./campus/discover/buildings-and-classrooms/FRDM">
+    <location address="2177 Wesbrook Mall V6T 1Z3"/>
+  </building>
+  <building code="GEOG" name="Geography" path="./campus/discover/buildings-and-classrooms/GEOG">
+    <location address="1984 West Mall"/>
+  </building>
+  <building code="CUNN" name="George Cunningham" path="./campus/discover/buildings-and-classrooms/CUNN">
+    <location address="2146 East Mall"/>
+  </building>
+  <building code="HEBB" name="Hebb" path="./campus/discover/buildings-and-classrooms/HEBB">
+    <location address="2045 East Mall"/>
+  </building>
+  <building code="HENN" name="Hennings" path="./campus/discover/buildings-and-classrooms/HENN">
+    <location address="6224 Agricultural Road"/>
+  </building>
+  <building code="ANGU" name="Henry Angus" path="./campus/discover/buildings-and-classrooms/ANGU">
+    <location address="2053 Main Mall"/>
+  </building>
+  <building code="GREN" name="Horticulture Building" path="./campus/discover/buildings-and-classrooms/GREN">
+    <location address="6394 Stores Road"/>
+  </building>
+  <building code="DMP" name="Hugh Dempster Pavilion" path="./campus/discover/buildings-and-classrooms/DMP">
+    <location address="6245 Agronomy Road V6T 1Z4"/>
+  </building>
+  <building code="ICCS" name="Institute for Computing (ICICS/CS)" path="./campus/discover/buildings-and-classrooms/ICCS">
+    <location address="2366 Main Mall"/>
+  </building>
+  <building code="IBLC" name="Irving K Barber Learning Centre" path="./campus/discover/buildings-and-classrooms/IBLC">
+    <location address="1961 East Mall V6T 1Z1"/>
+  </building>
+  <building code="MCDN" name="J.B. MacDonald" path="./campus/discover/buildings-and-classrooms/MCDN">
+    <location address="2199 West Mall"/>
+  </building>
+  <building code="LSK" name="Leonard S. Klinck (also known as CSCI)" path="./campus/discover/buildings-and-classrooms/LSK">
+    <location address="6356 Agricultural Road"/>
+  </building>
+  <building code="LSC" name="Life Sciences Centre" path="./campus/discover/buildings-and-classrooms/LSC">
+    <location address="2350 Health Sciences Mall"/>
+  </building>
+  <building code="MCLD" name="MacLeod" path="./campus/discover/buildings-and-classrooms/MCLD">
+    <location address="2356 Main Mall"/>
+  </building>
+  <building code="MCML" name="MacMillan" path="./campus/discover/buildings-and-classrooms/MCML">
+    <location address="2357 Main Mall"/>
+  </building>
+  <building code="MATH" name="Mathematics" path="./campus/discover/buildings-and-classrooms/MATH">
+    <location address="1984 Mathematics Road"/>
+  </building>
+  <building code="MATX" name="Mathematics Annex" path="./campus/discover/buildings-and-classrooms/MATX">
+    <location address="1986 Mathematics Road"/>
+  </building>
+  <building code="MEDC" name="Medical Sciences Block C" path="./campus/discover/buildings-and-classrooms/MEDC">
+    <location address="2176 Health Sciences Mall"/>
+  </building>
+  <building code="MUSC" name="Music" path="./campus/discover/buildings-and-classrooms/MUSC">
+    <location address="6361 Memorial Road"/>
+  </building>
+  <building code="SCRF" name="Neville Scarfe" path="./campus/discover/buildings-and-classrooms/SCRF">
+    <location address="2125 Main Mall"/>
+  </building>
+  <building code="ORCH" name="Orchard Commons" path="./campus/discover/buildings-and-classrooms/ORCH">
+    <location address="6363 Agronomy Road"/>
+  </building>
+  <building code="PHRM" name="Pharmaceutical Sciences Building" path="./campus/discover/buildings-and-classrooms/PHRM">
+    <location address="2405 Wesbrook Mall"/>
+  </building>
+  <building code="PCOH" name="Ponderosa Commons: Oak House" path="./campus/discover/buildings-and-classrooms/PCOH">
+    <location address="6445 University Boulevard"/>
+  </building>
+  <building code="PONF" name="Ponderosa Office Annex F" path="./campus/discover/buildings-and-classrooms/PONF">
+    <location address="2008 Lower Mall"/>
+  </building>
+  <building code="PONH" name="Ponderosa Office Annex H" path="./campus/discover/buildings-and-classrooms/PONH">
+    <location address="2008 Lower Mall"/>
+  </building>
+  <building code="SPPH" name="School of Population and Public Health" path="./campus/discover/buildings-and-classrooms/SPPH">
+    <location address="2206 East Mall"/>
+  </building>
+  <building code="SOJ" name="Sing Tao" path="./campus/discover/buildings-and-classrooms/SOJ">
+    <location address="6388 Crescent Road"/>
+  </building>
+  <building code="SRC" name="Student Recreation Centre" path="./campus/discover/buildings-and-classrooms/SRC">
+    <location address="6000 Student Union Blvd"/>
+  </building>
+  <building code="TFPB" name="Theatre-Film Production Building" path="./campus/discover/buildings-and-classrooms/TFPB">
+    <location address="6358 University Blvd, V6T 1Z4"/>
+  </building>
+  <building code="TFPX" name="Theatre-Film Production Building Annex" path="./campus/discover/buildings-and-classrooms/TFPX">
+    <location address="6358 University Blvd, V6T 1Z4"/>
+  </building>
+  <building code="MGYM" name="War Memorial Gymnasium" path="./campus/discover/buildings-and-classrooms/MGYM">
+    <location address="6081 University Blvd"/>
+  </building>
+  <building code="EDC" name="Wayne and William White Engineering Design Centre" path="./campus/discover/buildings-and-classrooms/EDC">
+    <location address="2345 East Mall"/>
+  </building>
+  <building code="WESB" name="Wesbrook" path="./campus/discover/buildings-and-classrooms/WESB">
+    <location address="6174 University Boulevard"/>
+  </building>
+  <building code="WMAX" name="West Mall Annex" path="./campus/discover/buildings-and-classrooms/WMAX">
+    <location address="1933 West Mall"/>
+  </building>
+  <building code="SWNG" name="West Mall Swing Space" path="./campus/discover/buildings-and-classrooms/SWNG">
+    <location address="2175 West Mall V6T 1Z4"/>
+  </building>
+  <building code="WOOD" name="Woodward (Instructional Resources Centre-IRC)" path="./campus/discover/buildings-and-classrooms/WOOD">
+    <location address="2194 Health Sciences Mall"/>
+  </building>
+</buildings>

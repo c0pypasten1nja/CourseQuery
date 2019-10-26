@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="GEOG" address="1984 West Mall" name="Geography">
+  <rooms>
+    <room number="100">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/GEOG-100"/>
+      <space seats="225" furniture="Classroom-Fixed Tablets" type="Tiered Large Group"/>
+    </room>
+    <room number="101">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/GEOG-101"/>
+      <space seats="60" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="147">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/GEOG-147"/>
+      <space seats="60" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="200">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/GEOG-200"/>
+      <space seats="100" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="201">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/GEOG-201"/>
+      <space seats="42" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="212">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/GEOG-212"/>
+      <space seats="72" furniture="Classroom-Fixed Tables/Movable Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="214">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/GEOG-214"/>
+      <space seats="39" furniture="Classroom-Moveable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="242">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/GEOG-242"/>
+      <space seats="21" furniture="Classroom-Moveable Tables + Chairs" type="Small Group"/>
+    </room>
+  </rooms>
+</building>

@@ -1,0 +1,33 @@
+{
+    "title": "S_OP == && M_OP >= || M_OP >= && S_OP like",
+    "query": "In courses dataset courses, find entries whose Department is \"cnps\" and Average is greater than 80.92 or Pass is not less than 13 and Instructor includes \", alanaise\" and UUID is not \"69194\"; show Department and ID, Instructor, Title, UUID, Average, Pass, Fail and Audit; sort in ascending order by Department, ID, Average and Pass.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                  "courses_dept": "cnps",
+                  "courses_id": "524",
+                  "courses_instructor": "goodwill, alanaise",
+                  "courses_title": "counslng adults",
+                  "courses_uuid": "28347",
+                  "courses_avg": 89.06,
+                  "courses_pass": 17,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_dept": "cnps",
+                  "courses_id": "564",
+                  "courses_instructor": "goodwill, alanaise",
+                  "courses_title": "group counsling",
+                  "courses_uuid": "69239",
+                  "courses_avg": 89,
+                  "courses_pass": 13,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                }
+              ]
+        }
+    }
+}

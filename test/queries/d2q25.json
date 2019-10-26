@@ -1,0 +1,10 @@
+{
+    "title": "MAX/MIN/AVG should only be requested for numeric keys.",
+    "query": "In rooms dataset rooms grouped by Full Name and Furniture, find entries whose Furniture includes \"Movable\" and Furniture does not include \"Fixed\"; show Full Name and Furniture and maxAddress, where maxAddress is the MAX of Address; sort in descending order by Full Name and Furniture and maxAddress.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}

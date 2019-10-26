@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="CEME" address="6250 Applied Science Lane" name="Civil and Mechanical Engineering">
+  <rooms>
+    <room number="1202">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/CEME-1202"/>
+      <space seats="100" furniture="Classroom-Fixed Tables/Fixed Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="1204">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/CEME-1204"/>
+      <space seats="62" furniture="Classroom-Fixed Tables/Movable Chairs" type="Case Style"/>
+    </room>
+    <room number="1206">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/CEME-1206"/>
+      <space seats="26" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="1210">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/CEME-1210"/>
+      <space seats="22" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="1212">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/CEME-1212"/>
+      <space seats="34" furniture="Classroom-Fixed Tables/Movable Chairs" type="Case Style"/>
+    </room>
+    <room number="1215">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/CEME-1215"/>
+      <space seats="45" furniture="Classroom-Fixed Tables/Movable Chairs" type="Case Style"/>
+    </room>
+  </rooms>
+</building>

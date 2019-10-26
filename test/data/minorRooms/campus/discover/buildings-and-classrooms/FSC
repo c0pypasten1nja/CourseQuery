@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="FSC" address="2424 Main Mall" name="Forest Sciences Centre">
+  <rooms>
+    <room number="1001">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/FSC-1001"/>
+      <space seats="65" furniture="Classroom-Fixed Tables/Movable Chairs" type="Case Style"/>
+    </room>
+    <room number="1002">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/FSC-1002"/>
+      <space seats="24" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="1003">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/FSC-1003"/>
+      <space seats="65" furniture="Classroom-Fixed Tables/Movable Chairs" type="Case Style"/>
+    </room>
+    <room number="1005">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/FSC-1005"/>
+      <space seats="250" furniture="Classroom-Fixed Tablets" type="Tiered Large Group"/>
+    </room>
+    <room number="1221">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/FSC-1221"/>
+      <space seats="99" furniture="Classroom-Fixed Tablets" type="Tiered Large Group"/>
+    </room>
+    <room number="1402">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/FSC-1402"/>
+      <space seats="18" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="1611">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/FSC-1611"/>
+      <space seats="24" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="1613">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/FSC-1613"/>
+      <space seats="36" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="1615">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/FSC-1615"/>
+      <space seats="20" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="1617">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/FSC-1617"/>
+      <space seats="20" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+  </rooms>
+</building>

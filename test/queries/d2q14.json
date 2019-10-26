@@ -1,0 +1,53 @@
+{
+    "title": "grouped by Type and Furniture",
+    "query": "In rooms dataset minorRooms grouped by Type and Furniture, find all entries; show Type and Furniture and maxSeats and minSeats, where maxSeats is the MAX of Seats and minSeats is the MIN of Seats; sort in ascending order by Type and Furniture and maxSeats and minSeats.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [{
+                    "minorRooms_type": "Case Style",
+                    "minorRooms_furniture": "Classroom-Fixed Tables/Movable Chairs",
+                    "maxSeats": 94,
+                    "minSeats": 50
+                },
+                {
+                    "minorRooms_type": "Open Design General Purpose",
+                    "minorRooms_furniture": "Classroom-Fixed Tables/Movable Chairs",
+                    "maxSeats": 44,
+                    "minSeats": 44
+                },
+                {
+                    "minorRooms_type": "Open Design General Purpose",
+                    "minorRooms_furniture": "Classroom-Movable Tables + Chairs",
+                    "maxSeats": 20,
+                    "minSeats": 20
+                },
+                {
+                    "minorRooms_type": "Open Design General Purpose",
+                    "minorRooms_furniture": "Classroom-Moveable Tablets",
+                    "maxSeats": 90,
+                    "minSeats": 90
+                },
+                {
+                    "minorRooms_type": "Small Group",
+                    "minorRooms_furniture": "Classroom-Movable Tables + Chairs",
+                    "maxSeats": 26,
+                    "minSeats": 26
+                },
+                {
+                    "minorRooms_type": "Small Group",
+                    "minorRooms_furniture": "Classroom-Moveable Tables + Chairs",
+                    "maxSeats": 37,
+                    "minSeats": 33
+                },
+                {
+                    "minorRooms_type": "Tiered Large Group",
+                    "minorRooms_furniture": "Classroom-Fixed Tablets",
+                    "maxSeats": 144,
+                    "minSeats": 144
+                }
+            ]
+        }
+
+    }
+}

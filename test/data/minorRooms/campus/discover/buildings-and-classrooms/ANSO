@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="ANSO" address="6303 North West Marine Drive" name="Anthropology and Sociology">
+  <rooms>
+    <room number="202">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANSO-202"/>
+      <space seats="26" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="203">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANSO-203"/>
+      <space seats="33" furniture="Classroom-Moveable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="205">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANSO-205"/>
+      <space seats="37" furniture="Classroom-Moveable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="207">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ANSO-207"/>
+      <space seats="90" furniture="Classroom-Moveable Tablets" type="Open Design General Purpose"/>
+    </room>
+  </rooms>
+</building>

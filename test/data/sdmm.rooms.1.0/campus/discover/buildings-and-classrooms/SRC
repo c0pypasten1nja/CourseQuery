@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="SRC" address="6000 Student Union Blvd" name="Student Recreation Centre">
+  <rooms>
+    <room number="220A">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SRC-220A"/>
+      <space seats="299" furniture="Classroom-Movable Tables + Chairs" type="TBD"/>
+    </room>
+    <room number="220B">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SRC-220B"/>
+      <space seats="299" furniture="Classroom-Movable Tables + Chairs" type="TBD"/>
+    </room>
+    <room number="220C">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SRC-220C"/>
+      <space seats="299" furniture="Classroom-Movable Tables + Chairs" type="TBD"/>
+    </room>
+  </rooms>
+</building>

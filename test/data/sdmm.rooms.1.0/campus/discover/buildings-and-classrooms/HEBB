@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="HEBB" address="2045 East Mall" name="Hebb">
+  <rooms>
+    <room number="10">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/HEBB-10"/>
+      <space seats="54" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="100">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/HEBB-100"/>
+      <space seats="375" furniture="Classroom-Fixed Tables/Fixed Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="12">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/HEBB-12"/>
+      <space seats="54" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="13">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/HEBB-13"/>
+      <space seats="54" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+  </rooms>
+</building>

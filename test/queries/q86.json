@@ -1,0 +1,264 @@
+{
+    "title": "SELECT instrctr, ttl, uuid, avg, pss, fl, adt WHERE ID is 101",
+    "query": "In courses dataset courses, find entries whose ID is \"555\" and Instructor includes \",\" and Department does not end with \"s\" and Instructor does not end with \"s\"; show Department and ID and Instructor and Title and UUID and Average and Pass and Fail and Audit; sort in descending order by Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                  "courses_dept": "mech",
+                  "courses_id": "555",
+                  "courses_instructor": "chiao, mu",
+                  "courses_title": "microelectromech",
+                  "courses_uuid": "9175",
+                  "courses_avg": 91.32,
+                  "courses_pass": 19,
+                  "courses_fail": 0,
+                  "courses_audit": 1
+                },
+                {
+                  "courses_dept": "civl",
+                  "courses_id": "555",
+                  "courses_instructor": "lence, barbara jean",
+                  "courses_title": "anly civl sys",
+                  "courses_uuid": "53366",
+                  "courses_avg": 91,
+                  "courses_pass": 6,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_dept": "mech",
+                  "courses_id": "555",
+                  "courses_instructor": "chiao, mu",
+                  "courses_title": "microelectromech",
+                  "courses_uuid": "45325",
+                  "courses_avg": 90.7,
+                  "courses_pass": 10,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_dept": "mine",
+                  "courses_id": "555",
+                  "courses_instructor": "veiga, marcello",
+                  "courses_title": "min & soc",
+                  "courses_uuid": "1504",
+                  "courses_avg": 90.69,
+                  "courses_pass": 13,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_dept": "civl",
+                  "courses_id": "555",
+                  "courses_instructor": "lence, barbara jean",
+                  "courses_title": "optimiz eng syst",
+                  "courses_uuid": "2868",
+                  "courses_avg": 90.25,
+                  "courses_pass": 8,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_dept": "arst",
+                  "courses_id": "555",
+                  "courses_instructor": "duranti, luciana",
+                  "courses_title": "presrv dig recds",
+                  "courses_uuid": "36641",
+                  "courses_avg": 89,
+                  "courses_pass": 13,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_dept": "arst",
+                  "courses_id": "555",
+                  "courses_instructor": "duranti, luciana",
+                  "courses_title": "presrv dig recds",
+                  "courses_uuid": "39802",
+                  "courses_avg": 88.75,
+                  "courses_pass": 16,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_dept": "arst",
+                  "courses_id": "555",
+                  "courses_instructor": "duranti, luciana",
+                  "courses_title": "presrv dig recds",
+                  "courses_uuid": "66980",
+                  "courses_avg": 86.6,
+                  "courses_pass": 15,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_dept": "arst",
+                  "courses_id": "555",
+                  "courses_instructor": "duranti, luciana",
+                  "courses_title": "presrv dig recds",
+                  "courses_uuid": "82443",
+                  "courses_avg": 86,
+                  "courses_pass": 16,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_dept": "arst",
+                  "courses_id": "555",
+                  "courses_instructor": "duranti, luciana",
+                  "courses_title": "presrv dig recds",
+                  "courses_uuid": "14825",
+                  "courses_avg": 85.43,
+                  "courses_pass": 21,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_dept": "arst",
+                  "courses_id": "555",
+                  "courses_instructor": "duranti, luciana",
+                  "courses_title": "presrv dig recds",
+                  "courses_uuid": "28048",
+                  "courses_avg": 85.07,
+                  "courses_pass": 14,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_dept": "libr",
+                  "courses_id": "555",
+                  "courses_instructor": "kopak, richard",
+                  "courses_title": "in desg i - syst",
+                  "courses_uuid": "77278",
+                  "courses_avg": 84.56,
+                  "courses_pass": 27,
+                  "courses_fail": 0,
+                  "courses_audit": 2
+                },
+                {
+                  "courses_dept": "arst",
+                  "courses_id": "555",
+                  "courses_instructor": "duranti, luciana",
+                  "courses_title": "presrv dig recds",
+                  "courses_uuid": "95095",
+                  "courses_avg": 84.22,
+                  "courses_pass": 27,
+                  "courses_fail": 0,
+                  "courses_audit": 1
+                },
+                {
+                  "courses_dept": "mech",
+                  "courses_id": "555",
+                  "courses_instructor": "ma, hongshen",
+                  "courses_title": "microelectromech",
+                  "courses_uuid": "12851",
+                  "courses_avg": 84.1,
+                  "courses_pass": 10,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_dept": "mech",
+                  "courses_id": "555",
+                  "courses_instructor": "chiao, mu",
+                  "courses_title": "microelectromech",
+                  "courses_uuid": "49603",
+                  "courses_avg": 84,
+                  "courses_pass": 12,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_dept": "libr",
+                  "courses_id": "555",
+                  "courses_instructor": "kopak, richard",
+                  "courses_title": "in desg i - syst",
+                  "courses_uuid": "25914",
+                  "courses_avg": 83.93,
+                  "courses_pass": 15,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_dept": "libr",
+                  "courses_id": "555",
+                  "courses_instructor": "kopak, richard",
+                  "courses_title": "in desg i - syst",
+                  "courses_uuid": "51295",
+                  "courses_avg": 83.71,
+                  "courses_pass": 14,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_dept": "libr",
+                  "courses_id": "555",
+                  "courses_instructor": "kopak, richard",
+                  "courses_title": "in desg i - syst",
+                  "courses_uuid": "85722",
+                  "courses_avg": 83.6,
+                  "courses_pass": 10,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_dept": "arst",
+                  "courses_id": "555",
+                  "courses_instructor": "duranti, luciana",
+                  "courses_title": "presrv dig recds",
+                  "courses_uuid": "96968",
+                  "courses_avg": 83,
+                  "courses_pass": 21,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_dept": "libr",
+                  "courses_id": "555",
+                  "courses_instructor": "kopak, richard",
+                  "courses_title": "in desg i - syst",
+                  "courses_uuid": "94534",
+                  "courses_avg": 82.93,
+                  "courses_pass": 15,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_dept": "libr",
+                  "courses_id": "555",
+                  "courses_instructor": "kopak, richard",
+                  "courses_title": "in desg i - syst",
+                  "courses_uuid": "79942",
+                  "courses_avg": 82.87,
+                  "courses_pass": 23,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_dept": "mech",
+                  "courses_id": "555",
+                  "courses_instructor": "chiao, mu",
+                  "courses_title": "microelectromech",
+                  "courses_uuid": "84278",
+                  "courses_avg": 82.32,
+                  "courses_pass": 19,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_dept": "libr",
+                  "courses_id": "555",
+                  "courses_instructor": "kopak, richard",
+                  "courses_title": "in desg i - syst",
+                  "courses_uuid": "40420",
+                  "courses_avg": 80.4,
+                  "courses_pass": 14,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                }
+              ]
+        }
+    }
+}

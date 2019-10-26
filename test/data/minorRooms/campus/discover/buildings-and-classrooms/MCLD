@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="MCLD" address="2356 Main Mall" name="MacLeod">
+  <rooms>
+    <room number="202">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MCLD-202"/>
+      <space seats="123" furniture="Classroom-Fixed Tables/Fixed Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="214">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MCLD-214"/>
+      <space seats="60" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="220">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MCLD-220"/>
+      <space seats="40" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="228">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MCLD-228"/>
+      <space seats="136" furniture="Classroom-Fixed Tables/Fixed Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="242">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MCLD-242"/>
+      <space seats="60" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="254">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MCLD-254"/>
+      <space seats="84" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+  </rooms>
+</building>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="CHBE" address="2360 East Mall V6T 1Z3" name="Chemical and Biological Engineering Building">
+  <rooms>
+    <room number="101">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/CHBE-101"/>
+      <space seats="200" furniture="Classroom-Fixed Tables/Movable Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="102">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/CHBE-102"/>
+      <space seats="94" furniture="Classroom-Fixed Tables/Movable Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="103">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/CHBE-103"/>
+      <space seats="60" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+  </rooms>
+</building>

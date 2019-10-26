@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="WESB" address="6174 University Boulevard" name="Wesbrook">
+  <rooms>
+    <room number="100">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/WESB-100"/>
+      <space seats="325" furniture="Classroom-Fixed Tablets" type="Tiered Large Group"/>
+    </room>
+    <room number="201">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/WESB-201"/>
+      <space seats="102" furniture="Classroom-Fixed Tablets" type="Tiered Large Group"/>
+    </room>
+  </rooms>
+</building>

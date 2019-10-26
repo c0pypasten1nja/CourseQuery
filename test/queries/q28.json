@@ -1,23 +1,23 @@
 {
-    "title": "SELECT instrctr, ttl, uuid, avg, pss, fl, adt WHERE ttl does not ends 'thry' && avg > 97.77",
-    "query": "In courses dataset courses, find entries whose Title does not end with \"thry\" and Average is greater than 97.77; show Instructor and Title and UUID and Average and Pass and Fail and Audit; sort in descending order by Average.",
+    "title": "SELECT instrctr, ttl, uuid, avg, pss, fl, adt WHERE ttl does not ends 'thry' && avg > 98.76",
+    "query": "In courses dataset courses, find entries whose Title does not end with \"thry\" and Average is greater than 98.76; show Instructor and Title and UUID and Average and Pass and Fail and Audit; sort in descending order by Average.",
     "response": {
         "code": 200,
         "body": {
             "result": [
                 {
-                  "courses_instructor": "gomez, jose",
+                  "courses_instructor": "",
                   "courses_title": "algb topology i",
-                  "courses_uuid": "5373",
+                  "courses_uuid": "5374",
                   "courses_avg": 99.78,
                   "courses_pass": 9,
                   "courses_fail": 0,
                   "courses_audit": 0
                 },
                 {
-                  "courses_instructor": "",
+                  "courses_instructor": "gomez, jose",
                   "courses_title": "algb topology i",
-                  "courses_uuid": "5374",
+                  "courses_uuid": "5373",
                   "courses_avg": 99.78,
                   "courses_pass": 9,
                   "courses_fail": 0,
@@ -38,204 +38,6 @@
                   "courses_uuid": "6320",
                   "courses_avg": 98.8,
                   "courses_pass": 25,
-                  "courses_fail": 0,
-                  "courses_audit": 0
-                },
-                {
-                  "courses_instructor": "",
-                  "courses_title": "educ stds autism",
-                  "courses_uuid": "44817",
-                  "courses_avg": 98.76,
-                  "courses_pass": 17,
-                  "courses_fail": 0,
-                  "courses_audit": 0
-                },
-                {
-                  "courses_instructor": "grow, laura",
-                  "courses_title": "educ stds autism",
-                  "courses_uuid": "44816",
-                  "courses_avg": 98.76,
-                  "courses_pass": 17,
-                  "courses_fail": 0,
-                  "courses_audit": 0
-                },
-                {
-                  "courses_instructor": "coria, lino",
-                  "courses_title": "multimedia sys",
-                  "courses_uuid": "10235",
-                  "courses_avg": 98.75,
-                  "courses_pass": 12,
-                  "courses_fail": 0,
-                  "courses_audit": 0
-                },
-                {
-                  "courses_instructor": "",
-                  "courses_title": "multimedia sys",
-                  "courses_uuid": "10236",
-                  "courses_avg": 98.75,
-                  "courses_pass": 12,
-                  "courses_fail": 0,
-                  "courses_audit": 0
-                },
-                {
-                  "courses_instructor": "brew, nancy",
-                  "courses_title": "cl pro prim care",
-                  "courses_uuid": "15343",
-                  "courses_avg": 98.71,
-                  "courses_pass": 14,
-                  "courses_fail": 0,
-                  "courses_audit": 0
-                },
-                {
-                  "courses_instructor": "",
-                  "courses_title": "cl pro prim care",
-                  "courses_uuid": "15344",
-                  "courses_avg": 98.71,
-                  "courses_pass": 14,
-                  "courses_fail": 0,
-                  "courses_audit": 0
-                },
-                {
-                  "courses_instructor": "cole, kenneth",
-                  "courses_title": "assess lrn diffi",
-                  "courses_uuid": "33780",
-                  "courses_avg": 98.7,
-                  "courses_pass": 10,
-                  "courses_fail": 0,
-                  "courses_audit": 0
-                },
-                {
-                  "courses_instructor": "grow, laura",
-                  "courses_title": "educ stds autism",
-                  "courses_uuid": "29255",
-                  "courses_avg": 98.58,
-                  "courses_pass": 24,
-                  "courses_fail": 0,
-                  "courses_audit": 0
-                },
-                {
-                  "courses_instructor": "",
-                  "courses_title": "educ stds autism",
-                  "courses_uuid": "29256",
-                  "courses_avg": 98.58,
-                  "courses_pass": 24,
-                  "courses_fail": 0,
-                  "courses_audit": 0
-                },
-                {
-                  "courses_instructor": "",
-                  "courses_title": "fam nrs pract",
-                  "courses_uuid": "96251",
-                  "courses_avg": 98.58,
-                  "courses_pass": 12,
-                  "courses_fail": 0,
-                  "courses_audit": 0
-                },
-                {
-                  "courses_instructor": "",
-                  "courses_title": "fam nrs pract",
-                  "courses_uuid": "96250",
-                  "courses_avg": 98.58,
-                  "courses_pass": 12,
-                  "courses_fail": 0,
-                  "courses_audit": 0
-                },
-                {
-                  "courses_instructor": "",
-                  "courses_title": "fam nrs pract",
-                  "courses_uuid": "88152",
-                  "courses_avg": 98.5,
-                  "courses_pass": 16,
-                  "courses_fail": 0,
-                  "courses_audit": 0
-                },
-                {
-                  "courses_instructor": "burrows, marlene;harding, jillian;krist, jennifer;mccuaig, fairleth",
-                  "courses_title": "fam nrs pract",
-                  "courses_uuid": "88151",
-                  "courses_avg": 98.5,
-                  "courses_pass": 16,
-                  "courses_fail": 0,
-                  "courses_audit": 0
-                },
-                {
-                  "courses_instructor": "cannon, joanna",
-                  "courses_title": "dev el sk df&hrd",
-                  "courses_uuid": "49677",
-                  "courses_avg": 98.45,
-                  "courses_pass": 11,
-                  "courses_fail": 0,
-                  "courses_audit": 0
-                },
-                {
-                  "courses_instructor": "",
-                  "courses_title": "dev el sk df&hrd",
-                  "courses_uuid": "49678",
-                  "courses_avg": 98.45,
-                  "courses_pass": 11,
-                  "courses_fail": 0,
-                  "courses_audit": 0
-                },
-                {
-                  "courses_instructor": "",
-                  "courses_title": "assess lrn diffi",
-                  "courses_uuid": "33781",
-                  "courses_avg": 98.36,
-                  "courses_pass": 22,
-                  "courses_fail": 0,
-                  "courses_audit": 0
-                },
-                {
-                  "courses_instructor": "krist, jennifer",
-                  "courses_title": "cl pro prim care",
-                  "courses_uuid": "73638",
-                  "courses_avg": 98.21,
-                  "courses_pass": 14,
-                  "courses_fail": 0,
-                  "courses_audit": 0
-                },
-                {
-                  "courses_instructor": "",
-                  "courses_title": "cl pro prim care",
-                  "courses_uuid": "73639",
-                  "courses_avg": 98.21,
-                  "courses_pass": 14,
-                  "courses_fail": 0,
-                  "courses_audit": 0
-                },
-                {
-                  "courses_instructor": "cole, kenneth",
-                  "courses_title": "assess lrn diffi",
-                  "courses_uuid": "33779",
-                  "courses_avg": 98.08,
-                  "courses_pass": 12,
-                  "courses_fail": 0,
-                  "courses_audit": 0
-                },
-                {
-                  "courses_instructor": "maillard, keith",
-                  "courses_title": "thesis",
-                  "courses_uuid": "46405",
-                  "courses_avg": 98,
-                  "courses_pass": 1,
-                  "courses_fail": 0,
-                  "courses_audit": 0
-                },
-                {
-                  "courses_instructor": "grady, albert wayne",
-                  "courses_title": "thesis",
-                  "courses_uuid": "46412",
-                  "courses_avg": 98,
-                  "courses_pass": 1,
-                  "courses_fail": 0,
-                  "courses_audit": 0
-                },
-                {
-                  "courses_instructor": "amaral, deborah;ford, laurie",
-                  "courses_title": "acad assess schl",
-                  "courses_uuid": "76309",
-                  "courses_avg": 97.78,
-                  "courses_pass": 9,
                   "courses_fail": 0,
                   "courses_audit": 0
                 }

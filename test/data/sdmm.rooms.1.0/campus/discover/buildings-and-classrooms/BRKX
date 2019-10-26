@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="BRKX" address="1874 East Mall" name="Brock Hall Annex">
+  <rooms>
+    <room number="2365">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/BRKX-2365"/>
+      <space seats="70" furniture="Classroom-Fixed Tables/Movable Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="2367">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/BRKX-2367"/>
+      <space seats="24" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+  </rooms>
+</building>

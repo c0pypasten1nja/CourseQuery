@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="FORW" address="6350 Stores Road" name="Frank Forward">
+  <rooms>
+    <room number="303">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/FORW-303"/>
+      <space seats="63" furniture="Classroom-Fixed Tables/Movable Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="317">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/FORW-317"/>
+      <space seats="44" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="519">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/FORW-519"/>
+      <space seats="35" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+  </rooms>
+</building>

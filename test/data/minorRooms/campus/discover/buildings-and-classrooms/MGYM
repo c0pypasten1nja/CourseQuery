@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="MGYM" address="6081 University Blvd" name="War Memorial Gymnasium">
+  <rooms>
+    <room number="206">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MGYM-206"/>
+      <space seats="25" furniture="Classroom-Movable Tablets" type="Open Design General Purpose"/>
+    </room>
+    <room number="208">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MGYM-208"/>
+      <space seats="40" furniture="Classroom-Movable Tablets" type="Open Design General Purpose"/>
+    </room>
+  </rooms>
+</building>

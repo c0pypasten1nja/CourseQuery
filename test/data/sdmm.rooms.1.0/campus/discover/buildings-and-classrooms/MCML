@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="MCML" address="2357 Main Mall" name="MacMillan">
+  <rooms>
+    <room number="154">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MCML-154"/>
+      <space seats="47" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="158">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MCML-158"/>
+      <space seats="74" furniture="Classroom-Fixed Tablets" type="Tiered Large Group"/>
+    </room>
+    <room number="160">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MCML-160"/>
+      <space seats="72" furniture="Classroom-Fixed Tables/Movable Chairs" type="Case Style"/>
+    </room>
+    <room number="166">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MCML-166"/>
+      <space seats="200" furniture="Classroom-Fixed Tablets" type="Tiered Large Group"/>
+    </room>
+    <room number="256">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MCML-256"/>
+      <space seats="32" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="260">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MCML-260"/>
+      <space seats="32" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="358">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MCML-358"/>
+      <space seats="24" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="360A">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MCML-360A"/>
+      <space seats="6" furniture="Classroom-Moveable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="360B">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MCML-360B"/>
+      <space seats="6" furniture="Classroom-Moveable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="360C">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MCML-360C"/>
+      <space seats="8" furniture="Classroom-Moveable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="360D">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MCML-360D"/>
+      <space seats="8" furniture="Classroom-Moveable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="360E">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MCML-360E"/>
+      <space seats="8" furniture="Classroom-Moveable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="360F">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MCML-360F"/>
+      <space seats="8" furniture="Classroom-Moveable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="360G">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MCML-360G"/>
+      <space seats="8" furniture="Classroom-Moveable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="360H">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MCML-360H"/>
+      <space seats="8" furniture="Classroom-Moveable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="360J">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MCML-360J"/>
+      <space seats="8" furniture="Classroom-Moveable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="360K">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MCML-360K"/>
+      <space seats="8" furniture="Classroom-Moveable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="360L">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MCML-360L"/>
+      <space seats="8" furniture="Classroom-Moveable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="360M">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MCML-360M"/>
+      <space seats="8" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+  </rooms>
+</building>

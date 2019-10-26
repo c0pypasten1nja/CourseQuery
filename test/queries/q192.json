@@ -1,0 +1,10 @@
+{
+    "title": "A query containing upper case \"FIND\" instead of \"find\"",
+    "query": "In courses dataset courses, FIND entries whose Audit is greater than 15; show Department and ID and Pass and Audit; sort in descending order by Audit.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}

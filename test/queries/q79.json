@@ -1,0 +1,77 @@
+{
+    "title": "SELECT dprtmnt, instrctr, ttl, uuid, avg, pss, fl, adt WHERE ttl includes 'thry' && 'automata'",
+    "query": "In courses dataset courses, find entries whose Title includes \"thry\" and Title includes \"automata\" and Instructor includes \",\"; show Department, ID, Instructor, Title, UUID, Average, Pass, Fail and Audit; sort in descending order by Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                  "courses_dept": "cpsc",
+                  "courses_id": "501",
+                  "courses_instructor": "friedman, joel",
+                  "courses_title": "thry of automata",
+                  "courses_uuid": "90603",
+                  "courses_avg": 94,
+                  "courses_pass": 5,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_dept": "cpsc",
+                  "courses_id": "501",
+                  "courses_instructor": "harvey, nicholas",
+                  "courses_title": "thry of automata",
+                  "courses_uuid": "83495",
+                  "courses_avg": 92.75,
+                  "courses_pass": 8,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_dept": "cpsc",
+                  "courses_id": "501",
+                  "courses_instructor": "friedman, joel",
+                  "courses_title": "thry of automata",
+                  "courses_uuid": "46762",
+                  "courses_avg": 92.43,
+                  "courses_pass": 7,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_dept": "cpsc",
+                  "courses_id": "501",
+                  "courses_instructor": "friedman, joel",
+                  "courses_title": "thry of automata",
+                  "courses_uuid": "72428",
+                  "courses_avg": 91,
+                  "courses_pass": 4,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_dept": "cpsc",
+                  "courses_id": "501",
+                  "courses_instructor": "friedman, joel",
+                  "courses_title": "thry of automata",
+                  "courses_uuid": "61192",
+                  "courses_avg": 84.67,
+                  "courses_pass": 6,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_dept": "cpsc",
+                  "courses_id": "501",
+                  "courses_instructor": "friedman, joel",
+                  "courses_title": "thry of automata",
+                  "courses_uuid": "62452",
+                  "courses_avg": 83.8,
+                  "courses_pass": 5,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                }
+              ]
+        }
+    }
+}

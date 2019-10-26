@@ -1,0 +1,10 @@
+{
+    "title": "show all",
+    "query": "  In courses dataset courses, find entries whose Title is \"thry of automata\" and Instructor includes \",\"; show all; sort in descending order by Average.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}

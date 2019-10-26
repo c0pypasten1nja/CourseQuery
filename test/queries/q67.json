@@ -1,0 +1,10 @@
+{
+    "title": "Pass is phys",
+    "query": "In courses dataset courses, find entries whose Average is greater than 66.66 and Pass is phys; show courses_dept, courses_instructor and courses_title and courses_uuid and courses_avg and courses_pass and courses_fail; sort in descending order by courses_pass.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}

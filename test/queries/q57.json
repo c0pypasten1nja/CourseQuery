@@ -1,0 +1,10 @@
+{
+    "title": "invalid kind",
+    "query": "In oneValidcsv dataset courses, find all entries; show Title and UUID and Instructor and Audit and Average and Pass and Fail; sort in ascending order by UUID.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}

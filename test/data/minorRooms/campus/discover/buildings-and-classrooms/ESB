@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="ESB" address="2207 Main Mall" name="Earth Sciences Building">
+  <rooms>
+    <room number="1012">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ESB-1012"/>
+      <space seats="150" furniture="Classroom-Hybrid Furniture" type="Tiered Large Group"/>
+    </room>
+    <room number="1013">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ESB-1013"/>
+      <space seats="350" furniture="Classroom-Fixed Tablets" type="Tiered Large Group"/>
+    </room>
+    <room number="2012">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ESB-2012"/>
+      <space seats="80" furniture="Classroom-Fixed Tables/Movable Chairs" type="Tiered Large Group"/>
+    </room>
+  </rooms>
+</building>

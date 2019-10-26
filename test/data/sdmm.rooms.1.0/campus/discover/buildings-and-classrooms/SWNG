@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="SWNG" address="2175 West Mall V6T 1Z4" name="West Mall Swing Space">
+  <rooms>
+    <room number="105">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SWNG-105"/>
+      <space seats="47" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="106">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SWNG-106"/>
+      <space seats="27" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="107">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SWNG-107"/>
+      <space seats="47" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="108">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SWNG-108"/>
+      <space seats="27" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="109">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SWNG-109"/>
+      <space seats="47" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="110">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SWNG-110"/>
+      <space seats="27" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="121">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SWNG-121"/>
+      <space seats="187" furniture="Classroom-Fixed Tables/Movable Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="122">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SWNG-122"/>
+      <space seats="188" furniture="Classroom-Fixed Tables/Movable Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="221">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SWNG-221"/>
+      <space seats="190" furniture="Classroom-Fixed Tables/Movable Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="222">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SWNG-222"/>
+      <space seats="190" furniture="Classroom-Fixed Tables/Movable Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="305">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SWNG-305"/>
+      <space seats="47" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="306">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SWNG-306"/>
+      <space seats="27" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="307">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SWNG-307"/>
+      <space seats="47" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="308">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SWNG-308"/>
+      <space seats="27" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="309">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SWNG-309"/>
+      <space seats="47" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="310">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SWNG-310"/>
+      <space seats="27" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="405">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SWNG-405"/>
+      <space seats="47" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="406">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SWNG-406"/>
+      <space seats="27" furniture="Classroom-Moveable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="407">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SWNG-407"/>
+      <space seats="47" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="408">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SWNG-408"/>
+      <space seats="27" furniture="Classroom-Moveable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="409">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SWNG-409"/>
+      <space seats="47" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="410">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SWNG-410"/>
+      <space seats="27" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+  </rooms>
+</building>

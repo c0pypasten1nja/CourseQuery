@@ -1,0 +1,10 @@
+{
+    "title": "greater than \"99.0\"",
+    "query": "In courses dataset courses, find entries whose Average is greater than \"99.0\" or Pass is greater than 2600; show Instructor, Title, UUID, Average, Pass and Fail; sort in descending order by Average and Pass.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}

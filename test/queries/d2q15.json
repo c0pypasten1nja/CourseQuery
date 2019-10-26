@@ -1,0 +1,15 @@
+{
+    "title": "Type includes \"Lab\"",
+    "query": "In rooms dataset rooms grouped by Address, find entries whose Type includes \"Lab\"; show Address and maxSeats and minSeats, where maxSeats is the MAX of Seats and minSeats is the MIN of Seats; sort in descending order by minSeats.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [{
+                "rooms_address": "6363 Agronomy Road",
+                "maxSeats": 72,
+                "minSeats": 48
+            }]
+        }
+
+    }
+}
