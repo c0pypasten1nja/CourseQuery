@@ -1,0 +1,136 @@
+{
+    "title": "grouped by Department and Title, where minPass is the MIN of Pass and avgGrade is the AVG of Average",
+    "query": "In courses dataset courses grouped by Department and Title, find entries whose Average is greater than 90 and Pass is not less than 100; show Title and Department and minPass and avgGrade, where minPass is the MIN of Pass and avgGrade is the AVG of Average; sort in ascending order by Title and Department and minPass and avgGrade.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [{
+                    "courses_dept": "phar",
+                    "courses_title": "admn of injectns",
+                    "minPass": 120,
+                    "avgGrade": 93.38
+                },
+                {
+                    "courses_dept": "phar",
+                    "courses_title": "biophys pharm i",
+                    "minPass": 155,
+                    "avgGrade": 90.45
+                },
+                {
+                    "courses_dept": "edcp",
+                    "courses_title": "curric iss&thry",
+                    "minPass": 102,
+                    "avgGrade": 90.46
+                },
+                {
+                    "courses_dept": "etec",
+                    "courses_title": "des tech",
+                    "minPass": 102,
+                    "avgGrade": 91.27
+                },
+                {
+                    "courses_dept": "civl",
+                    "courses_title": "desig & analys 2",
+                    "minPass": 140,
+                    "avgGrade": 91.46
+                },
+                {
+                    "courses_dept": "epse",
+                    "courses_title": "ed st dvl ds inc",
+                    "minPass": 115,
+                    "avgGrade": 92.39
+                },
+                {
+                    "courses_dept": "epse",
+                    "courses_title": "educ stds autism",
+                    "minPass": 146,
+                    "avgGrade": 92
+                },
+                {
+                    "courses_dept": "musc",
+                    "courses_title": "hist poplr music",
+                    "minPass": 148,
+                    "avgGrade": 93.45
+                },
+                {
+                    "courses_dept": "cons",
+                    "courses_title": "intro to conserv",
+                    "minPass": 103,
+                    "avgGrade": 90.25
+                },
+                {
+                    "courses_dept": "nurs",
+                    "courses_title": "ldrshp ethcs pol",
+                    "minPass": 116,
+                    "avgGrade": 93
+                },
+                {
+                    "courses_dept": "nurs",
+                    "courses_title": "ldrshp, ethics",
+                    "minPass": 120,
+                    "avgGrade": 94.15
+                },
+                {
+                    "courses_dept": "civl",
+                    "courses_title": "opt&dcs anl civl",
+                    "minPass": 132,
+                    "avgGrade": 90.11
+                },
+                {
+                    "courses_dept": "phar",
+                    "courses_title": "pharm mgmt",
+                    "minPass": 126,
+                    "avgGrade": 90.67
+                },
+                {
+                    "courses_dept": "phar",
+                    "courses_title": "pharmacokinetics",
+                    "minPass": 152,
+                    "avgGrade": 90.26
+                },
+                {
+                    "courses_dept": "phrm",
+                    "courses_title": "phrm in practc 1",
+                    "minPass": 218,
+                    "avgGrade": 94.23
+                },
+                {
+                    "courses_dept": "nurs",
+                    "courses_title": "practice praxis",
+                    "minPass": 116,
+                    "avgGrade": 91.83
+                },
+                {
+                    "courses_dept": "cnps",
+                    "courses_title": "psnl soc dv adlt",
+                    "minPass": 116,
+                    "avgGrade": 90.34
+                },
+                {
+                    "courses_dept": "educ",
+                    "courses_title": "res mthd in educ",
+                    "minPass": 137,
+                    "avgGrade": 90.36
+                },
+                {
+                    "courses_dept": "nurs",
+                    "courses_title": "rl div hlth expr",
+                    "minPass": 118,
+                    "avgGrade": 91.97
+                },
+                {
+                    "courses_dept": "phrm",
+                    "courses_title": "tech in hlthcare",
+                    "minPass": 218,
+                    "avgGrade": 92.06
+                },
+                {
+                    "courses_dept": "epse",
+                    "courses_title": "typ atyp inf/ch",
+                    "minPass": 115,
+                    "avgGrade": 92.3
+                }
+            ]
+        }
+    }
+}

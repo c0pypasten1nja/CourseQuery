@@ -1,0 +1,10 @@
+{
+    "title": "no two APPLY targets should have the same name",
+    "query": "In rooms dataset rooms grouped by Address and Full Name and Furniture, find entries whose Furniture includes \"Movable\" and Furniture does not include \"Fixed\"; show Address and Full Name and Furniture and maxSeats and minSeats, where maxSeats is the MAX of Seats and maxSeats is the MIN of Seats; sort in descending order by Address and Full Name and Furniture and maxSeats and minSeats.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}

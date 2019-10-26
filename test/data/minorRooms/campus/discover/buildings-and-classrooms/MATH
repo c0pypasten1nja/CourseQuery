@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="MATH" address="1984 Mathematics Road" name="Mathematics">
+  <rooms>
+    <room number="100">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MATH-100"/>
+      <space seats="224" furniture="Classroom-Fixed Tablets" type="Tiered Large Group"/>
+    </room>
+    <room number="102">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MATH-102"/>
+      <space seats="60" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="104">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MATH-104"/>
+      <space seats="48" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="105">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MATH-105"/>
+      <space seats="30" furniture="Classroom-Movable Tablets" type="Open Design General Purpose"/>
+    </room>
+    <room number="202">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MATH-202"/>
+      <space seats="30" furniture="Classroom-Movable Tablets" type="Small Group"/>
+    </room>
+    <room number="203">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MATH-203"/>
+      <space seats="48" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="204">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MATH-204"/>
+      <space seats="30" furniture="Classroom-Movable Tablets" type="Open Design General Purpose"/>
+    </room>
+    <room number="225">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/MATH-225"/>
+      <space seats="25" furniture="Classroom-Movable Tablets" type="Small Group"/>
+    </room>
+  </rooms>
+</building>

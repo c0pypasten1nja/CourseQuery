@@ -1,0 +1,10 @@
+{
+    "title": "QUERY   ::= DATASET + ', ' + FILTER + '; ' + DISPLAY",
+    "query": "In courses dataset courses, find entries whose Average is greater than 98; show Department and ID, Instructor, Title, UUID, Average, Pass, Fail and Audit",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}

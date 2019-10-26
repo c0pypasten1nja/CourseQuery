@@ -1,0 +1,88 @@
+{
+    "title": "begins with \"z\", does not end with \"a\", does not include 1, does not include \"&\"",
+    "query": "In courses dataset courses, find entries whose Instructor begins with \"z\" and Instructor does not end with \"a\" and Title does not include \"1\" and Title does not include \"&\" and Department does not include \"e\" and ID does not include \"1\" and Average is not greater than 72; show Department, ID, Instructor, Title, UUID, Average, Pass, Fail and Audit; sort in descending order by Instructor.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                  "courses_dept": "math",
+                  "courses_id": "257",
+                  "courses_instructor": "zwiers, ian",
+                  "courses_title": "partl diff equat",
+                  "courses_uuid": "61293",
+                  "courses_avg": 68.13,
+                  "courses_pass": 29,
+                  "courses_fail": 3,
+                  "courses_audit": 1
+                },
+                {
+                  "courses_dept": "math",
+                  "courses_id": "264",
+                  "courses_instructor": "zwiers, ian",
+                  "courses_title": "vctr calc el eng",
+                  "courses_uuid": "27344",
+                  "courses_avg": 62.4,
+                  "courses_pass": 71,
+                  "courses_fail": 16,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_dept": "phys",
+                  "courses_id": "402",
+                  "courses_instructor": "zhou, fei",
+                  "courses_title": "aplic quant mech",
+                  "courses_uuid": "98767",
+                  "courses_avg": 71.69,
+                  "courses_pass": 36,
+                  "courses_fail": 0,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_dept": "phys",
+                  "courses_id": "402",
+                  "courses_instructor": "zhou, fei",
+                  "courses_title": "aplic quant mech",
+                  "courses_uuid": "75342",
+                  "courses_avg": 70,
+                  "courses_pass": 30,
+                  "courses_fail": 2,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_dept": "chin",
+                  "courses_id": "323",
+                  "courses_instructor": "zheng, ming fang",
+                  "courses_title": "busi chinese ii",
+                  "courses_uuid": "66350",
+                  "courses_avg": 65.45,
+                  "courses_pass": 9,
+                  "courses_fail": 2,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_dept": "math",
+                  "courses_id": "255",
+                  "courses_instructor": "zhao, mingfeng",
+                  "courses_title": "ord diff equtns",
+                  "courses_uuid": "90085",
+                  "courses_avg": 59,
+                  "courses_pass": 50,
+                  "courses_fail": 12,
+                  "courses_audit": 0
+                },
+                {
+                  "courses_dept": "math",
+                  "courses_id": "255",
+                  "courses_instructor": "zhao, mingfeng",
+                  "courses_title": "ord diff equtns",
+                  "courses_uuid": "47130",
+                  "courses_avg": 60.44,
+                  "courses_pass": 26,
+                  "courses_fail": 8,
+                  "courses_audit": 0
+                }
+              ]
+        }
+    }
+}

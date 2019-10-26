@@ -1,0 +1,22 @@
+{
+    "title": "M_OP edge",
+    "query": "In courses dataset courses, find entries whose Average is greater than 99.781 or Average is less than 00.000 or Pass is greater than 2994.001 or Pass is less than 00.000 or Pass is equal to 01.000 and Instructor includes \",\" and Fail is greater than 000.999 or Fail is less than 00.000 or Audit is greater than 99.999 or Audit is less than 00.000; show Department and ID, Instructor, Title, UUID, Average, Pass, Fail and Audit; sort in ascending order by Pass.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                {
+                  "courses_dept": "hist",
+                  "courses_id": "102",
+                  "courses_instructor": "gossen, david",
+                  "courses_title": "hist 1500 - 20 c",
+                  "courses_uuid": "14375",
+                  "courses_avg": 34,
+                  "courses_pass": 1,
+                  "courses_fail": 1,
+                  "courses_audit": 0
+                }
+              ]
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": "QUERY   ::= DATASET + ', ' + FILTER + '; ' + ORDER + '.'",
+    "query": "In courses dataset courses, find entries whose Average is greater than 98; sort in descending order by Average.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}

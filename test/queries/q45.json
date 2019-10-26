@@ -1,0 +1,46 @@
+{
+    "title": "SELECT dprtmnt, instrctr, ttl, uuid, avg, pss, fl, adt WHERE fl > 200",
+    "query": "In courses dataset courses, find entries whose Fail is greater than 200; show Title and UUID and Pass and Fail; sort in ascending order by Pass.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [{
+                    "courses_title": "cell biology 1",
+                    "courses_uuid": "18074",
+                    "courses_pass": 958,
+                    "courses_fail": 204
+                },
+                {
+                    "courses_title": "int calc ap ph s",
+                    "courses_uuid": "13688",
+                    "courses_pass": 1012,
+                    "courses_fail": 203
+                },
+                {
+                    "courses_title": "int calc ap ph s",
+                    "courses_uuid": "5131",
+                    "courses_pass": 1122,
+                    "courses_fail": 222
+                },
+                {
+                    "courses_title": "unicellular life",
+                    "courses_uuid": "34263",
+                    "courses_pass": 1215,
+                    "courses_fail": 230
+                },
+                {
+                    "courses_title": "int calc ap ph s",
+                    "courses_uuid": "47011",
+                    "courses_pass": 1390,
+                    "courses_fail": 205
+                },
+                {
+                    "courses_title": "prncpls micrecon",
+                    "courses_uuid": "21433",
+                    "courses_pass": 2124,
+                    "courses_fail": 221
+                }
+            ]
+        }
+    }
+}

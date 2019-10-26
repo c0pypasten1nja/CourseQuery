@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="DMP" address="6245 Agronomy Road V6T 1Z4" name="Hugh Dempster Pavilion">
+  <rooms>
+    <room number="101">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/DMP-101"/>
+      <space seats="40" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="110">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/DMP-110"/>
+      <space seats="120" furniture="Classroom-Fixed Tables/Movable Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="201">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/DMP-201"/>
+      <space seats="40" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="301">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/DMP-301"/>
+      <space seats="80" furniture="Classroom-Fixed Tables/Movable Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="310">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/DMP-310"/>
+      <space seats="160" furniture="Classroom-Fixed Tables/Movable Chairs" type="Tiered Large Group"/>
+    </room>
+  </rooms>
+</building>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="LASR" address="6333 Memorial Road" name="Frederic Lasserre">
+  <rooms>
+    <room number="102">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/LASR-102"/>
+      <space seats="80" furniture="Classroom-Fixed Tables/Fixed Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="104">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/LASR-104"/>
+      <space seats="94" furniture="Classroom-Fixed Tablets" type="Tiered Large Group"/>
+    </room>
+    <room number="105">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/LASR-105"/>
+      <space seats="60" furniture="Classroom-Fixed Tablets" type=""/>
+    </room>
+    <room number="107">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/LASR-107"/>
+      <space seats="51" furniture="Classroom-Movable Tablets" type="Open Design General Purpose"/>
+    </room>
+    <room number="211">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/LASR-211"/>
+      <space seats="20" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="5C">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/LASR-5C"/>
+      <space seats="20" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+  </rooms>
+</building>

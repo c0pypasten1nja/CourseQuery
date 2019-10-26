@@ -1,0 +1,10 @@
+{
+    "title": "missing ','",
+    "query": "In courses dataset courses, find entries whose Instructor begins with \"z\" and Instructor does not end with \"a\" and Title does not include 1 and Title does not include \"&\" and Department does not include \"e\" and ID does not include 1; show Department ID and Audit; sort in descending order by Department.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}

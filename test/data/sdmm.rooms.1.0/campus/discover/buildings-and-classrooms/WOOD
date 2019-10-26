@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="WOOD" address="2194 Health Sciences Mall" name="Woodward (Instructional Resources Centre-IRC)">
+  <rooms>
+    <room number="1">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/WOOD-1"/>
+      <space seats="120" furniture="Classroom-Fixed Tables/Movable Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="2">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/WOOD-2"/>
+      <space seats="503" furniture="Classroom-Fixed Tablets" type="Tiered Large Group"/>
+    </room>
+    <room number="3">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/WOOD-3"/>
+      <space seats="88" furniture="Classroom-Fixed Tables/Movable Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="4">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/WOOD-4"/>
+      <space seats="120" furniture="Classroom-Fixed Tables/Movable Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="5">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/WOOD-5"/>
+      <space seats="120" furniture="Classroom-Fixed Tables/Movable Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="6">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/WOOD-6"/>
+      <space seats="181" furniture="Classroom-Fixed Tablets" type="Tiered Large Group"/>
+    </room>
+    <room number="B75">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/WOOD-B75"/>
+      <space seats="30" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="B79">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/WOOD-B79"/>
+      <space seats="21" furniture="Classroom-Movable Tablets" type="Small Group"/>
+    </room>
+    <room number="G41">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/WOOD-G41"/>
+      <space seats="30" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="G44">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/WOOD-G44"/>
+      <space seats="14" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="G53">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/WOOD-G53"/>
+      <space seats="10" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="G55">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/WOOD-G55"/>
+      <space seats="10" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="G57">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/WOOD-G57"/>
+      <space seats="12" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="G59">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/WOOD-G59"/>
+      <space seats="10" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="G65">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/WOOD-G65"/>
+      <space seats="12" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="G66">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/WOOD-G66"/>
+      <space seats="16" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+  </rooms>
+</building>

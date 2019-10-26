@@ -1,0 +1,10 @@
+{
+    "title": "SELECT instrctr, ttl, uuid, avg, pss, fl, adt WHERE ID includes 0101.0",
+    "query": "In courses dataset courses, find entries whose ID includes \"0101\" and UUID includes \"0101\"; show Instructor and Title and UUID and Average and Pass and Fail and Audit; sort in descending order by Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": []
+        }
+    }
+}

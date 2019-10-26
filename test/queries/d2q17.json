@@ -1,0 +1,61 @@
+{
+    "title": "dataset minorRooms, find all entries",
+    "query": "In rooms dataset minorRooms, find all entries; show Short Name, Number and Seats; sort in ascending order by Short Name, Number and Seats.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [{
+                    "minorRooms_shortname": "AERL",
+                    "minorRooms_number": "120",
+                    "minorRooms_seats": 144
+                },
+                {
+                    "minorRooms_shortname": "ALRD",
+                    "minorRooms_number": "105",
+                    "minorRooms_seats": 94
+                },
+                {
+                    "minorRooms_shortname": "ALRD",
+                    "minorRooms_number": "112",
+                    "minorRooms_seats": 20
+                },
+                {
+                    "minorRooms_shortname": "ALRD",
+                    "minorRooms_number": "113",
+                    "minorRooms_seats": 20
+                },
+                {
+                    "minorRooms_shortname": "ALRD",
+                    "minorRooms_number": "121",
+                    "minorRooms_seats": 50
+                },
+                {
+                    "minorRooms_shortname": "ALRD",
+                    "minorRooms_number": "B101",
+                    "minorRooms_seats": 44
+                },
+                {
+                    "minorRooms_shortname": "ANSO",
+                    "minorRooms_number": "202",
+                    "minorRooms_seats": 26
+                },
+                {
+                    "minorRooms_shortname": "ANSO",
+                    "minorRooms_number": "203",
+                    "minorRooms_seats": 33
+                },
+                {
+                    "minorRooms_shortname": "ANSO",
+                    "minorRooms_number": "205",
+                    "minorRooms_seats": 37
+                },
+                {
+                    "minorRooms_shortname": "ANSO",
+                    "minorRooms_number": "207",
+                    "minorRooms_seats": 90
+                }
+            ]
+        }
+
+    }
+}

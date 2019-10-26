@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="LSC" address="2350 Health Sciences Mall" name="Life Sciences Centre">
+  <rooms>
+    <room number="1001">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/LSC-1001"/>
+      <space seats="350" furniture="Classroom-Fixed Tables/Movable Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="1002">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/LSC-1002"/>
+      <space seats="350" furniture="Classroom-Fixed Tables/Movable Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="1003">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/LSC-1003"/>
+      <space seats="125" furniture="Classroom-Fixed Tables/Movable Chairs" type="Tiered Large Group"/>
+    </room>
+  </rooms>
+</building>

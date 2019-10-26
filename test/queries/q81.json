@@ -1,0 +1,10 @@
+{
+    "title": "DATASET + ', ' + FILTER + '; ' + ORDER + '; ' + DISPLAY + '.'",
+    "query": "In courses dataset courses, find entries whose Title includes \"thry\" and Title includes \"automata\" and Instructor includes \",\"; sort in descending order by Average; show Department, ID, Instructor, Title, UUID, Average, Pass, Fail and Audit.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}

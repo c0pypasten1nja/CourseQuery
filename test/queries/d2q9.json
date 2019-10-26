@@ -1,0 +1,112 @@
+{
+    "title": "grouped by Address and Full Name and Type, where avgSeats is the AVG of Seats",
+    "query": "In rooms dataset rooms grouped by Address and Full Name and Type, find entries whose Seats is greater than 200; show Address and Full Name and Type and avgSeats, where avgSeats is the AVG of Seats; sort in descending order by Address and Full Name and Type and avgSeats.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [{
+                    "rooms_address": "6356 Agricultural Road",
+                    "rooms_fullname": "Leonard S. Klinck (also known as CSCI)",
+                    "rooms_type": "Tiered Large Group",
+                    "avgSeats": 205
+                },
+                {
+                    "rooms_address": "6270 University Boulevard",
+                    "rooms_fullname": "Biological Sciences",
+                    "rooms_type": "Tiered Large Group",
+                    "avgSeats": 228
+                },
+                {
+                    "rooms_address": "6224 Agricultural Road",
+                    "rooms_fullname": "Hennings",
+                    "rooms_type": "Tiered Large Group",
+                    "avgSeats": 257
+                },
+                {
+                    "rooms_address": "6174 University Boulevard",
+                    "rooms_fullname": "Wesbrook",
+                    "rooms_type": "Tiered Large Group",
+                    "avgSeats": 325
+                },
+                {
+                    "rooms_address": "6000 Student Union Blvd",
+                    "rooms_fullname": "Student Recreation Centre",
+                    "rooms_type": "TBD",
+                    "avgSeats": 299
+                },
+                {
+                    "rooms_address": "2424 Main Mall",
+                    "rooms_fullname": "Forest Sciences Centre",
+                    "rooms_type": "Tiered Large Group",
+                    "avgSeats": 250
+                },
+                {
+                    "rooms_address": "2405 Wesbrook Mall",
+                    "rooms_fullname": "Pharmaceutical Sciences Building",
+                    "rooms_type": "Tiered Large Group",
+                    "avgSeats": 236
+                },
+                {
+                    "rooms_address": "2350 Health Sciences Mall",
+                    "rooms_fullname": "Life Sciences Centre",
+                    "rooms_type": "Tiered Large Group",
+                    "avgSeats": 350
+                },
+                {
+                    "rooms_address": "2260 West Mall, V6T 1Z4",
+                    "rooms_fullname": "Centre for Interactive  Research on Sustainability",
+                    "rooms_type": "Tiered Large Group",
+                    "avgSeats": 426
+                },
+                {
+                    "rooms_address": "2207 Main Mall",
+                    "rooms_fullname": "Earth Sciences Building",
+                    "rooms_type": "Tiered Large Group",
+                    "avgSeats": 350
+                },
+                {
+                    "rooms_address": "2194 Health Sciences Mall",
+                    "rooms_fullname": "Woodward (Instructional Resources Centre-IRC)",
+                    "rooms_type": "Tiered Large Group",
+                    "avgSeats": 503
+                },
+                {
+                    "rooms_address": "2125 Main Mall",
+                    "rooms_fullname": "Neville Scarfe",
+                    "rooms_type": "Tiered Large Group",
+                    "avgSeats": 280
+                },
+                {
+                    "rooms_address": "2053 Main Mall",
+                    "rooms_fullname": "Henry Angus",
+                    "rooms_type": "Tiered Large Group",
+                    "avgSeats": 260
+                },
+                {
+                    "rooms_address": "2045 East Mall",
+                    "rooms_fullname": "Hebb",
+                    "rooms_type": "Tiered Large Group",
+                    "avgSeats": 375
+                },
+                {
+                    "rooms_address": "2036 Main Mall",
+                    "rooms_fullname": "Chemistry",
+                    "rooms_type": "Tiered Large Group",
+                    "avgSeats": 252.5
+                },
+                {
+                    "rooms_address": "1984 West Mall",
+                    "rooms_fullname": "Geography",
+                    "rooms_type": "Tiered Large Group",
+                    "avgSeats": 225
+                },
+                {
+                    "rooms_address": "1984 Mathematics Road",
+                    "rooms_fullname": "Mathematics",
+                    "rooms_type": "Tiered Large Group",
+                    "avgSeats": 224
+                }
+            ]
+        }
+    }
+}

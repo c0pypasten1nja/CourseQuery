@@ -1,0 +1,22 @@
+{
+    "title": "grouped by Name and Type, where avgSeats is the AVG of Seats",
+    "query": "In rooms dataset rooms grouped by Type, find entries whose Seats is less than 25; show Type and avgSeats, where avgSeats is the AVG of Seats; sort in descending order by Type and avgSeats.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [{
+                    "rooms_type": "Small Group",
+                    "avgSeats": 14.79
+                },
+                {
+                    "rooms_type": "Open Design General Purpose",
+                    "avgSeats": 18.29
+                },
+                {
+                    "rooms_type": "Active Learning",
+                    "avgSeats": 17.33
+                }
+            ]
+        }
+    }
+}

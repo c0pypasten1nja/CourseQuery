@@ -1,0 +1,10 @@
+{
+    "title": "M_OP does not include NUMBER",
+    "query": "In courses dataset courses, find entries whose Average does not include 98 and Department is \"cnps\" and Instructor includes \"goodwill\"; show Department and ID, Instructor, Title, UUID, Average, Pass, Fail and Audit; sort in ascending order by Department, ID, Average and Pass.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}

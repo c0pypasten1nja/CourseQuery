@@ -1,0 +1,130 @@
+{
+    "title": "grouped by Department and Title, where avgGrade is the AVG of Average",
+    "query": "In courses dataset courses grouped by Department and Title, find entries whose Pass is greater than 900; show Title and Department and avgGrade, where avgGrade is the AVG of Average; sort in ascending order by Title and Department and avgGrade.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [{
+                    "courses_dept": "biol",
+                    "courses_title": "biol bact cell",
+                    "avgGrade": 67.77
+                },
+                {
+                    "courses_dept": "biol",
+                    "courses_title": "biology of cell",
+                    "avgGrade": 75.01
+                },
+                {
+                    "courses_dept": "math",
+                    "courses_title": "calculus 3",
+                    "avgGrade": 66.13
+                },
+                {
+                    "courses_dept": "eosc",
+                    "courses_title": "catastroph earth",
+                    "avgGrade": 73.46
+                },
+                {
+                    "courses_dept": "biol",
+                    "courses_title": "cell biology 1",
+                    "avgGrade": 67.82
+                },
+                {
+                    "courses_dept": "cpsc",
+                    "courses_title": "comptn, progrmng",
+                    "avgGrade": 73.25
+                },
+                {
+                    "courses_dept": "math",
+                    "courses_title": "df calc ap ph sc",
+                    "avgGrade": 69.98
+                },
+                {
+                    "courses_dept": "biol",
+                    "courses_title": "eco gen evol",
+                    "avgGrade": 66.88
+                },
+                {
+                    "courses_dept": "phys",
+                    "courses_title": "energy & waves",
+                    "avgGrade": 72.72
+                },
+                {
+                    "courses_dept": "biol",
+                    "courses_title": "fund cell bio",
+                    "avgGrade": 71.07
+                },
+                {
+                    "courses_dept": "biol",
+                    "courses_title": "gentcs ecol&evol",
+                    "avgGrade": 69.09
+                },
+                {
+                    "courses_dept": "eosc",
+                    "courses_title": "gold & gems",
+                    "avgGrade": 76.29
+                },
+                {
+                    "courses_dept": "math",
+                    "courses_title": "int calc ap c&ss",
+                    "avgGrade": 67.13
+                },
+                {
+                    "courses_dept": "math",
+                    "courses_title": "int calc ap ph s",
+                    "avgGrade": 65.78
+                },
+                {
+                    "courses_dept": "crwr",
+                    "courses_title": "intr cr writing",
+                    "avgGrade": 77.86
+                },
+                {
+                    "courses_dept": "engl",
+                    "courses_title": "intro literature",
+                    "avgGrade": 72.82
+                },
+                {
+                    "courses_dept": "biol",
+                    "courses_title": "lab inv life sc",
+                    "avgGrade": 73.42
+                },
+                {
+                    "courses_dept": "phil",
+                    "courses_title": "log & crit think",
+                    "avgGrade": 71.22
+                },
+                {
+                    "courses_dept": "econ",
+                    "courses_title": "princpl macrecon",
+                    "avgGrade": 68.61
+                },
+                {
+                    "courses_dept": "econ",
+                    "courses_title": "prncpls micrecon",
+                    "avgGrade": 68.67
+                },
+                {
+                    "courses_dept": "wrds",
+                    "courses_title": "rsrch&writ human",
+                    "avgGrade": 70.45
+                },
+                {
+                    "courses_dept": "engl",
+                    "courses_title": "strat univ writ",
+                    "avgGrade": 72.2
+                },
+                {
+                    "courses_dept": "biol",
+                    "courses_title": "unicellular life",
+                    "avgGrade": 69.54
+                },
+                {
+                    "courses_dept": "engl",
+                    "courses_title": "univrsty writing",
+                    "avgGrade": 72.17
+                }
+            ]
+        }
+    }
+}

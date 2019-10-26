@@ -1,0 +1,26 @@
+{
+    "title": "minorRooms grouped by Type ",
+    "query": "In rooms dataset minorRooms grouped by Type, find entries whose Short Name is \"AERL\" or Short Name is \"ALRD\" or Short Name is \"ANSO\"; show Type and count, where count is the COUNT of Name; sort in ascending order by Type.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [{
+                    "minorRooms_type": "Case Style",
+                    "count": 2
+                },
+                {
+                    "minorRooms_type": "Open Design General Purpose",
+                    "count": 4
+                },
+                {
+                    "minorRooms_type": "Small Group",
+                    "count": 3
+                },
+                {
+                    "minorRooms_type": "Tiered Large Group",
+                    "count": 1
+                }
+            ]
+        }
+    }
+}

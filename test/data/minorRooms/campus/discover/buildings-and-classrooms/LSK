@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="LSK" address="6356 Agricultural Road" name="Leonard S. Klinck (also known as CSCI)">
+  <rooms>
+    <room number="200">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/LSK-200"/>
+      <space seats="205" furniture="Classroom-Fixed Tables/Fixed Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="201">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/LSK-201"/>
+      <space seats="183" furniture="Classroom-Fixed Tables/Fixed Chairs" type="Tiered Large Group"/>
+    </room>
+    <room number="460">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/LSK-460"/>
+      <space seats="75" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="462">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/LSK-462"/>
+      <space seats="42" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+  </rooms>
+</building>

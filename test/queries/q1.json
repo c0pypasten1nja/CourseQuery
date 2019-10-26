@@ -4,7 +4,10 @@
     "response": {
         "code": 200,
         "body": {
-            "result": [
+            "result": [{
+                    "courses_dept": "epse",
+                    "courses_avg": 97.09
+                },
                 {
                     "courses_dept": "epse",
                     "courses_avg": 97.09
@@ -15,10 +18,6 @@
                 },
                 {
                     "courses_dept": "math",
-                    "courses_avg": 97.09
-                },
-                {
-                    "courses_dept": "epse",
                     "courses_avg": 97.09
                 },
                 {
@@ -134,11 +133,11 @@
                     "courses_avg": 98.5
                 },
                 {
-                    "courses_dept": "epse",
+                    "courses_dept": "nurs",
                     "courses_avg": 98.58
                 },
                 {
-                    "courses_dept": "nurs",
+                    "courses_dept": "epse",
                     "courses_avg": 98.58
                 },
                 {
@@ -180,14 +179,6 @@
                 {
                     "courses_dept": "epse",
                     "courses_avg": 98.8
-                },
-                {
-                    "courses_dept": "spph",
-                    "courses_avg": 98.98
-                },
-                {
-                    "courses_dept": "spph",
-                    "courses_avg": 98.98
                 },
                 {
                     "courses_dept": "cnps",

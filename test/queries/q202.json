@@ -1,0 +1,10 @@
+{
+    "title": "M_KEY + M_OP",
+    "query": "In courses dataset courses, find entries whose Instructor is not \"\" and Average is greater than or Pass is greater than 1100 and Instructor is not \"\"; show Instructor, Title, UUID, Average, Pass and Fail; sort in descending order by Pass and Average.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}

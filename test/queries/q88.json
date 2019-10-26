@@ -1,0 +1,10 @@
+{
+    "title": "does not end with sand",
+    "query": "In courses dataset courses, find entries whose ID is \"555\" and Instructor includes \",\" and Department does not end with \"s\"and Instructor does not end with \"s\"; show Department and ID and Instructor and Title and UUID and Average and Pass and Fail and Audit; sort in descending order by Average.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}

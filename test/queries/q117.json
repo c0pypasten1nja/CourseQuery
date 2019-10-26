@@ -1,0 +1,10 @@
+{
+    "title": "M_KEY does not include",
+    "query": "In courses dataset courses, find entries whose Average does not include 99.0 and Average is not less than 98.0; show Department and ID, Instructor, Title, UUID, Average, Pass, Fail and Audit.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}

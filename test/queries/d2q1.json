@@ -1,0 +1,123 @@
+{
+    "title": "grouped by Title, where avgGrade is the AVG of Average",
+    "query": "In courses dataset courses grouped by Title, find entries whose Department is \"math\" and Pass is greater than 100; show Title and avgGrade, where avgGrade is the AVG of Average; sort in descending order by avgGrade.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [{
+                    "courses_title": "mltvar&vctr calc",
+                    "avgGrade": 77.33
+                },
+                {
+                    "courses_title": "alg coding crypt",
+                    "avgGrade": 74.58
+                },
+                {
+                    "courses_title": "diff equations 2",
+                    "avgGrade": 72.34
+                },
+                {
+                    "courses_title": "intr probability",
+                    "avgGrade": 71.02
+                },
+                {
+                    "courses_title": "ord diff equtns",
+                    "avgGrade": 70.86
+                },
+                {
+                    "courses_title": "df calc app lf s",
+                    "avgGrade": 70.79
+                },
+                {
+                    "courses_title": "diff equations",
+                    "avgGrade": 70.49
+                },
+                {
+                    "courses_title": "multivrbl calc",
+                    "avgGrade": 70.41
+                },
+                {
+                    "courses_title": "intro lin prog",
+                    "avgGrade": 70.4
+                },
+                {
+                    "courses_title": "partl diff equat",
+                    "avgGrade": 70.31
+                },
+                {
+                    "courses_title": "df calc ap ph sc",
+                    "avgGrade": 70.08
+                },
+                {
+                    "courses_title": "dff calc ap c&ss",
+                    "avgGrade": 69.69
+                },
+                {
+                    "courses_title": "elem diff eq i",
+                    "avgGrade": 69.44
+                },
+                {
+                    "courses_title": "app part diff eq",
+                    "avgGrade": 69.43
+                },
+                {
+                    "courses_title": "matrix algebra",
+                    "avgGrade": 69.29
+                },
+                {
+                    "courses_title": "calculus iv",
+                    "avgGrade": 68.87
+                },
+                {
+                    "courses_title": "appl linear algb",
+                    "avgGrade": 68.67
+                },
+                {
+                    "courses_title": "int calc ap lf s",
+                    "avgGrade": 68.52
+                },
+                {
+                    "courses_title": "int calc ap c&ss",
+                    "avgGrade": 68
+                },
+                {
+                    "courses_title": "calculus 3",
+                    "avgGrade": 67.63
+                },
+                {
+                    "courses_title": "int calc ap ph s",
+                    "avgGrade": 66.61
+                },
+                {
+                    "courses_title": "intr complex var",
+                    "avgGrade": 66.22
+                },
+                {
+                    "courses_title": "linear systems",
+                    "avgGrade": 66.16
+                },
+                {
+                    "courses_title": "math proof",
+                    "avgGrade": 64.18
+                },
+                {
+                    "courses_title": "calc socsci comm",
+                    "avgGrade": 63.93
+                },
+                {
+                    "courses_title": "diff calculus",
+                    "avgGrade": 63.09
+                },
+                {
+                    "courses_title": "vctr calc el eng",
+                    "avgGrade": 62.64
+                },
+                {
+                    "courses_title": "dif calc phys ap",
+                    "avgGrade": 60.17
+                }
+            ]
+        }
+
+    }
+}

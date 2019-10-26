@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="HENN" address="6224 Agricultural Road" name="Hennings">
+  <rooms>
+    <room number="200">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/HENN-200"/>
+      <space seats="257" furniture="Classroom-Fixed Tablets" type="Tiered Large Group"/>
+    </room>
+    <room number="201">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/HENN-201"/>
+      <space seats="155" furniture="Classroom-Fixed Tablets" type="Tiered Large Group"/>
+    </room>
+    <room number="202">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/HENN-202"/>
+      <space seats="150" furniture="Classroom-Fixed Tablets" type="Tiered Large Group"/>
+    </room>
+    <room number="301">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/HENN-301"/>
+      <space seats="30" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="302">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/HENN-302"/>
+      <space seats="30" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="304">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/HENN-304"/>
+      <space seats="36" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+  </rooms>
+</building>

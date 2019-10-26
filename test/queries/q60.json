@@ -1,0 +1,10 @@
+{
+    "title": "input with no char",
+    "query": "In courses dataset, find entries whose Average is equal to \"66.66\"; show courses_instructor and courses_title and courses_uuid and courses_avg and courses_pass and courses_fail; sort in ascending order by courses_avg.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}

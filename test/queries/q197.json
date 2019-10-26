@@ -1,0 +1,10 @@
+{
+    "title": "does not includes ",
+    "query": "In courses dataset courses, find entries whose Instructor does not includes \" \" and Average is greater than 99.0 or Pass is greater than 2600; show Instructor, Title, UUID, Average, Pass and Fail; sort in descending order by Pass and Average.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Cannot read property 'key' of undefined"
+        }
+    }
+}

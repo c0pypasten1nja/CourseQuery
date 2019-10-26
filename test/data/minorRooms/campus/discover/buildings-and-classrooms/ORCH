@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="ORCH" address="6363 Agronomy Road" name="Orchard Commons">
+  <rooms>
+    <room number="1001">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ORCH-1001"/>
+      <space seats="72" furniture="Classroom-Hybrid Furniture" type="Active Learning"/>
+    </room>
+    <room number="3002">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ORCH-3002"/>
+      <space seats="25" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="3004">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ORCH-3004"/>
+      <space seats="25" furniture="Classroom-Hybrid Furniture" type="Open Design General Purpose"/>
+    </room>
+    <room number="3016">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ORCH-3016"/>
+      <space seats="25" furniture="Classroom-Fixed Tables/Movable Chairs" type="Active Learning"/>
+    </room>
+    <room number="3018">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ORCH-3018"/>
+      <space seats="48" furniture="Classroom-Learn Lab" type="Studio Lab"/>
+    </room>
+    <room number="3052">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ORCH-3052"/>
+      <space seats="25" furniture="Classroom-Hybrid Furniture" type="Open Design General Purpose"/>
+    </room>
+    <room number="3058">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ORCH-3058"/>
+      <space seats="25" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="3062">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ORCH-3062"/>
+      <space seats="16" furniture="Classroom-Movable Tablets" type="Open Design General Purpose"/>
+    </room>
+    <room number="3068">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ORCH-3068"/>
+      <space seats="16" furniture="Classroom-Movable Tablets" type="Open Design General Purpose"/>
+    </room>
+    <room number="3072">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ORCH-3072"/>
+      <space seats="16" furniture="Classroom-Movable Tablets" type="Open Design General Purpose"/>
+    </room>
+    <room number="3074">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ORCH-3074"/>
+      <space seats="72" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="4002">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ORCH-4002"/>
+      <space seats="25" furniture="Classroom-Fixed Tables/Movable Chairs" type="Active Learning"/>
+    </room>
+    <room number="4004">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ORCH-4004"/>
+      <space seats="25" furniture="Classroom-Fixed Tables/Movable Chairs" type="Active Learning"/>
+    </room>
+    <room number="4016">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ORCH-4016"/>
+      <space seats="25" furniture="Classroom-Fixed Tables/Movable Chairs" type="Active Learning"/>
+    </room>
+    <room number="4018">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ORCH-4018"/>
+      <space seats="48" furniture="Classroom-Hybrid Furniture" type="Active Learning"/>
+    </room>
+    <room number="4052">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ORCH-4052"/>
+      <space seats="25" furniture="Classroom-Hybrid Furniture" type="Open Design General Purpose"/>
+    </room>
+    <room number="4058">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ORCH-4058"/>
+      <space seats="25" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="4062">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ORCH-4062"/>
+      <space seats="16" furniture="Classroom-Hybrid Furniture" type="Active Learning"/>
+    </room>
+    <room number="4068">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ORCH-4068"/>
+      <space seats="16" furniture="Classroom-Movable Tables + Chairs" type="Active Learning"/>
+    </room>
+    <room number="4072">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ORCH-4072"/>
+      <space seats="20" furniture="Classroom-Hybrid Furniture" type="Active Learning"/>
+    </room>
+    <room number="4074">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/ORCH-4074"/>
+      <space seats="72" furniture="Classroom-Learn Lab" type="Studio Lab"/>
+    </room>
+  </rooms>
+</building>

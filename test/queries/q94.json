@@ -1,0 +1,10 @@
+{
+    "title": "SELECT Audit, Average WHERE Audit < -1 or Average > 100.01",
+    "query": "In courses dataset courses, find entries whose Audit is less than -1 or Average is greater than 100.01; show Audit and Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": []
+        }
+    }
+}

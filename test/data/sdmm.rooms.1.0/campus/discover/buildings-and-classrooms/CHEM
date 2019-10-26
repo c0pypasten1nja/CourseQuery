@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="CHEM" address="2036 Main Mall" name="Chemistry">
+  <rooms>
+    <room number="B150">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/CHEM-B150"/>
+      <space seats="265" furniture="Classroom-Fixed Tablets" type="Tiered Large Group"/>
+    </room>
+    <room number="B250">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/CHEM-B250"/>
+      <space seats="240" furniture="Classroom-Fixed Tablets" type="Tiered Large Group"/>
+    </room>
+    <room number="C124">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/CHEM-C124"/>
+      <space seats="90" furniture="Classroom-Fixed Tablets" type="Tiered Large Group"/>
+    </room>
+    <room number="C126">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/CHEM-C126"/>
+      <space seats="90" furniture="Classroom-Fixed Tablets" type="Tiered Large Group"/>
+    </room>
+    <room number="D200">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/CHEM-D200"/>
+      <space seats="114" furniture="Classroom-Fixed Tablets" type="Tiered Large Group"/>
+    </room>
+    <room number="D300">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/CHEM-D300"/>
+      <space seats="114" furniture="Classroom-Fixed Tablets" type="Tiered Large Group"/>
+    </room>
+  </rooms>
+</building>

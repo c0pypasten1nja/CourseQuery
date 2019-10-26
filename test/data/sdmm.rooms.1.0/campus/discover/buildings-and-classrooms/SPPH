@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="SPPH" address="2206 East Mall" name="School of Population and Public Health">
+  <rooms>
+    <room number="143">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SPPH-143"/>
+      <space seats="28" furniture="Classroom-Fixed Tables/Movable Chairs" type="Small Group"/>
+    </room>
+    <room number="B108">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SPPH-B108"/>
+      <space seats="30" furniture="Classroom-Fixed Tables/Movable Chairs" type="Small Group"/>
+    </room>
+    <room number="B112">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SPPH-B112"/>
+      <space seats="16" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="B136">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SPPH-B136"/>
+      <space seats="12" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="B138">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SPPH-B138"/>
+      <space seats="14" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="B151">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/SPPH-B151"/>
+      <space seats="66" furniture="Classroom-Fixed Tables/Movable Chairs" type="Open Design General Purpose"/>
+    </room>
+  </rooms>
+</building>

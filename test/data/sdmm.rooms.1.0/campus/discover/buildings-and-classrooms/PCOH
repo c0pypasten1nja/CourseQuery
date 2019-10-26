@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="PCOH" address="6445 University Boulevard" name="Ponderosa Commons: Oak House">
+  <rooms>
+    <room number="1001">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/PCOH-1001"/>
+      <space seats="40" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="1002">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/PCOH-1002"/>
+      <space seats="40" furniture="Classroom-Movable Tables + Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="1003">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/PCOH-1003"/>
+      <space seats="40" furniture="Classroom-Fixed Tables/Movable Chairs" type="Open Design General Purpose"/>
+    </room>
+    <room number="1008">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/PCOH-1008"/>
+      <space seats="24" furniture="Classroom-Movable Tablets" type="Small Group"/>
+    </room>
+    <room number="1009">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/PCOH-1009"/>
+      <space seats="24" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="1011">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/PCOH-1011"/>
+      <space seats="24" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="1215">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/PCOH-1215"/>
+      <space seats="24" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="1302">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/PCOH-1302"/>
+      <space seats="24" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+  </rooms>
+</building>

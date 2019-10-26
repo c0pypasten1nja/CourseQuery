@@ -1,0 +1,10 @@
+{
+    "title": "A query with dataset undefined",
+    "query": "In courses dataset undefined, find entries whose Pass is greater than 500; show Pass.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "dataset undefined"
+        }
+    }
+}

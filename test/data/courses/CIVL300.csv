@@ -1,7 +1,0 @@
-Title|id|Professor|Audit|Year|Course|Pass|Fail|Avg|Subject|Section
-const eng & mgmt|2743|froese, thomas;nelms, cheryl|0|2015|300|145|0|81.17|civl|201
-const eng & mgmt|2744||0|2015|300|145|0|81.17|civl|overall
-const eng & mgmt|45022|nelms, cheryl|0|2013|300|148|0|81.2|civl|201
-const eng & mgmt|45023||0|2013|300|148|0|81.2|civl|overall
-const eng & mgmt|47878|froese, thomas;nelms, cheryl|0|2014|300|151|1|78.73|civl|201
-const eng & mgmt|47879||0|2014|300|151|1|78.73|civl|overall

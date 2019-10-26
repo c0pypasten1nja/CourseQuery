@@ -1,0 +1,10 @@
+{
+    "title": "UUID is 11111",
+    "query": "In courses dataset courses, find entries whose UUID is 11111; show courses_dept, courses_id, courses_instructor, courses_title, courses_uuid, courses_avg, courses_pass and courses_fail.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": "Invalid query string"
+        }
+    }
+}

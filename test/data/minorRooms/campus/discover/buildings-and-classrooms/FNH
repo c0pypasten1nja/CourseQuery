@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<building id="FNH" address="2205 East Mall" name="Food, Nutrition and Health">
+  <rooms>
+    <room number="20">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/FNH-20"/>
+      <space seats="12" furniture="Classroom-Movable Tablets" type="Small Group"/>
+    </room>
+    <room number="30">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/FNH-30"/>
+      <space seats="28" furniture="Classroom-Movable Tables + Chairs" type="Small Group"/>
+    </room>
+    <room number="320">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/FNH-320"/>
+      <space seats="27" furniture="Classroom-Movable Tablets" type="Small Group"/>
+    </room>
+    <room number="40">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/FNH-40"/>
+      <space seats="54" furniture="Classroom-Movable Tablets" type="Open Design General Purpose"/>
+    </room>
+    <room number="50">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/FNH-50"/>
+      <space seats="43" furniture="Classroom-Movable Tablets" type="Open Design General Purpose"/>
+    </room>
+    <room number="60">
+      <web link="http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/FNH-60"/>
+      <space seats="99" furniture="Classroom-Fixed Tablets" type="Tiered Large Group"/>
+    </room>
+  </rooms>
+</building>
