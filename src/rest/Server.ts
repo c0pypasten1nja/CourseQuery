@@ -6,6 +6,7 @@ import fs = require("fs");
 import restify = require("restify");
 import Log from "../Util";
 import {InsightResponse} from "../controller/IInsightFacade";
+import InsightFacade from "../controller/InsightFacade";
 
 /**
  * This configures the REST endpoints for the server.
@@ -14,10 +15,12 @@ export default class Server {
 
     private port: number;
     private rest: restify.Server;
+    private static insightFacade: InsightFacade;
 
     constructor(port: number) {
         Log.info("Server::<init>( " + port + " )");
         this.port = port;
+        Server.insightFacade = new InsightFacade();
     }
 
     /**
@@ -52,7 +55,7 @@ export default class Server {
                 that.rest = restify.createServer({
                     name: "insightUBC",
                 });
-
+                that.rest.use(restify.bodyParser({mapFiles: true, mapParams: true}));
                 that.rest.use(
                     function crossOrigin(req, res, next) {
                         res.header("Access-Control-Allow-Origin", "*");
@@ -65,6 +68,10 @@ export default class Server {
                 that.rest.get("/echo/:msg", Server.echo);
 
                 // NOTE: your endpoints should go here
+                that.rest.put("/dataset/:id/:kind", Server.putDataset);
+                that.rest.del("/dataset/:id", Server.delDataset);
+                that.rest.post("/query", Server.postQuery);
+                that.rest.get("/datasets", Server.getDatasets);
 
                 // This must be the last endpoint!
                 that.rest.get("/.*", Server.getStatic);
@@ -129,6 +136,82 @@ export default class Server {
             res.end();
             return next();
         });
+    }
+
+    private static async putDataset(req: restify.Request, res: restify.Response, next: restify.Next) {
+        const id  = req.params.id;
+        Log.trace("req.params.id " + id);
+        const kind = req.params.kind;
+        // Log.trace("req.params.kind " + kind);
+        let response: InsightResponse;
+        let content: string;
+        // Log.trace("req.params.body " + req.params.body);
+        try {
+            content = Buffer.from(req.params.body).toString("base64");
+            // Log.trace("content " + JSON.stringify(content));
+        } catch (err) {
+            Log.trace("content err " + err);
+        }
+
+        // Log.trace("Server::putDataset(..) - params: " + JSON.stringify(req.params));
+        try {
+            response = await Server.insightFacade.addDataset(id, content, kind);
+            Log.info("Server::echo(..) - responding " + response.code);
+            res.json(response.code, response.body);
+        } catch (err) {
+            Log.error("Server::echo(..) - responding 400");
+            res.json(400, {error: err.message});
+        }
+        return next();
+    }
+
+    private static async delDataset(req: restify.Request, res: restify.Response, next: restify.Next) {
+        const id  = req.params.id;
+        Log.trace("putDataset req.params.id " + id);
+        let response: InsightResponse;
+        // Log.trace("req.params.body " + req.params.body);
+
+        try {
+            response = await Server.insightFacade.removeDataset(id);
+            Log.info("Server::echo(..) - responding " + response.code);
+            res.json(response.code, response.body);
+        } catch (err) {
+            Log.error("Server::echo(..) - responding 400");
+            res.json(400, {error: err.message});
+        }
+        return next();
+    }
+
+    private static async postQuery(req: restify.Request, res: restify.Response, next: restify.Next) {
+        const query  = req.body;
+        Log.trace("postQuery " + query);
+        let response: InsightResponse;
+        // Log.trace("req.params.body " + req.params.body);
+
+        try {
+            response = await Server.insightFacade.performQuery(query);
+            Log.info("Server::echo(..) - responding " + response.code);
+            res.json(response.code, response.body);
+        } catch (err) {
+            Log.error("Server::echo(..) - responding 400");
+            res.json(400, {error: err.message});
+        }
+        return next();
+    }
+
+    private static async getDatasets(req: restify.Request, res: restify.Response, next: restify.Next) {
+        let response: InsightResponse;
+        // Log.trace("req.params.body " + req.params.body);
+
+        try {
+            response = await Server.insightFacade.listDatasets();
+            Log.info("Server::echo(..) - responding " + response.code);
+            res.json(response.code, response.body);
+        } catch (err) {
+            Log.error("Server::echo(..) - responding 400");
+            res.json(400, {error: err.message});
+        }
+        return next();
     }
 
 }

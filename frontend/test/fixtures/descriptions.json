@@ -1,3 +1,7 @@
 {
-    "query1":"simple query is comparison for department with two columns and one order element",
+    "query1": "simple query is comparison for department with two columns and one order element",
+    "query2": "simple query group rooms dataset",
+    "query3": "complex query group courses with transformations",
+    "query4": "complex query rooms with transformations",
+    "query5": "complex query rooms without transformations"
 }

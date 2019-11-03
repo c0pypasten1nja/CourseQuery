@@ -1,3 +1,7 @@
 {
-    "query1":"In courses dataset courses, find entries whose Department is \"cpsc\"; show Department and ID; sort in ascending order by ID.",
+    "query1": "In courses dataset courses, find entries whose Department is \"cpsc\"; show Department and ID; sort in ascending order by ID.",
+    "query2": { "DATASET": "rooms", "FILTER": [], "DISPLAY": ["rooms_furniture"], "ORDER": {}, "GROUP": ["rooms_furniture"], "APPLY": [] },
+    "query3": { "DATASET": "courses", "FILTER": { "OR": [{ "GT": { "courses_avg": 96 } }, { "NLT": { "courses_pass": 1000 } }] }, "DISPLAY": ["courses_instructor", "avgAVG", "sumPass"], "ORDER": { "dir": "DESC", "keys": ["courses_instructor"] }, "GROUP": ["courses_instructor"], "APPLY": [{ "avgAVG": { "AVG": ["courses_avg"] } }, { "sumPass": { "SUM": ["courses_pass"] } }] },
+    "query4": { "DATASET": "rooms", "FILTER": [], "DISPLAY": ["rooms_href", "rooms_name", "rooms_type", "sumSeats"], "ORDER": {}, "GROUP": ["rooms_type"], "APPLY": [{ "sumSeats": { "SUM": ["rooms_seats"] } }] },
+    "query5": { "DATASET": "rooms", "FILTER": { "IS": { "rooms_type": "Studio Lab" } }, "DISPLAY": ["rooms_href", "rooms_name", "rooms_seats", "rooms_type"], "ORDER": {}, "GROUP": [], "APPLY": [] }
 }

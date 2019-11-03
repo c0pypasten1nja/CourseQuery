@@ -47,9 +47,6 @@ export default class InsightFacade implements IInsightFacade {
                     JSZip.loadAsync(content, {base64: true}).then(async function (zip: JSZip) {
 
                         const contentFiles = Object.keys(zip.files);
-                        // if (id === "twoValidcsv" || id === "oneValidcsv" || id === "validCvsOthers" ) {
-                        //     Log.trace(id + " " + JSON.stringify(contentFiles) + " contentFiles");
-                        // }
                         const isFolderCourses = dataController.isFolderCourses(contentFiles);
                         if (!isFolderCourses) {
                             // Log.trace("datasetController.isValidDataset()");
@@ -68,21 +65,11 @@ export default class InsightFacade implements IInsightFacade {
                         Promise.all(arrayPromise).then( function (arrayContent) {
                             arrayContent.forEach( function (contentData) {
                                 const fileJson =  dataController.csvJSON(contentData, id);
-                                // if (id === "twoValidcsv") {
-                                //     Log.trace(id + " " + JSON.stringify(fileJson) + " fileJson");
-                                //     Log.trace(id + " fileJson " + Object.keys(fileJson).length);
-                                // }
                                 if (Object.keys(fileJson).length !== 0) {
                                     // Log.trace("fileJson " + Object.keys(fileJson).length);
-                                    // data.push(fileJson);
                                     data = data.concat(fileJson);
                                 }
                             });
-
-                            // if (id === "twoValidcsv") {
-                            //     Log.trace(id + " " + JSON.stringify(data) + " data");
-                            //     Log.trace(id + " data " + data.length);
-                            // }
 
                             if (data.length === 0) {
                                 // Log.trace("data length " + data.length);
@@ -114,29 +101,9 @@ export default class InsightFacade implements IInsightFacade {
                         const paths = dataController.getBuildingsPath(indexXml);
 
                         for (const path of paths) {
-
                             const roomfile = await zip.file(path).async("text");
-                            // const roomsPromise = await dataController.processRooms(id, roomfile);
-                            // Log.trace("roomsPromise " + JSON.stringify(roomsPromise));
                             arrayFilePromise.push(roomfile);
-                            // if (Object.keys(roomsPromise).length !== 0) {
-                            //     data = data.concat(roomsPromise);
-                            //     // data.push(roomsPromise[0]);
-                            // }
                         }
-
-                        // if (data.length === 0) {
-                        //     // Log.trace("file.name " + file.name);
-                        //     Log.trace("data length " + data.length);
-                        //     reject({ code: 400,
-                        //         body: { error: "Invalid rooms!" } });
-                        //     // dataController.saveDataset( id, kind, data);
-                        //     // fulfill({ code: 204, body: { result: "dataset saved" } });
-                        // } else {
-                        //     Log.trace("data length " + data.length);
-                        //     dataController.saveDataset( id, kind, data);
-                        //     fulfill({ code: 204, body: { result: "dataset saved" } });
-                        // }
 
                         Promise.all(arrayFilePromise).then( function (arrayContent) {
                             let itemsProcessed = 0;
@@ -145,11 +112,6 @@ export default class InsightFacade implements IInsightFacade {
                                 const roomsPromise = await dataController.processRooms(id, contentData);
                                 // Log.trace("roomsPromise " + JSON.stringify(roomsPromise));
                                 itemsProcessed++;
-                                // if (Object.keys(roomsPromise).length !== 0) {
-                                //     data = data.concat(roomsPromise);
-                                //     // data.push(roomsPromise[0]);
-                                //     // return data;
-                                // }
                                 if (Object.keys(roomsPromise).length !== 0) {
                                     data = data.concat(roomsPromise);
                                 }
@@ -157,102 +119,13 @@ export default class InsightFacade implements IInsightFacade {
                                     // Log.trace("file.name " + file.name);
                                     // Log.trace("data length 179 " + data.length);
                                     dataController.saveDataset( id, kind, data);
-                                    // fulfill({ code: 204, body: { result: "dataset saved" } });
-                                    // reject({ code: 400,
-                                    //     body: { error: "Invalid rooms!" } });
-                                // } else {
-                                //     Log.trace("data length " + data.length);
-                                //     dataController.saveDataset( id, kind, data);
-                                //     fulfill({ code: 204, body: { result: "dataset saved" } });
                                 }
                                 if (itemsProcessed === arrayContent.length) {
                                     // Log.trace("arrayContent length 170 " + arrayContent.length);
-                                    // dataController.saveDataset( id, kind, data);
                                     fulfill({ code: 204, body: { result: "dataset saved" } });
                                 }
-                                // Promise.all(arrayRoomPromise).then( function () {
-                                    // Log.trace("roomJson " + JSON.stringify(roomJson));
-                                    // if (Object.keys(arrayContent).length !== 0) {
-                                    //     data = data.concat(roomsPromise);
-                                    // }
-                                // });
-
                             });
-                            // if (data.length === 0) {
-                            //     // Log.trace("file.name " + file.name);
-                            //     Log.trace("data length " + data.length);
-                            //     // reject({ code: 400,
-                            //     //     body: { error: "Invalid rooms!" } });
-                            // } else {
-                            //     Log.trace("data length " + data.length);
-                            //     dataController.saveDataset( id, kind, data);
-                            //     fulfill({ code: 204, body: { result: "dataset saved" } });
-                            // }
                         });
-
-                        // zip.forEach(async function (relativePath, file: JSZip.JSZipObject) {
-
-                        //     if (paths.indexOf(file.name) >= 0) {
-                                // Log.trace("file.name " + file.name);
-                                // const roomfile = await file.async("text");
-
-                                // const roomsPromise = await dataController.processRooms(id, roomfile);
-                                // Log.trace("roomsPromise " + JSON.stringify(roomsPromise));
-                                // arrayRoomPromise.push(roomsPromise);
-                                // if (Object.keys(roomsPromise).length !== 0) {
-                                //     data = data.concat(roomsPromise);
-                                    // data.push(roomsPromise[0]);
-                            //     }
-                            // }
-                            // Log.trace("roomJsons " + JSON.stringify(roomJsons));
-                            // return Promise.resolve(roomJsons);
-                            // if (data.length === 0) {
-                            //     Log.trace("file.name " + file.name);
-                            //     Log.trace("data length " + data.length);
-                                // reject({ code: 400,
-                                //     body: { error: "Invalid rooms!" } });
-                                // dataController.saveDataset( id, kind, data);
-                                // fulfill({ code: 204, body: { result: "dataset saved" } });
-                            // } else {
-                            //     Log.trace("data length " + data.length);
-                            //     dataController.saveDataset( id, kind, data);
-                            //     fulfill({ code: 204, body: { result: "dataset saved" } });
-                            // }
-                        // });
-
-                            // Promise.all(arrayRoomPromise).then( function (arrayContent) {
-                            //     // arrayContent.forEach( async function (contentData) {
-                            //         // Log.trace("contentData " + JSON.stringify(contentData));
-                            //         // const roomJson = await dataController.processRooms(id, contentData);
-                            //         // arrayRoomPromise.push(roompromise);
-                            //         // Log.trace("roomJson " + JSON.stringify(roomJson));
-                            //         // Promise.all(arrayRoomPromise).then( function (arrayRoom) {
-                            //         //     arrayRoom.forEach( function (roomData) {
-                            //             // Log.trace("roomData " + JSON.stringify(roomData));
-                            //         if (Object.keys(arrayContent).length !== 0) {
-                            //             // Log.trace("roomData " + Object.keys(roomData).length);
-                            // //             // data.push(fileJson);
-                            //             // data = data.concat(arrayContent);
-                            //             data.push(arrayContent);
-                            //         }
-                            //     // });
-
-                            //         if (data.length === 0) {
-                            //             Log.trace("data length " + data.length);
-                            //             // reject({ code: 400,
-                            //             //     body: { error: "Invalid rooms!" } });
-                            //             // dataController.saveDataset( id, kind, data);
-                            //             // fulfill({ code: 204, body: { result: "dataset saved" } });
-                            //         } else {
-                            //             Log.trace("data length " + data.length);
-                            //             dataController.saveDataset( id, kind, data);
-                            //             fulfill({ code: 204, body: { result: "dataset saved" } });
-                            //         }
-                            //         //     });
-                            //         // });
-
-                            //     });
-                            // });
                 }).catch(function () {
                     reject({ code: 400,
                         body: { error: "Failed to load zip file!" } });
@@ -282,21 +155,28 @@ export default class InsightFacade implements IInsightFacade {
         }
     }
 
-    public performQuery(query: string): Promise<InsightResponse> {
+    public performQuery(query: any): Promise<InsightResponse> {
         let convertQuery: QueryConverter;
         const queryController = InsightFacade.queryController;
+        let convertedQuery: any;
         // if (queryController.inValidString(query)) {
         //     return Promise.reject({ code: 400, body: { error: "Invalid query!" } });
         // }
         try {
-            convertQuery = new QueryConverter();
-            const convertedQuery = convertQuery.convertQuery(query);
-            // Log.trace("convertedQuery " + JSON.stringify(convertedQuery));
+            if (typeof query === "string") {
+                // Log.trace("query 294 " + query);
+                convertQuery = new QueryConverter();
+                convertedQuery = convertQuery.convertQuery(query);
+                // Log.trace("convertedQuery 297 " + JSON.stringify(convertedQuery));
+            } else {
+                convertedQuery = query;
+                // Log.trace("convertedQuery 299" + JSON.stringify(convertedQuery));
+            }
             const result = queryController.query(convertedQuery);
             return Promise.resolve({ code: 200, body: { result }});
         } catch (err) {
-            // Log.trace("performQuery " + err);
-            return Promise.reject({ code: 400, body: { error: "Invalid query!" } });
+            Log.trace("performQuery " + err);
+            return Promise.resolve({ code: 400, body: { error: "Invalid query!" } });
         }
         // return Promise.reject({ code: -1, body: null });
     }
