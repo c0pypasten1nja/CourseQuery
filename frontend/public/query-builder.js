@@ -6,7 +6,7 @@
  * @returns query string adhering to the query EBNF
  */
 CampusExplorer.buildQuery = function() {
-    let convertedQuery = {};
+    let query = "";
     // TODO: implement!
     const activeTab = document.getElementsByClassName("tab-panel active")[0];
     const dataset = activeTab.getAttribute("data-type");
@@ -23,10 +23,79 @@ CampusExplorer.buildQuery = function() {
     console.log("group " + group);
     console.log("apply " + JSON.stringify(apply));
 
-    convertedQuery = { DATASET: dataset, FILTER: filter, DISPLAY: display, ORDER: order, GROUP: group, APPLY: apply };
+    if (dataset === "courses") {
+        query += "In courses dataset courses";
+    } else {
+        query += "In rooms dataset rooms";
+    }
 
-    return convertedQuery;
+    if (group.length === 1) {
+        query += " grouped by " + group[0];
+    }
+    if (group.length > 1) {
+        query += " grouped by " + group[0];
+        for (i = 1; i < group.length; ++i) {
+            query += " and " + group[i];
+        }
+    }
+
+    query += filter;
+
+    if (display.length === 1) {
+        query += "; show " + display[0];
+    }
+    if (display.length > 1) {
+        query += "; show " + display[0];
+        for (i = 1; i < display.length; ++i) {
+            query += " and " + display[i];
+        }
+    }
+
+    if (apply.length === 1) {
+        query += ", where " + apply[0];
+    }
+    if (apply.length > 1) {
+        query += ", where " + apply[0];
+        for (i = 1; i < apply.length; ++i) {
+            query += " and " + apply[i];
+        }
+    }
+
+    query += order + ".";
+
+    return query;
 };
+
+valueToLabel = function(fieldKey) {
+    const keyLabels = {
+        "address": "Address",
+        "audit": "Audit",
+        "avg": "Average",
+        "dept": "Department",
+        "EQ": "equal to",
+        "fail": "Fail",
+        "fullname": "Full Name",
+        "furniture": "Furniture",
+        "GT": "greater than",
+        "href": "Link",
+        "id": "ID",
+        "instructor": "Instructor",
+        "IS": null,
+        "lat": "Latitude",
+        "lon": "Longitude",
+        "LT": "less than",
+        "name": "Name",
+        "number": "Number",
+        "pass": "Pass",
+        "seats": "Seats",
+        "shortname": "Short Name",
+        "title": "Title",
+        "type": "Type",
+        "uuid": "UUID",
+        "year": "Year"
+    }
+    return keyLabels[fieldKey];
+}
 
 createCheckedFieldsArr = function(container, dataset) {
     let values = [];
@@ -36,7 +105,7 @@ createCheckedFieldsArr = function(container, dataset) {
         console.log(checkedFields[i]);
         let fieldKey = checkedFields[i].value;
         if (checkedFields[i].id != "") {
-            kyLabel = dataset + "_" + fieldKey;
+            kyLabel = valueToLabel(fieldKey);
         } else {
             kyLabel = fieldKey;
         }
@@ -50,47 +119,51 @@ createCheckedFieldsArr = function(container, dataset) {
 parseFilter = function(activeTab, dataset) {
     const filterLogic = activeTab.getElementsByClassName("control-group condition-type")[0].querySelector("input[name='conditionType']:checked").value;
     const containers = activeTab.getElementsByClassName("control-group condition");
-    let filters = [];
+    let filters = ", find all entries";
     let filterCritirea = [];
 
     console.log("filterLogic 53 " + filterLogic);
     for (const container of containers) {
-        let filter = {};
+        let filter = "";
         const isNot = container.getElementsByClassName("control not")[0].querySelector("input[checked]");
         let field = container.getElementsByClassName("control fields")[0].querySelector("option[selected]").value;
         let operator = container.getElementsByClassName("control operators")[0].querySelector("option[selected]").value;
-        const term = container.getElementsByClassName("control term")[0].querySelector("input").value;
+        let keyLabel = valueToLabel(field);
+        let opLabel = valueToLabel(operator);
+        let term = container.getElementsByClassName("control term")[0].querySelector("input").value;
         console.log(term);
-        field = dataset + "_" + field;
-        console.log(field);
+        console.log(keyLabel);
+        console.log(opLabel);
         if ((isNot && filterLogic !== "none") ||
             (!isNot && filterLogic === "none")) {
-            operator = "N" + operator;
-        }
-        console.log(operator);
-        if (operator.includes("IS")) {
-            filter = {
-                [operator]: {
-                    [field]: term
-                }
-            };
+            if (opLabel !== null) {
+                filter = keyLabel + " is not " + opLabel + " " + term;
+            } else {
+                filter = keyLabel + " is not \"" + term + "\"";
+            }
         } else {
-            filter = {
-                [operator]: {
-                    [field]: Number(term)
-                }
-            };
+            if (opLabel !== null) {
+                filter = keyLabel + " is " + opLabel + " " + term;
+            } else {
+                filter = keyLabel + " is \"" + term + "\"";
+            }
         }
 
         filterCritirea.push(filter);
     }
     console.log("filterCritirea 84 " + filterCritirea.length);
     if (filterCritirea.length === 1) {
-        return filterCritirea[0];
-    } else if (filterLogic === "all" && (filterCritirea.length > 1)) {
-        filters = { AND: filterCritirea };
+        return ", find entries whose " + filterCritirea[0];
+    } else if ((filterLogic === "all" || filterLogic === "none") && (filterCritirea.length > 1)) {
+        filters = ", find entries whose " + filterCritirea[0];
+        for (i = 1; i < filterCritirea.length; ++i) {
+            filters += " and " + filterCritirea[i];
+        }
     } else if (filterLogic === "any" && (filterCritirea.length > 1)) {
-        filters = { OR: filterCritirea };
+        filters = ", find entries whose " + filterCritirea[0];
+        for (i = 1; i < filterCritirea.length; ++i) {
+            filters += " or " + filterCritirea[i];
+        }
     }
     console.log("filters 92 " + filters);
     return filters;
@@ -109,18 +182,32 @@ parseOrder = function(activeTab, dataset) {
     const descending = activeTab.getElementsByClassName("control descending")[0].getElementsByTagName("input")[0].checked;
     // console.log("descending 110 " + descending);
     let fields = [];
-    let order = {};
+    let order = "";
     for (const option of options) {
         if (option.selected) {
-            const key = dataset + "_" + option.value;
-            fields.push(key);
+            let keyLabel = valueToLabel(option.value);
+            fields.push(keyLabel);
         }
     }
     if (descending) {
-        order = { dir: "DESC", keys: fields };
+        if (fields.length === 1) {
+            order = "; sort in descending order by " + fields[0];
+        }
+        if (fields.length > 1) {
+            order = "; sort in descending order by " + fields[0];
+            for (i = 1; i < fields.length; ++i) {
+                order += " and " + fields[i];
+            }
+        }
         // console.log("order 118 " + order);
+    } else if (fields.length === 1) {
+        order = "; sort in ascending order by " + fields[0];
+        // console.log("order 121 " + order);
     } else if (fields.length > 1) {
-        order = { dir: "ASC", keys: fields };
+        order = "; sort in ascending order by " + fields[0];
+        for (i = 1; i < fields.length; ++i) {
+            order += " and " + fields[i];
+        }
         // console.log("order 121 " + order);
     }
     return order;
@@ -141,12 +228,8 @@ parseApply = function(activeTab, dataset) {
         let term = transformation.getElementsByClassName("control term")[0].getElementsByTagName("input")[0].value;
         let operator = transformation.getElementsByClassName("control operators")[0].querySelector("option[selected]").value;
         let field = transformation.getElementsByClassName("control fields")[0].querySelector("option[selected]").value;
-        let key = dataset + "_" + field;
-        let apply = {
-            [term]: {
-                [operator]: [key]
-            }
-        };
+        let keyLabel = valueToLabel(field);
+        let apply = term + " is the " + operator + " of " + keyLabel;
         applyArr.push(apply);
     }
 

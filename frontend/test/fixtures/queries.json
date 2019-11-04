@@ -1,7 +1,7 @@
 {
     "query1": "In courses dataset courses, find entries whose Department is \"cpsc\"; show Department and ID; sort in ascending order by ID.",
-    "query2": { "DATASET": "rooms", "FILTER": [], "DISPLAY": ["rooms_furniture"], "ORDER": {}, "GROUP": ["rooms_furniture"], "APPLY": [] },
-    "query3": { "DATASET": "courses", "FILTER": { "OR": [{ "GT": { "courses_avg": 96 } }, { "NLT": { "courses_pass": 1000 } }] }, "DISPLAY": ["courses_instructor", "avgAVG", "sumPass"], "ORDER": { "dir": "DESC", "keys": ["courses_instructor"] }, "GROUP": ["courses_instructor"], "APPLY": [{ "avgAVG": { "AVG": ["courses_avg"] } }, { "sumPass": { "SUM": ["courses_pass"] } }] },
-    "query4": { "DATASET": "rooms", "FILTER": [], "DISPLAY": ["rooms_href", "rooms_name", "rooms_type", "sumSeats"], "ORDER": {}, "GROUP": ["rooms_type"], "APPLY": [{ "sumSeats": { "SUM": ["rooms_seats"] } }] },
-    "query5": { "DATASET": "rooms", "FILTER": { "IS": { "rooms_type": "Studio Lab" } }, "DISPLAY": ["rooms_href", "rooms_name", "rooms_seats", "rooms_type"], "ORDER": {}, "GROUP": [], "APPLY": [] }
+    "query2": "In rooms dataset rooms, find entries whose Seats is greater than 50 or Seats is not less than 50; show Name and Seats; sort in descending order by Name.",
+    "query3": "In courses dataset courses grouped by Instructor, find entries whose Average is greater than 96 or Pass is not less than 1000; show Instructor and avgAVG and sumPass,where avgAVG is the AVG of Average and sumPass is the SUM of Pass;sort in descending order by Instructor.",
+    "query4": "In rooms dataset rooms grouped by Type, find all entries; show Type and sumSeats, where sumSeats is the SUM of Seats.",
+    "query5": "In rooms dataset rooms, find entries whose Type is \"Studio Lab\"; show Link and Name and Seats and Type."
 }
