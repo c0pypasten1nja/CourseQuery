@@ -139,13 +139,35 @@ parseFilter = function(activeTab, dataset) {
             if (opLabel !== null) {
                 filter = keyLabel + " is not " + opLabel + " " + term;
             } else {
-                filter = keyLabel + " is not \"" + term + "\"";
+                if (!term.includes("*")) {
+                    filter = keyLabel + " is not \"" + term + "\"";
+                }
+                if ((term.charAt(0) === "*") && (term.charAt(term.length - 1) === "*")) {
+                    filter = keyLabel + " does not include \"" + term.slice(1, -1) + "\"";
+                }
+                if ((term.charAt(0) !== "*") && (term.charAt(term.length - 1) === "*")) {
+                    filter = keyLabel + " does not begin with \"" + term.slice(0, -1) + "\"";
+                }
+                if ((term.charAt(0) === "*") && (term.charAt(term.length - 1) !== "*")) {
+                    filter = keyLabel + " does not end with \"" + term.slice(1) + "\"";
+                }
             }
         } else {
             if (opLabel !== null) {
                 filter = keyLabel + " is " + opLabel + " " + term;
             } else {
-                filter = keyLabel + " is \"" + term + "\"";
+                if (!term.includes("*")) {
+                    filter = keyLabel + " is \"" + term + "\"";
+                }
+                if ((term.charAt(0) === "*") && (term.charAt(term.length - 1) === "*")) {
+                    filter = keyLabel + " includes \"" + term.slice(1, -1) + "\"";
+                }
+                if ((term.charAt(0) !== "*") && (term.charAt(term.length - 1) === "*")) {
+                    filter = keyLabel + " begins with \"" + term.slice(0, -1) + "\"";
+                }
+                if ((term.charAt(0) === "*") && (term.charAt(term.length - 1) !== "*")) {
+                    filter = keyLabel + " ends with \"" + term.slice(1) + "\"";
+                }
             }
         }
 

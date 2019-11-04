@@ -177,7 +177,7 @@ export default class Server {
             res.json(response.code, response.body);
         } catch (err) {
             Log.error("Server::echo(..) - responding 400");
-            res.json(400, {error: err.message});
+            res.json(404, {error: err.message});
         }
         return next();
     }
