@@ -3,15 +3,18 @@
  * A class called InsightFacade, this should be in a file called InsightFacade.ts.
  * You should not change this interface at all or the test suite will not work.
  */
+// tslint:disable-next-line:interface-name
 export interface InsightResponse {
     code: number;
     body: InsightResponseSuccessBody | InsightResponseErrorBody; // The actual response
 }
 
+// tslint:disable-next-line:interface-name
 export interface InsightResponseSuccessBody {
     result: any[] | string;
 }
 
+// tslint:disable-next-line:interface-name
 export interface InsightResponseErrorBody {
     error: string;
 }
@@ -21,6 +24,7 @@ export enum InsightDatasetKind {
     Rooms = "rooms",
 }
 
+// tslint:disable-next-line:interface-name
 export interface InsightDataset {
     id: string;
     kind: InsightDatasetKind;

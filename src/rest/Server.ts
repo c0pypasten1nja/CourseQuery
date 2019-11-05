@@ -191,7 +191,7 @@ export default class Server {
         try {
             response = await Server.insightFacade.performQuery(query);
             Log.info("Server::echo(..) - responding " + response.code);
-            res.json(response.code, response.body);
+            res.json(response.code, response);
         } catch (err) {
             Log.error("Server::echo(..) - responding 400");
             res.json(400, {error: err.message});

@@ -3,7 +3,7 @@ import DatasetController from "../controller/DatasetController";
 
 export default class QueryConverter {
 
-    private static datasetController= new DatasetController();
+    private static datasetController = new DatasetController();
 
     protected mKeyArrayCourses: { [key: string]: any } =
     {Average: {label: "avg"}, Pass: {label: "pass"},

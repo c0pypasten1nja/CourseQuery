@@ -15,7 +15,7 @@ export interface IConvertedQuery {
 
 export default class QueryController {
 
-    private static datasetController= new DatasetController();
+    private static datasetController = new DatasetController();
     private convertedQuery: IConvertedQuery;
 
     public query(convertedQuery: IConvertedQuery) {

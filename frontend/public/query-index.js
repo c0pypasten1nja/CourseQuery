@@ -14,8 +14,8 @@ function processCampusExplorer() {
     let query = CampusExplorer.buildQuery();
     console.log("query 15 " + JSON.stringify(query));
     CampusExplorer.sendQuery(query).then((response) => {
-        console.log("response 17 " + JSON.stringify(response));
-        CampusExplorer.renderResult(response);
+        console.log("response 17 " + JSON.stringify(response.body));
+        CampusExplorer.renderResult(response.body);
     }).catch((err) => {
         CampusExplorer.renderResult(err);
     });

@@ -10,8 +10,8 @@ import JSZip = require("jszip");
  */
 export default class InsightFacade implements IInsightFacade {
 
-    private static datasetController= new DatasetController();
-    private static queryController= new QueryController();
+    private static datasetController = new DatasetController();
+    private static queryController = new QueryController();
 
     constructor() {
         Log.trace("InsightFacadeImpl::init()");

@@ -10,7 +10,7 @@ CampusExplorer.sendQuery = function(query) {
         // console.log("CampusExplorer.sendQuery not implemented yet.");
         const xhttp = new XMLHttpRequest();
         xhttp.open("POST", "/query", true);
-        xhttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+        xhttp.send(query);
         xhttp.onload = function() {
             console.log("responseText 15 " + JSON.stringify(xhttp.responseText));
             fulfill(JSON.parse(xhttp.responseText));
@@ -19,6 +19,6 @@ CampusExplorer.sendQuery = function(query) {
             console.log("responseText 19 " + JSON.parse(xhttp.responseText));
             reject(JSON.parse(xhttp.responseText));
         }
-        xhttp.send(JSON.stringify(query));
+
     });
 }
