@@ -29,8 +29,8 @@ export default class QueryConverter {
     "is less than ": {operator: "LT"}, "is not less than ": {operator: "NLT"},
     "is equal to ": {operator: "EQ"}, "is not equal to ": {operator: "NEQ"}};
 
-    protected sOpArray: { [key: string]: any } = {"is ": {operator: "IS"}, "is not ": {operator: "ISN"},
-    "includes ": {operator: "INC"}, "does not include ": {operator: "DNI"},
+    protected sOpArray: { [key: string]: any } = {"is ": {operator: "IS"}, "is not ": {operator: "NIS"},
+    "includes ": {operator: "IN"}, "does not include ": {operator: "DIN"},
     "begins with ": {operator: "BW"}, "does not begin with ": {operator: "NBW"},
     "ends with ": {operator: "EW"}, "does not end with ": {operator: "NEW"}};
 

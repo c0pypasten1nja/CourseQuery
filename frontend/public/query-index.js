@@ -9,3 +9,17 @@
  */
 
 // TODO: implement!
+
+function processCampusExplorer() {
+    let query = CampusExplorer.buildQuery();
+    console.log("query 15 " + JSON.stringify(query));
+    CampusExplorer.sendQuery(query).then((response) => {
+        console.log("response 17 " + JSON.stringify(response));
+        CampusExplorer.renderResult(response);
+    }).catch((err) => {
+        CampusExplorer.renderResult(err);
+    });
+
+};
+
+document.getElementById("submit-button").addEventListener("click", processCampusExplorer);

@@ -33,7 +33,7 @@ export default class QueryController {
         // if ((DATASET !== "courses") && (DATASET !== "rooms")) {
         //     Log.trace("datasetToQuery " + JSON.stringify(datasetToQuery));
         // }
-
+        // Log.trace("datasetToQuery " + JSON.stringify(datasetToQuery));
         let dataFiltered: any;
         if (Object.keys(convertedQuery.FILTER).length > 0) {
             dataFiltered = this.applyFilter(convertedQuery.FILTER, datasetToQuery);
@@ -43,6 +43,8 @@ export default class QueryController {
         // if (dataFiltered.length < 10) {
         //     Log.trace("dataFiltered " + JSON.stringify(dataFiltered));
         // }
+
+        // Log.trace("dataFiltered " + JSON.stringify(dataFiltered));
 
         // Log.trace("Object.keys(convertedQuery.GROUP).length " + Object.keys(convertedQuery.GROUP).length);
         // Log.trace("Object.keys(convertedQuery.GROUP).length " + (Object.keys(convertedQuery.GROUP).length > 0));
@@ -109,6 +111,7 @@ export default class QueryController {
         // if ((convertedQuery.DATASET !== "courses") && (convertedQuery.DATASET !== "rooms")) {
         //     Log.trace("results " + JSON.stringify(results));
         // }
+        // Log.trace("results " + JSON.stringify(results));
 
         return results;
     }
@@ -147,11 +150,11 @@ export default class QueryController {
             results = datasetToQuery.filter((dTQ: any) => dTQ[valuesKey] <= valuesValue);
         } else if ((key === "EQ") || (key === "IS")) {
             results = datasetToQuery.filter((dTQ: any) => dTQ[valuesKey] === valuesValue);
-        } else if ((key === "NEQ") || (key === "ISN")) {
+        } else if ((key === "NEQ") || (key === "NIS")) {
             results = datasetToQuery.filter((dTQ: any) => dTQ[valuesKey] !== valuesValue);
-        } else if (key === "INC") {
+        } else if (key === "IN") {
             results = datasetToQuery.filter((dTQ: any) => (dTQ[valuesKey].indexOf(valuesValue) >= 0));
-        } else if (key === "DNI") {
+        } else if (key === "DIN") {
             results = datasetToQuery.filter((dTQ: any) => (dTQ[valuesKey].indexOf(valuesValue) === -1));
         }  else if (key === "BW") {
             // Log.trace("dTQ[values] " + datasetToQuery[values]);
@@ -225,9 +228,6 @@ export default class QueryController {
                     if (a[okey] > b[okey]) {return 1; }
                     return 0;
                 });
-            //     if (datasetToDisplay.length < 10) {
-            //         Log.trace("aplhaSort datasetToDisplay " + JSON.stringify(datasetToDisplay));
-            //     }
             }
         }
         return datasetToDisplay;
