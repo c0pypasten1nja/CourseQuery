@@ -41,3 +41,4 @@ Once your environment is configured you need to further prepare the project's to
 You do not need to use any specific IDE for this capstone, but WebStorm should be automatically configured the first time you open the repository, should you choose to use it. For other IDEs and editors, you'll want to set up test and debug tasks and specify that the schema of all files in `test/queries` should follow `test/query.schema.json`.
 
 
+# CourseQuery
